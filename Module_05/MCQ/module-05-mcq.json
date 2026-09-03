@@ -1,0 +1,452 @@
+[
+  {
+    "title": "python fundamentals consolidated",
+    "description": "Identifying the bool type",
+    "type": "multiple choice",
+    "question": "What data type is the value True in Python?",
+    "options": "str|int|bool|float",
+    "answer": "bool",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "python fundamentals consolidated",
+    "description": "Variable assignment syntax",
+    "type": "multiple choice",
+    "question": "Which of these correctly stores a piece of text in a variable?",
+    "options": "branch_name = Lagos|branch_name = \"Lagos\"|branch_name == \"Lagos\"|\"branch_name\" = \"Lagos\"",
+    "answer": "branch_name = \"Lagos\"",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "python fundamentals consolidated",
+    "description": "Lists hold collections",
+    "type": "True or False",
+    "question": "True or False: a Python list can hold more than one value, such as a list of daily sales figures.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "python fundamentals consolidated",
+    "description": "Dictionary key access",
+    "type": "multiple choice",
+    "question": "In the dictionary transaction = {\"branch\": \"Lagos\", \"amount\": \"15,000\"}, which of these retrieves the branch name?",
+    "options": "transaction[0]|transaction.branch|transaction[\"branch\"]|transaction(\"branch\")",
+    "answer": "transaction[\"branch\"]",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "python fundamentals consolidated",
+    "description": "Tracing an if/for loop",
+    "type": "multiple choice",
+    "question": "What does this code print?\nfor sale in [15000, 9500]:\n    if sale >= 12000:\n        print(\"Above target\")\n    else:\n        print(\"Below target\")",
+    "options": "Above target, Above target|Above target, Below target|Below target, Above target|Below target, Below target",
+    "answer": "Above target, Below target",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "python fundamentals consolidated",
+    "description": "Purpose of import plus a library function",
+    "type": "multiple choice",
+    "question": "What does import statistics followed by statistics.mean(daily_sales) do?",
+    "options": "Imports a library and calculates the average of daily_sales|Creates a new variable called statistics|Sorts daily_sales from smallest to largest|Converts daily_sales into a dictionary",
+    "answer": "Imports a library and calculates the average of daily_sales",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "python fundamentals consolidated",
+    "description": "Defining vs calling a function",
+    "type": "multiple choice",
+    "question": "A function is defined as:\ndef average_sale(sales_list):\n    return statistics.mean(sales_list)\nWhat must you do to actually get a result from it?",
+    "options": "Nothing, defining it runs it automatically|Call it with a list, e.g. average_sale(daily_sales)|Type def average_sale again|Import it a second time",
+    "answer": "Call it with a list, e.g. average_sale(daily_sales)",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "python fundamentals consolidated",
+    "description": "Currency-symbol ValueError",
+    "type": "True or False",
+    "question": "True or False: running clean_amount(\"₦15,000\") through def clean_amount(value): return float(value) will succeed and return 15000.0.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "python fundamentals consolidated",
+    "description": "Interpreting a ValueError",
+    "type": "multiple choice",
+    "question": "You run a cell and see: ValueError: could not convert string to float: '₦15,000'. What is the most accurate description of the problem?",
+    "options": "The variable name is spelled incorrectly|float() was given text that contains non-numeric characters like ₦ and a comma|The list is empty|Python cannot read CSV files",
+    "answer": "float() was given text that contains non-numeric characters like ₦ and a comma",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "python fundamentals consolidated",
+    "description": "Correct fix for the ValueError",
+    "type": "multiple choice",
+    "question": "Which fix correctly cleans the value \"₦15,000\" so that float() can convert it?",
+    "options": "value.replace(\"₦\", \"\").replace(\",\", \"\")|value.remove(\"₦\", \",\")|float(value, \"₦\", \",\")|value.strip(\"₦15,000\")",
+    "answer": "value.replace(\"₦\", \"\").replace(\",\", \"\")",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "python fundamentals consolidated",
+    "description": "Extending a cleaning function",
+    "type": "multiple choice",
+    "question": "A transactions list contains dictionaries with an \"amount\" field like \"NGN 9,500\". Which change correctly extends a working clean_amount(value) function, which already strips \"₦\" and \",\", so it also handles this format?",
+    "options": "Add value = value.replace(\"NGN \", \"\") before the float conversion|Rename the column to NGN|Use int() instead of float()|Change the dictionary key from \"amount\" to \"NGN\"",
+    "answer": "Add value = value.replace(\"NGN \", \"\") before the float conversion",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "python fundamentals consolidated",
+    "description": "KeyError on a missing dictionary key",
+    "type": "True or False",
+    "question": "True or False: if a list contains a mix of dictionaries, and one dictionary is missing the \"amount\" key, calling record[\"amount\"] on that dictionary will raise a KeyError, not silently return an empty value.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "loading and inspecting data with pandas",
+    "description": "Standard pandas import",
+    "type": "multiple choice",
+    "question": "Which line correctly imports pandas using the standard convention taught in this course?",
+    "options": "import pandas|import pandas as pd|from pandas import *|include pandas",
+    "answer": "import pandas as pd",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "loading and inspecting data with pandas",
+    "description": "Loading a CSV",
+    "type": "multiple choice",
+    "question": "Which command loads a CSV file called branch_sales.csv into a DataFrame named df?",
+    "options": "df = pd.read_csv(\"branch_sales.csv\")|df = pd.open(\"branch_sales.csv\")|df = pandas.load(\"branch_sales.csv\")|pd.read_csv(df, \"branch_sales.csv\")",
+    "answer": "df = pd.read_csv(\"branch_sales.csv\")",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "loading and inspecting data with pandas",
+    "description": "DataFrame anatomy",
+    "type": "True or False",
+    "question": "True or False: in a pandas DataFrame, the row labels on the left-hand side are called the index.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "loading and inspecting data with pandas",
+    "description": "head() usage",
+    "type": "multiple choice",
+    "question": "Which command shows the first 5 rows of a DataFrame?",
+    "options": "df.top()|df.first()|df.head()|df.start()",
+    "answer": "df.head()",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "loading and inspecting data with pandas",
+    "description": "Interpreting .shape",
+    "type": "multiple choice",
+    "question": "df.shape returns (20, 9). What does this tell you?",
+    "options": "The DataFrame has 20 columns and 9 rows|The DataFrame has 20 rows and 9 columns|The DataFrame took 20.9 seconds to load|There are 209 missing values",
+    "answer": "The DataFrame has 20 rows and 9 columns",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "loading and inspecting data with pandas",
+    "description": "Interpreting dtypes",
+    "type": "multiple choice",
+    "question": "A column named Price has dtype float64 while Branch has dtype object. What does this most likely mean?",
+    "options": "Price contains numbers (possibly with missing values) and Branch contains text|Price is broken and Branch is correct|object always means the column is empty|float64 means the column contains dates",
+    "answer": "Price contains numbers (possibly with missing values) and Branch contains text",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "loading and inspecting data with pandas",
+    "description": "Interpreting isna().sum()",
+    "type": "multiple choice",
+    "question": "Running df.isna().sum() shows Price with a value of 4. What does the 4 mean?",
+    "options": "There are 4 unique prices in the dataset|4 rows are missing a value in the Price column|The Price column has 4 decimal places|4 rows were deleted from the DataFrame",
+    "answer": "4 rows are missing a value in the Price column",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "loading and inspecting data with pandas",
+    "description": "Series vs single-column DataFrame",
+    "type": "True or False",
+    "question": "True or False: df[\"Sales\"] and df[[\"Sales\"]] always return exactly the same type of object.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "loading and inspecting data with pandas",
+    "description": "Series vs DataFrame selection",
+    "type": "multiple choice",
+    "question": "What is the key difference between df[\"Sales\"] and df[[\"Sales\", \"Profit\"]]?",
+    "options": "There is no difference, both return a Series|df[\"Sales\"] returns a Series, df[[\"Sales\",\"Profit\"]] returns a DataFrame|df[\"Sales\"] only works on numeric columns|df[[\"Sales\",\"Profit\"]] deletes all other columns permanently",
+    "answer": "df[\"Sales\"] returns a Series, df[[\"Sales\",\"Profit\"]] returns a DataFrame",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "loading and inspecting data with pandas",
+    "description": "Correct Boolean filtering syntax",
+    "type": "multiple choice",
+    "question": "You want every transaction where Sales is above 100000. Which is correct?",
+    "options": "df[df[\"Sales\"] > 100000]|df[\"Sales\" > 100000]|df.filter(Sales > 100000)|df[Sales > 100000]",
+    "answer": "df[df[\"Sales\"] > 100000]",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "loading and inspecting data with pandas",
+    "description": "Combining conditions with parentheses",
+    "type": "multiple choice",
+    "question": "You need every transaction from the North West region where Price is missing. Which expression correctly combines both conditions?",
+    "options": "df[df[\"Region\"] == \"North West\" and df[\"Price\"].isna()]|df[(df[\"Region\"] == \"North West\") & (df[\"Price\"].isna())]|df[df[\"Region\"] == \"North West\" & df[\"Price\"].isna()]|df[\"Region\" == \"North West\", \"Price\".isna()]",
+    "answer": "df[(df[\"Region\"] == \"North West\") & (df[\"Price\"].isna())]",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "loading and inspecting data with pandas",
+    "description": "describe() only summarises numeric columns",
+    "type": "True or False",
+    "question": "True or False: running df.describe() will include the Branch and Product columns in its output with meaningful summary statistics, since they are part of the DataFrame.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "loading and inspecting data with pandas",
+    "description": "Default header behaviour of read_csv",
+    "type": "True or False",
+    "question": "True or False: if a CSV file's first row contains the column names, pd.read_csv() will automatically use that row as the header without extra arguments.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "data manipulation with pandas and numpy",
+    "description": "Equality vs assignment",
+    "type": "multiple choice",
+    "question": "Which symbol correctly checks whether two values are equal when filtering a DataFrame?",
+    "options": "=|==|~|:=",
+    "answer": "==",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "data manipulation with pandas and numpy",
+    "description": "ascending=False meaning",
+    "type": "multiple choice",
+    "question": "What does df.sort_values(\"Sales\", ascending=False) do?",
+    "options": "Sorts Sales from smallest to largest|Sorts Sales from largest to smallest|Removes the Sales column|Groups rows by Sales",
+    "answer": "Sorts Sales from largest to smallest",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "data manipulation with pandas and numpy",
+    "description": "groupby as PivotTable equivalent",
+    "type": "True or False",
+    "question": "True or False: df.groupby(\"Region\")[\"Sales\"].sum() is the pandas equivalent of building an Excel PivotTable with Region in Rows and Sum of Sales in Values.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "data manipulation with pandas and numpy",
+    "description": "count() basic aggregation",
+    "type": "multiple choice",
+    "question": "Which function would you use to find the total number of transactions recorded in a column?",
+    "options": "df[\"Sales\"].count()|df[\"Sales\"].total()|df[\"Sales\"].amount()|df[\"Sales\"].size_of()",
+    "answer": "df[\"Sales\"].count()",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "data manipulation with pandas and numpy",
+    "description": "Creating a calculated column",
+    "type": "multiple choice",
+    "question": "What is the correct way to create a new column called Profit that equals Sales minus Cost?",
+    "options": "df[\"Profit\"] == df[\"Sales\"] - df[\"Cost\"]|df[\"Profit\"] = df[\"Sales\"] - df[\"Cost\"]|df.Profit = \"Sales - Cost\"|Profit = df[\"Sales\"] - df[\"Cost\"]",
+    "answer": "df[\"Profit\"] = df[\"Sales\"] - df[\"Cost\"]",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "data manipulation with pandas and numpy",
+    "description": "Purpose of .agg() with a list",
+    "type": "multiple choice",
+    "question": "df.groupby(\"Region\")[\"Sales\"].agg([\"sum\",\"mean\",\"count\"]) is most useful because it:",
+    "options": "Deletes rows with missing Sales values|Returns three separate DataFrames|Returns one table with several aggregations calculated at once, per group|Only works on the Region column",
+    "answer": "Returns one table with several aggregations calculated at once, per group",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "data manipulation with pandas and numpy",
+    "description": "np.where conditional logic",
+    "type": "multiple choice",
+    "question": "A trainee writes: import numpy as np, then df[\"Sales_Tier\"] = np.where(df[\"Sales\"] > 100000, \"High\", \"Low\"). What does this produce?",
+    "options": "A new column that is \"High\" when Sales is above 100000 and \"Low\" otherwise|An error, because np.where only works on numbers|A single value showing the average tier|A new column that deletes all \"Low\" rows",
+    "answer": "A new column that is \"High\" when Sales is above 100000 and \"Low\" otherwise",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "data manipulation with pandas and numpy",
+    "description": "NaN propagation through arithmetic",
+    "type": "True or False",
+    "question": "True or False: if a column used in a calculation contains a missing value (NaN), the calculated result for that row will also be NaN.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "data manipulation with pandas and numpy",
+    "description": "Sorting in the wrong direction",
+    "type": "multiple choice",
+    "question": "A trainee wants to sort a DataFrame so the largest Cost appears first, but writes df.sort_values(\"Cost\", ascending=True). What is wrong?",
+    "options": "Nothing, this is correct|ascending=True sorts smallest to largest, the trainee needs ascending=False|sort_values() cannot be used on Cost|The column name should be in lowercase",
+    "answer": "ascending=True sorts smallest to largest, the trainee needs ascending=False",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "data manipulation with pandas and numpy",
+    "description": "Series vs DataFrame sort_values mistake",
+    "type": "multiple choice",
+    "question": "A trainee runs df.groupby(\"Region\")[\"Sales\"].sum().sort_values(\"Sales\", ascending=False) and gets a TypeError. What is the most likely cause?",
+    "options": "\"Region\" is spelled incorrectly|groupby(\"Region\")[\"Sales\"].sum() already returns a single-column Series, which has no column named \"Sales\" to sort by|sort_values() does not accept ascending as an argument|Sales must be converted to a string first",
+    "answer": "groupby(\"Region\")[\"Sales\"].sum() already returns a single-column Series, which has no column named \"Sales\" to sort by",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "data manipulation with pandas and numpy",
+    "description": "Choosing the correct grouping column",
+    "type": "multiple choice",
+    "question": "To answer \"what is the average Sales per Branch, highest first\", which is the correct pandas approach?",
+    "options": "df.sort_values(\"Branch\")|df.groupby(\"Branch\")[\"Sales\"].mean().sort_values(ascending=False)|df[\"Sales\"].mean()|df.groupby(\"Sales\")[\"Branch\"].mean()",
+    "answer": "df.groupby(\"Branch\")[\"Sales\"].mean().sort_values(ascending=False)",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "data manipulation with pandas and numpy",
+    "description": ".all() verification logic",
+    "type": "True or False",
+    "question": "True or False: verifying a calculated column by checking (df[\"Profit_check\"] == df[\"Profit\"]).all() will return True only if every single row matches exactly.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "data manipulation with pandas and numpy",
+    "description": "Forgetting parentheses on a method call",
+    "type": "multiple choice",
+    "question": "What happens if you write df.describe without the parentheses?",
+    "options": "It runs describe() automatically|It returns a reference to the method itself, not a result|It raises a SyntaxError immediately|It summarises only the Branch column",
+    "answer": "It returns a reference to the method itself, not a result",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai-assisted coding",
+    "description": "What AI can do",
+    "type": "multiple choice",
+    "question": "Which of the following is something AI can reliably help an analyst do?",
+    "options": "Replace the need to verify the analyst's own output|Generate a first draft of pandas code from a clear question|Guarantee that generated code is always correct|Make the final analytical judgement on a business question",
+    "answer": "Generate a first draft of pandas code from a clear question",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai-assisted coding",
+    "description": "Explain It Back rule",
+    "type": "multiple choice",
+    "question": "According to the course rule, what must a trainee be able to do before submitting AI-generated code?",
+    "options": "Nothing extra, if the code runs it can be submitted|Explain the code, line by line|Delete all comments from the code|Rename all the variables",
+    "answer": "Explain the code, line by line",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai-assisted coding",
+    "description": "Weak vs strong prompts",
+    "type": "True or False",
+    "question": "True or False: \"Write pandas code.\" is an example of a strong, well-formed prompt.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai-assisted coding",
+    "description": "Privacy and responsible AI use",
+    "type": "multiple choice",
+    "question": "Which of these should you avoid pasting into an AI tool?",
+    "options": "A sample dataset with fictional business names|A column list like Branch, Region, Sales|An API key or password|A general pandas question",
+    "answer": "An API key or password",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai-assisted coding",
+    "description": "Effective AI-assisted debugging",
+    "type": "multiple choice",
+    "question": "A trainee's code produces an error. Which approach best follows this module's debugging guidance?",
+    "options": "Tell the AI \"it doesn't work\" and wait for a fix|Paste the full error message and the relevant code, then describe the intended goal|Delete the code and start over without AI|Ignore the error if the notebook still runs the next cell",
+    "answer": "Paste the full error message and the relevant code, then describe the intended goal",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-assisted coding",
+    "description": "Why strong prompts work better",
+    "type": "multiple choice",
+    "question": "Which best describes why a strong prompt produces better pandas code than a weak one?",
+    "options": "Strong prompts are always shorter|Strong prompts give the AI the dataset structure, column names, the analytical goal, expected output and constraints, reducing guesswork|Strong prompts avoid using any column names|Strong prompts remove the need to run the code afterwards",
+    "answer": "Strong prompts give the AI the dataset structure, column names, the analytical goal, expected output and constraints, reducing guesswork",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-assisted coding",
+    "description": "Verification checklist recall",
+    "type": "multiple choice",
+    "question": "Which item is NOT part of the verification checklist taught in this module?",
+    "options": "Does the code run?|Does the output make sense?|Can I explain every line?|Did the AI apologise for any mistakes?",
+    "answer": "Did the AI apologise for any mistakes?",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-assisted coding",
+    "description": "Hallucinations can run without error",
+    "type": "True or False",
+    "question": "True or False: if AI-generated code runs without any error, it is safe to assume the analysis is correct.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-assisted coding",
+    "description": "Workflow step order",
+    "type": "multiple choice",
+    "question": "In the AI-assisted coding workflow, which step comes immediately after \"Generate code\"?",
+    "options": "Submit|Read code|Define problem|Write prompt",
+    "answer": "Read code",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-assisted coding",
+    "description": "Catching a logically incorrect but error-free result",
+    "type": "multiple choice",
+    "question": "An AI-generated line calculates an \"average profit margin\" using df[\"Margin_%\"].sum() instead of .mean(), producing a result of 300%. What is the best way this mistake is caught?",
+    "options": "The code raises a SyntaxError|The code runs without error, but checking whether an average percentage above 100% makes sense reveals the mistake|Pandas automatically corrects sum() to mean()|The mistake cannot be caught without asking the AI directly",
+    "answer": "The code runs without error, but checking whether an average percentage above 100% makes sense reveals the mistake",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai-assisted coding",
+    "description": "Consequences of skipping verification steps",
+    "type": "multiple choice",
+    "question": "In the \"good\" AI-assisted analysis workflow (Define → Prompt → Review → Run → Verify → Explain → Submit), what is the main risk of the \"bad\" workflow (Ask AI → Copy code → Submit)?",
+    "options": "It takes longer to complete|Errors and wrong assumptions can ship silently inside output that looks correct|It uses more electricity|It does not allow the use of pandas",
+    "answer": "Errors and wrong assumptions can ship silently inside output that looks correct",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai-assisted coding",
+    "description": "Explain It Back rule: unexplained lines",
+    "type": "True or False",
+    "question": "True or False: the \"Explain It Back\" paired activity is considered complete even if one partner cannot explain a specific line, as long as the code produces the correct output.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "advanced"
+  }
+]
