@@ -1,0 +1,452 @@
+[
+  {
+    "title": "database concepts and relational thinking",
+    "description": "Definition of primary key",
+    "type": "multiple choice",
+    "question": "What does a primary key guarantee about a column (or set of columns) in a table?",
+    "options": "It must contain unique, non-repeating values for every row|It must always be a number|It must be the first column listed in the table|It must contain the same value as a foreign key in another table",
+    "answer": "It must contain unique, non-repeating values for every row",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "database concepts and relational thinking",
+    "description": "Identify the primary key",
+    "type": "multiple choice",
+    "question": "In the customers table (customer_id, full_name, city, phone, membership_tier, total_spent, joined_date), which column is the primary key?",
+    "options": "full_name|city|customer_id|membership_tier",
+    "answer": "customer_id",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "database concepts and relational thinking",
+    "description": "FK references a primary key",
+    "type": "True or False",
+    "question": "True or False: A foreign key in one table must reference the primary key of another table.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "database concepts and relational thinking",
+    "description": "Identify FK in orders",
+    "type": "multiple choice",
+    "question": "In the orders table (order_id, customer_id, order_date, status), which column is the foreign key, and what does it point to?",
+    "options": "order_id, pointing to itself|customer_id, pointing to customers.customer_id|order_date, pointing to a calendar table|status, pointing to a lookup table",
+    "answer": "customer_id, pointing to customers.customer_id",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "database concepts and relational thinking",
+    "description": "Definition of grain",
+    "type": "multiple choice",
+    "question": "What is the \"grain\" of a table?",
+    "options": "The total number of rows it contains|What one single row represents|The number of columns it has|The order columns are listed in",
+    "answer": "What one single row represents",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "database concepts and relational thinking",
+    "description": "Why order_items is separate",
+    "type": "multiple choice",
+    "question": "Eko Traders' orders table has one row per order, while order_items has one row per product within an order. Why are these two separate tables rather than one?",
+    "options": "Because SQL requires every table to have fewer than five columns|Because an order can contain more than one product, and one orders row cannot hold a variable number of products|Because order_items is faster to query|Because customers cannot be linked to more than one order",
+    "answer": "Because an order can contain more than one product, and one orders row cannot hold a variable number of products",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "database concepts and relational thinking",
+    "description": "Database versus spreadsheet",
+    "type": "multiple choice",
+    "question": "Which of these is a reason a database is preferable to a spreadsheet for Eko Traders' day-to-day operations?",
+    "options": "Spreadsheets support more rows than a database|A database can enforce that two staff members editing data at once do not silently overwrite each other|Spreadsheets are always free to use|A database cannot store text values",
+    "answer": "A database can enforce that two staff members editing data at once do not silently overwrite each other",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "database concepts and relational thinking",
+    "description": "Consequence of poor grain design",
+    "type": "multiple choice",
+    "question": "A colleague proposes storing a customer's full order history as a single comma-separated list inside one column of the customers table. What relational-design problem does this create?",
+    "options": "It makes the column too short to store any data|It breaks the idea that a table's grain should be one clear thing per row, making the data hard to filter, sum or join correctly|Comma-separated values are not permitted by SQL syntax|Nothing; it is a valid and recommended pattern for storing order history",
+    "answer": "It breaks the idea that a table's grain should be one clear thing per row, making the data hard to filter, sum or join correctly",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "database concepts and relational thinking",
+    "description": "PK versus FK roles",
+    "type": "multiple choice",
+    "question": "customer_id appears in both the customers table and the orders table. Which statement correctly describes its role in each?",
+    "options": "It is a foreign key in both tables|It is a primary key in both tables|It is the primary key in customers and a foreign key in orders|It is the primary key in orders and a foreign key in customers",
+    "answer": "It is the primary key in customers and a foreign key in orders",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "core querying: select, where, order by",
+    "description": "Purpose of SELECT",
+    "type": "multiple choice",
+    "question": "Which clause in a SQL query determines which columns are returned?",
+    "options": "FROM|WHERE|SELECT|ORDER BY",
+    "answer": "SELECT",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "core querying: select, where, order by",
+    "description": "Default sort direction",
+    "type": "True or False",
+    "question": "True or False: ORDER BY sorts results in ascending order by default if you do not specify ASC or DESC.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "core querying: select, where, order by",
+    "description": "WHERE filter row count",
+    "type": "multiple choice",
+    "question": "SELECT * FROM customers WHERE city = 'Lagos'; how many rows does this return against Eko Traders' 10-row customers table?",
+    "options": "2|3|4|10",
+    "answer": "3",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "core querying: select, where, order by",
+    "description": "Quoting text literals",
+    "type": "multiple choice",
+    "question": "Why does WHERE city = Lagos (without quotes) fail in SQLite, while WHERE city = 'Lagos' succeeds?",
+    "options": "Lagos without quotes is too long a value|Text values must be wrapped in quotes; without them SQLite treats Lagos as a column or identifier name, not a string|SQLite does not support the WHERE clause|City names must always be written in capital letters",
+    "answer": "Text values must be wrapped in quotes; without them SQLite treats Lagos as a column or identifier name, not a string",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "core querying: select, where, order by",
+    "description": "AND versus OR row counts",
+    "type": "multiple choice",
+    "question": "Compared to using AND, what happens to a query's result set when membership_tier = 'Gold' OR city = 'Lagos' is used instead of AND?",
+    "options": "OR will always return fewer or the same number of rows as AND|OR will always return more or the same number of rows as AND|OR and AND always return exactly the same rows|OR causes a syntax error in this context",
+    "answer": "OR will always return more or the same number of rows as AND",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "core querying: select, where, order by",
+    "description": "Correct DESC syntax",
+    "type": "multiple choice",
+    "question": "Which query correctly returns each customer's full_name and total_spent, sorted from the highest spender to the lowest?",
+    "options": "SELECT full_name, total_spent FROM customers ORDER BY total_spent ASC;|SELECT full_name, total_spent FROM customers ORDER BY total_spent DESC;|SELECT full_name, total_spent FROM customers WHERE total_spent DESC;|SELECT full_name, total_spent FROM customers SORT BY total_spent DESC;",
+    "answer": "SELECT full_name, total_spent FROM customers ORDER BY total_spent DESC;",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "core querying: select, where, order by",
+    "description": "Inclusive range with WHERE",
+    "type": "multiple choice",
+    "question": "A query needs every customer whose total_spent is at least 50000 and at most 100000. Which WHERE clause is correct?",
+    "options": "WHERE total_spent > 50000 AND total_spent < 100000|WHERE total_spent >= 50000 AND total_spent <= 100000|WHERE total_spent = 50000 OR total_spent = 100000|WHERE total_spent BETWEEN 50000 OR 100000",
+    "answer": "WHERE total_spent >= 50000 AND total_spent <= 100000",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "core querying: select, where, order by",
+    "description": "Correct clause order",
+    "type": "multiple choice",
+    "question": "Which of these queries follows the correct SELECT, FROM, WHERE, ORDER BY clause order?",
+    "options": "SELECT full_name FROM customers ORDER BY total_spent WHERE city = 'Lagos';|SELECT full_name FROM customers WHERE city = 'Lagos' ORDER BY total_spent;|WHERE city = 'Lagos' SELECT full_name FROM customers;|SELECT full_name ORDER BY total_spent FROM customers WHERE city = 'Lagos';",
+    "answer": "SELECT full_name FROM customers WHERE city = 'Lagos' ORDER BY total_spent;",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "aggregation and grouping",
+    "description": "COUNT(*) definition",
+    "type": "multiple choice",
+    "question": "Which SQL function returns the number of rows in a table, regardless of NULLs?",
+    "options": "SUM(*)|COUNT(*)|AVG(*)|TOTAL(*)",
+    "answer": "COUNT(*)",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "aggregation and grouping",
+    "description": "HAVING versus WHERE stage",
+    "type": "True or False",
+    "question": "True or False: HAVING filters individual rows before they are grouped, in the same way WHERE does.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "aggregation and grouping",
+    "description": "COUNT(column) skips NULLs",
+    "type": "multiple choice",
+    "question": "Eko Traders' customers table has 10 rows, and 2 of them have a NULL phone number. What does SELECT COUNT(phone) FROM customers; return?",
+    "options": "10|8|2|0",
+    "answer": "8",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "aggregation and grouping",
+    "description": "Verified SUM total",
+    "type": "multiple choice",
+    "question": "SELECT SUM(total_spent) FROM customers; against Eko Traders' full customers table returns which value?",
+    "options": "625000|181500|858000|335000",
+    "answer": "858000",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "aggregation and grouping",
+    "description": "Correct use of HAVING",
+    "type": "multiple choice",
+    "question": "Which clause would you use to keep only the membership tiers whose average spend exceeds 80000, after grouping by tier?",
+    "options": "WHERE AVG(total_spent) > 80000|HAVING AVG(total_spent) > 80000|GROUP BY AVG(total_spent) > 80000|ORDER BY AVG(total_spent) > 80000",
+    "answer": "HAVING AVG(total_spent) > 80000",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "aggregation and grouping",
+    "description": "Verified Gold tier average",
+    "type": "multiple choice",
+    "question": "Grouping Eko Traders' customers by membership_tier and computing AVG(total_spent) for the Gold tier (Chidinma, Aisha, Yusuf, Fatima) returns which value?",
+    "options": "130250|156250|185000|98000",
+    "answer": "156250",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "aggregation and grouping",
+    "description": "SELECT-list rule under GROUP BY",
+    "type": "multiple choice",
+    "question": "A query is written as SELECT city, COUNT(*) FROM customers GROUP BY city;. Why would adding full_name to the SELECT list, without adding it to GROUP BY or wrapping it in an aggregate, cause an error?",
+    "options": "full_name is not a real column|Once GROUP BY collapses rows into groups, every selected column must be grouped or aggregated, since a city can contain several full_names|SQL only allows two columns in a SELECT list|COUNT(*) can only be used with numeric columns",
+    "answer": "Once GROUP BY collapses rows into groups, every selected column must be grouped or aggregated, since a city can contain several full_names",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "aggregation and grouping",
+    "description": "Reference-check verification habit",
+    "type": "multiple choice",
+    "question": "A colleague's report claims Eko Traders' total recorded customer spend is 900000. Running SELECT SUM(total_spent) FROM customers; returns 858000. What is the correct next step?",
+    "options": "Trust the colleague's figure since they are more senior|Report 858000 without investigating, since the query ran without error|Investigate the gap before reporting either number, since a query running without error is not the same as a query being correct|Average the two numbers and report 879000",
+    "answer": "Investigate the gap before reporting either number, since a query running without error is not the same as a query being correct",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "joins and subqueries",
+    "description": "INNER versus LEFT JOIN",
+    "type": "multiple choice",
+    "question": "What is the key difference between INNER JOIN and LEFT JOIN?",
+    "options": "INNER JOIN is faster in every case|INNER JOIN keeps only matching rows from both tables; LEFT JOIN keeps every row from the left table whether it matches or not|LEFT JOIN can only be used with two tables; INNER JOIN can be used with any number|There is no difference; they are interchangeable",
+    "answer": "INNER JOIN keeps only matching rows from both tables; LEFT JOIN keeps every row from the left table whether it matches or not",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "joins and subqueries",
+    "description": "Purpose of the ON clause",
+    "type": "multiple choice",
+    "question": "In a JOIN's ON clause, what is being specified?",
+    "options": "Which columns to display in the result|Which rows to sort by|Which columns from each table must match for two rows to be paired|How many rows the join should return",
+    "answer": "Which columns from each table must match for two rows to be paired",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "joins and subqueries",
+    "description": "Definition of a subquery",
+    "type": "True or False",
+    "question": "True or False: A subquery is a complete SQL query written inside another query, usually in parentheses.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "joins and subqueries",
+    "description": "Verified INNER JOIN row count",
+    "type": "multiple choice",
+    "question": "A 5-customer slice has 4 orders in total: Chidinma has 2, Aisha has 1, Emeka has 1, and Tunde and Ngozi have none. How many rows does an INNER JOIN between these customers and their orders return?",
+    "options": "2|4|5|6",
+    "answer": "4",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "joins and subqueries",
+    "description": "Verified LEFT JOIN row count",
+    "type": "multiple choice",
+    "question": "Using the same 5-customer, 4-order slice, how many rows does a LEFT JOIN between customers and orders return?",
+    "options": "4|5|6|9",
+    "answer": "6",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "joins and subqueries",
+    "description": "LEFT JOIN unmatched rows",
+    "type": "multiple choice",
+    "question": "After a LEFT JOIN from customers to orders, a row belonging to a customer with no orders will show which value in the orders columns?",
+    "options": "Zero|An empty string|NULL|The word \"None\"",
+    "answer": "NULL",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "joins and subqueries",
+    "description": "LEFT JOIN plus IS NULL",
+    "type": "multiple choice",
+    "question": "Which WHERE condition, added after a LEFT JOIN from customers to orders, correctly finds customers who have never placed an order?",
+    "options": "WHERE orders.order_id = 0|WHERE orders.order_id IS NULL|WHERE orders.order_id IS NOT NULL|WHERE customers.customer_id IS NULL",
+    "answer": "WHERE orders.order_id IS NULL",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "joins and subqueries",
+    "description": "Correct IN-subquery pattern",
+    "type": "multiple choice",
+    "question": "A trainee wants to find customers who have placed at least one Delivered order, without writing a JOIN at all. Which approach correctly does this?",
+    "options": "WHERE customer_id IN (SELECT customer_id FROM orders WHERE status = 'Delivered')|WHERE customer_id = (SELECT customer_id FROM orders)|WHERE EXISTS customer_id FROM orders|WHERE customer_id LIKE (SELECT customer_id FROM orders)",
+    "answer": "WHERE customer_id IN (SELECT customer_id FROM orders WHERE status = 'Delivered')",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "joins and subqueries",
+    "description": "Predicting an INNER JOIN count",
+    "type": "multiple choice",
+    "question": "Before running an INNER JOIN between a customers table and an orders table, where one customer can have many orders, what is the correct way to predict the row count?",
+    "options": "Count the number of customers only|Count the number of orders that have a matching customer|Multiply the number of customers by the number of orders|Row counts cannot be predicted before running a join",
+    "answer": "Count the number of orders that have a matching customer",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "warehousing fundamentals",
+    "description": "OLTP acronym",
+    "type": "multiple choice",
+    "question": "What does OLTP stand for?",
+    "options": "Online Table Processing|Online Transaction Processing|Offline Transaction Protocol|Optimised Long-Term Processing",
+    "answer": "Online Transaction Processing",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "warehousing fundamentals",
+    "description": "Warehouse load schedule",
+    "type": "True or False",
+    "question": "True or False: A data warehouse is typically updated in real time, the instant every transaction happens.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "warehousing fundamentals",
+    "description": "Fact table definition",
+    "type": "multiple choice",
+    "question": "In a star schema, which table holds the numeric measures, such as quantity and line_total, along with foreign keys out to every dimension?",
+    "options": "The dimension table|The fact table|The lookup table|The staging table",
+    "answer": "The fact table",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "warehousing fundamentals",
+    "description": "Identify a dimension column",
+    "type": "multiple choice",
+    "question": "Which of the following is a typical dimension table column, rather than a fact table column?",
+    "options": "line_total|quantity|product_category|sale_id",
+    "answer": "product_category",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "warehousing fundamentals",
+    "description": "Grain of a fact table",
+    "type": "multiple choice",
+    "question": "Eko Traders' fact_sales table logs one row per line item sold. What is the grain of this table?",
+    "options": "One row per customer|One row per day|One row per line item sold|One row per store",
+    "answer": "One row per line item sold",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "warehousing fundamentals",
+    "description": "Verified Q1 Electronics revenue",
+    "type": "multiple choice",
+    "question": "SELECT SUM(f.line_total) FROM fact_sales f JOIN dim_product p ON f.product_key = p.product_key JOIN dim_date d ON f.date_key = d.date_key WHERE p.category = 'Electronics' AND d.quarter = 'Q1 2026'; returns which value?",
+    "options": "34000|43000|7500|68000",
+    "answer": "43000",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "warehousing fundamentals",
+    "description": "Why order_items maps to fact_sales",
+    "type": "multiple choice",
+    "question": "Why does Eko Traders' fact_sales table come from order_items rather than orders, when both tables exist in the OLTP schema?",
+    "options": "order_items is a smaller table than orders|order_items already has the right grain, one row per product sold, matching what the fact table needs; orders alone is one row too coarse|orders does not have a primary key|fact_sales cannot reference the orders table at all",
+    "answer": "order_items already has the right grain, one row per product sold, matching what the fact table needs; orders alone is one row too coarse",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "warehousing fundamentals",
+    "description": "Risk of querying OLTP directly",
+    "type": "multiple choice",
+    "question": "A regional manager wants total revenue by product category across two years of history, joining five OLTP tables directly against the live checkout database. What is the main risk of running this directly against the OLTP system rather than a warehouse?",
+    "options": "OLTP tables cannot store historical data at all|The heavy, multi-join analytical query can compete for resources with the live application's fast, small transactions, slowing down real customers|SQL syntax is different between OLTP and warehouse systems|OLTP databases cannot be joined with more than two tables",
+    "answer": "The heavy, multi-join analytical query can compete for resources with the live application's fast, small transactions, slowing down real customers",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai-augmented sql",
+    "description": "Core trust principle",
+    "type": "multiple choice",
+    "question": "According to this module, when should you consider an AI-written SQL query safe to trust?",
+    "options": "As soon as it runs without an error|Once its result has been predicted and verified, not merely run|As soon as AI explains why it wrote the query that way|Once it has been regenerated three times with the same result",
+    "answer": "Once its result has been predicted and verified, not merely run",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai-augmented sql",
+    "description": "Running is not correct",
+    "type": "True or False",
+    "question": "True or False: A SQL query that runs without any error message is guaranteed to be correct.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai-augmented sql",
+    "description": "Prompt ambiguity causes COUNT(*) bug",
+    "type": "multiple choice",
+    "question": "A prompt asks AI to \"count customers who ordered in Q1 2026\" without specifying \"unique.\" What is the most likely consequence?",
+    "options": "The AI will refuse to write the query|The AI may use COUNT(*) after a join, which double-counts a customer who placed more than one order|The query will run with a syntax error|The AI will automatically add DISTINCT on its own",
+    "answer": "The AI may use COUNT(*) after a join, which double-counts a customer who placed more than one order",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-augmented sql",
+    "description": "Fixing a dropped-rows join bug",
+    "type": "multiple choice",
+    "question": "An AI-written query uses INNER JOIN to list every customer with their order count, when the question asked for \"every customer, including those with zero orders.\" What is the fix?",
+    "options": "Change INNER JOIN to LEFT JOIN|Add a WHERE clause instead of a JOIN|Change COUNT(*) to SUM(*)|Remove the JOIN entirely",
+    "answer": "Change INNER JOIN to LEFT JOIN",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-augmented sql",
+    "description": "Recall the five-check list",
+    "type": "multiple choice",
+    "question": "Which of these is one of the recommended checks before trusting an AI-written query?",
+    "options": "Confirming the query uses fewer than 10 lines|Predicting the expected row count or value before running it|Checking that AI used a friendly tone|Confirming the query was generated in under 5 seconds",
+    "answer": "Predicting the expected row count or value before running it",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-augmented sql",
+    "description": "Diagnosing a COUNT(*) mismatch",
+    "type": "multiple choice",
+    "question": "An AI-written query returns COUNT(*) = 3 for \"unique customers who ordered in Q1 2026,\" but the correct, verified answer is 2. What is the most likely cause?",
+    "options": "The WHERE clause has a syntax error|COUNT(*) counted one row per order after the JOIN, rather than one row per distinct customer|The date range was written in the wrong format|The orders table is missing a primary key",
+    "answer": "COUNT(*) counted one row per order after the JOIN, rather than one row per distinct customer",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai-augmented sql",
+    "description": "Recognising a precise prompt",
+    "type": "multiple choice",
+    "question": "Which prompt is most likely to produce a correct query on the first attempt?",
+    "options": "\"Get customers and orders info\"|\"Write something to summarise sales\"|\"Using our customers and orders tables, count the DISTINCT customers who placed at least one order between 2026-01-01 and 2026-03-31 inclusive. Return a single number.\"|\"Make a report about the business\"",
+    "answer": "\"Using our customers and orders tables, count the DISTINCT customers who placed at least one order between 2026-01-01 and 2026-03-31 inclusive. Return a single number.\"",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai-augmented sql",
+    "description": "Trust-threshold fallback",
+    "type": "multiple choice",
+    "question": "If an AI-written query's result still looks wrong after asking the AI to explain its logic, what is the recommended next step?",
+    "options": "Keep regenerating the same prompt until a different number appears|Ship the original result anyway, since AI is generally reliable|Write the query yourself from the schema, using the skills built earlier in the module|Ask a different AI tool for a second opinion and average the two results",
+    "answer": "Write the query yourself from the schema, using the skills built earlier in the module",
+    "difficulty": "advanced"
+  }
+]

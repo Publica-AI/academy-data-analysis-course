@@ -1,0 +1,21 @@
+TransactionID,Branch,Region,Customer,Product,Sales,Cost,Profit,Price,Date
+1,Lagos,South West,Sunrise Stores,Rice 50kg,145000,123250,21750,29000,2026-01-05
+2,Abuja,North Central,Greenfield Traders,Cooking Oil 25L,98000,83300,14700,,2026-01-05
+3,Kano,North West,Kings Mart,Detergent Carton,52000,44200,7800,13000,2026-01-06
+4,Lagos,South West,Delta Provisions,Beverages Crate,132000,112200,19800,11000,2026-01-06
+5,Ibadan,South West,Horizon Retailers,Flour 50kg,87000,73950,13050,,2026-01-07
+6,Abuja,North Central,Prime Foods Ltd,Rice 50kg,156000,132600,23400,31000,2026-01-07
+7,Kano,North West,Unity Traders,Cooking Oil 25L,64000,54400,9600,16000,2026-01-08
+8,Lagos,South West,Coastal Mart,Detergent Carton,45000,38250,6750,,2026-01-08
+9,Ibadan,South West,Sunrise Stores,Beverages Crate,119000,101150,17850,9800,2026-01-09
+10,Abuja,North Central,Greenfield Traders,Flour 50kg,102000,86700,15300,25500,2026-01-09
+11,Kano,North West,Kings Mart,Rice 50kg,178000,151300,26700,29500,2026-01-10
+12,Lagos,South West,Delta Provisions,Cooking Oil 25L,93000,79050,13950,15800,2026-01-10
+13,Ibadan,South West,Horizon Retailers,Detergent Carton,38000,32300,5700,12500,2026-01-11
+14,Abuja,North Central,Prime Foods Ltd,Beverages Crate,141000,119850,21150,10200,2026-01-11
+15,Kano,North West,Unity Traders,Flour 50kg,76000,64600,11400,24000,2026-01-12
+16,Lagos,South West,Coastal Mart,Rice 50kg,205000,174250,30750,30500,2026-01-12
+17,Ibadan,South West,Sunrise Stores,Cooking Oil 25L,58000,49300,8700,,2026-01-13
+18,Abuja,North Central,Greenfield Traders,Detergent Carton,49000,41650,7350,13200,2026-01-13
+19,Kano,North West,Kings Mart,Beverages Crate,167000,141950,25050,10500,2026-01-14
+20,Lagos,South West,Delta Provisions,Flour 50kg,110000,93500,16500,26000,2026-01-14
