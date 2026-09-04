@@ -1,0 +1,452 @@
+[
+  {
+    "title": "the power bi environment and data loading",
+    "description": "Purpose of Power Query",
+    "type": "multiple choice",
+    "question": "In Power BI, what is Power Query used for?",
+    "options": "Building charts on the report canvas|Cleaning and transforming data before it loads into the model|Writing DAX measures|Publishing a report to the Power BI Service",
+    "answer": "Cleaning and transforming data before it loads into the model",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the power bi environment and data loading",
+    "description": "Four views identification",
+    "type": "multiple choice",
+    "question": "Which Power BI Desktop view shows one table at a time as rows and columns, similar to a spreadsheet?",
+    "options": "Report view|Table view|Model view|Power Query editor",
+    "answer": "Table view",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the power bi environment and data loading",
+    "description": "Load vs Transform data",
+    "type": "multiple choice",
+    "question": "When importing a CSV, why should a user choose Transform data instead of Load?",
+    "options": "Transform data is faster because it skips reading the whole file|Transform data opens Power Query first, so column types can be corrected before anything downstream is built|Load data cannot import CSV files at all|Transform data automatically deletes duplicate rows",
+    "answer": "Transform data opens Power Query first, so column types can be corrected before anything downstream is built",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the power bi environment and data loading",
+    "description": "Why ID columns should be text",
+    "type": "multiple choice",
+    "question": "A rider ID column such as R-014 is typed as a Whole number instead of Text. What is the most likely consequence?",
+    "options": "Power BI will refuse to load the column|Power BI may auto-sum the column into a meaningless total, and leading zeros can be stripped|The column will automatically convert to Text on refresh|Relationships built on the column always fail immediately",
+    "answer": "Power BI may auto-sum the column into a meaningless total, and leading zeros can be stripped",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the power bi environment and data loading",
+    "description": "Rule vs edit",
+    "type": "multiple choice",
+    "question": "Which Power Query step is a rule rather than an edit, and will therefore still work correctly after next month's data refresh?",
+    "options": "Delete rows 412 to 415|Remove rows where CustomerID is blank|Delete the third column from the left|Rename Column1 to RiderID because that is what it currently means",
+    "answer": "Remove rows where CustomerID is blank",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "the power bi environment and data loading",
+    "description": "Grain of the SwiftRoute deliveries table",
+    "type": "multiple choice",
+    "question": "What is the grain of the swiftroute_deliveries table?",
+    "options": "One row per rider|One row per route|One row per delivery|One row per day",
+    "answer": "One row per delivery",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the power bi environment and data loading",
+    "description": "Applied Steps pane",
+    "type": "True or False",
+    "question": "True or False: In Power Query, the Applied Steps pane records every transformation as a named, reorderable step, so a badly ordered step can be fixed by dragging it rather than starting again.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "the power bi environment and data loading",
+    "description": "Recommended order of work",
+    "type": "multiple choice",
+    "question": "What is the recommended order of work when building a Power BI report?",
+    "options": "Visualise first, then model, then clean|Clean first, model second, visualise last|Model first, then clean, then visualise|There is no recommended order, all three can happen in any sequence",
+    "answer": "Clean first, model second, visualise last",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the power bi environment and data loading",
+    "description": "What the report canvas stage does not enforce",
+    "type": "multiple choice",
+    "question": "Power BI makes it very easy to build a chart on the report canvas. What does it not enforce?",
+    "options": "That the chart uses a supported visual type|That the chart is honest, such as using an appropriate axis and avoiding a misleading scale|That the chart has a title|That the underlying data has finished loading",
+    "answer": "That the chart is honest, such as using an appropriate axis and avoiding a misleading scale",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the power bi environment and data loading",
+    "description": "Consequence of trailing whitespace",
+    "type": "multiple choice",
+    "question": "A RiderID value has an invisible trailing space in one table but not in another. What happens when a relationship is built between the two tables on that column?",
+    "options": "Power BI raises a clear error explaining the mismatch|The relationship builds but silently fails to match those rows, producing blanks with no warning|Power BI automatically trims the space and the relationship works correctly|The file refuses to open",
+    "answer": "The relationship builds but silently fails to match those rows, producing blanks with no warning",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "data modelling and relationships",
+    "description": "Fact table definition",
+    "type": "multiple choice",
+    "question": "What best describes a fact table in a star schema?",
+    "options": "A short, wide table that describes things and rarely changes|A long, narrow table that records events and grows continuously|A table that only contains text columns|A table with no primary key",
+    "answer": "A long, narrow table that records events and grows continuously",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "data modelling and relationships",
+    "description": "Dimension table definition",
+    "type": "multiple choice",
+    "question": "What best describes a dimension table?",
+    "options": "It records one row per event that happened|It describes things that exist, one row per thing, and changes rarely|It always has more rows than the fact table|It cannot be connected to a fact table",
+    "answer": "It describes things that exist, one row per thing, and changes rarely",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "data modelling and relationships",
+    "description": "Correct relationship cardinality",
+    "type": "multiple choice",
+    "question": "When a relationship is built correctly between riders and swiftroute_deliveries, what should the cardinality read?",
+    "options": "Many to many|One to many, with the one on the deliveries side|One to many, with the one on the riders side|One to one",
+    "answer": "One to many, with the one on the riders side",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "data modelling and relationships",
+    "description": "Why the flat table returned 41,280 riders",
+    "type": "multiple choice",
+    "question": "A flat table joining all five SwiftRoute files together returned a rider count of 41,280 instead of 68. Why?",
+    "options": "The data contained duplicate rider records|The grain of the flat table is one row per delivery, so counting the rider name column counts deliveries, not riders|Power BI has a bug when counting text columns|The rider table was not loaded",
+    "answer": "The grain of the flat table is one row per delivery, so counting the rider name column counts deliveries, not riders",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "data modelling and relationships",
+    "description": "Cross-filter direction default",
+    "type": "multiple choice",
+    "question": "What should the cross-filter direction be set to on a relationship between a dimension and a fact table, by default?",
+    "options": "Both|Single, flowing from the dimension to the fact table|Single, flowing from the fact table to the dimension|None",
+    "answer": "Single, flowing from the dimension to the fact table",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "data modelling and relationships",
+    "description": "Risk of Both cross-filter direction",
+    "type": "multiple choice",
+    "question": "What is the main risk of setting a relationship's cross-filter direction to Both?",
+    "options": "The report will not open|Filters can reach the same table by more than one path, causing a different, unrelated visual to become quietly wrong|It doubles the file size|It disables all slicers in the report",
+    "answer": "Filters can reach the same table by more than one path, causing a different, unrelated visual to become quietly wrong",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "data modelling and relationships",
+    "description": "Why mark a date table",
+    "type": "multiple choice",
+    "question": "Why should the dates table be explicitly marked as a date table in Power BI?",
+    "options": "It is required before any relationship can be built at all|It is required for time-intelligence functions such as month-over-month comparisons to work correctly|It changes the colour of the table in Model view|It is only needed if the file contains more than one year of data",
+    "answer": "It is required for time-intelligence functions such as month-over-month comparisons to work correctly",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "data modelling and relationships",
+    "description": "Diagnosing a relationship that produces blanks with no error",
+    "type": "multiple choice",
+    "question": "A relationship between routes and deliveries builds without error but produces blank results for one route. What is the most likely cause?",
+    "options": "The route genuinely has zero deliveries|A trailing space or inconsistent formatting on the key column in one of the two tables|The relationship was set to many to many on purpose|Power BI cannot join text columns",
+    "answer": "A trailing space or inconsistent formatting on the key column in one of the two tables",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "data modelling and relationships",
+    "description": "When a flat table is an acceptable design",
+    "type": "multiple choice",
+    "question": "According to the honest caveat on flat tables, when is a single flat table an acceptable design choice?",
+    "options": "Never, a star schema is always required|When there is one source, nothing worth describing separately, no time comparisons, and no counting of distinct things|Only when there are fewer than 100 rows|Only when the report will never be published",
+    "answer": "When there is one source, nothing worth describing separately, no time comparisons, and no counting of distinct things",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "data modelling and relationships",
+    "description": "Cost of averaging on a flat table",
+    "type": "multiple choice",
+    "question": "On a flat delivery-grain table, why would an average of rider tenure be misleading?",
+    "options": "Averages cannot be calculated in Power BI|Each rider is weighted by how many deliveries they happened to make, so busy riders dominate a figure that should treat every rider equally|Tenure cannot be stored as a number|The average would always return blank",
+    "answer": "Each rider is weighted by how many deliveries they happened to make, so busy riders dominate a figure that should treat every rider equally",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "dax fundamentals",
+    "description": "Measure vs calculated column",
+    "type": "multiple choice",
+    "question": "What is the key difference between a calculated column and a measure in Power BI?",
+    "options": "A calculated column is computed once per row at load time and stored; a measure is computed on demand and stores nothing|A measure is computed once per row at load time; a calculated column is computed on demand|There is no functional difference between them|Calculated columns can only contain numbers",
+    "answer": "A calculated column is computed once per row at load time and stored; a measure is computed on demand and stores nothing",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "dax fundamentals",
+    "description": "Correct aggregation measure",
+    "type": "multiple choice",
+    "question": "Which DAX expression correctly counts every row in the swiftroute_deliveries table?",
+    "options": "SUM ( swiftroute_deliveries[DeliveryID] )|COUNTROWS ( swiftroute_deliveries )|AVERAGE ( swiftroute_deliveries[DeliveryID] )|swiftroute_deliveries[DeliveryID] + 1",
+    "answer": "COUNTROWS ( swiftroute_deliveries )",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "dax fundamentals",
+    "description": "Why DIVIDE instead of the slash",
+    "type": "multiple choice",
+    "question": "Why is DIVIDE preferred over the forward slash operator for a ratio measure in DAX?",
+    "options": "DIVIDE is faster to type|DIVIDE checks for a zero denominator and returns blank instead of an error or Infinity|The slash operator does not exist in DAX|DIVIDE always returns a percentage automatically",
+    "answer": "DIVIDE checks for a zero denominator and returns blank instead of an error or Infinity",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "dax fundamentals",
+    "description": "What CALCULATE does",
+    "type": "multiple choice",
+    "question": "What does the CALCULATE function do in a DAX measure?",
+    "options": "It only performs arithmetic, identically to a calculator|It evaluates an expression after modifying the filter context with the conditions supplied|It converts a measure into a calculated column|It deletes rows that do not match a condition",
+    "answer": "It evaluates an expression after modifying the filter context with the conditions supplied",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "dax fundamentals",
+    "description": "Filter context concept",
+    "type": "multiple choice",
+    "question": "In Power BI, what is the filter context of a value shown on a chart?",
+    "options": "The DAX code used to write the measure|The set of filters, from slicers, rows, and columns, that narrow the data before the measure runs|The colour formatting applied to the visual|The name of the table the measure references",
+    "answer": "The set of filters, from slicers, rows, and columns, that narrow the data before the measure runs",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "dax fundamentals",
+    "description": "Reconciling a measure against source",
+    "type": "multiple choice",
+    "question": "A trainee wants to verify that an On-Time Rate measure is correct. What is the recommended first reconciliation step after predicting an expected value?",
+    "options": "Publish the report and see if anyone complains|Run the measure at the total level with no filters applied and compare it against the prediction|Rewrite the measure using a different function and see if the number changes|Ask an AI assistant if the number looks right",
+    "answer": "Run the measure at the total level with no filters applied and compare it against the prediction",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "dax fundamentals",
+    "description": "Blank versus zero",
+    "type": "multiple choice",
+    "question": "In a DAX measure result, what is the difference between a blank and a zero?",
+    "options": "There is no difference, they mean the same thing|Blank means no rows matched the filter; zero means rows matched but summed to nothing|Blank always indicates an error in the formula|Zero can only occur if DIVIDE is used incorrectly",
+    "answer": "Blank means no rows matched the filter; zero means rows matched but summed to nothing",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "dax fundamentals",
+    "description": "Time-intelligence requirement",
+    "type": "multiple choice",
+    "question": "A measure uses DATEADD to compare this month against last month. What must be true of the model for this measure to work correctly?",
+    "options": "The fact table must be sorted by date|The dates table must be marked as a date table|There must be at least two years of data in the model|The measure must be a calculated column, not a measure",
+    "answer": "The dates table must be marked as a date table",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "dax fundamentals",
+    "description": "The reconciliation check that does not need either number in advance",
+    "type": "multiple choice",
+    "question": "On-Time Rate and Late Rate are two measures over the same Status column with two possible values. Which check confirms both are likely correct without needing to know either value in advance?",
+    "options": "Checking that both measures use CALCULATE|Confirming the two rates sum to 100 percent|Confirming both measures are formatted as percentages|Checking that both measures reference the same table name",
+    "answer": "Confirming the two rates sum to 100 percent",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "dax fundamentals",
+    "description": "What a correct grand total does not guarantee",
+    "type": "multiple choice",
+    "question": "A measure returns the correct grand total at the unfiltered level. What should not be concluded from this alone?",
+    "options": "That the measure is syntactically valid DAX|That every individual row or breakdown behind that total is also correct, since errors can cancel each other out|That the measure uses at least one CALCULATE|That the measure will run without an error",
+    "answer": "That every individual row or breakdown behind that total is also correct, since errors can cancel each other out",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "kpi dashboards and publishing",
+    "description": "Metric versus KPI",
+    "type": "multiple choice",
+    "question": "What turns a plain metric, such as an on-time rate of 82 percent, into a KPI?",
+    "options": "Formatting it in a larger font|Comparing it against an agreed target, so it signals whether action is needed|Displaying it on a card visual instead of a table|Rounding it to zero decimal places",
+    "answer": "Comparing it against an agreed target, so it signals whether action is needed",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "kpi dashboards and publishing",
+    "description": "Backward dashboard design",
+    "type": "multiple choice",
+    "question": "What is the recommended first step when designing a KPI dashboard?",
+    "options": "List every field available in the model and chart each one|Name the specific audience and the decisions they need to make, then choose visuals to support those decisions|Choose the colour scheme|Pick the chart types before deciding what questions the dashboard answers",
+    "answer": "Name the specific audience and the decisions they need to make, then choose visuals to support those decisions",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "kpi dashboards and publishing",
+    "description": "Chart type for a single headline number",
+    "type": "multiple choice",
+    "question": "Which visual type is most appropriate for showing a single current headline number, such as this month's on-time rate?",
+    "options": "Card|Pie chart|Scatter chart|Matrix",
+    "answer": "Card",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "kpi dashboards and publishing",
+    "description": "Why every slicer must show its filtered state",
+    "type": "multiple choice",
+    "question": "Why must every slicer on a dashboard visibly show what it is currently filtered to?",
+    "options": "Otherwise Power BI will not allow the report to be published|A reader can otherwise mistake a filtered view for the complete picture and be misled|It is only a cosmetic preference with no functional consequence|Slicers without a visible state cannot be clicked",
+    "answer": "A reader can otherwise mistake a filtered view for the complete picture and be misled",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "kpi dashboards and publishing",
+    "description": "Sharing a dashboard without a Pro licence",
+    "type": "multiple choice",
+    "question": "A trainee has published a report to their own workspace but does not have a Power BI Pro licence. How can they still share the dashboard with someone else?",
+    "options": "Sharing is impossible without a Pro licence in any form|Export the report to PDF or PowerPoint from Power BI Desktop and send that file|Downgrade the report until it fits the free tier|Ask the recipient to install Power BI Desktop and rebuild it themselves",
+    "answer": "Export the report to PDF or PowerPoint from Power BI Desktop and send that file",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "kpi dashboards and publishing",
+    "description": "Why a dashboard needs a refresh timestamp",
+    "type": "multiple choice",
+    "question": "Why should every dashboard display when the data was last refreshed?",
+    "options": "It is required by Power BI's licensing terms|A failed refresh is otherwise invisible; the dashboard keeps showing old data with no visible sign anything is wrong|It increases the dashboard's load speed|It is only needed for dashboards with more than one page",
+    "answer": "A failed refresh is otherwise invisible; the dashboard keeps showing old data with no visible sign anything is wrong",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "kpi dashboards and publishing",
+    "description": "The finding versus the tour",
+    "type": "multiple choice",
+    "question": "When presenting a dashboard in under ninety seconds, what should the presenter lead with?",
+    "options": "A description of every visual on the page, in order|The finding and its implication, treating the dashboard as evidence rather than an itinerary|An explanation of how each chart was built|An apology for anything that is not yet finished",
+    "answer": "The finding and its implication, treating the dashboard as evidence rather than an itinerary",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "kpi dashboards and publishing",
+    "description": "Visuals not on the approved list",
+    "type": "True or False",
+    "question": "True or False: a dual-axis combination chart and a gauge visual remain acceptable design choices in Power BI dashboards because the software makes them easy to build.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "kpi dashboards and publishing",
+    "description": "One of the six formatting rules",
+    "type": "multiple choice",
+    "question": "Which of the following is one of the six formatting rules for a Power BI dashboard visual?",
+    "options": "Every axis is labelled with units|Every visual should use a different accent colour|Titles should name the fields shown, not state a finding|Data labels should appear on every visual regardless of density",
+    "answer": "Every axis is labelled with units",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "kpi dashboards and publishing",
+    "description": "Why one drillable chart beats three separate charts",
+    "type": "multiple choice",
+    "question": "Why is a single chart with a hub-to-route-to-rider drill-down hierarchy generally preferred over three separate charts?",
+    "options": "It uses less memory in the Power BI file|The reader starts at the summary and goes deeper only where something looks wrong, rather than working out how three competing charts relate|Power BI does not allow more than one chart per page|It removes the need for any slicers on the page",
+    "answer": "The reader starts at the summary and goes deeper only where something looks wrong, rather than working out how three competing charts relate",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-augmented bi",
+    "description": "AI fluency ladder Level 3",
+    "type": "multiple choice",
+    "question": "What does Level 3, critical dialogue, on the AI fluency ladder require of a trainee?",
+    "options": "Writing single clear prompts with full context|Interrogating AI output: asking for alternatives, justification, and catching confident wrong answers|Sustaining a long multi-step working session with reusable prompt templates|Avoiding the use of AI assistants entirely",
+    "answer": "Interrogating AI output: asking for alternatives, justification, and catching confident wrong answers",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai-augmented bi",
+    "description": "Why an AI assistant can write a wrong DAX measure with no error",
+    "type": "multiple choice",
+    "question": "Why can an AI assistant produce a DAX measure that runs without error but returns a wrong number?",
+    "options": "AI assistants cannot write valid DAX syntax|The assistant cannot see the actual model, so it writes syntactically correct DAX for a model it has imagined from the prompt alone|DAX measures always contain errors when written by AI|The Power BI file must be corrupted",
+    "answer": "The assistant cannot see the actual model, so it writes syntactically correct DAX for a model it has imagined from the prompt alone",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai-augmented bi",
+    "description": "Verifying an AI-written measure at more than one filter state",
+    "type": "multiple choice",
+    "question": "An AI-written measure returns the correct total when unfiltered. What should be checked next before trusting it?",
+    "options": "Nothing further is needed once the total is correct|The measure should also be checked under at least one filtered state, such as a single route or hub|The measure should be rewritten from scratch regardless of the result|The measure's formatting should be checked instead",
+    "answer": "The measure should also be checked under at least one filtered state, such as a single route or hub",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-augmented bi",
+    "description": "Diagnosing a measure that always returns 100 percent",
+    "type": "multiple choice",
+    "question": "An AI-written Late Rate measure returns exactly 100 percent in every context, filtered or not. What is the most likely fault?",
+    "options": "The denominator is hardcoded to a fixed number|The numerator and denominator use the identical CALCULATE expression, so late deliveries are being divided by themselves|The measure is missing a DIVIDE function entirely|The Status column contains no Late values at all",
+    "answer": "The numerator and denominator use the identical CALCULATE expression, so late deliveries are being divided by themselves",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-augmented bi",
+    "description": "Diagnosing a measure that is right unfiltered but wrong when filtered",
+    "type": "multiple choice",
+    "question": "An AI-written On-Time Rate measure is correct at the unfiltered total but understates the rate whenever a route or hub filter is applied. What is the most likely fault?",
+    "options": "The numerator is missing a CALCULATE function|The denominator is a hardcoded literal number instead of a reference to a Total Deliveries measure, so it never responds to filters|The measure references the wrong table entirely|DIVIDE was used instead of the slash operator",
+    "answer": "The denominator is a hardcoded literal number instead of a reference to a Total Deliveries measure, so it never responds to filters",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai-augmented bi",
+    "description": "What a Level 3 prompt for a DAX problem should include",
+    "type": "multiple choice",
+    "question": "Which element is most commonly missing from a prompt asking an AI assistant to write a DAX measure, and is the one most likely to prevent the exact fault seen in this topic's flawed measures?",
+    "options": "The name of the Power BI version being used|A requirement that the measure respond correctly to any filter, not just the unfiltered total|A request for the measure to be formatted in bold|The trainee's own name",
+    "answer": "A requirement that the measure respond correctly to any filter, not just the unfiltered total",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai-augmented bi",
+    "description": "What Copilot in Power BI changes",
+    "type": "multiple choice",
+    "question": "According to this topic, what does Copilot in Power BI change compared with a general AI assistant used outside Power BI?",
+    "options": "It removes the need to verify any AI-suggested measure|It can see the model directly, which removes the blind-prompting context problem, but the verification discipline still applies|It writes DAX using a different, incompatible language|It automatically publishes reports without a Pro licence",
+    "answer": "It can see the model directly, which removes the blind-prompting context problem, but the verification discipline still applies",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-augmented bi",
+    "description": "The most dangerous kind of AI error",
+    "type": "multiple choice",
+    "question": "According to this topic, which kind of error from an AI-written measure is described as the most dangerous?",
+    "options": "A measure that fails to run and shows a red error message|A measure that returns a plausible, confident-looking number that is actually wrong|A measure that is missing entirely from the file|A measure with a spelling mistake in its name",
+    "answer": "A measure that returns a plausible, confident-looking number that is actually wrong",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai-augmented bi",
+    "description": "The assessed deliverable from the audit exercise",
+    "type": "multiple choice",
+    "question": "What is the assessed deliverable from the Topic 7.5 DAX audit exercise?",
+    "options": "A newly written set of four DAX measures|The marked-up sheet recording a verdict, proof against source data, and a challenge prompt for each of the four measures|A verbal presentation with no written record|A rewritten version of the Power BI file",
+    "answer": "The marked-up sheet recording a verdict, proof against source data, and a challenge prompt for each of the four measures",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai-augmented bi",
+    "description": "Bringing a real result back to the assistant",
+    "type": "multiple choice",
+    "question": "Which of the four interrogation moves involves telling the AI assistant the actual number a measure returned, not just describing the measure?",
+    "options": "Explain what filter context this assumes|I ran it and got five percent, I expected sixty-one, where would you look first|Show me a second way to write this, and the trade-off|What would make this measure return a wrong number",
+    "answer": "I ran it and got five percent, I expected sixty-one, where would you look first",
+    "difficulty": "intermediate"
+  }
+]
