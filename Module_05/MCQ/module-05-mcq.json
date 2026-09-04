@@ -46,7 +46,7 @@
   },
   {
     "title": "python fundamentals consolidated",
-    "description": "Purpose of import plus a library function",
+    "description": "import and library functions",
     "type": "multiple choice",
     "question": "What does import statistics followed by statistics.mean(daily_sales) do?",
     "options": "Imports a library and calculates the average of daily_sales|Creates a new variable called statistics|Sorts daily_sales from smallest to largest|Converts daily_sales into a dictionary",
@@ -100,7 +100,7 @@
   },
   {
     "title": "python fundamentals consolidated",
-    "description": "KeyError on a missing dictionary key",
+    "description": "missing dictionary key",
     "type": "True or False",
     "question": "True or False: if a list contains a mix of dictionaries, and one dictionary is missing the \"amount\" key, calling record[\"amount\"] on that dictionary will raise a KeyError, not silently return an empty value.",
     "options": "True|False",
@@ -271,7 +271,7 @@
   },
   {
     "title": "data manipulation with pandas and numpy",
-    "description": "Purpose of .agg() with a list",
+    "description": ".agg() with a list",
     "type": "multiple choice",
     "question": "df.groupby(\"Region\")[\"Sales\"].agg([\"sum\",\"mean\",\"count\"]) is most useful because it:",
     "options": "Deletes rows with missing Sales values|Returns three separate DataFrames|Returns one table with several aggregations calculated at once, per group|Only works on the Region column",
@@ -334,7 +334,7 @@
   },
   {
     "title": "data manipulation with pandas and numpy",
-    "description": "Forgetting parentheses on a method call",
+    "description": "forgetting parentheses",
     "type": "multiple choice",
     "question": "What happens if you write df.describe without the parentheses?",
     "options": "It runs describe() automatically|It returns a reference to the method itself, not a result|It raises a SyntaxError immediately|It summarises only the Branch column",
@@ -424,7 +424,7 @@
   },
   {
     "title": "ai-assisted coding",
-    "description": "Catching a logically incorrect but error-free result",
+    "description": "silent logical error",
     "type": "multiple choice",
     "question": "An AI-generated line calculates an \"average profit margin\" using df[\"Margin_%\"].sum() instead of .mean(), producing a result of 300%. What is the best way this mistake is caught?",
     "options": "The code raises a SyntaxError|The code runs without error, but checking whether an average percentage above 100% makes sense reveals the mistake|Pandas automatically corrects sum() to mean()|The mistake cannot be caught without asking the AI directly",
@@ -442,7 +442,7 @@
   },
   {
     "title": "ai-assisted coding",
-    "description": "Explain It Back rule: unexplained lines",
+    "description": "unexplained lines rule",
     "type": "True or False",
     "question": "True or False: the \"Explain It Back\" paired activity is considered complete even if one partner cannot explain a specific line, as long as the code produces the correct output.",
     "options": "True|False",
