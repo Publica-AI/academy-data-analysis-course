@@ -1,0 +1,11 @@
+customer_id,full_name,city,phone,membership_tier,total_spent,joined_date
+101,Chidinma Okafor,Lagos,+234 803 555 0101,Gold,185000,2025-03-14
+102,Tunde Bakare,Ibadan,+234 805 555 0102,Silver,62000,2025-05-02
+103,Aisha Mohammed,Abuja,+234 806 555 0103,Gold,210000,2024-11-20
+104,Emeka Nwosu,Lagos,+234 807 555 0104,Bronze,18000,2026-01-09
+105,Ngozi Eze,Port Harcourt,+234 808 555 0105,Silver,74500,2025-08-30
+106,Yusuf Ibrahim,Lagos,+234 809 555 0106,Gold,132000,2025-02-17
+107,Habiba Sule,Abuja,+234 810 555 0107,Silver,45000,2025-06-11
+108,Chinedu Obi,Port Harcourt,,Bronze,12500,2025-09-02
+109,Fatima Bello,Kano,+234 812 555 0109,Gold,98000,2025-04-25
+110,Ikechukwu Umeh,Ibadan,,Bronze,21000,2025-07-19
