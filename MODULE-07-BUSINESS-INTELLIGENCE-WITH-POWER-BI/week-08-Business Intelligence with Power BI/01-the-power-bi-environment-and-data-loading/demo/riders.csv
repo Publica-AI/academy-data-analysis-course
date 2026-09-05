@@ -1,0 +1,69 @@
+RiderID,RiderName,Hub,VehicleType,JoinDate
+R-001,Chinedu Okonkwo,Apapa,Motorbike,2024-04-02
+R-002,Chioma Okonkwo,Ikeja,Small van,2023-07-03
+R-003,Ngozi Yusuf,Lekki,Motorbike,2024-10-04
+R-004,Segun Balogun,Yaba,Motorbike,2023-01-05
+R-005,Fatima Yusuf,Surulere,Motorbike,2024-04-06
+R-006,Yemi Eze,Ikorodu,Small van,2023-07-07
+R-007,Aisha Bello,Apapa,Small van,2024-10-08
+R-008,Bisi Obi,Ikeja,Motorbike,2023-01-09
+R-009,Halima Afolabi,Lekki,Bicycle,2024-04-10
+R-010,Ifeoma Umeh,Yaba,Bicycle,2023-07-11
+R-011,Fatima Oladipo,Surulere,Motorbike,2024-10-12
+R-012,Zainab Nwosu,Ikorodu,Motorbike,2023-01-13
+R-013,Aisha Nwosu,Apapa,Motorbike,2024-04-14
+R-014,Fatima Abubakar,Ikeja,Small van,2023-07-15
+R-015,Halima Umeh,Lekki,Bicycle,2024-10-16
+R-016,Zainab Obi,Yaba,Motorbike,2023-01-17
+R-017,Ngozi Ike,Surulere,Bicycle,2024-04-18
+R-018,Folake Umeh,Ikorodu,Motorbike,2023-07-19
+R-019,Kabir Sani,Apapa,Bicycle,2024-10-20
+R-020,Bisi Bello,Ikeja,Small van,2023-01-21
+R-021,Fatima Umeh,Lekki,Motorbike,2024-04-22
+R-022,Aisha Adeleke,Yaba,Small van,2023-07-23
+R-023,Halima Yusuf,Surulere,Bicycle,2024-10-24
+R-024,Musa Bello,Ikorodu,Motorbike,2023-01-25
+R-025,Halima Bello,Apapa,Motorbike,2024-04-26
+R-026,Bala Abubakar,Ikeja,Small van,2023-07-27
+R-027,Nnamdi Oladipo,Lekki,Motorbike,2024-10-01
+R-028,Aisha Danjuma,Yaba,Motorbike,2023-01-02
+R-029,Chidi Oladipo,Surulere,Motorbike,2024-04-03
+R-030,Folake Obi,Ikorodu,Motorbike,2023-07-04
+R-031,Halima Adeyemi,Apapa,Motorbike,2024-10-05
+R-032,Ifeoma Abubakar,Ikeja,Motorbike,2023-01-06
+R-033,Bala Nwosu,Lekki,Bicycle,2024-04-07
+R-034,Sadiq Sani,Yaba,Motorbike,2023-07-08
+R-035,Folake Oladipo,Surulere,Bicycle,2024-10-09
+R-036,Segun Ogunleye,Ikorodu,Motorbike,2023-01-10
+R-037,Rukayat Okoye,Apapa,Small van,2024-04-11
+R-038,Tunde Okoye,Ikeja,Motorbike,2023-07-12
+R-039,Nnamdi Danjuma,Lekki,Motorbike,2024-10-13
+R-040,Emeka Bello,Yaba,Motorbike,2023-01-14
+R-041,Emeka Nwosu,Surulere,Motorbike,2024-04-15
+R-042,Chidi Sani,Ikorodu,Small van,2023-07-16
+R-043,Folake Ogunleye,Apapa,Motorbike,2024-10-17
+R-044,Chidi Okonkwo,Ikeja,Bicycle,2023-01-18
+R-045,Segun Adeleke,Lekki,Small van,2024-04-19
+R-046,Fatima Umeh,Yaba,Motorbike,2023-07-20
+R-047,Aisha Ike,Surulere,Small van,2024-10-21
+R-048,Damilola Adeyemi,Ikorodu,Bicycle,2023-01-22
+R-049,Titi Afolabi,Apapa,Bicycle,2024-04-23
+R-050,Sadiq Danjuma,Ikeja,Bicycle,2023-07-24
+R-051,Ngozi Sani,Lekki,Bicycle,2024-10-25
+R-052,Bisi Musa,Yaba,Motorbike,2023-01-26
+R-053,Ibrahim Oladipo,Surulere,Motorbike,2024-04-27
+R-054,Ngozi Umeh,Ikorodu,Small van,2023-07-01
+R-055,Bisi Eze,Apapa,Motorbike,2024-10-02
+R-056,Fatima Okonkwo,Ikeja,Small van,2023-01-03
+R-057,Ngozi Adeleke,Lekki,Small van,2024-04-04
+R-058,Chidi Bello,Yaba,Motorbike,2023-07-05
+R-059,Ikenna Danjuma,Surulere,Motorbike,2024-10-06
+R-060,Damilola Ogunleye,Ikorodu,Motorbike,2023-01-07
+R-061,Ikenna Adeleke,Apapa,Bicycle,2024-04-08
+R-062,Ngozi Eze,Ikeja,Bicycle,2023-07-09
+R-063,Kunle Sani,Lekki,Bicycle,2024-10-10
+R-064,Zainab Bello,Yaba,Motorbike,2023-01-11
+R-065,Ngozi Umeh,Surulere,Motorbike,2024-04-12
+R-066,Halima Balogun,Ikorodu,Small van,2023-07-13
+R-067,Chidi Musa,Apapa,Small van,2024-10-14
+R-068,Yemi Okonkwo,Ikeja,Small van,2023-01-15

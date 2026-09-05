@@ -1,0 +1,25 @@
+RouteID,RouteName,OriginHub,DestZone,DistanceKm,ZoneTier
+LAG-07 ,Apapa to Ikeja,Apapa,Ikeja,18.4,Long
+IKJ-02,Ikeja to Maryland,Ikeja,Maryland,"6,2",Short
+APA-01,Apapa to Ikeja,Apapa,Ikeja,9.5,Medium
+IKJ-01,Ikeja to Maryland,Ikeja,Maryland,6.3,Short
+LEK-01,Lekki to Victoria Island,Lekki,Victoria Island,15.5,Long
+YAB-01,Yaba to Lekki,Yaba,Lekki,4.8,Short
+SUR-01,Surulere to Ajah,Surulere,Ajah,13.4,Medium
+IKO-01,Ikorodu to Yaba,Ikorodu,Yaba,10.3,Medium
+APA-02,Apapa to Surulere,Apapa,Surulere,4.6,Short
+LEK-02,Lekki to Festac,Lekki,Festac,12.9,Medium
+YAB-02,Yaba to Ojota,Yaba,Ojota,4.2,Short
+SUR-02,Surulere to Gbagada,Surulere,Gbagada,11.5,Medium
+IKO-02,Ikorodu to Magodo,Ikorodu,Magodo,4.8,Short
+APA-03,Apapa to Ikorodu,Apapa,Ikorodu,5.2,Short
+IKJ-03,Ikeja to Berger,Ikeja,Berger,11.4,Medium
+LEK-03,Lekki to Ketu,Lekki,Ketu,18.8,Long
+YAB-03,Yaba to Mushin,Yaba,Mushin,5.8,Short
+SUR-03,Surulere to Isolo,Surulere,Isolo,7.6,Short
+IKO-03,Ikorodu to Egbeda,Ikorodu,Egbeda,15.1,Long
+APA-04,Apapa to Ojodu,Apapa,Ojodu,21.0,Long
+IKJ-04,Ikeja to Sangotedo,Ikeja,Sangotedo,14.2,Medium
+LEK-04,Lekki to Ojo,Lekki,Ojo,10.8,Medium
+YAB-04,Yaba to Badagry,Yaba,Badagry,21.6,Long
+SUR-04,Surulere to Ikeja,Surulere,Ikeja,4.4,Short

@@ -1,0 +1,452 @@
+[
+  {
+    "title": "the ai-augmented pipeline end to end",
+    "description": "Stages of the pipeline",
+    "type": "multiple choice",
+    "question": "What are the four stages of the analysis pipeline this module runs end to end?",
+    "options": "Clean, analyse, visualise, report|Collect, store, secure, archive|Plan, build, test, deploy|Import, sort, filter, print",
+    "answer": "Clean, analyse, visualise, report",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the ai-augmented pipeline end to end",
+    "description": "Purpose of the answer key",
+    "type": "multiple choice",
+    "question": "The Q3 dataset ships with an answer key workbook. What is it for?",
+    "options": "Measuring how close a trainee's cleaning came to ground truth|Replacing the raw file once cleaning becomes difficult|Providing the figures to quote directly in the final report|Supplying the rows that are missing from the raw file",
+    "answer": "Measuring how close a trainee's cleaning came to ground truth",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the ai-augmented pipeline end to end",
+    "description": "Raw row count",
+    "type": "multiple choice",
+    "question": "The deliveries sheet of swiftroute_q3_raw.xlsx holds 3,640 rows but only 3,600 distinct delivery IDs. What explains the difference?",
+    "options": "Forty delivery IDs each appear twice|Forty rows have a blank delivery ID|Forty rows belong to a different quarter|Forty rows are summary subtotals",
+    "answer": "Forty delivery IDs each appear twice",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the ai-augmented pipeline end to end",
+    "description": "Cleaning order matters",
+    "type": "multiple choice",
+    "question": "In the Q3 file, why should duplicate rows be removed before other repairs are applied?",
+    "options": "Otherwise effort is spent repairing rows that are about to be deleted|Otherwise the duplicates cannot be found at all|Because pandas requires de-duplication as the first operation|Because the answer key is sorted by delivery ID",
+    "answer": "Otherwise effort is spent repairing rows that are about to be deleted",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the ai-augmented pipeline end to end",
+    "description": "Ambiguous date parsing",
+    "type": "multiple choice",
+    "question": "The date column mixes DD/MM/YYYY and MM-DD-YYYY. Why is a general purpose date parser the wrong tool here?",
+    "options": "It resolves ambiguous values silently, so wrong dates raise no error|It cannot read text dates at all|It refuses to run when more than one format is present|It converts every date to the first format it encounters",
+    "answer": "It resolves ambiguous values silently, so wrong dates raise no error",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the ai-augmented pipeline end to end",
+    "description": "Fee column conversion",
+    "type": "multiple choice",
+    "question": "The fee column arrives as text such as ₦45,320. What must happen before it can be summed?",
+    "options": "Every character that is not a digit is stripped and the result converted to a number|The column is sorted so the currency symbols group together|The naira sign is replaced with a decimal point|The column is copied into a new sheet",
+    "answer": "Every character that is not a digit is stripped and the result converted to a number",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the ai-augmented pipeline end to end",
+    "description": "Route code standardisation",
+    "type": "multiple choice",
+    "question": "Route LAG-07 appears 288 times, half of them written LAG07 without the hyphen. Why must this be fixed before joining to the fuel cost sheet?",
+    "options": "The fuel sheet uses only the hyphenated form, so unmatched rows drop out of the join silently|Power Query cannot join on text columns|The hyphen makes the code longer than the join allows|The fuel sheet contains both spellings, so rows would be duplicated",
+    "answer": "The fuel sheet uses only the hyphenated form, so unmatched rows drop out of the join silently",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the ai-augmented pipeline end to end",
+    "description": "Unrecoverable values",
+    "type": "multiple choice",
+    "question": "Two rows in the Q3 file carry dates in 2027, outside the quarter. What is the correct treatment in a cleaned table?",
+    "options": "Set them to blank, count them, and raise the question with the business|Replace them with the quarter's median date|Shift them back exactly one year|Delete the two rows without recording it",
+    "answer": "Set them to blank, count them, and raise the question with the business",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "the ai-augmented pipeline end to end",
+    "description": "Blank statuses",
+    "type": "multiple choice",
+    "question": "A trainee fills the 116 blank delivery statuses with Delivered because it is the most common value. What is wrong with this?",
+    "options": "It invents outcomes that no reader of the report can distinguish from measured ones|It makes the file larger than the answer key|Delivered is not one of the statuses used in this dataset|It breaks the join to the complaints sheet",
+    "answer": "It invents outcomes that no reader of the report can distinguish from measured ones",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "the ai-augmented pipeline end to end",
+    "description": "Counts from a sample",
+    "type": "multiple choice",
+    "question": "An AI assistant given the Q3 file describes its faults well but reports the wrong number of duplicate IDs. What does this show about where it can be trusted?",
+    "options": "It reasons over a sample, so it is useful for describing shape and unreliable for counting|It cannot read Excel files at all|It always underestimates counts by a fixed proportion|It needs the answer key before it can count anything",
+    "answer": "It reasons over a sample, so it is useful for describing shape and unreliable for counting",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "forecasting with ai support",
+    "description": "What a trend forecast assumes",
+    "type": "multiple choice",
+    "question": "What single assumption does a trend-based forecast make?",
+    "options": "That the pattern in the historical period continues into the forecast period|That every future period equals the average of the past|That the data contains no seasonality of any kind|That the most recent value is the best estimate of the next one",
+    "answer": "That the pattern in the historical period continues into the forecast period",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "forecasting with ai support",
+    "description": "Reading R-squared",
+    "type": "multiple choice",
+    "question": "A weekly delivery trend returns an R-squared of 0.33. What does that mean?",
+    "options": "The trend explains about a third of the week to week variation|The forecast will be within a third of the true value|A third of the weeks were excluded from the fit|The result is statistically significant at the one third level",
+    "answer": "The trend explains about a third of the week to week variation",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "forecasting with ai support",
+    "description": "Purpose of a naive baseline",
+    "type": "multiple choice",
+    "question": "Why compare a forecast against holding the recent average flat?",
+    "options": "Because a model that cannot beat the flat baseline is not worth using|Because regulators require a second forecast|Because the flat baseline is always more accurate|Because it converts the forecast into a percentage",
+    "answer": "Because a model that cannot beat the flat baseline is not worth using",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "forecasting with ai support",
+    "description": "Partial periods",
+    "type": "multiple choice",
+    "question": "The first and last calendar weeks of SwiftRoute's Q3 hold 190 and 113 deliveries against a typical 270. What is the correct interpretation?",
+    "options": "They are partial weeks, because the quarter starts and ends mid-week|Demand collapsed at both ends of the quarter|Those weeks were affected by missing data in the source file|Those weeks contain the rows with unrecoverable dates",
+    "answer": "They are partial weeks, because the quarter starts and ends mid-week",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "forecasting with ai support",
+    "description": "Effect of partial weeks on the fit",
+    "type": "multiple choice",
+    "question": "Fitted on all 14 calendar weeks the slope is -0.347 per week, and on the 12 complete weeks it is +2.948. What changed?",
+    "options": "Only which rows were used; the two partial weeks pull the line down at both ends|The method changed from linear to non-linear|The complete-week fit uses revenue rather than delivery counts|The 14-week fit includes the forecast period",
+    "answer": "Only which rows were used; the two partial weeks pull the line down at both ends",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "forecasting with ai support",
+    "description": "Turning a point estimate into a range",
+    "type": "multiple choice",
+    "question": "What is used to build the range around a trend forecast in this topic?",
+    "options": "The standard deviation of the fit's own residuals|A fixed ten per cent above and below the estimate|The difference between the highest and lowest historical week|The R-squared expressed as a percentage of the estimate",
+    "answer": "The standard deviation of the fit's own residuals",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "forecasting with ai support",
+    "description": "Communicating a forecast",
+    "type": "multiple choice",
+    "question": "Which statement communicates the Q4 forecast honestly to a business audience?",
+    "options": "Between 3,840 and 4,257 deliveries, most likely around 4,050, assuming nothing changes about the routes|Exactly 4,049 deliveries next quarter|Roughly the same as last quarter, give or take|4,049 deliveries, with a confidence level of 33 per cent",
+    "answer": "Between 3,840 and 4,257 deliveries, most likely around 4,050, assuming nothing changes about the routes",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "forecasting with ai support",
+    "description": "Using AI to stress-test",
+    "type": "multiple choice",
+    "question": "In this topic, what is an AI assistant used for once the forecast exists?",
+    "options": "Arguing against the forecast and surfacing what would make it wrong|Producing the forecast so the analyst does not have to|Selecting which weeks to include in the fit|Calculating the residual standard deviation",
+    "answer": "Arguing against the forecast and surfacing what would make it wrong",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "forecasting with ai support",
+    "description": "Claims outside the data",
+    "type": "multiple choice",
+    "question": "An assistant says Q4 will spike because of the festive season. The data ends in September. How should this be handled?",
+    "options": "Recorded as a question for the business, not included as a finding|Added to the forecast as a seasonal adjustment|Discarded, because AI suggestions are not evidence|Used to raise the upper end of the range only",
+    "answer": "Recorded as a question for the business, not included as a finding",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "forecasting with ai support",
+    "description": "Extrapolation risk",
+    "type": "multiple choice",
+    "question": "Why is projecting 13 weeks forward from 12 weeks of history a caveat worth stating?",
+    "options": "The forecast horizon is longer than the history it rests on|Thirteen weeks cannot be forecast by a linear model|The residual standard deviation is undefined beyond the history|R-squared becomes invalid outside the fitted range",
+    "answer": "The forecast horizon is longer than the history it rests on",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "machine learning concepts for literacy",
+    "description": "Definition of supervised learning",
+    "type": "multiple choice",
+    "question": "What makes a learning problem supervised?",
+    "options": "The training examples already carry the correct answer|A human reviews every prediction before it is used|The data has been cleaned before training|The model is retrained on a fixed schedule",
+    "answer": "The training examples already carry the correct answer",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "machine learning concepts for literacy",
+    "description": "Classification versus regression",
+    "type": "multiple choice",
+    "question": "What distinguishes classification from regression?",
+    "options": "Classification predicts a category, regression predicts a number on a scale|Classification uses more data than regression|Classification is supervised and regression is unsupervised|Classification produces a percentage and regression produces a count",
+    "answer": "Classification predicts a category, regression predicts a number on a scale",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "machine learning concepts for literacy",
+    "description": "What clustering does",
+    "type": "multiple choice",
+    "question": "What does clustering do that classification does not?",
+    "options": "It finds groups without being told what the groups are|It predicts a numeric value for each row|It guarantees the groups it finds are meaningful|It requires a labelled column to work",
+    "answer": "It finds groups without being told what the groups are",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "machine learning concepts for literacy",
+    "description": "Identifying the problem type",
+    "type": "multiple choice",
+    "question": "SwiftRoute wants to predict how many minutes a delivery will take. Which problem type is this?",
+    "options": "Regression|Classification|Clustering|None, because duration is already recorded",
+    "answer": "Regression",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "machine learning concepts for literacy",
+    "description": "Codes that look numeric",
+    "type": "multiple choice",
+    "question": "Predicting which of the 14 route codes a delivery will be assigned to is classification, not regression. Why?",
+    "options": "Route codes are categories, so subtracting one from another is meaningless|There are too few routes for regression to work|Route codes contain letters as well as digits|Regression cannot handle more than ten possible outcomes",
+    "answer": "Route codes are categories, so subtracting one from another is meaningless",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "machine learning concepts for literacy",
+    "description": "The scaling failure",
+    "type": "multiple choice",
+    "question": "Clustering SwiftRoute customers on delivery count and mean fee without putting the columns on the same scale changes the groups substantially. Why?",
+    "options": "Fee runs into the thousands while delivery count runs from 1 to 12, so fee dominates the distance|Delivery count contains missing values that fee does not|The algorithm ignores any column with a decimal point|Fee and delivery count are correlated, so one must be removed",
+    "answer": "Fee runs into the thousands while delivery count runs from 1 to 12, so fee dominates the distance",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "machine learning concepts for literacy",
+    "description": "Choosing the number of groups",
+    "type": "multiple choice",
+    "question": "The same customer data splits convincingly into three groups or five, on request. What follows?",
+    "options": "The number of groups is an analyst's decision that must be justified|The correct number is whichever produces the most even group sizes|The data is unsuitable for clustering|Three is correct because it was tried first",
+    "answer": "The number of groups is an analyst's decision that must be justified",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "machine learning concepts for literacy",
+    "description": "Analyst against data scientist",
+    "type": "multiple choice",
+    "question": "Which task sits on the data scientist's side of the line drawn in this topic?",
+    "options": "Building, validating and owning a predictive model in production|Judging whether a model's output is plausible for the business|Framing a business problem so it can be answered with data|Explaining a model's output to a decision maker",
+    "answer": "Building, validating and owning a predictive model in production",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "machine learning concepts for literacy",
+    "description": "Limits of a clustering result",
+    "type": "multiple choice",
+    "question": "A clustering run separates two customer groups that order equally often but differ in delivery distance. What can this result alone not tell you?",
+    "options": "Which group SwiftRoute should act on, and how|How many customers fall into each group|The average distance within each group|That the two groups differ from each other",
+    "answer": "Which group SwiftRoute should act on, and how",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "machine learning concepts for literacy",
+    "description": "True or false, naming groups",
+    "type": "True or False",
+    "question": "True or False: the names given to clustering groups, such as frequent customers, come from the algorithm itself.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "automating repetitive analyst tasks",
+    "description": "The bar for automation",
+    "type": "multiple choice",
+    "question": "What is the stated standard an automation must meet in this topic?",
+    "options": "It survives a data refresh|It runs in under one second|It requires no external libraries|It handles any file format",
+    "answer": "It survives a data refresh",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "automating repetitive analyst tasks",
+    "description": "What not to automate",
+    "type": "multiple choice",
+    "question": "Which step of a recurring report should stay with a human?",
+    "options": "Deciding whether an unusual month is a data fault or a real event|Removing duplicate identifiers|Converting text fees to numbers|Totalling deliveries by month",
+    "answer": "Deciding whether an unusual month is a data fault or a real event",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "automating repetitive analyst tasks",
+    "description": "File path as an argument",
+    "type": "multiple choice",
+    "question": "Why should the input file path be an argument rather than a constant inside the script?",
+    "options": "So the next run needs no code edit|So the script executes faster|So the file can be stored in a database|So the script can be version controlled",
+    "answer": "So the next run needs no code edit",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "automating repetitive analyst tasks",
+    "description": "Deriving periods",
+    "type": "multiple choice",
+    "question": "Why should reporting periods be derived from the data rather than hardcoded as July, August and September?",
+    "options": "A hardcoded list gives the script an expiry date at the next quarter|Hardcoded months run more slowly|The data may contain months in a different language|Period names cannot be written as text in Python",
+    "answer": "A hardcoded list gives the script an expiry date at the next quarter",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "automating repetitive analyst tasks",
+    "description": "Standardise before joining",
+    "type": "multiple choice",
+    "question": "In the automated report, why are route codes standardised before the join rather than after?",
+    "options": "A join drops mismatched codes silently, so anything not standardised first is lost|Standardising after the join is slower|The join reorders rows, making standardisation impossible afterwards|The fuel sheet cannot be read until codes are standardised",
+    "answer": "A join drops mismatched codes silently, so anything not standardised first is lost",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "automating repetitive analyst tasks",
+    "description": "Assertions in an automation",
+    "type": "multiple choice",
+    "question": "What is the purpose of asserting expected row counts and totals inside a report script?",
+    "options": "So a broken refresh fails loudly instead of publishing wrong numbers quietly|So the script runs faster on large files|So the output can be opened in Excel|So the script can be scheduled",
+    "answer": "So a broken refresh fails loudly instead of publishing wrong numbers quietly",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "automating repetitive analyst tasks",
+    "description": "The window bug",
+    "type": "multiple choice",
+    "question": "A report derived its period range from the earliest and latest parsed date and produced five periods spanning July 2026 to February 2027. What caused it?",
+    "options": "Two rows carrying dates in 2027 stretched the window|The date parser failed on most rows|The fuel sheet covers a different date range|Duplicate rows were counted twice",
+    "answer": "Two rows carrying dates in 2027 stretched the window",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "automating repetitive analyst tasks",
+    "description": "A data-derived window rule",
+    "type": "multiple choice",
+    "question": "The fix excludes any month holding less than one per cent of the dated rows. Why is this better than filtering to July, August and September?",
+    "options": "It keeps working on a file covering different months|It runs in fewer lines of code|It removes the need to parse dates at all|It guarantees exactly three periods every time",
+    "answer": "It keeps working on a file covering different months",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "automating repetitive analyst tasks",
+    "description": "Proving a refresh survives",
+    "type": "multiple choice",
+    "question": "What does the refresh test change in the manufactured next-quarter file?",
+    "options": "Dates, route codes, row count and column order all at once|Only the dates, so the periods differ|Only the row count, so totals differ|Nothing; it reruns the same file twice",
+    "answer": "Dates, route codes, row count and column order all at once",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "automating repetitive analyst tasks",
+    "description": "Automating a judgement",
+    "type": "multiple choice",
+    "question": "What is the risk of automating the interpretation step as well as the calculation?",
+    "options": "A decision gets hidden rather than saved, and nobody is accountable for it|The script becomes too slow to run monthly|The output file grows beyond what Excel can open|The automation can no longer be scheduled",
+    "answer": "A decision gets hidden rather than saved, and nobody is accountable for it",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "limits, risks and the verification checklist",
+    "description": "Naming the failure modes",
+    "type": "multiple choice",
+    "question": "Which of these is one of the four AI failure modes named in this topic?",
+    "options": "Hallucinated values|Slow response times|High subscription cost|Limited context length",
+    "answer": "Hallucinated values",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "limits, risks and the verification checklist",
+    "description": "Definition of a hallucinated value",
+    "type": "multiple choice",
+    "question": "What is a hallucinated value?",
+    "options": "A figure stated confidently that is not present in the data at all|A figure that is correct but formatted wrongly|A figure that changes each time the code is run|A figure that falls outside the expected range",
+    "answer": "A figure stated confidently that is not present in the data at all",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "limits, risks and the verification checklist",
+    "description": "What ships with a deliverable",
+    "type": "multiple choice",
+    "question": "What must accompany every AI-assisted deliverable from this module onward?",
+    "options": "A completed verification checklist and a prompt log|A copy of the raw data file|A screenshot of the AI conversation|A signed declaration that no AI was used",
+    "answer": "A completed verification checklist and a prompt log",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "limits, risks and the verification checklist",
+    "description": "Plausible wrong code",
+    "type": "multiple choice",
+    "question": "Which example from this module illustrates plausible wrong code?",
+    "options": "A report that derived its window from min and max date and produced five periods instead of three|A script that raised an error when the file was missing|A chart with unlabelled axes|A prompt that returned no answer",
+    "answer": "A report that derived its window from min and max date and produced five periods instead of three",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "limits, risks and the verification checklist",
+    "description": "Silent assumption change",
+    "type": "multiple choice",
+    "question": "A date parser reads 03-08-2026 as the eighth of March without saying so. Which failure mode is this?",
+    "options": "Silent assumption change|Hallucinated value|Correct arithmetic, wrong question|Plausible wrong code",
+    "answer": "Silent assumption change",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "limits, risks and the verification checklist",
+    "description": "Reconciling from a second direction",
+    "type": "multiple choice",
+    "question": "What does checklist question two, does one number reconcile from a second direction, actually require?",
+    "options": "Recomputing a headline figure a different way and confirming it matches|Reading the figure twice to confirm it was typed correctly|Asking the AI assistant to confirm the figure|Comparing the figure against the same calculation from last quarter",
+    "answer": "Recomputing a headline figure a different way and confirming it matches",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "limits, risks and the verification checklist",
+    "description": "Checking under a filter",
+    "type": "multiple choice",
+    "question": "Why does the checklist require a result to be checked in at least one filtered state?",
+    "options": "Errors that cancel out at the grand total become visible under a filter|Filtered results are always more accurate|Filters are the only way to test performance|Grand totals cannot be computed reliably",
+    "answer": "Errors that cancel out at the grand total become visible under a filter",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "limits, risks and the verification checklist",
+    "description": "The margin trap",
+    "type": "multiple choice",
+    "question": "Margin by route across the Q3 files returns 14 negative numbers, all arithmetically correct. Which checklist question catches the problem?",
+    "options": "Question five, does the answer make business sense|Question one, did I run it|Question three, does it hold under a filter|Question four, can I explain every line",
+    "answer": "Question five, does the answer make business sense",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "limits, risks and the verification checklist",
+    "description": "Diagnosing the margin trap",
+    "type": "multiple choice",
+    "question": "In the margin example, both source sheets are individually sound. What is actually wrong?",
+    "options": "A fleet level fuel bill is being compared against a delivery extract at a different grain|The fuel prices per litre are unrealistic for Nigeria|The join dropped most of the fuel rows|The delivery fees were converted incorrectly",
+    "answer": "A fleet level fuel bill is being compared against a delivery extract at a different grain",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "limits, risks and the verification checklist",
+    "description": "Reporting an unusable comparison",
+    "type": "multiple choice",
+    "question": "Given the margin result, what is the correct deliverable to send the operations manager?",
+    "options": "A statement that the two sheets cannot be compared until the delivery extract's scope is confirmed|The table of 14 negative margins with a note that fuel is expensive|A recommendation to close the least profitable route|A revised margin table with fuel costs scaled down until the routes break even",
+    "answer": "A statement that the two sheets cannot be compared until the delivery extract's scope is confirmed",
+    "difficulty": "advanced"
+  }
+]
