@@ -1,0 +1,5 @@
+This folder holds the topic's .pptx deck.
+
+The decks are supplied separately by the module owner and are deliberately not in this
+repository yet. This file only exists so that git preserves the folder, because git does
+not track empty directories. Delete it once the deck is added.

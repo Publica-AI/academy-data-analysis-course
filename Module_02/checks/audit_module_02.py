@@ -68,9 +68,10 @@ for rel in EXPECTED:
 
 for t in TOPICS:
     d = W / t / 'slides'
-    check(f'slides dir exists {t}', d.is_dir())
-    check(f'slides dir empty {t}', not any(d.iterdir()) if d.is_dir() else False,
-          'pptx files are supplied separately')
+    check(f'slides dir exists {t}', d.is_dir(), 'git needs a .gitkeep to preserve it')
+    kept = [f.name for f in d.iterdir()] if d.is_dir() else []
+    check(f'slides dir holds no deck yet {t}', kept == ['.gitkeep'],
+          f'expected only .gitkeep, found {kept}. pptx files are supplied separately')
 
 # no stray files
 STRAY = re.compile(r'(~\$|\.tmp$|\.bak$|Thumbs\.db|\.DS_Store|scratch)', re.I)
