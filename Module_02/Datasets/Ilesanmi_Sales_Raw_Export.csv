@@ -1,0 +1,1026 @@
+Invoice ID,Branch,City,Customer type,Gender,Product line,Unit price,Quantity,Tax 5%,Sales,Date,Time,Payment,cogs,gross margin percentage,gross income,Rating
+316-68-6352,Ikeja,Lagos,Member,Female,Food and beverages,3636.00,2,363.60,7635.60,1/21/2019,10:00:00 AM,Cash,7272.00,4.761904762,363.60,7.1
+826-58-8051,Wuse,Abuja,Normal,Male,Home and lifestyle,6219.00,4,1243.80,26119.80,1/6/2019,7:46:00 PM,Ewallet,24876.00,4.761904762,1243.80,4.3
+565-67-6697,Wuse,Abuja,Member,Male,Home and lifestyle,2700.00,9,1215.00,25515.00,3/2/2019,2:16:00 PM,Cash,24300.00,4.761904762,1215.00,
+246-11-3901,Trans-Amadi,Port Harcourt,Normal,Female,Electronic accessories,3280.00,10,1640.00,34440.00,2/15/2019,12:12:00 PM,Cash,32800.00,4.761904762,1640.00,6.2
+276-75-6884,Ikeja,Lagos,Normal,Female,Health and beauty,6871.00,3,1030.65,21643.65,3/4/2019,10:05:00 AM,Cash,20613.00,4.761904762,1030.65,8.7
+326-71-2155,Trans-Amadi,Port Harcourt,Normal,Female,SPORTS AND TRAVEL   ,7395.00,4,1479.00,31059.00,2/3/2019,10:02:00 AM,Cash,29580.00,4.761904762,1479.00,6.1
+339-12-4827,Wuse,Abuja,Member,Female,Fashion accessories,7396.00,1,369.80,7765.80,1/5/2019,11:32:00 AM,Credit card,7396.00,4.761904762,369.80,5.0
+549-96-4200,Trans-Amadi,Port Harcourt,Member,Male,Food and beverages,1704.00,4,340.80,7156.80,3/8/2019,8:15:00 PM,Ewallet,6816.00,4.761904762,340.80,7.0
+725-96-3778,Trans-Amadi,Port Harcourt,Member,Female,HOME AND LIFESTYLE   ,8925.00,8,3570.00,74970.00,1/20/2019,10:13:00 AM,Cash,71400.00,4.761904762,3570.00,4.7
+262-47-2794,Wuse,Abuja,Member,Male,Home and lifestyle,7186.00,8,2874.40,60362.40,3/6/2019,3:07:00 PM,Credit card,57488.00,4.761904762,2874.40,6.2
+573-58-9734,Wuse,Abuja,Normal,Female,Fashion accessories,3037.00,3,455.55,9566.55,3/28/2019,1:41:00 PM,Ewallet,9111.00,4.761904762,455.55,5.1
+714-02-3114,Trans-Amadi,Port Harcourt,Normal,Female,Sports and travel,9880.00,2,988.00,20748.00,2/21/2019,11:39:00 AM,Cash,19760.00,4.761904762,988.00,7.7
+339-96-8318,Wuse,Abuja,Member,Male,Fashion accessories,8131.00,7,2845.85,59762.85,3/1/2019,7:49:00 PM,Ewallet,56917.00,4.761904762,2845.85,6.3
+440-59-5691,Trans-Amadi,Port Harcourt,Member,Female,Health and beauty,3715.00,7,1300.25,27305.25,2/8/2019,1:12:00 PM,Credit card,26005.00,4.761904762,1300.25,7.7
+211-30-9270,Trans-Amadi,Port Harcourt,Normal,Male,Health and beauty,1741.00,5,435.25,9140.25,1/28/2019,3:16:00 PM,Credit card,8705.00,4.761904762,435.25,4.9
+183-56-6882,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,9942.00,4,1988.40,41756.40,2/6/2019,10:42:00 AM,Ewallet,39768.00,4.761904762,1988.40,7.5
+529-56-3974,Wuse,Abuja,Member,Female,Electronic accessories,2551.00,4,510.20,10714.20,3/9/2019,5:03:00 PM,Cash,10204.00,4.761904762,510.20,6.8
+301-11-9629,Ikeja,Lagos,Normal,Female,Sports and travel,1910.00,7,668.50,14038.50,1/15/2019,10:43:00 AM,Cash,13370.00,4.761904762,668.50,9.7
+302-15-2162,Trans-Amadi,Port Harcourt,Member,Male,Health and beauty,4653.00,6,1395.90,29313.90,3/3/2019,10:54:00 AM,Credit card,27918.00,4.761904762,1395.90,4.3
+413-20-6708,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,5147.00,1,257.35,5404.35,3/18/2019,3:52:00 PM,Ewallet,5147.00,4.761904762,257.35,8.5
+590-83-4591,Wuse,Abuja,Member,Female,Electronic accessories,8745.00,6,2623.50,55093.50,17-02-2019,2:40:00 PM,Credit card,52470.00,4.761904762,2623.50,8.8
+593-95-4461,Trans-Amadi,Port Harcourt,Member,Male,HOME AND LIFESTYLE   ,7486.00,1,374.30,7860.30,3/24/2019,2:49:00 PM,Cash,7486.00,4.761904762,374.30,6.9
+875-31-8302,Wuse,Abuja,Normal,Male,Sports and travel,9338.00,-1,466.90,9804.90,1/3/2019,1:07:00 PM,Cash,9338.00,4.761904762,466.90,9.6
+595-11-5460,Ikeja,Lagos,Member,Female,Health and beauty,9658.00,2,965.80,20281.80,3/15/2019,10:12:00 AM,Credit card,19316.00,4.761904762,965.80,5.1
+137-63-5492,Trans-Amadi,Port Harcourt,Normal,Male,Electronic accessories,5876.00,10,2938.00,61698.00,1/29/2019,2:26:00 PM,Ewallet,58760.00,4.761904762,2938.00,9.0
+801-88-0346,Trans-Amadi,Port Harcourt,Normal,Female,Fashion accessories,7606.00,3,1140.90,23958.90,1/5/2019,8:30:00 PM,Credit card,22818.00,4.761904762,1140.90,9.8
+745-71-3520,Ikeja,Lagos,Member,Female,Electronic accessories,2522.00,7,882.70,18536.70,2/4/2019,10:23:00 AM,Cash,17654.00,4.761904762,882.70,8.2
+325-90-8763,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,4657.00,10,2328.50,48898.50,1/27/2019,1:58:00 PM,Cash,46570.00,4.761904762,2328.50,7.6
+448-61-3783,Ikeja,Lagos,Normal,Female,Electronic accessories,9002.00,8,3600.80,75616.80,3/21/2019,4:08:00 PM,Credit card,72016.00,4.761904762,3600.80,4.5
+450-42-3339,Trans-Amadi,Port Harcourt,Normal,Male,HEALTH AND BEAUTY   ,8461.00,10,4230.50,88840.50,2/9/2019,6:58:00 PM,Credit card,84610.00,4.761904762,4230.50,8.8
+394-30-3170,Wuse,Abuja,Member,Female,Sports and travel,8843.00,8,3537.20,74281.20,3/22/2019,7:35:00 PM,Credit card,70744.00,4.761904762,3537.20,4.3
+379-17-6588,Trans-Amadi,Port Harcourt,Normal,Male,Fashion accessories,5961.00,10,2980.50,62590.50,3/14/2019,11:07:00 AM,Cash,59610.00,4.761904762,2980.50,5.3
+828-61-5674,Ikeja,Lagos,Member,Male,Sports and travel,4402.00,10,2201.00,46221.00,3/20/2019,7:57:00 PM,Credit card,44020.00,4.761904762,2201.00,9.6
+359-94-5395,Wuse,Abuja,Normal,Male,Health and beauty,9278.00,1,463.90,9741.90,3/15/2019,10:50:00 AM,Credit card,9278.00,4.761904762,463.90,9.8
+744-02-5987,Ikeja,Lagos,Member,Male,Home and lifestyle,7838.00,6,2351.40,49379.40,1/10/2019,2:16:00 PM,Ewallet,47028.00,4.761904762,2351.40,5.8
+542-41-0513,Wuse,Abuja,Member,Female,Electronic accessories,5749.00,4,1149.80,24145.80,3/15/2019,11:57:00 AM,Cash,22996.00,4.761904762,1149.80,6.6
+160-22-2687,Ikeja,Lagos,Member,Female,Health and beauty,9595.00,5,2398.75,50373.75,1/23/2019,2:21:00 PM,Ewallet,47975.00,4.761904762,2398.75,8.8
+433-75-6987,Wuse,Abuja,Member,Female,Health and beauty,5597.00,7,1958.95,41137.95,3/5/2019,7:06:00 PM,Ewallet,39179.00,4.761904762,1958.95,8.9
+257-73-1380,Trans-Amadi,Port Harcourt,Member,Male,Sports and travel,8293.00,4,1658.60,34830.60,1/20/2019,4:51:00 PM,Ewallet,33172.00,4.761904762,1658.60,9.6
+123-19-1176,Ikeja,Lagos,Member,Female,Health and beauty,5822.00,8,2328.80,48904.80,1/27/2019,8:33:00 PM,Ewallet,46576.00,4.761904762,2328.80,8.4
+834-25-9262,Trans-Amadi,Port Harcourt,Normal,Female,Fashion accessories,8168.00,4,1633.60,34305.60,1/6/2019,12:12:00 PM,Cash,32672.00,4.761904762,1633.60,9.1
+373-88-1424,Trans-Amadi,Port Harcourt,Member,Male,Home and lifestyle,3581.00,5,895.25,18800.25,2/6/2019,6:44:00 PM,Ewallet,17905.00,4.761904762,895.25,7.9
+320-85-2052,Wuse,Abuja,Normal,Female,Sports and travel,3481.00,1,174.05,3655.05,1/14/2019,10:11:00 AM,Credit card,3481.00,4.761904762,174.05,7.0
+187-83-5490,Ikeja,Lagos,Member,Male,Electronic accessories,2077.00,4,415.40,8723.40,1/31/2019,1:47:00 PM,Cash,8308.00,4.761904762,415.40,4.7
+538-22-0304,Trans-Amadi,Port Harcourt,Normal,Male,Electronic accessories,6495.00,10,3247.50,68197.50,3/24/2019,6:27:00 PM,Cash,64950.00,4.761904762,3247.50,5.2
+234-65-2137,Trans-Amadi,Port Harcourt,Normal,Male,Home and lifestyle,9558.00,10,4779.00,100359.00,1/16/2019,1:32:00 PM,Cash,95580.00,4.761904762,4779.00,4.8
+459-50-7686,Ikeja,Lagos,Normal,Female,Electronic accessories,2346.00,6,703.80,14779.80,1/13/2019,7:14:00 PM,Ewallet,14076.00,4.761904762,703.80,6.4
+523-38-0215,Trans-Amadi,Port Harcourt,Normal,Male,HOME AND LIFESTYLE   ,3700.00,1,185.00,3885.00,3/6/2019,1:29:00 PM,Credit card,3700.00,4.761904762,185.00,7.9
+263-87-5680,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,2853.00,10,1426.50,29956.50,18-03-2019,5:38:00 PM,Ewallet,28530.00,4.761904762,1426.50,7.8
+702-72-0487,Ikeja,Lagos,Normal,Female,ELECTRONIC ACCESSORIES   ,4661.00,2,466.10,9788.10,2/26/2019,12:28:00 PM,Credit card,9322.00,4.761904762,466.10,6.6
+514-37-2845,Wuse,Abuja,Normal,Male,Fashion accessories,9925.00,2,992.50,20842.50,3/20/2019,1:02:00 PM,Cash,19850.00,4.761904762,992.50,9.0
+346-12-3257,Wuse,Abuja,Member,Male,Electronic accessories,1924.00,9,865.80,18181.80,3/4/2019,4:28:00 PM,Cash,17316.00,4.761904762,865.80,8.0
+810-60-6344,Trans-Amadi,Port Harcourt,Normal,Female,Electronic accessories,4086.00,8,1634.40,34322.40,2/7/2019,2:38:00 PM,Credit card,32688.00,4.761904762,1634.40,6.5
+325-89-4209,Ikeja,Lagos,Member,Male,Food and beverages,8790.00,1,439.50,9229.50,2/5/2019,7:42:00 PM,Ewallet,8790.00,4.761904762,439.50,6.7
+610-46-4100,Ikeja,Lagos,Normal,Male,Health and beauty,2895.00,7,1013.25,21278.25,3/3/2019,8:31:00 PM,Credit card,20265.00,4.761904762,1013.25,6.0
+285-68-5083,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,2474.00,3,371.10,7793.10,2/15/2019,5:47:00 PM,Credit card,7422.00,4.761904762,371.10,10.0
+667-92-0055,Ikeja,Lagos,Member,Male,Health and beauty,9983.00,6,2994.90,62892.90,3/4/2019,3:02:00 PM,Ewallet,59898.00,4.761904762,2994.90,8.5
+268-20-3585,Trans-Amadi,Port Harcourt,Normal,Female,Health and beauty,1385.00,9,623.25,13088.25,2/4/2019,12:50:00 PM,Ewallet,12465.00,4.761904762,623.25,6.0
+848-42-2560,Ikeja,Lagos,Normal,Female,Fashion accessories,8191.00,2,819.10,17201.10,3/5/2019,5:43:00 PM,Cash,16382.00,4.761904762,819.10,7.8
+613-59-9758,Trans-Amadi,Port Harcourt,Normal,Female,Sports and travel,1436.00,10,718.00,15078.00,27-01-2019,2:28:00 PM,Cash,14360.00,4.761904762,718.00,5.4
+516-77-6464,Trans-Amadi,Port Harcourt,Member,Female,Health and beauty,1016.00,5,254.00,5334.00,2/24/2019,1:08:00 PM,Ewallet,5080.00,4.761904762,254.00,
+502-05-1910,Ikeja,Lagos,Normal,Male,Health and beauty,6518.00,3,977.70,20531.70,2/25/2019,8:35:00 PM,Credit card,19554.00,4.761904762,977.70,6.3
+719-76-3868,Trans-Amadi,Port Harcourt,Member,Male,Food and beverages,9426.00,4,1885.20,39589.20,3/12/2019,4:30:00 PM,Cash,37704.00,4.761904762,1885.20,8.6
+389-70-2397,Trans-Amadi,Port Harcourt,Normal,Female,Health and beauty,8366.00,5,2091.50,43921.50,2/21/2019,10:26:00 AM,Cash,41830.00,4.761904762,2091.50,7.2
+636-48-8204,Ikeja,Lagos,Member,Female,Electronic accessories,3456.00,5,864.00,18144.00,2/17/2019,11:15:00 AM,Ewallet,17280.00,4.761904762,864.00,9.9
+201-86-2184,Wuse,Abuja,Member,Female,Electronic accessories,2626.00,7,919.10,19301.10,2/2/2019,7:40:00 PM,Cash,18382.00,4.761904762,919.10,9.9
+695-28-6250,Ikeja,Lagos,Normal,Female,Sports and travel,4306.00,5,1076.50,22606.50,2/4/2019,4:38:00 PM,Ewallet,21530.00,4.761904762,1076.50,7.7
+866-05-7563,Wuse,Abuja,Member,Female,Electronic accessories,8140.00,3,1221.00,25641.00,2/9/2019,7:43:00 PM,Cash,24420.00,4.761904762,1221.00,4.8
+372-94-8041,Ikeja,Lagos,Normal,Male,HEALTH AND BEAUTY   ,1526.00,6,457.80,9613.80,2/15/2019,6:03:00 PM,Ewallet,9156.00,4.761904762,457.80,9.8
+559-61-5987,Wuse,Abuja,Normal,Female,Health and beauty,1775.00,1,88.75,1863.75,1/14/2019,10:38:00 AM,Cash,1775.00,4.761904762,88.75,8.6
+641-43-2399,Wuse,Abuja,Normal,Male,Home and lifestyle,2555.00,4,511.00,10731.00,1/26/2019,8:23:00 PM,Ewallet,10220.00,4.761904762,511.00,5.7
+541-08-3113,Trans-Amadi,Port Harcourt,Normal,Male,Food and beverages,6597.00,8,2638.80,55414.80,2/2/2019,8:29:00 PM,Cash,52776.00,4.761904762,2638.80,8.4
+510-95-6347,Wuse,Abuja,Member,Female,Food and beverages,4852.00,3,727.80,15283.80,3/5/2019,6:17:00 PM,Ewallet,14556.00,4.761904762,727.80,4.0
+189-52-0236,Ikeja,Lagos,Normal,Male,ELECTRONIC ACCESSORIES   ,9955.00,7,3484.25,73169.25,3/14/2019,12:07:00 PM,Cash,69685.00,4.761904762,3484.25,7.6
+676-10-2200,Wuse,Abuja,Member,Male,Fashion accessories,5378.00,1,268.90,5646.90,2/3/2019,8:13:00 PM,Ewallet,5378.00,4.761904762,268.90,4.7
+634-97-8956,Ikeja,Lagos,Normal,Male,Food and beverages,3290.00,3,493.50,10363.50,2/17/2019,5:27:00 PM,Credit card,9870.00,4.761904762,493.50,9.1
+815-04-6282,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,6497.00,5,1624.25,34109.25,2/8/2019,12:52:00 PM,Credit card,32485.00,4.761904762,1624.25,6.5
+895-03-6665,Wuse,Abuja,Normal,Female,Fashion accessories,3651.00,9,1642.95,34501.95,2/16/2019,10:52:00 AM,Cash,32859.00,4.761904762,1642.95,4.2
+200-40-6154,Wuse,Abuja,Member,Male,Home and lifestyle,6591.00,-6,1977.30,41523.30,2/9/2019,11:45:00 AM,Cash,39546.00,4.761904762,1977.30,5.7
+862-29-5914,Trans-Amadi,Port Harcourt,Normal,Female,Sports and travel,2238.00,1,111.90,2349.90,1/30/2019,5:08:00 PM,Credit card,2238.00,4.761904762,111.90,8.6
+139-32-4183,Ikeja,Lagos,Member,Female,Sports and travel,9748.00,9,4386.60,92118.60,3/14/2019,2:19:00 PM,Ewallet,87732.00,4.761904762,4386.60,7.4
+361-59-0574,Wuse,Abuja,Member,Male,Sports and travel,9053.00,8,3621.20,76045.20,3/15/2019,2:48:00 PM,Credit card,72424.00,4.761904762,3621.20,6.5
+690-01-6631,Wuse,Abuja,Normal,Male,Fashion accessories,1749.00,10,874.50,18364.50,2/22/2019,6:35:00 PM,Ewallet,17490.00,4.761904762,874.50,6.6
+437-53-3084,Wuse,Abuja,Normal,Male,Fashion accessories,9989.00,2,998.90,20976.90,2/26/2019,11:48:00 AM,Ewallet,19978.00,4.761904762,998.90,7.1
+145-94-9061,Wuse,Abuja,Member,Female,Food and beverages,8836.00,5,2209.00,46389.00,1/25/2019,7:48:00 PM,Cash,44180.00,4.761904762,2209.00,9.6
+277-63-2961,Wuse,Abuja,Member,Male,Sports and travel,7397.00,1,369.85,7766.85,2/3/2019,3:53:00 PM,Credit card,7397.00,4.761904762,369.85,5.4
+845-94-6841,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,7288.00,9,3279.60,68871.60,1/8/2019,7:38:00 PM,Cash,65592.00,4.761904762,3279.60,4.0
+628-34-3388,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,2738.00,6,821.40,17249.40,1/5/2019,8:54:00 PM,Credit card,16428.00,4.761904762,821.40,7.9
+832-51-6761,Ikeja,Lagos,Normal,Male,Food and beverages,3388.00,8,1355.20,28459.20,1/19/2019,8:29:00 PM,Ewallet,27104.00,4.761904762,1355.20,9.6
+571-94-0759,Wuse,Abuja,Member,Female,Food and beverages,7460.00,10,3730.00,78330.00,1/8/2019,8:55:00 PM,Cash,74600.00,4.761904762,3730.00,9.5
+136-08-6195,Ikeja,Lagos,Normal,Female,Home and lifestyle,6996.00,8,2798.40,58766.40,2/15/2019,5:01:00 PM,Credit card,55968.00,4.761904762,2798.40,6.4
+730-50-9884,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,8306.00,7,2907.10,61049.10,05-03-2019,2:31:00 PM,Ewallet,58142.00,4.761904762,2907.10,4.0
+356-44-8813,Wuse,Abuja,Normal,Male,Home and lifestyle,3748.00,3,562.20,11806.20,1/20/2019,1:45:00 PM,Credit card,11244.00,4.761904762,562.20,7.7
+137-74-8729,Trans-Amadi,Port Harcourt,Normal,Female,Fashion accessories,1219.00,8,487.60,10239.60,3/13/2019,12:47:00 PM,Ewallet,9752.00,4.761904762,487.60,6.8
+732-67-5346,Ikeja,Lagos,Normal,Male,Food and beverages,1379.00,5,344.75,7239.75,1/11/2019,7:07:00 PM,Credit card,6895.00,4.761904762,344.75,7.8
+563-36-9814,Ikeja,Lagos,Member,Male,Electronic accessories,7682.00,1,384.10,8066.10,2/13/2019,6:27:00 PM,Ewallet,7682.00,4.761904762,384.10,7.2
+365-64-0515,Ikeja,Lagos,Member,Female,Electronic accessories,4695.00,5,1173.75,24648.75,2/12/2019,10:25:00 AM,Ewallet,23475.00,4.761904762,1173.75,7.1
+442-44-6497,Trans-Amadi,Port Harcourt,Member,Male,Home and lifestyle,5557.00,3,833.55,17504.55,1/8/2019,11:42:00 AM,Credit card,16671.00,4.761904762,833.55,5.9
+789-23-8625,Wuse,Abuja,Member,Male,FASHION ACCESSORIES   ,9322.00,3,1398.30,29364.30,1/24/2019,11:45:00 AM,Cash,27966.00,4.761904762,1398.30,7.2
+566-19-5475,Wuse,Abuja,Normal,Male,Fashion accessories,4797.00,7,1678.95,35257.95,1/7/2019,8:52:00 PM,Cash,33579.00,4.761904762,1678.95,6.2
+410-67-1709,Ikeja,Lagos,Member,Female,Fashion accessories,6388.00,8,2555.20,53659.20,1/20/2019,5:48:00 PM,Ewallet,51104.00,4.761904762,2555.20,9.9
+531-56-4728,Ikeja,Lagos,Normal,Male,Home and lifestyle,8008.00,3,1201.20,25225.20,2/11/2019,3:29:00 PM,Cash,24024.00,4.761904762,1201.20,5.4
+525-09-8450,Wuse,Abuja,Normal,Male,Electronic accessories,7213.00,10,3606.50,75736.50,1/31/2019,3:12:00 PM,Credit card,72130.00,4.761904762,3606.50,4.2
+277-35-5865,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,9897.00,9,4453.65,93526.65,3/9/2019,11:23:00 AM,Cash,89073.00,4.761904762,4453.65,6.7
+659-36-1684,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,5712.00,7,1999.20,41983.20,1/12/2019,12:02:00 PM,Credit card,39984.00,4.761904762,1999.20,6.5
+181-82-6255,Wuse,Abuja,Normal,Female,Home and lifestyle,1637.00,6,491.10,10313.10,2/8/2019,10:58:00 AM,Cash,9822.00,4.761904762,491.10,7.0
+149-61-1929,Ikeja,Lagos,Normal,Male,Sports and travel,6419.00,10,3209.50,67399.50,1/19/2019,2:08:00 PM,Credit card,64190.00,4.761904762,3209.50,6.7
+552-44-5977,Wuse,Abuja,Member,Male,Health and beauty,6200.00,8,2480.00,52080.00,1/3/2019,7:08:00 PM,Credit card,49600.00,4.761904762,2480.00,6.2
+453-63-6187,Wuse,Abuja,Normal,Male,Electronic accessories,2750.00,3,412.50,8662.50,3/1/2019,3:40:00 PM,Ewallet,8250.00,4.761904762,412.50,6.5
+220-68-6701,Ikeja,Lagos,Normal,Female,Home and lifestyle,7747.00,4,1549.40,32537.40,3/17/2019,4:36:00 PM,Cash,30988.00,4.761904762,1549.40,4.2
+719-89-8991,Ikeja,Lagos,Member,Female,Sports and travel,9141.00,5,2285.25,47990.25,25-02-2019,4:03:00 PM,Ewallet,45705.00,4.761904762,2285.25,7.1
+778-34-2523,Ikeja,Lagos,Member,Female,Electronic accessories,4862.00,8,1944.80,40840.80,1/24/2019,10:57:00 AM,Cash,38896.00,4.761904762,1944.80,5.0
+845-51-0542,Wuse,Abuja,Member,Male,Food and beverages,4655.00,9,2094.75,43989.75,2/2/2019,3:34:00 PM,Ewallet,41895.00,4.761904762,2094.75,6.4
+370-96-0655,Trans-Amadi,Port Harcourt,Normal,Female,Fashion accessories,4932.00,6,1479.60,31071.60,1/9/2019,1:46:00 PM,Ewallet,29592.00,4.761904762,1479.60,7.1
+698-98-5964,Ikeja,Lagos,Normal,Female,Food and beverages,8121.00,10,4060.50,85270.50,1/17/2019,1:01:00 PM,Credit card,81210.00,4.761904762,4060.50,6.3
+311-13-6971,Wuse,Abuja,Member,Male,SPORTS AND TRAVEL   ,3199.00,10,1599.50,33589.50,2/20/2019,3:18:00 PM,Credit card,31990.00,4.761904762,1599.50,9.9
+632-90-0281,Trans-Amadi,Port Harcourt,Normal,Female,Fashion accessories,3755.00,10,1877.50,39427.50,3/8/2019,8:01:00 PM,Credit card,37550.00,4.761904762,1877.50,9.3
+286-62-6248,Wuse,Abuja,Normal,Male,Fashion accessories,3921.00,4,784.20,16468.20,1/16/2019,8:03:00 PM,Credit card,15684.00,4.761904762,784.20,9.0
+118-62-1812,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,7838.00,4,1567.60,32919.60,3/24/2019,5:56:00 PM,Cash,31352.00,4.761904762,1567.60,7.9
+430-53-4718,Wuse,Abuja,Member,Male,Health and beauty,7537.00,8,3014.80,63310.80,1/28/2019,3:46:00 PM,Credit card,60296.00,4.761904762,3014.80,8.4
+651-96-5970,Ikeja,Lagos,Normal,Male,Fashion accessories,4641.00,1,232.05,4873.05,3/3/2019,8:06:00 PM,Credit card,4641.00,4.761904762,232.05,4.0
+816-72-8853,Ikeja,Lagos,Member,Female,Sports and travel,2793.00,5,698.25,14663.25,1/29/2019,3:48:00 PM,Cash,13965.00,4.761904762,698.25,5.9
+234-36-2483,Wuse,Abuja,Normal,Male,Health and beauty,5759.00,6,1727.70,36281.70,2/15/2019,1:51:00 PM,Cash,34554.00,4.761904762,1727.70,5.1
+333-23-2632,Ikeja,Lagos,Member,Male,Health and beauty,1008.00,7,352.80,7408.80,3/28/2019,8:14:00 PM,Cash,7056.00,4.761904762,352.80,4.2
+484-22-8230,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,5189.00,7,1816.15,38139.15,1/8/2019,8:08:00 PM,Cash,36323.00,4.761904762,1816.15,4.5
+605-72-4132,Trans-Amadi,Port Harcourt,Normal,Female,Food and beverages,9447.00,8,3778.80,79354.80,2/27/2019,3:12:00 PM,Cash,75576.00,4.761904762,3778.80,9.1
+232-16-2483,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,6812.00,1,340.60,7152.60,1/7/2019,12:28:00 PM,Ewallet,6812.00,4.761904762,340.60,6.8
+699-01-4164,Trans-Amadi,Port Harcourt,Normal,Male,Health and beauty,4150.00,4,830.00,17430.00,3/12/2019,7:58:00 PM,Credit card,16600.00,4.761904762,830.00,8.2
+744-09-5786,Wuse,Abuja,Normal,Male,Electronic accessories,2201.00,6,660.30,13866.30,1/2/2019,6:50:00 PM,Cash,13206.00,4.761904762,660.30,7.6
+802-70-5316,Ikeja,Lagos,Member,Female,Sports and travel,9213.00,6,2763.90,58041.90,3/6/2019,8:34:00 PM,Cash,55278.00,4.761904762,2763.90,8.3
+305-03-2383,Ikeja,Lagos,Normal,Female,Food and beverages,6710.00,3,1006.50,21136.50,2/15/2019,10:36:00 AM,Cash,20130.00,4.761904762,1006.50,7.5
+428-83-5800,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,2108.00,3,316.20,6640.20,2/9/2019,10:25:00 AM,Cash,6324.00,4.761904762,316.20,7.3
+400-45-1220,Wuse,Abuja,Normal,Female,Health and beauty,1350.00,10,675.00,14175.00,2/27/2019,11:06:00 AM,Credit card,13500.00,4.761904762,675.00,4.8
+860-73-6466,Ikeja,Lagos,Member,Female,Sports and travel,3947.00,2,394.70,8288.70,3/2/2019,4:16:00 PM,Credit card,7894.00,4.761904762,394.70,5.0
+120-06-4233,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,3061.00,6,918.30,19284.30,3/12/2019,8:36:00 PM,Cash,18366.00,4.761904762,918.30,9.3
+556-86-3144,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,7429.00,1,371.45,7800.45,13-01-2019,7:30:00 PM,Cash,7429.00,4.761904762,371.45,5.0
+198-84-7132,Wuse,Abuja,Member,Male,Fashion accessories,4061.00,9,1827.45,38376.45,1/2/2019,1:40:00 PM,Cash,36549.00,4.761904762,1827.45,7.0
+390-80-5128,Wuse,Abuja,Member,Female,Health and beauty,1915.00,1,95.75,2010.75,1/28/2019,5:58:00 PM,Credit card,1915.00,4.761904762,95.75,9.5
+602-80-9671,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,1595.00,6,478.50,10048.50,2/9/2019,5:15:00 PM,Credit card,9570.00,4.761904762,478.50,5.1
+189-55-2313,Trans-Amadi,Port Harcourt,Normal,Female,Fashion accessories,6218.00,10,3109.00,65289.00,1/31/2019,10:33:00 AM,Ewallet,62180.00,4.761904762,3109.00,6.0
+548-48-3156,Ikeja,Lagos,Member,Female,Food and beverages,8334.00,2,833.40,17501.40,3/19/2019,1:37:00 PM,Cash,16668.00,4.761904762,833.40,
+727-17-0390,Ikeja,Lagos,Normal,Female,FOOD AND BEVERAGES   ,6361.00,5,1590.25,33395.25,3/16/2019,12:43:00 PM,Ewallet,31805.00,4.761904762,1590.25,4.8
+142-63-6033,Wuse,Abuja,Normal,Male,HOME AND LIFESTYLE   ,9236.00,5,2309.00,48489.00,3/20/2019,7:17:00 PM,Ewallet,46180.00,4.761904762,2309.00,4.9
+175-54-2529,Ikeja,Lagos,Member,Male,Food and beverages,2217.00,8,886.80,18622.80,3/3/2019,5:01:00 PM,Credit card,17736.00,4.761904762,886.80,9.6
+710-46-4433,Wuse,Abuja,Member,Female,Food and beverages,7740.00,9,3483.00,73143.00,2/15/2019,2:15:00 PM,Credit card,69660.00,4.761904762,3483.00,4.5
+636-17-0325,Wuse,Abuja,Normal,Male,Health and beauty,6257.00,4,1251.40,26279.40,2/25/2019,6:37:00 PM,Cash,25028.00,4.761904762,1251.40,9.5
+871-39-9221,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,1245.00,6,373.50,7843.50,2/9/2019,1:11:00 PM,Cash,7470.00,4.761904762,373.50,4.1
+460-35-4390,Ikeja,Lagos,Normal,Male,Home and lifestyle,3068.00,3,460.20,9664.20,1/22/2019,11:00:00 AM,Ewallet,9204.00,4.761904762,460.20,9.1
+133-77-3154,Wuse,Abuja,Member,Male,Fashion accessories,6018.00,4,1203.60,25275.60,2/16/2019,6:04:00 PM,Credit card,24072.00,4.761904762,1203.60,9.4
+620-02-2046,Trans-Amadi,Port Harcourt,Normal,Male,HOME AND LIFESTYLE   ,6940.00,2,694.00,14574.00,1/27/2019,7:48:00 PM,Ewallet,13880.00,4.761904762,694.00,9.0
+236-27-1144,Trans-Amadi,Port Harcourt,Normal,Female,Food and beverages,1631.00,9,733.95,15412.95,3/26/2019,10:31:00 AM,Ewallet,14679.00,4.761904762,733.95,8.4
+857-67-9057,Wuse,Abuja,Normal,Male,Electronic accessories,2295.00,10,1147.50,24097.50,2/6/2019,7:20:00 PM,Ewallet,22950.00,4.761904762,1147.50,8.2
+423-57-2993,Wuse,Abuja,Normal,Male,Sports and travel,9339.00,6,2801.70,58835.70,3/27/2019,7:18:00 PM,Ewallet,56034.00,4.761904762,2801.70,10.0
+898-04-2717,Ikeja,Lagos,Normal,Male,Fashion accessories,7640.00,9,3438.00,72198.00,3/19/2019,3:49:00 PM,Ewallet,68760.00,4.761904762,3438.00,7.5
+744-16-7898,Wuse,Abuja,Normal,Female,Home and lifestyle,9737.00,10,4868.50,102238.50,1/15/2019,1:48:00 PM,Credit card,97370.00,4.761904762,4868.50,4.9
+376-02-8238,Wuse,Abuja,Normal,Male,Home and lifestyle,9387.00,8,3754.80,78850.80,2/2/2019,6:42:00 PM,Credit card,75096.00,4.761904762,3754.80,8.3
+308-39-1707,Ikeja,Lagos,Normal,Female,Fashion accessories,1209.00,1,60.45,1269.45,26-01-2019,6:19:00 PM,Credit card,1209.00,4.761904762,60.45,8.2
+767-05-1286,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,8377.00,6,2513.10,52775.10,1/23/2019,12:10:00 PM,Ewallet,50262.00,4.761904762,2513.10,5.4
+501-61-1753,Wuse,Abuja,Normal,Female,Home and lifestyle,6315.00,6,1894.50,39784.50,1/3/2019,8:24:00 PM,Ewallet,37890.00,4.761904762,1894.50,9.8
+241-11-2261,Wuse,Abuja,Normal,Female,Fashion accessories,7986.00,7,2795.10,58697.10,1/10/2019,10:33:00 AM,Credit card,55902.00,4.761904762,2795.10,5.5
+340-66-0321,Ikeja,Lagos,Member,Male,Electronic accessories,3636.00,4,727.20,15271.20,3/25/2019,1:07:00 PM,Cash,14544.00,4.761904762,727.20,7.6
+152-68-2907,Ikeja,Lagos,Normal,Male,Food and beverages,5220.00,3,783.00,16443.00,2/15/2019,1:30:00 PM,Credit card,15660.00,4.761904762,783.00,9.5
+716-39-1409,Wuse,Abuja,Member,Female,Health and beauty,3035.00,7,1062.25,22307.25,3/19/2019,6:19:00 PM,Cash,21245.00,4.761904762,1062.25,8.0
+289-65-5721,Wuse,Abuja,Normal,Female,Fashion accessories,8137.00,2,813.70,17087.70,1/26/2019,7:28:00 PM,Cash,16274.00,4.761904762,813.70,6.5
+430-02-3888,Wuse,Abuja,Normal,Male,Electronic accessories,4602.00,6,1380.60,28992.60,2/7/2019,3:55:00 PM,Cash,27612.00,4.761904762,1380.60,7.1
+870-54-3162,Ikeja,Lagos,Member,Female,Sports and travel,3225.00,5,806.25,16931.25,1/27/2019,1:26:00 PM,Cash,16125.00,4.761904762,806.25,9.0
+875-46-5808,Wuse,Abuja,Member,Male,Health and beauty,2590.00,10,1295.00,27195.00,2/6/2019,2:51:00 PM,Ewallet,25900.00,4.761904762,1295.00,8.7
+778-89-7974,Trans-Amadi,Port Harcourt,Normal,Male,Health and beauty,7021.00,6,2106.30,44232.30,3/30/2019,2:58:00 PM,Cash,42126.00,4.761904762,2106.30,7.4
+115-99-4379,Wuse,Abuja,Member,Female,Fashion accessories,5473.00,7,1915.55,40226.55,3/14/2019,7:02:00 PM,Credit card,38311.00,4.761904762,1915.55,8.5
+635-40-6220,Ikeja,Lagos,Member,Female,Health and beauty,8960.00,8,3584.00,75264.00,2/7/2019,11:28:00 AM,Ewallet,71680.00,4.761904762,3584.00,6.6
+647-50-1224,Ikeja,Lagos,Normal,Female,FASHION ACCESSORIES   ,2942.00,10,1471.00,30891.00,1/12/2019,4:23:00 PM,Ewallet,29420.00,4.761904762,1471.00,8.9
+764-44-8999,Wuse,Abuja,Normal,Female,Health and beauty,1476.00,2,147.60,3099.60,2/18/2019,2:42:00 PM,Ewallet,2952.00,4.761904762,147.60,4.3
+157-13-5295,Ikeja,Lagos,Member,Male,Health and beauty,5194.00,10,2597.00,54537.00,3/9/2019,6:24:00 PM,Ewallet,51940.00,4.761904762,2597.00,6.5
+320-49-6392,Trans-Amadi,Port Harcourt,Normal,Female,Electronic accessories,3024.00,1,151.20,3175.20,04-03-2019,3:44:00 PM,Cash,3024.00,4.761904762,151.20,8.4
+534-53-3526,Ikeja,Lagos,Normal,Female,Sports and travel,9476.00,4,1895.20,39799.20,2/11/2019,4:06:00 PM,Ewallet,37904.00,4.761904762,1895.20,7.8
+702-83-5291,Trans-Amadi,Port Harcourt,Member,Male,Fashion accessories,9982.00,9,4491.90,94329.90,27-03-2019,10:43:00 AM,Cash,89838.00,4.761904762,4491.90,6.6
+446-47-6729,Trans-Amadi,Port Harcourt,Normal,Male,Fashion accessories,9982.00,2,998.20,20962.20,1/2/2019,6:09:00 PM,Credit card,19964.00,4.761904762,998.20,6.7
+278-86-2735,Ikeja,Lagos,Normal,Female,Food and beverages,5234.00,3,785.10,16487.10,3/27/2019,2:03:00 PM,Cash,15702.00,4.761904762,785.10,9.2
+457-12-0244,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,3522.00,6,1056.60,22188.60,3/14/2019,1:49:00 PM,Ewallet,21132.00,4.761904762,1056.60,6.5
+779-06-0012,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,8861.00,1,443.05,9304.05,1/19/2019,10:21:00 AM,Cash,8861.00,4.761904762,443.05,7.7
+749-81-8133,Ikeja,Lagos,Normal,Female,Fashion accessories,9467.00,4,1893.40,39761.40,3/11/2019,12:04:00 PM,Cash,37868.00,4.761904762,1893.40,6.8
+670-79-6321,Wuse,Abuja,Member,Female,Home and lifestyle,9459.00,7,3310.65,69523.65,1/17/2019,3:27:00 PM,Credit card,66213.00,4.761904762,3310.65,4.9
+658-66-3967,Trans-Amadi,Port Harcourt,Normal,Male,Health and beauty,5319.00,7,1861.65,39094.65,1/14/2019,3:42:00 PM,Ewallet,37233.00,4.761904762,1861.65,5.0
+470-32-9057,Ikeja,Lagos,Member,Male,Food and beverages,5134.00,5,1283.50,26953.50,3/28/2019,3:31:00 PM,Credit card,25670.00,4.761904762,1283.50,9.1
+269-10-8440,Ikeja,Lagos,Member,Male,Health and beauty,5317.00,7,1860.95,39079.95,1/21/2019,6:01:00 PM,Cash,37219.00,4.761904762,1860.95,8.9
+241-72-9525,Wuse,Abuja,Normal,Female,Sports and travel,5191.00,10,2595.50,54505.50,2/16/2019,12:21:00 PM,Cash,51910.00,4.761904762,2595.50,8.2
+151-16-1484,Ikeja,Lagos,Member,Male,Electronic accessories,3225.00,4,645.00,13545.00,2/13/2019,12:38:00 PM,Ewallet,12900.00,4.761904762,645.00,6.5
+314-23-4520,Trans-Amadi,Port Harcourt,Member,Male,Health and beauty,8123.00,7,2843.05,59704.05,1/15/2019,8:44:00 PM,Cash,56861.00,4.761904762,2843.05,9.0
+746-04-1077,Wuse,Abuja,Member,Female,Food and beverages,8463.00,10,4231.50,88861.50,1/1/2019,11:36:00 AM,Credit card,84630.00,4.761904762,4231.50,9.0
+421-95-9805,Ikeja,Lagos,Normal,Female,Electronic accessories,2896.00,1,144.80,3040.80,2/7/2019,10:18:00 AM,Credit card,2896.00,4.761904762,144.80,6.2
+322-02-2271,Wuse,Abuja,Normal,Female,Sports and travel,4297.00,3,644.55,13535.55,2/3/2019,11:46:00 AM,Cash,12891.00,4.761904762,644.55,9.3
+250-81-7186,Trans-Amadi,Port Harcourt,Normal,Female,Electronic accessories,9969.00,1,498.45,10467.45,2/27/2019,10:23:00 AM,Credit card,9969.00,4.761904762,498.45,8.0
+192-98-7397,Trans-Amadi,Port Harcourt,Normal,Male,Fashion accessories,1278.00,1,63.90,1341.90,1/8/2019,2:11:00 PM,Ewallet,1278.00,4.761904762,63.90,9.5
+786-94-2700,Ikeja,Lagos,Member,Male,Food and beverages,8062.00,6,2418.60,50790.60,2/28/2019,8:18:00 PM,Cash,48372.00,4.761904762,2418.60,9.1
+443-59-0061,Ikeja,Lagos,Member,Male,Food and beverages,6745.00,10,3372.50,70822.50,2/3/2019,11:25:00 AM,Ewallet,67450.00,4.761904762,3372.50,4.2
+886-18-2897,Ikeja,Lagos,Normal,Female,Food and beverages,5656.00,5,1414.00,29694.00,3/22/2019,7:06:00 PM,Credit card,28280.00,4.761904762,1414.00,4.5
+751-15-6198,Wuse,Abuja,Normal,Male,Sports and travel,2301.00,6,690.30,14496.30,1/12/2019,4:45:00 PM,Ewallet,13806.00,4.761904762,690.30,7.9
+301-81-8610,Wuse,Abuja,Member,Male,Fashion accessories,2542.00,8,1016.80,21352.80,3/19/2019,7:42:00 PM,Credit card,20336.00,4.761904762,1016.80,6.7
+545-07-8534,Trans-Amadi,Port Harcourt,Normal,Female,Health and beauty,5832.00,2,583.20,12247.20,2/14/2019,12:42:00 PM,Ewallet,11664.00,4.761904762,583.20,6.0
+659-65-8956,Wuse,Abuja,Member,Female,Fashion accessories,5136.00,1,256.80,5392.80,1/16/2019,3:26:00 PM,Ewallet,5136.00,4.761904762,256.80,5.2
+662-72-2873,Ikeja,Lagos,Normal,Female,FOOD AND BEVERAGES   ,4094.00,5,1023.50,21493.50,1/6/2019,1:58:00 PM,Ewallet,20470.00,4.761904762,1023.50,9.9
+431-66-2305,Wuse,Abuja,Normal,Female,Electronic accessories,8825.00,9,3971.25,83396.25,2/15/2019,8:51:00 PM,Credit card,79425.00,4.761904762,3971.25,7.6
+137-63-5492,Trans-Amadi,Port Harcourt,Normal,Male,Electronic accessories,5876.00,10,2938.00,61698.00,29-01-2019,2:26:00 PM,Ewallet,58760.00,4.761904762,2938.00,9.0
+726-29-6793,Ikeja,Lagos,Member,Male,Electronic accessories,2418.00,8,967.20,20311.20,1/28/2019,8:54:00 PM,Ewallet,19344.00,4.761904762,967.20,9.8
+154-87-7367,Trans-Amadi,Port Harcourt,Normal,Male,Home and lifestyle,6526.00,8,2610.40,54818.40,3/15/2019,2:04:00 PM,Ewallet,52208.00,4.761904762,2610.40,6.3
+541-89-9860,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,8048.00,3,1207.20,25351.20,2/15/2019,12:31:00 PM,Cash,24144.00,4.761904762,1207.20,8.1
+124-31-1458,Ikeja,Lagos,Member,Female,Electronic accessories,7959.00,3,1193.85,25070.85,1/8/2019,2:30:00 PM,Cash,23877.00,4.761904762,1193.85,6.6
+627-95-3243,Wuse,Abuja,Member,Female,Home and lifestyle,7768.00,9,3495.60,73407.60,2/4/2019,1:21:00 PM,Ewallet,69912.00,4.761904762,3495.60,9.8
+505-02-0892,Wuse,Abuja,Member,Male,Health and beauty,4257.00,8,1702.80,35758.80,2/25/2019,2:12:00 PM,Ewallet,34056.00,4.761904762,1702.80,5.6
+280-35-5823,Wuse,Abuja,Member,Female,Home and lifestyle,8672.00,1,433.60,9105.60,1/17/2019,6:45:00 PM,Ewallet,8672.00,4.761904762,433.60,7.9
+211-05-0490,Trans-Amadi,Port Harcourt,Member,Female,ELECTRONIC ACCESSORIES   ,5192.00,5,1298.00,27258.00,3/3/2019,1:42:00 PM,Cash,25960.00,4.761904762,1298.00,7.5
+316-66-3011,Ikeja,Lagos,Member,Female,Food and beverages,4763.00,9,2143.35,45010.35,1/23/2019,12:35:00 PM,Cash,42867.00,4.761904762,2143.35,5.0
+399-69-4630,Trans-Amadi,Port Harcourt,Normal,Male,Electronic accessories,2221.00,6,666.30,13992.30,3/7/2019,10:23:00 AM,Credit card,13326.00,4.761904762,666.30,8.6
+859-71-0933,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,1549.00,2,154.90,3252.90,1/16/2019,3:10:00 PM,Cash,3098.00,4.761904762,154.90,6.3
+604-70-6476,Ikeja,Lagos,Member,Male,Fashion accessories,1794.00,5,448.50,9418.50,1/23/2019,2:04:00 PM,Ewallet,8970.00,4.761904762,448.50,6.8
+655-07-2265,Ikeja,Lagos,Normal,Male,Electronic accessories,7831.00,3,1174.65,24667.65,3/5/2019,4:38:00 PM,Ewallet,23493.00,4.761904762,1174.65,5.4
+700-81-1757,Ikeja,Lagos,Normal,Female,Electronic accessories,2631.00,5,657.75,13812.75,18-01-2019,8:59:00 PM,Credit card,13155.00,4.761904762,657.75,8.8
+420-11-4919,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,7139.00,5,1784.75,37479.75,2/17/2019,7:57:00 PM,Credit card,35695.00,4.761904762,1784.75,5.5
+848-24-9445,Trans-Amadi,Port Harcourt,Member,Male,Health and beauty,4370.00,2,437.00,9177.00,3/26/2019,6:03:00 PM,Cash,8740.00,4.761904762,437.00,4.9
+364-34-2972,Trans-Amadi,Port Harcourt,Member,Male,Electronic accessories,9682.00,3,1452.30,30498.30,3/30/2019,8:37:00 PM,Cash,29046.00,4.761904762,1452.30,6.7
+796-12-2025,Trans-Amadi,Port Harcourt,Member,Female,FASHION ACCESSORIES   ,6212.00,10,3106.00,65226.00,2/11/2019,4:19:00 PM,Cash,62120.00,4.761904762,3106.00,5.9
+101-17-6199,Ikeja,Lagos,Normal,Male,Food and beverages,4579.00,7,1602.65,33655.65,3/13/2019,7:44:00 PM,Credit card,32053.00,4.761904762,1602.65,7.0
+214-17-6927,Trans-Amadi,Port Harcourt,Normal,Female,Food and beverages,1648.00,6,494.40,10382.40,2/7/2019,6:23:00 PM,Ewallet,9888.00,4.761904762,494.40,9.9
+641-62-7288,Wuse,Abuja,Normal,Male,Home and lifestyle,9992.00,6,2997.60,62949.60,3/24/2019,1:33:00 PM,Ewallet,59952.00,4.761904762,2997.60,7.1
+291-55-6563,Ikeja,Lagos,Member,Female,Home and lifestyle,3442.00,6,1032.60,21684.60,3/30/2019,12:45:00 PM,Ewallet,20652.00,4.761904762,1032.60,7.5
+866-99-7614,Trans-Amadi,Port Harcourt,Normal,Male,Food and beverages,8920.00,10,4460.00,93660.00,2/11/2019,3:42:00 PM,Credit card,89200.00,4.761904762,4460.00,4.4
+210-57-1719,Wuse,Abuja,Normal,Female,Health and beauty,5824.00,9,2620.80,55036.80,05-02-2019,12:34:00 PM,Cash,52416.00,4.761904762,2620.80,9.7
+468-99-7231,Trans-Amadi,Port Harcourt,Normal,Female,Home and lifestyle,4401.00,8,1760.40,36968.40,3/3/2019,5:36:00 PM,Cash,35208.00,4.761904762,1760.40,8.8
+466-61-5506,Wuse,Abuja,Member,Female,Electronic accessories,9070.00,6,2721.00,57141.00,2/26/2019,10:52:00 AM,Cash,54420.00,4.761904762,2721.00,5.3
+607-65-2441,Trans-Amadi,Port Harcourt,Member,Male,HEALTH AND BEAUTY   ,8195.00,10,4097.50,86047.50,3/10/2019,12:39:00 PM,Credit card,81950.00,4.761904762,4097.50,6.0
+272-65-1806,Ikeja,Lagos,Member,Female,ELECTRONIC ACCESSORIES   ,6088.00,9,2739.60,57531.60,1/15/2019,5:17:00 PM,Ewallet,54792.00,4.761904762,2739.60,4.7
+120-54-2248,Wuse,Abuja,Normal,Female,Food and beverages,2886.00,5,721.50,15151.50,1/22/2019,6:08:00 PM,Credit card,14430.00,4.761904762,721.50,8.0
+196-01-2849,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,7338.00,7,2568.30,53934.30,2/10/2019,1:56:00 PM,Cash,51366.00,4.761904762,2568.30,9.5
+584-86-7256,Trans-Amadi,Port Harcourt,Member,Male,Sports and travel,3456.00,7,1209.60,25401.60,3/11/2019,4:07:00 PM,Credit card,24192.00,4.761904762,1209.60,7.3
+608-05-3804,Wuse,Abuja,Member,Male,Electronic accessories,3975.00,1,198.75,4173.75,2/25/2019,8:19:00 PM,Cash,3975.00,4.761904762,198.75,6.1
+360-39-5055,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,4891.00,5,1222.75,25677.75,3/9/2019,10:17:00 AM,Cash,24455.00,4.761904762,1222.75,6.6
+715-20-1673,Wuse,Abuja,Normal,Male,Electronic accessories,2838.00,5,709.50,14899.50,3/6/2019,8:57:00 PM,Cash,14190.00,4.761904762,709.50,9.4
+563-47-4072,Wuse,Abuja,Normal,Female,Health and beauty,5581.00,6,1674.30,35160.30,1/22/2019,11:52:00 AM,Cash,33486.00,4.761904762,1674.30,9.9
+182-88-2763,Wuse,Abuja,Member,Male,Food and beverages,7991.00,3,1198.65,25171.65,3/20/2019,7:28:00 PM,Credit card,23973.00,4.761904762,1198.65,5.0
+612-36-5536,Ikeja,Lagos,Member,Male,Food and beverages,8096.00,8,3238.40,68006.40,2/17/2019,11:12:00 AM,Credit card,64768.00,4.761904762,3238.40,7.4
+336-78-2147,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,6391.00,8,2556.40,53684.40,3/13/2019,7:52:00 PM,Credit card,51128.00,4.761904762,2556.40,4.6
+731-14-2199,Ikeja,Lagos,Member,Female,Home and lifestyle,3554.00,10,1777.00,37317.00,1/4/2019,1:34:00 PM,Ewallet,35540.00,4.761904762,1777.00,7.0
+870-76-1733,Ikeja,Lagos,Member,Female,Food and beverages,1423.00,5,355.75,7470.75,2/1/2019,10:08:00 AM,Credit card,7115.00,4.761904762,355.75,4.4
+122-61-9553,Trans-Amadi,Port Harcourt,Normal,Female,Electronic accessories,5132.00,9,2309.40,48497.40,3/14/2019,7:33:00 PM,Cash,46188.00,4.761904762,2309.40,5.6
+588-01-7461,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,3398.00,9,1529.10,32111.10,24-03-2019,10:43:00 AM,Cash,30582.00,4.761904762,1529.10,4.2
+856-66-2701,Ikeja,Lagos,Member,Male,Home and lifestyle,5330.00,3,799.50,16789.50,1/25/2019,2:19:00 PM,Ewallet,15990.00,4.761904762,799.50,7.5
+837-55-7229,Wuse,Abuja,Normal,Female,Fashion accessories,4744.00,1,237.20,4981.20,2/22/2019,6:19:00 PM,Credit card,4744.00,4.761904762,237.20,6.8
+558-60-5016,Ikeja,Lagos,Normal,Female,Home and lifestyle,3330.00,9,1498.50,31468.50,3/4/2019,3:27:00 PM,Ewallet,29970.00,4.761904762,1498.50,7.2
+242-11-3142,Wuse,Abuja,Member,Male,Fashion accessories,8377.00,2,837.70,17591.70,2/24/2019,7:57:00 PM,Cash,16754.00,4.761904762,837.70,4.6
+756-49-0168,Ikeja,Lagos,Member,Male,Fashion accessories,1970.00,1,98.50,2068.50,2/8/2019,11:39:00 AM,Ewallet,1970.00,4.761904762,98.50,9.5
+648-83-1321,Ikeja,Lagos,Member,Male,Home and lifestyle,6356.00,10,3178.00,66738.00,1/16/2019,5:59:00 PM,Cash,63560.00,4.761904762,3178.00,4.3
+266-76-6436,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,3860.00,3,579.00,12159.00,3/28/2019,1:57:00 PM,Ewallet,11580.00,4.761904762,579.00,7.5
+388-76-2555,Wuse,Abuja,Normal,Male,Sports and travel,1369.00,6,410.70,8624.70,2/13/2019,1:59:00 PM,Cash,8214.00,4.761904762,410.70,6.3
+607-76-6216,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,9249.00,5,2312.25,48557.25,3/2/2019,4:35:00 PM,Credit card,46245.00,4.761904762,2312.25,8.6
+130-67-4723,Ikeja,Lagos,Member,Male,Food and beverages,4850.00,6,1455.00,30555.00,1/11/2019,1:57:00 PM,Ewallet,29100.00,4.761904762,1455.00,9.4
+380-60-5336,Ikeja,Lagos,Normal,Female,ELECTRONIC ACCESSORIES   ,4026.00,10,2013.00,42273.00,2/24/2019,6:06:00 PM,Credit card,40260.00,4.761904762,2013.00,5.0
+303-96-2227,Wuse,Abuja,Normal,Female,Home and lifestyle,9738.00,10,4869.00,102249.00,3/2/2019,5:16:00 PM,Ewallet,97380.00,4.761904762,4869.00,4.4
+880-35-0356,Ikeja,Lagos,Member,Female,Sports and travel,7520.00,3,1128.00,23688.00,05-02-2019,11:51:00 AM,Ewallet,22560.00,4.761904762,1128.00,4.8
+585-90-0249,Ikeja,Lagos,Member,Male,ELECTRONIC ACCESSORIES   ,7326.00,1,366.30,7692.30,1/27/2019,6:08:00 PM,Ewallet,7326.00,4.761904762,366.30,9.7
+394-41-0748,Trans-Amadi,Port Harcourt,Member,Female,FASHION ACCESSORIES   ,5407.00,9,2433.15,51096.15,27-01-2019,2:55:00 PM,Ewallet,48663.00,4.761904762,2433.15,9.5
+150-89-8043,Ikeja,Lagos,Normal,Male,Sports and travel,4465.00,3,669.75,14064.75,2/14/2019,3:04:00 PM,Cash,13395.00,4.761904762,669.75,6.2
+407-63-8975,Ikeja,Lagos,Normal,Male,Food and beverages,7388.00,6,2216.40,46544.40,3/23/2019,7:16:00 PM,Ewallet,44328.00,4.761904762,2216.40,4.4
+816-57-2053,Ikeja,Lagos,Normal,Male,Sports and travel,6087.00,2,608.70,12782.70,3/9/2019,12:37:00 PM,Ewallet,12174.00,4.761904762,608.70,8.7
+334-64-2006,Ikeja,Lagos,Member,Female,Home and lifestyle,7032.00,2,703.20,14767.20,3/24/2019,2:22:00 PM,Ewallet,14064.00,4.761904762,703.20,9.6
+794-42-3736,Wuse,Abuja,Normal,Male,Food and beverages,3333.00,2,333.30,6999.30,1/26/2019,2:41:00 PM,Credit card,6666.00,4.761904762,333.30,6.4
+416-13-5917,Trans-Amadi,Port Harcourt,Normal,Female,FOOD AND BEVERAGES   ,9703.00,5,2425.75,50940.75,1/30/2019,4:24:00 PM,Ewallet,48515.00,4.761904762,2425.75,9.3
+759-29-9521,Ikeja,Lagos,Member,Female,Fashion accessories,4896.00,9,2203.20,46267.20,3/4/2019,11:27:00 AM,Cash,44064.00,4.761904762,2203.20,8.0
+575-30-8091,Ikeja,Lagos,Normal,Female,Sports and travel,7250.00,8,2900.00,60900.00,3/16/2019,7:25:00 PM,Ewallet,58000.00,4.761904762,2900.00,9.2
+737-88-5876,Ikeja,Lagos,Member,Male,Home and lifestyle,2329.00,4,465.80,9781.80,3/19/2019,11:52:00 AM,Credit card,9316.00,4.761904762,465.80,5.9
+176-78-1170,Trans-Amadi,Port Harcourt,Member,Male,Health and beauty,3381.00,3,507.15,10650.15,1/26/2019,3:11:00 PM,Ewallet,10143.00,4.761904762,507.15,7.3
+636-98-3364,Wuse,Abuja,Member,Female,ELECTRONIC ACCESSORIES   ,2626.00,3,393.90,8271.90,3/2/2019,12:36:00 PM,Ewallet,7878.00,4.761904762,393.90,6.3
+315-22-5665,Trans-Amadi,Port Harcourt,Member,Female,HOME AND LIFESTYLE   ,7356.00,10,3678.00,77238.00,2/24/2019,11:38:00 AM,Ewallet,73560.00,4.761904762,3678.00,8.0
+605-03-2706,Ikeja,Lagos,Normal,Female,Health and beauty,1580.00,3,237.00,4977.00,3/25/2019,6:02:00 PM,Cash,4740.00,4.761904762,237.00,9.5
+852-62-7105,Wuse,Abuja,Normal,Female,Fashion accessories,8325.00,10,4162.50,87412.50,1/12/2019,11:25:00 AM,Credit card,83250.00,4.761904762,4162.50,4.4
+271-77-8740,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,2922.00,6,876.60,18408.60,1/1/2019,11:40:00 AM,Ewallet,17532.00,4.761904762,876.60,5.0
+750-57-9686,Trans-Amadi,Port Harcourt,Normal,Female,Home and lifestyle,4538.00,4,907.60,19059.60,1/8/2019,1:48:00 PM,Credit card,18152.00,4.761904762,907.60,8.7
+438-01-4015,Wuse,Abuja,Member,Female,Sports and travel,4949.00,4,989.80,20785.80,3/21/2019,3:25:00 PM,Ewallet,19796.00,4.761904762,989.80,6.6
+556-72-8512,Trans-Amadi,Port Harcourt,Normal,Male,Home and lifestyle,2296.00,1,114.80,2410.80,1/30/2019,8:47:00 PM,Cash,2296.00,4.761904762,114.80,4.3
+679-22-6530,Wuse,Abuja,Normal,Female,SPORTS AND TRAVEL   ,4062.00,2,406.20,8530.20,17-01-2019,10:01:00 AM,Credit card,8124.00,4.761904762,406.20,4.1
+195-06-0432,Ikeja,Lagos,Member,Male,Home and lifestyle,8101.00,3,1215.15,25518.15,1/13/2019,12:55:00 PM,Credit card,24303.00,4.761904762,1215.15,9.3
+503-21-4385,Wuse,Abuja,Member,Male,Health and beauty,3991.00,3,598.65,12571.65,2/21/2019,12:40:00 PM,Ewallet,11973.00,4.761904762,598.65,9.3
+134-75-2619,Ikeja,Lagos,Member,Male,Electronic accessories,1932.00,-7,676.20,14200.20,3/25/2019,6:51:00 PM,Cash,13524.00,4.761904762,676.20,6.9
+218-59-9410,Ikeja,Lagos,Member,Female,Home and lifestyle,7242.00,3,1086.30,22812.30,3/29/2019,4:54:00 PM,Ewallet,21726.00,4.761904762,1086.30,8.2
+342-65-4817,Trans-Amadi,Port Harcourt,Member,Male,Health and beauty,8680.00,3,1302.00,27342.00,1/28/2019,4:47:00 PM,Ewallet,26040.00,4.761904762,1302.00,9.9
+288-62-1085,Ikeja,Lagos,Member,Male,Fashion accessories,3854.00,5,963.50,20233.50,1/9/2019,1:34:00 PM,Ewallet,19270.00,4.761904762,963.50,5.6
+354-25-5821,Wuse,Abuja,Member,Female,Sports and travel,6912.00,6,2073.60,43545.60,2/8/2019,1:03:00 PM,Cash,41472.00,4.761904762,2073.60,5.6
+283-79-9594,Wuse,Abuja,Normal,Female,Food and beverages,4851.00,7,1697.85,35654.85,1/25/2019,1:30:00 PM,Credit card,33957.00,4.761904762,1697.85,5.2
+233-67-5758,Trans-Amadi,Port Harcourt,Normal,Male,Health and beauty,4035.00,1,201.75,4236.75,1/29/2019,1:46:00 PM,Ewallet,4035.00,4.761904762,201.75,6.2
+787-15-1757,Trans-Amadi,Port Harcourt,Member,Male,Health and beauty,4407.00,4,881.40,18509.40,2/18/2019,4:28:00 PM,Ewallet,17628.00,4.761904762,881.40,8.4
+213-32-1216,Ikeja,Lagos,Normal,Female,Electronic accessories,6606.00,6,1981.80,41617.80,1/23/2019,10:28:00 AM,Cash,39636.00,4.761904762,1981.80,7.3
+443-60-9639,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,6087.00,1,304.35,6391.35,1/24/2019,1:24:00 PM,Cash,6087.00,4.761904762,304.35,5.5
+598-47-9715,Trans-Amadi,Port Harcourt,Normal,Male,Electronic accessories,8407.00,4,1681.40,35309.40,3/7/2019,4:54:00 PM,Ewallet,33628.00,4.761904762,1681.40,4.4
+483-71-1164,Trans-Amadi,Port Harcourt,Normal,Female,Health and beauty,8130.00,6,2439.00,51219.00,3/8/2019,4:43:00 PM,Ewallet,48780.00,4.761904762,2439.00,5.3
+616-24-2851,Wuse,Abuja,Member,Female,Fashion accessories,1787.00,4,357.40,7505.40,3/22/2019,2:42:00 PM,Ewallet,7148.00,4.761904762,357.40,6.5
+380-94-4661,Trans-Amadi,Port Harcourt,Member,Male,Electronic accessories,6594.00,4,1318.80,27694.80,07-02-2019,1:05:00 PM,Credit card,26376.00,4.761904762,1318.80,6.9
+889-04-9723,Wuse,Abuja,Member,Female,FOOD AND BEVERAGES   ,8914.00,4,1782.80,37438.80,07-01-2019,12:20:00 PM,Credit card,35656.00,4.761904762,1782.80,7.8
+406-46-7107,Ikeja,Lagos,Normal,Female,Home and lifestyle,9652.00,6,2895.60,60807.60,1/11/2019,11:52:00 AM,Cash,57912.00,4.761904762,2895.60,4.5
+284-54-4231,Trans-Amadi,Port Harcourt,Member,Male,Sports and travel,8093.00,1,404.65,8497.65,1/19/2019,4:08:00 PM,Credit card,8093.00,4.761904762,404.65,9.0
+701-69-8742,Wuse,Abuja,Normal,Male,Sports and travel,3437.00,10,1718.50,36088.50,3/16/2019,10:11:00 AM,Ewallet,34370.00,4.761904762,1718.50,6.7
+549-84-7482,Wuse,Abuja,Member,Female,Sports and travel,9028.00,9,4062.60,85314.60,2/8/2019,11:15:00 AM,Ewallet,81252.00,4.761904762,4062.60,7.2
+674-15-9296,Ikeja,Lagos,Normal,Male,Sports and travel,3714.00,5,928.50,19498.50,1/8/2019,1:05:00 PM,Ewallet,18570.00,4.761904762,928.50,5.0
+656-16-1063,Wuse,Abuja,Normal,Male,SPORTS AND TRAVEL   ,4642.00,3,696.30,14622.30,1/4/2019,1:24:00 PM,Credit card,13926.00,4.761904762,696.30,4.4
+573-98-8548,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,3190.00,1,159.50,3349.50,1/5/2019,12:40:00 PM,Ewallet,3190.00,4.761904762,159.50,9.1
+522-57-8364,Ikeja,Lagos,Member,Male,Fashion accessories,5134.00,8,2053.60,43125.60,1/31/2019,10:00:00 AM,Ewallet,41072.00,4.761904762,2053.60,7.6
+544-55-9589,Wuse,Abuja,Member,Female,Electronic accessories,2143.00,10,1071.50,22501.50,1/28/2019,11:51:00 AM,Cash,21430.00,4.761904762,1071.50,6.2
+198-66-9832,Wuse,Abuja,Member,Female,FASHION ACCESSORIES   ,7204.00,2,720.40,15128.40,2/4/2019,7:38:00 PM,Cash,14408.00,4.761904762,720.40,9.5
+608-04-3797,Wuse,Abuja,Member,Female,Health and beauty,2532.00,8,1012.80,21268.80,3/5/2019,8:24:00 PM,Ewallet,20256.00,4.761904762,1012.80,8.7
+355-34-6244,Wuse,Abuja,Normal,Male,Food and beverages,7239.00,2,723.90,15201.90,1/13/2019,7:55:00 PM,Credit card,14478.00,4.761904762,723.90,8.1
+574-31-8277,Wuse,Abuja,Member,Male,Fashion accessories,3363.00,1,168.15,3531.15,3/20/2019,7:55:00 PM,Cash,3363.00,4.761904762,168.15,5.6
+451-28-5717,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,8317.00,6,2495.10,52397.10,3/20/2019,11:23:00 AM,Cash,49902.00,4.761904762,2495.10,7.3
+701-23-5550,Wuse,Abuja,Member,Male,Home and lifestyle,3881.00,4,776.20,16300.20,3/19/2019,1:40:00 PM,Ewallet,15524.00,4.761904762,776.20,4.9
+695-51-0018,Wuse,Abuja,Normal,Female,Sports and travel,3484.00,4,696.80,14632.80,2/10/2019,6:36:00 PM,Cash,13936.00,4.761904762,696.80,7.4
+324-92-3863,Ikeja,Lagos,Member,Male,ELECTRONIC ACCESSORIES   ,2089.00,2,208.90,4386.90,05-02-2019,6:45:00 PM,Cash,4178.00,4.761904762,208.90,9.8
+219-61-4139,Trans-Amadi,Port Harcourt,Normal,Male,ELECTRONIC ACCESSORIES   ,8308.00,1,415.40,8723.40,1/23/2019,5:16:00 PM,Ewallet,8308.00,4.761904762,415.40,6.4
+689-05-1884,Ikeja,Lagos,Member,Male,Health and beauty,4863.00,10,2431.50,51061.50,3/4/2019,12:44:00 PM,Cash,48630.00,4.761904762,2431.50,8.8
+838-78-4295,Trans-Amadi,Port Harcourt,Member,Female,HEALTH AND BEAUTY   ,3347.00,2,334.70,7028.70,2/10/2019,3:43:00 PM,Ewallet,6694.00,4.761904762,334.70,6.7
+238-49-0436,Ikeja,Lagos,Normal,Male,Health and beauty,3246.00,8,1298.40,27266.40,3/27/2019,1:48:00 PM,Credit card,25968.00,4.761904762,1298.40,4.9
+182-69-8360,Wuse,Abuja,Normal,Female,Electronic accessories,2365.00,4,473.00,9933.00,1/30/2019,1:32:00 PM,Credit card,9460.00,4.761904762,473.00,4.0
+490-95-0021,Wuse,Abuja,Member,Female,Food and beverages,3321.00,10,1660.50,34870.50,1/8/2019,2:25:00 PM,Ewallet,33210.00,4.761904762,1660.50,6.0
+190-59-3964,Wuse,Abuja,Member,Male,Food and beverages,4716.00,5,1179.00,24759.00,2/3/2019,2:35:00 PM,Credit card,23580.00,4.761904762,1179.00,6.0
+488-25-4221,Trans-Amadi,Port Harcourt,Member,Female,FOOD AND BEVERAGES   ,3041.00,1,152.05,3193.05,2/22/2019,10:36:00 AM,Credit card,3041.00,4.761904762,152.05,8.4
+735-32-9839,Trans-Amadi,Port Harcourt,Member,Male,Fashion accessories,9870.00,8,3948.00,82908.00,1/31/2019,10:36:00 AM,Ewallet,78960.00,4.761904762,3948.00,8.5
+373-09-4567,Trans-Amadi,Port Harcourt,Normal,Male,Food and beverages,7756.00,10,3878.00,81438.00,3/14/2019,8:35:00 PM,Ewallet,77560.00,4.761904762,3878.00,6.9
+821-07-3596,Trans-Amadi,Port Harcourt,Normal,Female,Fashion accessories,1645.00,4,329.00,6909.00,3/7/2019,2:53:00 PM,Ewallet,6580.00,4.761904762,329.00,5.6
+155-45-3814,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,8855.00,8,3542.00,74382.00,3/19/2019,3:29:00 PM,Ewallet,70840.00,4.761904762,3542.00,4.7
+586-25-0848,Ikeja,Lagos,Normal,Female,Sports and travel,1234.00,7,431.90,9069.90,3/4/2019,11:19:00 AM,Credit card,8638.00,4.761904762,431.90,6.7
+173-57-2300,Trans-Amadi,Port Harcourt,Member,Male,Sports and travel,7288.00,2,728.80,15304.80,3/13/2019,12:51:00 PM,Cash,14576.00,4.761904762,728.80,6.1
+263-12-5321,Ikeja,Lagos,Member,Male,Electronic accessories,9260.00,7,3241.00,68061.00,2/27/2019,12:52:00 PM,Credit card,64820.00,4.761904762,3241.00,9.3
+423-80-0988,Trans-Amadi,Port Harcourt,Normal,Male,Sports and travel,7640.00,2,764.00,16044.00,1/30/2019,7:42:00 PM,Ewallet,15280.00,4.761904762,764.00,6.5
+125-45-2293,Ikeja,Lagos,Normal,Female,Fashion accessories,9910.00,6,2973.00,62433.00,1/19/2019,1:11:00 PM,Cash,59460.00,4.761904762,2973.00,4.2
+132-32-9879,Wuse,Abuja,Member,Female,Electronic accessories,9396.00,4,1879.20,39463.20,3/9/2019,6:00:00 PM,Cash,37584.00,4.761904762,1879.20,9.5
+102-77-2261,Trans-Amadi,Port Harcourt,Member,Male,Health and beauty,6531.00,7,2285.85,48002.85,3/5/2019,6:02:00 PM,Credit card,45717.00,4.761904762,2285.85,4.2
+835-16-0096,Trans-Amadi,Port Harcourt,Member,Male,Sports and travel,1470.00,5,367.50,7717.50,3/24/2019,1:48:00 PM,Ewallet,7350.00,4.761904762,367.50,8.5
+638-60-7125,Ikeja,Lagos,Member,Female,Electronic accessories,9956.00,8,3982.40,83630.40,2/14/2019,5:03:00 PM,Credit card,79648.00,4.761904762,3982.40,5.2
+650-98-6268,Wuse,Abuja,Member,Female,Food and beverages,2087.00,3,313.05,6574.05,3/20/2019,1:53:00 PM,Credit card,6261.00,4.761904762,313.05,8.0
+318-68-5053,Wuse,Abuja,Member,Female,Health and beauty,7699.00,6,2309.70,48503.70,2/27/2019,5:55:00 PM,Cash,46194.00,4.761904762,2309.70,6.1
+852-82-2749,Ikeja,Lagos,Normal,Male,Sports and travel,6459.00,4,1291.80,27127.80,1/6/2019,1:35:00 PM,Ewallet,25836.00,4.761904762,1291.80,9.3
+390-31-6381,Trans-Amadi,Port Harcourt,Normal,Male,Food and beverages,2722.00,3,408.30,8574.30,1/7/2019,12:37:00 PM,Cash,8166.00,4.761904762,408.30,7.3
+630-74-5166,Ikeja,Lagos,Member,Female,Sports and travel,6213.00,6,1863.90,39141.90,3/22/2019,8:19:00 PM,Cash,37278.00,4.761904762,1863.90,7.4
+279-74-2924,Wuse,Abuja,Member,Male,Electronic accessories,7217.00,1,360.85,7577.85,1/4/2019,7:40:00 PM,Cash,7217.00,4.761904762,360.85,6.1
+788-21-5741,Ikeja,Lagos,Normal,Male,Fashion accessories,4538.00,3,680.70,14294.70,2/17/2019,1:34:00 PM,Credit card,13614.00,4.761904762,680.70,7.2
+726-27-2396,Ikeja,Lagos,Normal,Female,Health and beauty,7750.00,5,1937.50,40687.50,1/24/2019,8:36:00 PM,Ewallet,38750.00,4.761904762,1937.50,4.3
+808-65-0703,Trans-Amadi,Port Harcourt,Normal,Male,Home and lifestyle,3547.00,4,709.40,14897.40,3/14/2019,5:22:00 PM,Credit card,14188.00,4.761904762,709.40,6.9
+146-09-5432,Ikeja,Lagos,Member,Male,Food and beverages,3504.00,9,1576.80,33112.80,2/9/2019,7:17:00 PM,Ewallet,31536.00,4.761904762,1576.80,4.6
+288-38-3758,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,8487.00,3,1273.05,26734.05,1/25/2019,6:30:00 PM,Ewallet,25461.00,4.761904762,1273.05,7.4
+359-90-3665,Wuse,Abuja,Member,Female,Fashion accessories,1808.00,4,361.60,7593.60,1/14/2019,6:03:00 PM,Credit card,7232.00,4.761904762,361.60,9.5
+785-13-7708,Wuse,Abuja,Normal,Male,Food and beverages,7306.00,7,2557.10,53699.10,1/14/2019,7:06:00 PM,Credit card,51142.00,4.761904762,2557.10,4.2
+562-12-5430,Ikeja,Lagos,Member,Female,Fashion accessories,8815.00,3,1322.25,27767.25,1/18/2019,10:11:00 AM,Ewallet,26445.00,4.761904762,1322.25,7.9
+197-77-7132,Wuse,Abuja,Member,Male,Electronic accessories,9156.00,8,3662.40,76910.40,1/12/2019,6:22:00 PM,Ewallet,73248.00,4.761904762,3662.40,
+445-30-9252,Ikeja,Lagos,Normal,Male,Sports and travel,2570.00,3,385.50,8095.50,1/17/2019,5:59:00 PM,Ewallet,7710.00,4.761904762,385.50,6.1
+727-75-6477,Trans-Amadi,Port Harcourt,Normal,Male,Electronic accessories,2884.00,4,576.80,12112.80,3/29/2019,2:44:00 PM,Cash,11536.00,4.761904762,576.80,6.4
+731-81-9469,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,8980.00,10,4490.00,94290.00,1/23/2019,1:00:00 PM,Credit card,89800.00,4.761904762,4490.00,5.4
+307-04-2070,Ikeja,Lagos,Member,Female,Fashion accessories,3062.00,1,153.10,3215.10,2/5/2019,2:14:00 PM,Credit card,3062.00,4.761904762,153.10,4.1
+745-74-0715,Ikeja,Lagos,Normal,Male,Electronic accessories,5803.00,2,580.30,12186.30,3/10/2019,8:46:00 PM,Ewallet,11606.00,4.761904762,580.30,8.8
+397-25-8725,Ikeja,Lagos,Member,Female,Health and beauty,3962.00,9,1782.90,37440.90,1/13/2019,5:54:00 PM,Credit card,35658.00,4.761904762,1782.90,6.8
+233-34-0817,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,9884.00,1,494.20,10378.20,2/15/2019,11:21:00 AM,Cash,9884.00,4.761904762,494.20,8.4
+587-03-7455,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,9779.00,7,3422.65,71875.65,2/16/2019,5:30:00 PM,Ewallet,68453.00,4.761904762,3422.65,4.9
+608-96-3517,Wuse,Abuja,Member,Female,Fashion accessories,9154.00,4,1830.80,38446.80,3/23/2019,7:20:00 PM,Credit card,36616.00,4.761904762,1830.80,4.8
+534-01-4457,Ikeja,Lagos,Normal,Male,Food and beverages,8171.00,6,2451.30,51477.30,1/27/2019,2:36:00 PM,Credit card,49026.00,4.761904762,2451.30,8.0
+733-01-9107,Wuse,Abuja,Member,Female,HOME AND LIFESTYLE   ,8270.00,6,2481.00,52101.00,3/5/2019,6:14:00 PM,Cash,49620.00,4.761904762,2481.00,7.4
+735-06-4124,Trans-Amadi,Port Harcourt,Normal,Male,Food and beverages,4861.00,1,243.05,5104.05,2/25/2019,3:31:00 PM,Cash,4861.00,4.761904762,243.05,4.4
+610-46-4100,Ikeja,Lagos,Normal,Male,Health and beauty,2895.00,7,1013.25,21278.25,3/3/2019,8:31:00 PM,Credit card,20265.00,4.761904762,1013.25,6.0
+709-58-4068,Wuse,Abuja,Normal,Female,Fashion accessories,4109.00,10,2054.50,43144.50,2/28/2019,2:42:00 PM,Cash,41090.00,4.761904762,2054.50,7.3
+268-27-6179,Wuse,Abuja,Member,Female,Fashion accessories,5647.00,8,2258.80,47434.80,3/9/2019,2:57:00 PM,Ewallet,45176.00,4.761904762,2258.80,7.3
+509-29-3912,Ikeja,Lagos,Member,Female,Sports and travel,3872.00,9,1742.40,36590.40,3/20/2019,12:24:00 PM,Ewallet,34848.00,4.761904762,1742.40,4.2
+531-80-1784,Ikeja,Lagos,Normal,Male,Electronic accessories,2602.00,7,910.70,19124.70,3/28/2019,5:38:00 PM,Cash,18214.00,4.761904762,910.70,5.1
+280-17-4359,Trans-Amadi,Port Harcourt,Member,Male,Health and beauty,9050.00,10,4525.00,95025.00,1/25/2019,1:48:00 PM,Cash,90500.00,4.761904762,4525.00,8.1
+841-18-8232,Wuse,Abuja,Normal,Female,Food and beverages,7120.00,1,356.00,7476.00,1/5/2019,8:40:00 PM,Credit card,7120.00,4.761904762,356.00,9.2
+371-85-5789,Wuse,Abuja,Member,Female,Health and beauty,8798.00,3,1319.70,27713.70,3/5/2019,10:40:00 AM,Ewallet,26394.00,4.761904762,1319.70,5.1
+400-80-4065,Trans-Amadi,Port Harcourt,Member,Male,Health and beauty,6855.00,4,1371.00,28791.00,2/15/2019,8:21:00 PM,Credit card,27420.00,4.761904762,1371.00,9.2
+788-07-8452,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,2424.00,7,848.40,17816.40,1/27/2019,5:38:00 PM,Ewallet,16968.00,4.761904762,848.40,9.4
+374-38-5555,Wuse,Abuja,Normal,Female,Fashion accessories,6371.00,5,1592.75,33447.75,2/7/2019,7:30:00 PM,Ewallet,31855.00,4.761904762,1592.75,8.5
+574-22-5561,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,8263.00,10,4131.50,86761.50,19-03-2019,5:08:00 PM,Ewallet,82630.00,4.761904762,4131.50,7.9
+149-15-7606,Wuse,Abuja,Member,Male,Sports and travel,3732.00,9,1679.40,35267.40,3/6/2019,3:31:00 PM,Ewallet,33588.00,4.761904762,1679.40,5.1
+857-16-3520,Ikeja,Lagos,Member,Female,Fashion accessories,7146.00,7,2501.10,52523.10,3/28/2019,4:06:00 PM,Ewallet,50022.00,4.761904762,2501.10,4.5
+471-06-8611,Trans-Amadi,Port Harcourt,Normal,Female,Food and beverages,5242.00,1,262.10,5504.10,2/6/2019,10:22:00 AM,Credit card,5242.00,4.761904762,262.10,6.3
+641-96-3695,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,4346.00,6,1303.80,27379.80,2/7/2019,5:55:00 PM,Ewallet,26076.00,4.761904762,1303.80,8.5
+326-78-5178,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,9140.00,7,3199.00,67179.00,2/3/2019,10:19:00 AM,Cash,63980.00,4.761904762,3199.00,9.5
+563-91-7120,Ikeja,Lagos,Normal,Female,Fashion accessories,6177.00,5,1544.25,32429.25,3/8/2019,1:21:00 PM,Cash,30885.00,4.761904762,1544.25,6.7
+414-12-7047,Wuse,Abuja,Normal,Male,Food and beverages,1979.00,8,791.60,16623.60,1/18/2019,12:04:00 PM,Ewallet,15832.00,4.761904762,791.60,8.7
+815-11-1168,Ikeja,Lagos,Member,Male,Food and beverages,9978.00,5,2494.50,52384.50,3/9/2019,7:09:00 PM,Cash,49890.00,4.761904762,2494.50,5.4
+503-07-0930,Trans-Amadi,Port Harcourt,Member,Male,Sports and travel,5839.00,7,2043.65,42916.65,2/23/2019,7:49:00 PM,Credit card,40873.00,4.761904762,2043.65,8.2
+243-55-8457,Ikeja,Lagos,Normal,Female,Food and beverages,7444.00,10,3722.00,78162.00,2/27/2019,11:40:00 AM,Ewallet,74440.00,4.761904762,3722.00,
+531-56-4728,Ikeja,Lagos,Normal,Male,Home and lifestyle,8008.00,3,1201.20,25225.20,2/11/2019,3:29:00 PM,Cash,24024.00,4.761904762,1201.20,5.4
+800-09-8606,Ikeja,Lagos,Member,Female,Home and lifestyle,8737.00,5,2184.25,45869.25,1/29/2019,7:45:00 PM,Cash,43685.00,4.761904762,2184.25,6.6
+283-26-5248,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,9852.00,10,4926.00,103446.00,1/30/2019,8:23:00 PM,Ewallet,98520.00,4.761904762,4926.00,4.5
+605-83-1050,Wuse,Abuja,Normal,Male,Fashion accessories,2718.00,2,271.80,5707.80,3/15/2019,4:26:00 PM,Ewallet,5436.00,4.761904762,271.80,4.3
+649-29-6775,Wuse,Abuja,Member,Female,Fashion accessories,3352.00,1,167.60,3519.60,2/8/2019,3:31:00 PM,Cash,3352.00,4.761904762,167.60,6.7
+373-14-0504,Ikeja,Lagos,Member,Female,Sports and travel,7163.00,2,716.30,15042.30,2/12/2019,2:33:00 PM,Ewallet,14326.00,4.761904762,716.30,8.8
+290-68-2984,Ikeja,Lagos,Normal,Male,Home and lifestyle,2375.00,4,475.00,9975.00,3/16/2019,11:22:00 AM,Cash,9500.00,4.761904762,475.00,5.2
+291-59-1384,Wuse,Abuja,Normal,Male,Electronic accessories,6030.00,1,301.50,6331.50,2/28/2019,5:38:00 PM,Cash,6030.00,4.761904762,301.50,6.0
+477-59-2456,Trans-Amadi,Port Harcourt,Normal,Female,Fashion accessories,4544.00,7,1590.40,33398.40,1/23/2019,11:15:00 AM,Cash,31808.00,4.761904762,1590.40,9.2
+797-88-0493,Ikeja,Lagos,Normal,Female,Health and beauty,6427.00,4,1285.40,26993.40,3/26/2019,1:54:00 PM,Cash,25708.00,4.761904762,1285.40,7.7
+525-88-7307,Wuse,Abuja,Member,Male,Sports and travel,7582.00,1,379.10,7961.10,1/31/2019,1:19:00 PM,Cash,7582.00,4.761904762,379.10,5.8
+881-41-7302,Trans-Amadi,Port Harcourt,Normal,Female,Fashion accessories,6499.00,1,324.95,6823.95,1/26/2019,10:06:00 AM,Credit card,6499.00,4.761904762,324.95,4.5
+616-87-0016,Wuse,Abuja,Normal,Male,Fashion accessories,9554.00,7,3343.90,70221.90,3/9/2019,2:36:00 PM,Credit card,66878.00,4.761904762,3343.90,9.6
+126-54-1082,Ikeja,Lagos,Member,Female,Home and lifestyle,2154.00,9,969.30,20355.30,1/7/2019,11:44:00 AM,Credit card,19386.00,4.761904762,969.30,8.8
+575-67-1508,Ikeja,Lagos,Normal,Male,Electronic accessories,3860.00,1,193.00,4053.00,1/29/2019,11:26:00 AM,Ewallet,3860.00,4.761904762,193.00,6.7
+540-11-4336,Ikeja,Lagos,Normal,Male,Food and beverages,2494.00,9,1122.30,23568.30,1/11/2019,4:49:00 PM,Credit card,22446.00,4.761904762,1122.30,5.6
+805-86-0265,Ikeja,Lagos,Normal,Male,Home and lifestyle,9396.00,9,4228.20,88792.20,3/20/2019,11:32:00 AM,Cash,84564.00,4.761904762,4228.20,9.8
+532-59-7201,Wuse,Abuja,Member,Male,SPORTS AND TRAVEL   ,7993.00,6,2397.90,50355.90,1/31/2019,2:04:00 PM,Cash,47958.00,4.761904762,2397.90,5.5
+778-71-5554,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,1543.00,1,77.15,1620.15,1/25/2019,3:46:00 PM,Credit card,1543.00,4.761904762,77.15,6.1
+441-94-7118,Ikeja,Lagos,Member,Male,Electronic accessories,7195.00,1,359.75,7554.75,2/4/2019,12:14:00 PM,Cash,7195.00,4.761904762,359.75,7.3
+779-42-2410,Wuse,Abuja,Member,Male,Food and beverages,5774.00,3,866.10,18188.10,2/20/2019,1:06:00 PM,Ewallet,17322.00,4.761904762,866.10,7.7
+885-17-6250,Ikeja,Lagos,Normal,Female,Health and beauty,7974.00,1,398.70,8372.70,3/6/2019,10:36:00 AM,Ewallet,7974.00,4.761904762,398.70,7.3
+443-82-0585,Ikeja,Lagos,Member,Female,Health and beauty,7768.00,4,1553.60,32625.60,2/1/2019,7:54:00 PM,Cash,31072.00,4.761904762,1553.60,8.4
+489-64-4354,Trans-Amadi,Port Harcourt,Normal,Male,Fashion accessories,1628.00,1,81.40,1709.40,3/9/2019,3:36:00 PM,Cash,1628.00,4.761904762,81.40,5.0
+689-16-9784,Trans-Amadi,Port Harcourt,Normal,Male,Food and beverages,4677.00,6,1403.10,29465.10,3/11/2019,1:37:00 PM,Cash,28062.00,4.761904762,1403.10,6.0
+172-42-8274,Wuse,Abuja,Normal,Female,Electronic accessories,3827.00,2,382.70,8036.70,3/2/2019,6:18:00 PM,Credit card,7654.00,4.761904762,382.70,5.8
+498-41-1961,Wuse,Abuja,Normal,Male,Health and beauty,6668.00,5,1667.00,35007.00,2/20/2019,6:01:00 PM,Cash,33340.00,4.761904762,1667.00,7.6
+633-09-3463,Trans-Amadi,Port Harcourt,Normal,Female,Electronic accessories,4765.00,3,714.75,15009.75,3/28/2019,12:58:00 PM,Credit card,14295.00,4.761904762,714.75,9.5
+873-14-6353,Ikeja,Lagos,Member,Male,Food and beverages,2482.00,7,868.70,18242.70,2/16/2019,10:33:00 AM,Credit card,17374.00,4.761904762,868.70,7.1
+418-02-5978,Wuse,Abuja,Normal,Female,HEALTH AND BEAUTY   ,8409.00,9,3784.05,79465.05,2/11/2019,10:54:00 AM,Cash,75681.00,4.761904762,3784.05,8.0
+782-95-9291,Ikeja,Lagos,Member,Male,Food and beverages,9229.00,5,2307.25,48452.25,2/20/2019,3:55:00 PM,Credit card,46145.00,4.761904762,2307.25,9.0
+537-72-0426,Trans-Amadi,Port Harcourt,Member,Male,Fashion accessories,7099.00,10,3549.50,74539.50,3/20/2019,4:28:00 PM,Cash,70990.00,4.761904762,3549.50,5.7
+188-55-0967,Wuse,Abuja,Member,Male,Health and beauty,6647.00,10,3323.50,69793.50,1/15/2019,3:01:00 PM,Credit card,66470.00,4.761904762,3323.50,5.0
+291-55-6563,Ikeja,Lagos,Member,Female,Home and lifestyle,3442.00,6,1032.60,21684.60,30-03-2019,12:45:00 PM,Ewallet,20652.00,4.761904762,1032.60,7.5
+569-71-4390,Wuse,Abuja,Normal,Male,SPORTS AND TRAVEL   ,2187.00,2,218.70,4592.70,1/25/2019,2:29:00 PM,Ewallet,4374.00,4.761904762,218.70,6.9
+134-54-4720,Wuse,Abuja,Normal,Female,Electronic accessories,4242.00,8,1696.80,35632.80,1/30/2019,1:58:00 PM,Ewallet,33936.00,4.761904762,1696.80,5.7
+409-33-9708,Ikeja,Lagos,Normal,Female,Fashion accessories,9848.00,2,984.80,20680.80,2/19/2019,10:12:00 AM,Ewallet,19696.00,4.761904762,984.80,9.2
+628-90-8624,Wuse,Abuja,Member,Male,Health and beauty,8258.00,10,4129.00,86709.00,3/14/2019,2:41:00 PM,Cash,82580.00,4.761904762,4129.00,5.0
+286-01-5402,Ikeja,Lagos,Normal,Female,Sports and travel,4023.00,7,1408.05,29569.05,3/30/2019,1:22:00 PM,Cash,28161.00,4.761904762,1408.05,9.6
+633-91-1052,Ikeja,Lagos,Normal,Female,Home and lifestyle,1203.00,2,120.30,2526.30,1/27/2019,3:51:00 PM,Cash,2406.00,4.761904762,120.30,5.1
+804-38-3935,Ikeja,Lagos,Member,Male,Electronic accessories,9378.00,3,1406.70,29540.70,1/30/2019,11:32:00 AM,Credit card,28134.00,4.761904762,1406.70,5.9
+347-34-2234,Wuse,Abuja,Member,Female,Sports and travel,5507.00,9,2478.15,52041.15,2/3/2019,1:40:00 PM,Ewallet,49563.00,4.761904762,2478.15,10.0
+384-59-6655,Ikeja,Lagos,Member,Female,Food and beverages,9866.00,9,4439.70,93233.70,2/19/2019,3:07:00 PM,Cash,88794.00,4.761904762,4439.70,8.4
+369-82-2676,Wuse,Abuja,Normal,Male,Electronic accessories,7566.00,5,1891.50,39721.50,1/15/2019,6:22:00 PM,Ewallet,37830.00,4.761904762,1891.50,7.8
+635-28-5728,Ikeja,Lagos,Normal,Male,Health and beauty,5600.00,3,840.00,17640.00,2/28/2019,7:33:00 PM,Ewallet,16800.00,4.761904762,840.00,4.8
+457-13-1708,Wuse,Abuja,Member,Male,Fashion accessories,6523.00,10,3261.50,68491.50,1/8/2019,7:07:00 PM,Credit card,65230.00,4.761904762,3261.50,5.2
+554-53-3790,Wuse,Abuja,Normal,Male,Sports and travel,3702.00,6,1110.60,23322.60,3/22/2019,6:33:00 PM,Cash,22212.00,4.761904762,1110.60,4.5
+593-14-4239,Wuse,Abuja,Normal,Female,HOME AND LIFESTYLE   ,9546.00,8,3818.40,80186.40,05-03-2019,7:40:00 PM,Ewallet,76368.00,4.761904762,3818.40,4.7
+320-32-8842,Trans-Amadi,Port Harcourt,Member,Female,FOOD AND BEVERAGES   ,2262.00,1,113.10,2375.10,3/17/2019,6:58:00 PM,Cash,2262.00,4.761904762,113.10,6.4
+434-35-9162,Wuse,Abuja,Member,Male,Food and beverages,2334.00,4,466.80,9802.80,2/4/2019,6:53:00 PM,Ewallet,9336.00,4.761904762,466.80,7.4
+210-67-5886,Trans-Amadi,Port Harcourt,Member,Female,Health and beauty,9821.00,3,1473.15,30936.15,2/5/2019,10:41:00 AM,Credit card,29463.00,4.761904762,1473.15,7.8
+482-17-1179,Ikeja,Lagos,Member,Male,ELECTRONIC ACCESSORIES   ,1194.00,3,179.10,3761.10,1/19/2019,12:47:00 PM,Credit card,3582.00,4.761904762,179.10,8.1
+131-15-8856,Trans-Amadi,Port Harcourt,Member,Female,FOOD AND BEVERAGES   ,7252.00,8,2900.80,60916.80,3/30/2019,7:26:00 PM,Credit card,58016.00,4.761904762,2900.80,4.0
+267-62-7380,Trans-Amadi,Port Harcourt,Member,Male,Electronic accessories,8234.00,10,4117.00,86457.00,3/29/2019,7:12:00 PM,Ewallet,82340.00,4.761904762,4117.00,4.3
+449-16-6770,Ikeja,Lagos,Normal,Male,HEALTH AND BEAUTY   ,5079.00,5,1269.75,26664.75,2/19/2019,2:53:00 PM,Credit card,25395.00,4.761904762,1269.75,5.3
+210-74-9613,Trans-Amadi,Port Harcourt,Normal,Male,Fashion accessories,9726.00,4,1945.20,40849.20,3/16/2019,3:33:00 PM,Ewallet,38904.00,4.761904762,1945.20,6.8
+664-14-2882,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,1053.00,5,263.25,5528.25,30-01-2019,2:43:00 PM,Credit card,5265.00,4.761904762,263.25,5.8
+287-83-1405,Ikeja,Lagos,Normal,Male,HEALTH AND BEAUTY   ,2543.00,6,762.90,16020.90,2/12/2019,7:01:00 PM,Ewallet,15258.00,4.761904762,762.90,7.0
+257-60-7754,Ikeja,Lagos,Normal,Female,Electronic accessories,5023.00,4,1004.60,21096.60,1/8/2019,5:12:00 PM,Cash,20092.00,4.761904762,1004.60,9.0
+767-97-4650,Wuse,Abuja,Member,Female,Sports and travel,6483.00,2,648.30,13614.30,1/8/2019,11:59:00 AM,Credit card,12966.00,4.761904762,648.30,8.0
+453-12-7053,Trans-Amadi,Port Harcourt,Normal,Male,Fashion accessories,4574.00,3,686.10,14408.10,3/10/2019,5:38:00 PM,Credit card,13722.00,4.761904762,686.10,6.5
+162-65-8559,Trans-Amadi,Port Harcourt,Member,Male,Food and beverages,6898.00,1,344.90,7242.90,1/21/2019,8:13:00 PM,Cash,6898.00,4.761904762,344.90,4.8
+276-54-0879,Wuse,Abuja,Normal,Male,Sports and travel,9774.00,4,1954.80,41050.80,3/12/2019,7:53:00 PM,Ewallet,39096.00,4.761904762,1954.80,6.4
+856-22-8149,Ikeja,Lagos,Normal,Female,HOME AND LIFESTYLE   ,2529.00,1,126.45,2655.45,3/23/2019,10:13:00 AM,Ewallet,2529.00,4.761904762,126.45,6.1
+868-06-0466,Ikeja,Lagos,Member,Male,Electronic accessories,6958.00,9,3131.10,65753.10,2/19/2019,7:38:00 PM,Credit card,62622.00,4.761904762,3131.10,7.8
+232-11-3025,Ikeja,Lagos,Member,Female,SPORTS AND TRAVEL   ,7877.00,10,3938.50,82708.50,1/24/2019,10:04:00 AM,Cash,78770.00,4.761904762,3938.50,6.4
+405-31-3305,Ikeja,Lagos,Member,Male,Fashion accessories,4313.00,10,2156.50,45286.50,2/2/2019,6:31:00 PM,Credit card,43130.00,4.761904762,2156.50,5.5
+595-27-4851,Ikeja,Lagos,Normal,Female,Fashion accessories,5428.00,7,1899.80,39895.80,1/27/2019,6:05:00 PM,Ewallet,37996.00,4.761904762,1899.80,9.3
+641-51-2661,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,8710.00,10,4355.00,91455.00,2/12/2019,2:45:00 PM,Credit card,87100.00,4.761904762,4355.00,9.9
+842-40-8179,Wuse,Abuja,Member,Female,Food and beverages,7720.00,10,3860.00,81060.00,2/11/2019,10:38:00 AM,Credit card,77200.00,4.761904762,3860.00,5.6
+186-09-3669,Trans-Amadi,Port Harcourt,Member,Female,Health and beauty,8151.00,1,407.55,8558.55,1/22/2019,10:57:00 AM,Ewallet,8151.00,4.761904762,407.55,9.2
+565-91-4567,Wuse,Abuja,Normal,Male,Health and beauty,1075.00,8,430.00,9030.00,3/15/2019,2:38:00 PM,Ewallet,8600.00,4.761904762,430.00,6.2
+372-26-1506,Trans-Amadi,Port Harcourt,Normal,Female,Fashion accessories,2382.00,5,595.50,12505.50,1/28/2019,7:24:00 PM,Ewallet,11910.00,4.761904762,595.50,5.4
+732-04-5373,Wuse,Abuja,Member,Male,Home and lifestyle,4647.00,4,929.40,19517.40,2/8/2019,10:53:00 AM,Cash,18588.00,4.761904762,929.40,7.0
+316-01-3952,Ikeja,Lagos,Normal,Female,Food and beverages,5427.00,5,1356.75,28491.75,3/13/2019,2:16:00 PM,Ewallet,27135.00,4.761904762,1356.75,4.6
+511-54-3087,Wuse,Abuja,Normal,Male,Sports and travel,8845.00,1,442.25,9287.25,2/25/2019,4:36:00 PM,Credit card,8845.00,4.761904762,442.25,9.5
+624-01-8356,Wuse,Abuja,Normal,Female,Home and lifestyle,4901.00,10,2450.50,51460.50,1/27/2019,10:44:00 AM,Credit card,49010.00,4.761904762,2450.50,4.2
+740-22-2500,Trans-Amadi,Port Harcourt,Normal,Female,Electronic accessories,8405.00,3,1260.75,26475.75,1/23/2019,1:29:00 PM,Cash,25215.00,4.761904762,1260.75,9.8
+868-81-1752,Wuse,Abuja,Normal,Male,HOME AND LIFESTYLE   ,2202.00,9,990.90,20808.90,2/7/2019,6:48:00 PM,Cash,19818.00,4.761904762,990.90,6.8
+873-95-4984,Wuse,Abuja,Member,Female,Health and beauty,7690.00,7,2691.50,56521.50,2/15/2019,8:21:00 PM,Cash,53830.00,4.761904762,2691.50,7.7
+225-98-1496,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,2702.00,3,405.30,8511.30,3/2/2019,1:01:00 PM,Credit card,8106.00,4.761904762,405.30,7.1
+651-88-7328,Ikeja,Lagos,Normal,Female,Fashion accessories,6574.00,9,2958.30,62124.30,1/1/2019,1:55:00 PM,Cash,59166.00,4.761904762,2958.30,7.7
+462-67-9126,Ikeja,Lagos,Normal,Male,Home and lifestyle,7322.00,6,2196.60,46128.60,1/21/2019,5:44:00 PM,Cash,43932.00,4.761904762,2196.60,7.2
+423-64-4619,Ikeja,Lagos,Member,Female,Health and beauty,1555.00,9,699.75,14694.75,3/7/2019,1:12:00 PM,Cash,13995.00,4.761904762,699.75,5.0
+592-34-6155,Trans-Amadi,Port Harcourt,Normal,Male,FOOD AND BEVERAGES   ,3177.00,4,635.40,13343.40,1/14/2019,2:43:00 PM,Ewallet,12708.00,4.761904762,635.40,6.2
+156-95-3964,Ikeja,Lagos,Normal,Female,Food and beverages,5539.00,4,1107.80,23263.80,3/25/2019,3:19:00 PM,Ewallet,22156.00,4.761904762,1107.80,8.0
+450-28-2866,Trans-Amadi,Port Harcourt,Member,Male,FOOD AND BEVERAGES   ,1744.00,5,436.00,9156.00,1/15/2019,7:25:00 PM,Cash,8720.00,4.761904762,436.00,8.1
+831-07-6050,Ikeja,Lagos,Normal,Male,ELECTRONIC ACCESSORIES   ,3271.00,5,817.75,17172.75,3/19/2019,11:30:00 AM,Credit card,16355.00,4.761904762,817.75,9.9
+246-55-6923,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,3579.00,9,1610.55,33821.55,3/10/2019,3:06:00 PM,Credit card,32211.00,4.761904762,1610.55,5.1
+453-33-6436,Ikeja,Lagos,Normal,Female,Home and lifestyle,9312.00,8,3724.80,78220.80,2/7/2019,10:09:00 AM,Cash,74496.00,4.761904762,3724.80,6.8
+372-62-5264,Trans-Amadi,Port Harcourt,Normal,Female,Food and beverages,5260.00,9,2367.00,49707.00,1/16/2019,2:42:00 PM,Cash,47340.00,4.761904762,2367.00,7.6
+213-72-6612,Ikeja,Lagos,Normal,Male,Food and beverages,4325.00,2,432.50,9082.50,3/20/2019,3:56:00 PM,Cash,8650.00,4.761904762,432.50,6.2
+785-96-0615,Wuse,Abuja,Member,Female,Electronic accessories,3574.00,8,1429.60,30021.60,2/17/2019,3:28:00 PM,Ewallet,28592.00,4.761904762,1429.60,4.9
+162-48-8011,Ikeja,Lagos,Member,Female,Food and beverages,4459.00,5,1114.75,23409.75,2/10/2019,3:10:00 PM,Cash,22295.00,4.761904762,1114.75,8.5
+846-10-0341,Ikeja,Lagos,Normal,Female,FASHION ACCESSORIES   ,4257.00,7,1489.95,31288.95,1/6/2019,11:51:00 AM,Cash,29799.00,4.761904762,1489.95,6.8
+142-72-4741,Trans-Amadi,Port Harcourt,Member,Male,Fashion accessories,9320.00,2,932.00,19572.00,2/28/2019,6:37:00 PM,Credit card,18640.00,4.761904762,932.00,6.0
+732-94-0499,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,4165.00,10,2082.50,43732.50,1/13/2019,5:04:00 PM,Credit card,41650.00,4.761904762,2082.50,5.4
+790-29-1172,Wuse,Abuja,Normal,Female,Food and beverages,5734.00,3,860.10,18062.10,3/10/2019,6:59:00 PM,Credit card,17202.00,4.761904762,860.10,7.9
+389-25-3394,Trans-Amadi,Port Harcourt,Normal,Male,Electronic accessories,1181.00,5,295.25,6200.25,2/17/2019,6:06:00 PM,Cash,5905.00,4.761904762,295.25,9.4
+603-07-0961,Trans-Amadi,Port Harcourt,Member,Male,ELECTRONIC ACCESSORIES   ,7479.00,5,1869.75,39264.75,1/10/2019,11:34:00 AM,Cash,37395.00,4.761904762,1869.75,4.9
+207-73-1363,Wuse,Abuja,Normal,Male,Health and beauty,6951.00,2,695.10,14597.10,3/1/2019,12:15:00 PM,Ewallet,13902.00,4.761904762,695.10,8.1
+237-44-6163,Ikeja,Lagos,Normal,Male,Electronic accessories,1056.00,8,422.40,8870.40,1/24/2019,5:43:00 PM,Cash,8448.00,4.761904762,422.40,
+578-80-7669,Wuse,Abuja,Normal,Male,Sports and travel,7497.00,1,374.85,7871.85,3/16/2019,4:58:00 PM,Cash,7497.00,4.761904762,374.85,5.6
+787-15-1757,Trans-Amadi,Port Harcourt,Member,Male,Health and beauty,4407.00,4,881.40,18509.40,2/18/2019,4:28:00 PM,Ewallet,17628.00,4.761904762,881.40,8.4
+420-97-3340,Ikeja,Lagos,Normal,Female,Food and beverages,7168.00,3,1075.20,22579.20,3/28/2019,3:30:00 PM,Credit card,21504.00,4.761904762,1075.20,9.2
+254-31-0042,Ikeja,Lagos,Member,Male,Electronic accessories,2150.00,9,967.50,20317.50,3/6/2019,12:46:00 PM,Credit card,19350.00,4.761904762,967.50,7.8
+842-29-4695,Trans-Amadi,Port Harcourt,Member,Male,Sports and travel,1714.00,7,599.90,12597.90,1/16/2019,12:07:00 PM,Credit card,11998.00,4.761904762,599.90,7.9
+452-04-8808,Wuse,Abuja,Normal,Male,Electronic accessories,8708.00,7,3047.80,64003.80,1/26/2019,3:17:00 PM,Cash,60956.00,4.761904762,3047.80,5.5
+373-73-7910,Ikeja,Lagos,Member,Female,Sports and travel,8631.00,7,3020.85,63437.85,2/8/2019,10:37:00 AM,Ewallet,60417.00,4.761904762,3020.85,5.3
+490-29-1201,Ikeja,Lagos,Normal,Female,Sports and travel,1534.00,1,76.70,1610.70,1/6/2019,11:09:00 AM,Cash,1534.00,4.761904762,76.70,6.5
+355-53-5943,Ikeja,Lagos,Member,Female,Electronic accessories,6884.00,6,2065.20,43369.20,25-02-2019,2:36:00 PM,Ewallet,41304.00,4.761904762,2065.20,5.8
+807-14-7833,Ikeja,Lagos,Member,Female,ELECTRONIC ACCESSORIES   ,1742.00,10,871.00,18291.00,2/22/2019,12:30:00 PM,Ewallet,17420.00,4.761904762,871.00,7.0
+663-86-9076,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,6854.00,8,2741.60,57573.60,1/8/2019,3:57:00 PM,Ewallet,54832.00,4.761904762,2741.60,8.5
+799-71-1548,Ikeja,Lagos,Member,Male,Electronic accessories,7772.00,4,1554.40,32642.40,1/7/2019,4:11:00 PM,Credit card,31088.00,4.761904762,1554.40,8.8
+411-77-0180,Ikeja,Lagos,Member,Male,Electronic accessories,7220.00,7,2527.00,53067.00,3/26/2019,8:14:00 PM,Ewallet,50540.00,4.761904762,2527.00,4.3
+296-11-7041,Wuse,Abuja,Member,Female,Health and beauty,2707.00,1,135.35,2842.35,1/12/2019,8:07:00 PM,Credit card,2707.00,4.761904762,135.35,5.3
+299-46-1805,Wuse,Abuja,Member,Female,SPORTS AND TRAVEL   ,9372.00,6,2811.60,59043.60,1/15/2019,4:19:00 PM,Cash,56232.00,4.761904762,2811.60,4.5
+521-18-7827,Trans-Amadi,Port Harcourt,Member,Male,Home and lifestyle,3939.00,5,984.75,20679.75,1/22/2019,8:46:00 PM,Credit card,19695.00,4.761904762,984.75,8.7
+278-97-7759,Ikeja,Lagos,Member,Female,Electronic accessories,6248.00,1,312.40,6560.40,2/18/2019,8:29:00 PM,Cash,6248.00,4.761904762,312.40,4.7
+556-41-6224,Trans-Amadi,Port Harcourt,Normal,Male,Health and beauty,3364.00,8,1345.60,28257.60,2/15/2019,5:10:00 PM,Credit card,26912.00,4.761904762,1345.60,9.3
+632-32-4574,Wuse,Abuja,Normal,Male,Sports and travel,7592.00,8,3036.80,63772.80,3/20/2019,2:14:00 PM,Cash,60736.00,4.761904762,3036.80,5.5
+186-43-8965,Ikeja,Lagos,Member,Female,Home and lifestyle,4768.00,2,476.80,10012.80,2/24/2019,10:10:00 AM,Credit card,9536.00,4.761904762,476.80,4.1
+152-08-9985,Wuse,Abuja,Member,Female,Health and beauty,6436.00,9,2896.20,60820.20,3/12/2019,12:09:00 PM,Credit card,57924.00,4.761904762,2896.20,8.6
+704-20-4138,Trans-Amadi,Port Harcourt,Member,Female,HEALTH AND BEAUTY   ,2967.00,7,1038.45,21807.45,3/11/2019,6:58:00 PM,Credit card,20769.00,4.761904762,1038.45,8.1
+439-54-7422,Ikeja,Lagos,Normal,Female,Electronic accessories,5119.00,4,1023.80,21499.80,3/18/2019,5:15:00 PM,Credit card,20476.00,4.761904762,1023.80,4.7
+401-18-8016,Wuse,Abuja,Member,Female,Sports and travel,9813.00,1,490.65,10303.65,1/21/2019,5:36:00 PM,Cash,9813.00,4.761904762,490.65,8.9
+720-72-2436,Ikeja,Lagos,Normal,Male,Food and beverages,6652.00,4,1330.40,27938.40,3/2/2019,6:14:00 PM,Ewallet,26608.00,4.761904762,1330.40,6.9
+263-10-3913,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,4904.00,9,2206.80,46342.80,1/9/2019,2:20:00 PM,Credit card,44136.00,4.761904762,2206.80,8.6
+106-35-6779,Ikeja,Lagos,Member,Female,Home and lifestyle,4434.00,2,443.40,9311.40,3/27/2019,11:26:00 AM,Cash,8868.00,4.761904762,443.40,5.8
+153-58-4872,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,7489.00,4,1497.80,31453.80,3/1/2019,3:32:00 PM,Ewallet,29956.00,4.761904762,1497.80,4.2
+554-42-2417,Trans-Amadi,Port Harcourt,Normal,Female,Sports and travel,9544.00,10,4772.00,100212.00,1/9/2019,1:45:00 PM,Cash,95440.00,4.761904762,4772.00,5.2
+347-72-6115,Wuse,Abuja,Member,Female,SPORTS AND TRAVEL   ,9074.00,7,3175.90,66693.90,1/16/2019,6:03:00 PM,Credit card,63518.00,4.761904762,3175.90,6.2
+760-90-2357,Ikeja,Lagos,Member,Male,Electronic accessories,7451.00,6,2235.30,46941.30,3/20/2019,3:08:00 PM,Ewallet,44706.00,4.761904762,2235.30,5.0
+249-42-3782,Ikeja,Lagos,Normal,Male,Health and beauty,7001.00,5,1750.25,36755.25,1/3/2019,11:36:00 AM,Ewallet,35005.00,4.761904762,1750.25,5.5
+809-69-9497,Ikeja,Lagos,Normal,Female,Home and lifestyle,4568.00,10,2284.00,47964.00,1/19/2019,7:30:00 PM,Ewallet,45680.00,4.761904762,2284.00,5.7
+114-35-5271,Wuse,Abuja,Normal,Female,Electronic accessories,5791.00,8,2316.40,48644.40,2/7/2019,3:06:00 PM,Cash,46328.00,4.761904762,2316.40,8.1
+305-14-0245,Wuse,Abuja,Member,Female,Home and lifestyle,9449.00,8,3779.60,79371.60,03-03-2019,7:00:00 PM,Ewallet,75592.00,4.761904762,3779.60,7.5
+351-62-0822,Wuse,Abuja,Member,Female,Fashion accessories,1448.00,4,289.60,6081.60,2/6/2019,6:07:00 PM,Ewallet,5792.00,4.761904762,289.60,4.5
+665-63-9737,Wuse,Abuja,Normal,Male,FASHION ACCESSORIES   ,5242.00,3,786.30,16512.30,2/27/2019,5:36:00 PM,Ewallet,15726.00,4.761904762,786.30,7.5
+433-08-7822,Trans-Amadi,Port Harcourt,Normal,Female,Health and beauty,7889.00,7,2761.15,57984.15,1/5/2019,7:48:00 PM,Ewallet,55223.00,4.761904762,2761.15,7.5
+727-02-1313,Ikeja,Lagos,Member,Male,Food and beverages,3184.00,1,159.20,3343.20,2/9/2019,1:22:00 PM,Cash,3184.00,4.761904762,159.20,7.7
+593-65-1552,Trans-Amadi,Port Harcourt,Normal,Female,Home and lifestyle,6981.00,4,1396.20,29320.20,1/28/2019,8:50:00 PM,Credit card,27924.00,4.761904762,1396.20,5.9
+291-32-1427,Wuse,Abuja,Member,Female,Fashion accessories,2194.00,5,548.50,11518.50,3/5/2019,12:29:00 PM,Ewallet,10970.00,4.761904762,548.50,5.3
+728-88-7867,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,7553.00,4,1510.60,31722.60,3/19/2019,3:52:00 PM,Ewallet,30212.00,4.761904762,1510.60,8.3
+643-38-7867,Ikeja,Lagos,Normal,Male,Home and lifestyle,9794.00,1,489.70,10283.70,3/7/2019,11:44:00 AM,Ewallet,9794.00,4.761904762,489.70,6.9
+729-06-2010,Wuse,Abuja,Member,Male,Health and beauty,8047.00,9,3621.15,76044.15,1/6/2019,11:18:00 AM,Cash,72423.00,4.761904762,3621.15,9.2
+669-54-1719,Wuse,Abuja,Member,Female,Electronic accessories,1893.00,6,567.90,11925.90,2/10/2019,12:45:00 PM,Credit card,11358.00,4.761904762,567.90,8.1
+816-57-2053,Ikeja,Lagos,Normal,Male,Sports and travel,6087.00,2,608.70,12782.70,3/9/2019,12:37:00 PM,Ewallet,12174.00,4.761904762,608.70,8.7
+668-90-8900,Ikeja,Lagos,Member,Female,Home and lifestyle,9369.00,7,3279.15,68862.15,3/10/2019,6:44:00 PM,Credit card,65583.00,4.761904762,3279.15,4.5
+370-41-7321,Wuse,Abuja,Member,Female,Health and beauty,5669.00,9,2551.05,53572.05,2/27/2019,5:24:00 PM,Credit card,51021.00,4.761904762,2551.05,8.4
+366-93-0948,Ikeja,Lagos,Member,Male,Electronic accessories,6635.00,1,331.75,6966.75,1/31/2019,10:46:00 AM,Credit card,6635.00,4.761904762,331.75,9.7
+366-43-6862,Wuse,Abuja,Normal,Male,Electronic accessories,5289.00,4,1057.80,22213.80,3/25/2019,4:32:00 PM,Ewallet,21156.00,4.761904762,1057.80,6.7
+883-69-1285,Wuse,Abuja,Member,Male,Fashion accessories,4992.00,2,499.20,10483.20,3/6/2019,11:55:00 AM,Credit card,9984.00,4.761904762,499.20,7.0
+448-34-8700,Wuse,Abuja,Member,Male,Home and lifestyle,3691.00,7,1291.85,27128.85,2/10/2019,1:51:00 PM,Ewallet,25837.00,4.761904762,1291.85,6.7
+656-95-9349,Ikeja,Lagos,Member,Female,Health and beauty,6893.00,7,2412.55,50663.55,3/11/2019,11:03:00 AM,Credit card,48251.00,4.761904762,2412.55,4.6
+487-79-6868,Wuse,Abuja,Member,Female,Home and lifestyle,1229.00,9,553.05,11614.05,3/26/2019,7:28:00 PM,Credit card,11061.00,4.761904762,553.05,8.0
+882-40-4577,Ikeja,Lagos,Member,Male,Sports and travel,6726.00,4,1345.20,28249.20,1/19/2019,3:28:00 PM,Credit card,26904.00,4.761904762,1345.20,8.0
+247-11-2470,Ikeja,Lagos,Member,Female,Fashion accessories,2232.00,4,446.40,9374.40,3/1/2019,4:23:00 PM,Credit card,8928.00,4.761904762,446.40,4.4
+727-46-3608,Wuse,Abuja,Member,Female,Food and beverages,2001.00,9,900.45,18909.45,2/6/2019,3:47:00 PM,Ewallet,18009.00,4.761904762,900.45,4.1
+307-85-2293,Wuse,Abuja,Normal,Male,Home and lifestyle,5028.00,5,1257.00,26397.00,3/7/2019,1:58:00 PM,Ewallet,25140.00,4.761904762,1257.00,9.7
+569-76-2760,Ikeja,Lagos,Member,Female,Sports and travel,2201.00,4,440.20,9244.20,1/29/2019,6:15:00 PM,Credit card,8804.00,4.761904762,440.20,6.6
+470-31-3286,Wuse,Abuja,Normal,Male,Health and beauty,1482.00,3,222.30,4668.30,3/1/2019,11:30:00 AM,Credit card,4446.00,4.761904762,222.30,8.7
+550-84-8664,Ikeja,Lagos,Normal,Male,Sports and travel,8591.00,5,2147.75,45102.75,3/22/2019,2:33:00 PM,Credit card,42955.00,4.761904762,2147.75,8.6
+343-87-0864,Trans-Amadi,Port Harcourt,Member,Male,Health and beauty,7588.00,1,379.40,7967.40,1/3/2019,10:30:00 AM,Credit card,7588.00,4.761904762,379.40,7.1
+868-52-7573,Wuse,Abuja,Normal,Female,Food and beverages,9969.00,5,2492.25,52337.25,1/14/2019,12:09:00 PM,Cash,49845.00,4.761904762,2492.25,9.9
+549-03-9315,Wuse,Abuja,Normal,Male,Fashion accessories,9487.00,8,3794.80,79690.80,2/12/2019,12:58:00 PM,Ewallet,75896.00,4.761904762,3794.80,8.7
+748-45-2862,Ikeja,Lagos,Member,Female,Home and lifestyle,2831.00,4,566.20,11890.20,3/7/2019,6:35:00 PM,Cash,11324.00,4.761904762,566.20,8.2
+474-33-8305,Trans-Amadi,Port Harcourt,Member,Male,Fashion accessories,6739.00,7,2358.65,49531.65,3/23/2019,1:23:00 PM,Ewallet,47173.00,4.761904762,2358.65,6.9
+565-80-5980,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,4738.00,4,947.60,19899.60,1/23/2019,10:25:00 AM,Cash,18952.00,4.761904762,947.60,7.1
+585-11-6748,Wuse,Abuja,Member,Male,Sports and travel,9680.00,3,1452.00,30492.00,3/15/2019,1:05:00 PM,Cash,29040.00,4.761904762,1452.00,5.3
+438-23-1242,Wuse,Abuja,Normal,Male,Electronic accessories,7588.00,7,2655.80,55771.80,1/24/2019,10:38:00 AM,Ewallet,53116.00,4.761904762,2655.80,8.9
+242-55-6721,Wuse,Abuja,Member,Female,Home and lifestyle,1616.00,2,161.60,3393.60,3/7/2019,11:49:00 AM,Ewallet,3232.00,4.761904762,161.60,6.5
+510-79-0415,Wuse,Abuja,Member,Female,Sports and travel,2308.00,6,692.40,14540.40,1/24/2019,7:20:00 PM,Ewallet,13848.00,4.761904762,692.40,4.9
+533-33-5337,Wuse,Abuja,Normal,Male,Electronic accessories,7939.00,10,3969.50,83359.50,2/7/2019,8:24:00 PM,Cash,79390.00,4.761904762,3969.50,6.2
+313-66-9943,Wuse,Abuja,Member,Female,Food and beverages,2915.00,3,437.25,9182.25,27-03-2019,8:29:00 PM,Credit card,8745.00,4.761904762,437.25,7.3
+189-08-9157,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,3173.00,9,1427.85,29984.85,1/8/2019,4:17:00 PM,Credit card,28557.00,4.761904762,1427.85,5.9
+861-77-0145,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,8197.00,10,4098.50,86068.50,3/3/2019,2:30:00 PM,Cash,81970.00,4.761904762,4098.50,9.2
+493-65-6248,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,3698.00,10,1849.00,38829.00,1/1/2019,7:48:00 PM,Credit card,36980.00,4.761904762,1849.00,7.0
+228-96-1411,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,9870.00,8,3948.00,82908.00,3/4/2019,8:39:00 PM,Cash,78960.00,4.761904762,3948.00,7.6
+271-88-8734,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,9721.00,10,4860.50,102070.50,08-02-2019,1:00:00 PM,Credit card,97210.00,4.761904762,4860.50,8.7
+725-67-2480,Wuse,Abuja,Member,Female,FASHION ACCESSORIES   ,5875.00,6,1762.50,37012.50,3/24/2019,6:14:00 PM,Credit card,35250.00,4.761904762,1762.50,5.9
+109-86-4363,Wuse,Abuja,Member,Female,Sports and travel,6008.00,7,2102.80,44158.80,2/14/2019,11:36:00 AM,Credit card,42056.00,4.761904762,2102.80,4.5
+404-91-5964,Ikeja,Lagos,Normal,Male,Electronic accessories,7458.00,7,2610.30,54816.30,2/4/2019,4:09:00 PM,Credit card,52206.00,4.761904762,2610.30,9.0
+408-66-6712,Trans-Amadi,Port Harcourt,Member,Female,Health and beauty,4771.00,6,1431.30,30057.30,2/16/2019,2:19:00 PM,Ewallet,28626.00,4.761904762,1431.30,4.4
+238-45-6950,Wuse,Abuja,Member,Male,Food and beverages,5372.00,1,268.60,5640.60,3/1/2019,8:03:00 PM,Ewallet,5372.00,4.761904762,268.60,6.4
+152-03-4217,Wuse,Abuja,Normal,Female,Home and lifestyle,1128.00,9,507.60,10659.60,3/17/2019,11:55:00 AM,Credit card,10152.00,4.761904762,507.60,4.3
+458-41-1477,Trans-Amadi,Port Harcourt,Normal,Female,Health and beauty,4626.00,6,1387.80,29143.80,3/8/2019,5:11:00 PM,Credit card,27756.00,4.761904762,1387.80,9.5
+859-97-6048,Trans-Amadi,Port Harcourt,Member,Male,Electronic accessories,8425.00,2,842.50,17692.50,3/26/2019,2:13:00 PM,Credit card,16850.00,4.761904762,842.50,5.3
+851-98-3555,Wuse,Abuja,Normal,Female,Health and beauty,8288.00,5,2072.00,43512.00,3/24/2019,2:08:00 PM,Credit card,41440.00,4.761904762,2072.00,6.6
+784-21-9238,Trans-Amadi,Port Harcourt,Member,Male,Sports and travel,1017.00,1,50.85,1067.85,2/7/2019,2:15:00 PM,Cash,1017.00,4.761904762,50.85,5.9
+794-32-2436,Wuse,Abuja,Member,Male,Electronic accessories,5567.00,2,556.70,11690.70,3/27/2019,3:08:00 PM,Ewallet,11134.00,4.761904762,556.70,6.0
+430-60-3493,Ikeja,Lagos,Member,Female,Home and lifestyle,9488.00,7,3320.80,69736.80,2/3/2019,2:38:00 PM,Cash,66416.00,4.761904762,3320.80,4.2
+105-10-6182,Ikeja,Lagos,Member,Male,Fashion accessories,2148.00,2,214.80,4510.80,2/27/2019,12:22:00 PM,Ewallet,4296.00,4.761904762,214.80,6.6
+174-36-3675,Trans-Amadi,Port Harcourt,Member,Male,FOOD AND BEVERAGES   ,9937.00,2,993.70,20867.70,2/14/2019,5:29:00 PM,Cash,19874.00,4.761904762,993.70,5.2
+560-49-6611,Ikeja,Lagos,Member,Female,Sports and travel,4558.00,1,227.90,4785.90,07-02-2019,2:13:00 PM,Cash,4558.00,4.761904762,227.90,9.8
+746-19-0921,Trans-Amadi,Port Harcourt,Normal,Male,Food and beverages,2158.00,1,107.90,2265.90,2/9/2019,10:02:00 AM,Ewallet,2158.00,4.761904762,107.90,7.2
+865-92-6136,Ikeja,Lagos,Member,Female,Food and beverages,5275.00,3,791.25,16616.25,3/23/2019,10:16:00 AM,Ewallet,15825.00,4.761904762,791.25,9.3
+836-82-5858,Wuse,Abuja,Member,Male,HEALTH AND BEAUTY   ,6937.00,9,3121.65,65554.65,1/26/2019,7:14:00 PM,Ewallet,62433.00,4.761904762,3121.65,4.0
+891-01-7034,Wuse,Abuja,Normal,Female,Electronic accessories,7471.00,6,2241.30,47067.30,1/1/2019,7:07:00 PM,Cash,44826.00,4.761904762,2241.30,6.7
+462-78-5240,Trans-Amadi,Port Harcourt,Normal,Female,Electronic accessories,2661.00,2,266.10,5588.10,3/19/2019,2:35:00 PM,Cash,5322.00,4.761904762,266.10,4.2
+497-37-6538,Ikeja,Lagos,Normal,Male,Sports and travel,5891.00,7,2061.85,43298.85,1/17/2019,3:15:00 PM,Ewallet,41237.00,4.761904762,2061.85,9.7
+234-03-4040,Wuse,Abuja,Member,Female,Food and beverages,7305.00,10,3652.50,76702.50,3/3/2019,12:25:00 PM,Credit card,73050.00,4.761904762,3652.50,8.7
+838-02-1821,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,1273.00,2,127.30,2673.30,2/22/2019,12:10:00 PM,Credit card,2546.00,4.761904762,127.30,5.2
+376-56-3573,Trans-Amadi,Port Harcourt,Normal,Female,Fashion accessories,9542.00,4,1908.40,40076.40,2/2/2019,1:23:00 PM,Ewallet,38168.00,4.761904762,1908.40,6.4
+622-20-1945,Trans-Amadi,Port Harcourt,Normal,Female,Health and beauty,3942.00,1,197.10,4139.10,1/18/2019,3:08:00 PM,Cash,3942.00,4.761904762,197.10,8.4
+840-76-5966,Ikeja,Lagos,Member,Male,Sports and travel,1276.00,2,127.60,2679.60,1/8/2019,6:06:00 PM,Ewallet,2552.00,4.761904762,127.60,7.8
+386-27-7606,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,8120.00,7,2842.00,59682.00,3/23/2019,3:59:00 PM,Credit card,56840.00,4.761904762,2842.00,8.1
+305-18-3552,Wuse,Abuja,Member,Male,Home and lifestyle,6038.00,10,3019.00,63399.00,2/12/2019,4:19:00 PM,Cash,60380.00,4.761904762,3019.00,6.0
+138-17-5109,Ikeja,Lagos,Member,Female,Home and lifestyle,8921.00,9,4014.45,84303.45,1/15/2019,3:42:00 PM,Credit card,80289.00,4.761904762,4014.45,6.5
+282-35-2475,Wuse,Abuja,Normal,Female,Sports and travel,9331.00,2,933.10,19595.10,3/25/2019,5:53:00 PM,Cash,18662.00,4.761904762,933.10,6.3
+339-18-7061,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,9298.00,2,929.80,19525.80,13-02-2019,3:06:00 PM,Credit card,18596.00,4.761904762,929.80,8.0
+518-17-2983,Ikeja,Lagos,Normal,Female,Fashion accessories,4863.00,4,972.60,20424.60,2/4/2019,3:44:00 PM,Ewallet,19452.00,4.761904762,972.60,7.6
+273-84-2164,Trans-Amadi,Port Harcourt,Member,Male,ELECTRONIC ACCESSORIES   ,1205.00,5,301.25,6326.25,2/16/2019,3:53:00 PM,Ewallet,6025.00,4.761904762,301.25,5.5
+458-61-0011,Wuse,Abuja,Normal,Male,FOOD AND BEVERAGES   ,6030.00,4,1206.00,25326.00,2/20/2019,6:43:00 PM,Cash,24120.00,4.761904762,1206.00,5.8
+742-04-5161,Ikeja,Lagos,Member,Male,Home and lifestyle,7278.00,10,3639.00,76419.00,2/3/2019,5:24:00 PM,Cash,72780.00,4.761904762,3639.00,7.3
+321-49-7382,Wuse,Abuja,Member,Male,Sports and travel,8831.00,1,441.55,9272.55,2/15/2019,5:38:00 PM,Credit card,8831.00,4.761904762,441.55,5.2
+190-14-3147,Wuse,Abuja,Normal,Female,Health and beauty,1797.00,4,359.40,7547.40,2/23/2019,8:43:00 PM,Ewallet,7188.00,4.761904762,359.40,6.4
+318-12-0304,Ikeja,Lagos,Normal,Male,Fashion accessories,3061.00,1,153.05,3214.05,1/23/2019,12:20:00 PM,Ewallet,3061.00,4.761904762,153.05,5.2
+400-60-7251,Ikeja,Lagos,Normal,Male,Home and lifestyle,7407.00,1,370.35,7777.35,2/10/2019,12:50:00 PM,Ewallet,7407.00,4.761904762,370.35,9.9
+674-56-6360,Ikeja,Lagos,Normal,Male,Electronic accessories,9515.00,1,475.75,9990.75,3/22/2019,2:00:00 PM,Cash,9515.00,4.761904762,475.75,6.0
+686-41-0932,Wuse,Abuja,Normal,Female,Fashion accessories,3470.00,2,347.00,7287.00,3/13/2019,7:48:00 PM,Ewallet,6940.00,4.761904762,347.00,8.2
+722-13-2115,Trans-Amadi,Port Harcourt,Member,Male,SPORTS AND TRAVEL   ,4285.00,1,214.25,4499.25,3/14/2019,3:36:00 PM,Credit card,4285.00,4.761904762,214.25,9.3
+219-22-9386,Wuse,Abuja,Member,Female,Sports and travel,9996.00,9,4498.20,94462.20,3/9/2019,5:26:00 PM,Credit card,89964.00,4.761904762,4498.20,4.2
+692-92-5582,Wuse,Abuja,Member,Female,Food and beverages,5484.00,3,822.60,17274.60,2/20/2019,1:27:00 PM,Credit card,16452.00,4.761904762,822.60,5.9
+592-46-1692,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,3677.00,7,1286.95,27025.95,1/11/2019,8:10:00 PM,Cash,25739.00,4.761904762,1286.95,7.4
+548-46-9322,Wuse,Abuja,Normal,Male,FOOD AND BEVERAGES   ,3990.00,10,1995.00,41895.00,2/20/2019,3:24:00 PM,Credit card,39900.00,4.761904762,1995.00,5.9
+189-98-2939,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,7855.00,9,3534.75,74229.75,3/1/2019,1:22:00 PM,Cash,70695.00,4.761904762,3534.75,7.2
+528-14-9470,Ikeja,Lagos,Member,Male,Health and beauty,9130.00,1,456.50,9586.50,2/14/2019,2:42:00 PM,Ewallet,9130.00,4.761904762,456.50,9.2
+834-61-8124,Ikeja,Lagos,Normal,Male,Electronic accessories,5169.00,7,1809.15,37992.15,1/26/2019,6:22:00 PM,Cash,36183.00,4.761904762,1809.15,5.5
+382-25-8917,Trans-Amadi,Port Harcourt,Normal,Male,Fashion accessories,4208.00,6,1262.40,26510.40,1/29/2019,12:25:00 PM,Cash,25248.00,4.761904762,1262.40,8.9
+343-61-3544,Wuse,Abuja,Member,Male,Sports and travel,2667.00,10,1333.50,28003.50,29-01-2019,11:48:00 AM,Cash,26670.00,4.761904762,1333.50,8.6
+174-75-0888,Wuse,Abuja,Normal,Male,Electronic accessories,2158.00,9,971.10,20393.10,3/14/2019,12:32:00 PM,Cash,19422.00,4.761904762,971.10,7.3
+699-88-1972,Wuse,Abuja,Normal,Male,HEALTH AND BEAUTY   ,9916.00,8,3966.40,83294.40,1/28/2019,5:47:00 PM,Credit card,79328.00,4.761904762,3966.40,4.2
+584-66-4073,Trans-Amadi,Port Harcourt,Normal,Male,Fashion accessories,5650.00,1,282.50,5932.50,3/13/2019,3:45:00 PM,Ewallet,5650.00,4.761904762,282.50,9.6
+478-06-7835,Ikeja,Lagos,Normal,Male,FASHION ACCESSORIES   ,8969.00,1,448.45,9417.45,1/11/2019,11:20:00 AM,Ewallet,8969.00,4.761904762,448.45,4.9
+365-16-4334,Wuse,Abuja,Normal,Female,FOOD AND BEVERAGES   ,2643.00,8,1057.20,22201.20,2/24/2019,2:26:00 PM,Ewallet,21144.00,4.761904762,1057.20,8.9
+263-10-3913,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,4904.00,9,2206.80,46342.80,1/9/2019,2:20:00 PM,Credit card,44136.00,4.761904762,2206.80,
+279-62-1445,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,1254.00,1,62.70,1316.70,2/21/2019,12:38:00 PM,Cash,1254.00,4.761904762,62.70,8.2
+528-87-5606,Wuse,Abuja,Member,Female,Electronic accessories,3948.00,1,197.40,4145.40,2/12/2019,7:43:00 PM,Cash,3948.00,4.761904762,197.40,6.5
+220-28-1851,Ikeja,Lagos,Normal,Male,Home and lifestyle,3473.00,2,347.30,7293.30,3/1/2019,6:14:00 PM,Ewallet,6946.00,4.761904762,347.30,9.7
+725-54-0677,Trans-Amadi,Port Harcourt,Member,Male,Health and beauty,8560.00,7,2996.00,62916.00,3/2/2019,1:50:00 PM,Cash,59920.00,4.761904762,2996.00,5.3
+639-76-1242,Trans-Amadi,Port Harcourt,Normal,Male,Food and beverages,4052.00,5,1013.00,21273.00,2/3/2019,3:19:00 PM,Cash,20260.00,4.761904762,1013.00,4.5
+181-94-6432,Trans-Amadi,Port Harcourt,Member,Male,FASHION ACCESSORIES   ,6933.00,2,693.30,14559.30,2/5/2019,7:05:00 PM,Ewallet,13866.00,4.761904762,693.30,9.7
+329-62-1586,Ikeja,Lagos,Member,Female,Food and beverages,5467.00,3,820.05,17221.05,1/21/2019,6:00:00 PM,Credit card,16401.00,4.761904762,820.05,8.6
+437-58-8131,Wuse,Abuja,Normal,Female,Fashion accessories,7352.00,2,735.20,15439.20,1/15/2019,1:41:00 PM,Ewallet,14704.00,4.761904762,735.20,4.6
+696-90-2548,Ikeja,Lagos,Normal,Male,Sports and travel,2584.00,3,387.60,8139.60,3/10/2019,6:55:00 PM,Ewallet,7752.00,4.761904762,387.60,6.6
+549-23-9016,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,1487.00,2,148.70,3122.70,2/13/2019,6:15:00 PM,Credit card,2974.00,4.761904762,148.70,8.9
+896-34-0956,Ikeja,Lagos,Normal,Male,FASHION ACCESSORIES   ,2132.00,1,106.60,2238.60,1/26/2019,12:43:00 PM,Cash,2132.00,4.761904762,106.60,5.9
+136-08-6195,Ikeja,Lagos,Normal,Female,Home and lifestyle,6996.00,8,2798.40,58766.40,2/15/2019,5:01:00 PM,Credit card,55968.00,4.761904762,2798.40,6.4
+420-18-8989,Ikeja,Lagos,Member,Female,Sports and travel,5152.00,8,2060.80,43276.80,2/2/2019,3:47:00 PM,Cash,41216.00,4.761904762,2060.80,9.6
+730-61-8757,Wuse,Abuja,Member,Male,Health and beauty,5113.00,4,1022.60,21474.60,1/25/2019,10:11:00 AM,Credit card,20452.00,4.761904762,1022.60,4.0
+750-67-8428,Ikeja,Lagos,Member,Female,Health and beauty,7469.00,7,2614.15,54897.15,1/5/2019,1:08:00 PM,Ewallet,52283.00,4.761904762,2614.15,9.1
+239-48-4278,Ikeja,Lagos,Member,Male,FOOD AND BEVERAGES   ,1013.00,7,354.55,7445.55,3/10/2019,7:35:00 PM,Ewallet,7091.00,4.761904762,354.55,8.3
+864-24-7918,Ikeja,Lagos,Member,Female,Sports and travel,2449.00,10,1224.50,25714.50,2/22/2019,3:15:00 PM,Cash,24490.00,4.761904762,1224.50,8.1
+811-03-8790,Ikeja,Lagos,Normal,Female,Electronic accessories,4548.00,10,2274.00,47754.00,3/1/2019,10:22:00 AM,Credit card,45480.00,4.761904762,2274.00,4.8
+374-17-3652,Wuse,Abuja,Member,Female,Food and beverages,4282.00,9,1926.90,40464.90,05-02-2019,3:26:00 PM,Credit card,38538.00,4.761904762,1926.90,8.9
+851-28-6367,Ikeja,Lagos,Member,Male,SPORTS AND TRAVEL   ,1550.00,10,775.00,16275.00,3/23/2019,10:55:00 AM,Ewallet,15500.00,4.761904762,775.00,8.0
+148-82-2527,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,1212.00,10,606.00,12726.00,3/5/2019,1:44:00 PM,Credit card,12120.00,4.761904762,606.00,8.4
+261-12-8671,Wuse,Abuja,Normal,Female,Fashion accessories,6096.00,2,609.60,12801.60,1/25/2019,7:39:00 PM,Credit card,12192.00,4.761904762,609.60,4.9
+766-85-7061,Wuse,Abuja,Member,Female,Health and beauty,8787.00,10,4393.50,92263.50,3/29/2019,10:25:00 AM,Ewallet,87870.00,4.761904762,4393.50,5.1
+399-46-5918,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,8598.00,8,3439.20,72223.20,2/28/2019,7:01:00 PM,Cash,68784.00,4.761904762,3439.20,8.2
+860-79-0874,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,9930.00,10,4965.00,104265.00,2/15/2019,2:53:00 PM,Credit card,99300.00,4.761904762,4965.00,6.6
+777-82-7220,Wuse,Abuja,Member,Female,Home and lifestyle,3012.00,8,1204.80,25300.80,3/3/2019,1:01:00 PM,Cash,24096.00,4.761904762,1204.80,7.7
+609-81-8548,Ikeja,Lagos,Member,Female,Home and lifestyle,3744.00,6,1123.20,23587.20,2/6/2019,1:55:00 PM,Credit card,22464.00,4.761904762,1123.20,5.9
+186-71-5196,Ikeja,Lagos,Member,Female,FOOD AND BEVERAGES   ,7954.00,2,795.40,16703.40,3/27/2019,4:30:00 PM,Ewallet,15908.00,4.761904762,795.40,6.2
+343-75-9322,Wuse,Abuja,Member,Female,Sports and travel,1185.00,8,474.00,9954.00,1/9/2019,4:34:00 PM,Cash,9480.00,4.761904762,474.00,4.1
+396-90-2219,Wuse,Abuja,Normal,Female,Electronic accessories,1496.00,8,598.40,12566.40,2/23/2019,12:29:00 PM,Cash,11968.00,4.761904762,598.40,8.6
+802-43-8934,Ikeja,Lagos,Normal,Male,Home and lifestyle,1828.00,1,91.40,1919.40,3/22/2019,3:05:00 PM,Credit card,1828.00,4.761904762,91.40,
+307-83-9164,Ikeja,Lagos,Member,Male,Home and lifestyle,6001.00,4,1200.20,25204.20,25-01-2019,3:54:00 PM,Cash,24004.00,4.761904762,1200.20,4.5
+261-12-8671,Wuse,Abuja,Normal,Female,Fashion accessories,6096.00,2,609.60,12801.60,1/25/2019,7:39:00 PM,Credit card,12192.00,4.761904762,609.60,4.9
+308-81-0538,Ikeja,Lagos,Normal,Female,Fashion accessories,7305.00,4,1461.00,30681.00,2/25/2019,5:16:00 PM,Credit card,29220.00,4.761904762,1461.00,4.9
+587-73-4862,Ikeja,Lagos,Member,Female,Health and beauty,1069.00,5,267.25,5612.25,3/26/2019,11:07:00 AM,Ewallet,5345.00,4.761904762,267.25,7.6
+755-12-3214,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,4422.00,5,1105.50,23215.50,3/5/2019,5:07:00 PM,Credit card,22110.00,4.761904762,1105.50,8.6
+843-01-4703,Wuse,Abuja,Member,Female,Home and lifestyle,3538.00,9,1592.10,33434.10,1/5/2019,7:50:00 PM,Credit card,31842.00,4.761904762,1592.10,9.6
+504-35-8843,Ikeja,Lagos,Member,Female,Sports and travel,4247.00,1,212.35,4459.35,1/2/2019,4:57:00 PM,Cash,4247.00,4.761904762,212.35,5.7
+189-40-5216,Trans-Amadi,Port Harcourt,Normal,Male,Electronic accessories,9637.00,7,3372.95,70831.95,1/9/2019,11:40:00 AM,Cash,67459.00,4.761904762,3372.95,6.0
+827-77-7633,Ikeja,Lagos,Normal,Male,SPORTS AND TRAVEL   ,9809.00,9,4414.05,92695.05,2/17/2019,7:41:00 PM,Cash,88281.00,4.761904762,4414.05,9.3
+151-33-7434,Wuse,Abuja,Normal,Female,Food and beverages,6777.00,1,338.85,7115.85,2/4/2019,8:43:00 PM,Credit card,6777.00,4.761904762,338.85,6.5
+144-51-6085,Ikeja,Lagos,Member,Male,Home and lifestyle,7074.00,4,1414.80,29710.80,1/5/2019,4:05:00 PM,Credit card,28296.00,4.761904762,1414.80,4.4
+333-73-7901,Trans-Amadi,Port Harcourt,Member,Female,Health and beauty,5492.00,8,2196.80,46132.80,3/23/2019,1:24:00 PM,Ewallet,43936.00,4.761904762,2196.80,7.6
+746-94-0204,Ikeja,Lagos,Normal,Male,Fashion accessories,8324.00,9,3745.80,78661.80,1/29/2019,11:56:00 AM,Credit card,74916.00,4.761904762,3745.80,7.4
+756-01-7507,Trans-Amadi,Port Harcourt,Member,Female,Health and beauty,2038.00,5,509.50,10699.50,1/22/2019,6:56:00 PM,Cash,10190.00,4.761904762,509.50,6.0
+325-77-6186,Ikeja,Lagos,Member,Female,Home and lifestyle,9065.00,10,4532.50,95182.50,3/8/2019,10:53:00 AM,Ewallet,90650.00,4.761904762,4532.50,7.3
+448-81-5016,Ikeja,Lagos,Normal,Male,HEALTH AND BEAUTY   ,5977.00,2,597.70,12551.70,3/11/2019,12:01:00 PM,Credit card,11954.00,4.761904762,597.70,5.8
+756-93-1854,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,8335.00,2,833.50,17503.50,2/2/2019,2:05:00 PM,Credit card,16670.00,4.761904762,833.50,9.5
+135-84-8019,Ikeja,Lagos,Normal,Female,FASHION ACCESSORIES   ,7793.00,9,3506.85,73643.85,2/27/2019,4:10:00 PM,Ewallet,70137.00,4.761904762,3506.85,7.6
+414-12-7047,Wuse,Abuja,Normal,Male,Food and beverages,1979.00,8,791.60,16623.60,1/18/2019,12:04:00 PM,Ewallet,15832.00,4.761904762,791.60,8.7
+533-66-5566,Wuse,Abuja,Normal,Female,Home and lifestyle,5107.00,7,1787.45,37536.45,1/12/2019,11:42:00 AM,Cash,35749.00,4.761904762,1787.45,7.0
+387-49-4215,Wuse,Abuja,Member,Female,Sports and travel,4850.00,3,727.50,15277.50,1/8/2019,12:50:00 PM,Cash,14550.00,4.761904762,727.50,6.7
+775-72-1988,Wuse,Abuja,Normal,Male,Home and lifestyle,7328.00,5,1832.00,38472.00,1/24/2019,3:05:00 PM,Ewallet,36640.00,4.761904762,1832.00,8.4
+549-59-1358,Ikeja,Lagos,Member,Female,Sports and travel,8863.00,3,1329.45,27918.45,3/2/2019,5:36:00 PM,Ewallet,26589.00,4.761904762,1329.45,6.0
+275-28-0149,Ikeja,Lagos,Normal,Male,Sports and travel,6369.00,1,318.45,6687.45,2/25/2019,4:21:00 PM,Cash,6369.00,4.761904762,318.45,6.0
+131-70-8179,Ikeja,Lagos,Member,Female,Health and beauty,9209.00,3,1381.35,29008.35,2/17/2019,4:27:00 PM,Cash,27627.00,4.761904762,1381.35,4.2
+458-10-8612,Trans-Amadi,Port Harcourt,Normal,Male,Health and beauty,6408.00,7,2242.80,47098.80,1/20/2019,12:27:00 PM,Ewallet,44856.00,4.761904762,2242.80,7.6
+378-24-2715,Wuse,Abuja,Member,Female,Home and lifestyle,5344.00,2,534.40,11222.40,20-01-2019,8:38:00 PM,Ewallet,10688.00,4.761904762,534.40,4.1
+817-48-8732,Ikeja,Lagos,Member,Female,Home and lifestyle,7235.00,10,3617.50,75967.50,1/20/2019,3:55:00 PM,Cash,72350.00,4.761904762,3617.50,5.4
+655-85-5130,Wuse,Abuja,Member,Female,Fashion accessories,3830.00,4,766.00,16086.00,13-03-2019,7:22:00 PM,Cash,15320.00,4.761904762,766.00,5.7
+834-83-1826,Wuse,Abuja,Member,Female,Home and lifestyle,8204.00,5,2051.00,43071.00,2/25/2019,5:16:00 PM,Credit card,41020.00,4.761904762,2051.00,7.6
+796-32-9050,Ikeja,Lagos,Normal,Male,Food and beverages,5128.00,6,1538.40,32306.40,1/19/2019,4:31:00 PM,Cash,30768.00,4.761904762,1538.40,6.5
+847-38-7188,Wuse,Abuja,Member,Female,Food and beverages,9668.00,3,1450.20,30454.20,1/26/2019,7:56:00 PM,Ewallet,29004.00,4.761904762,1450.20,6.4
+182-52-7000,Ikeja,Lagos,Member,Female,Sports and travel,2704.00,4,540.80,11356.80,1/1/2019,8:26:00 PM,Ewallet,10816.00,4.761904762,540.80,6.9
+831-81-6575,Wuse,Abuja,Member,Female,Electronic accessories,7559.00,9,3401.55,71432.55,2/23/2019,11:12:00 AM,Cash,68031.00,4.761904762,3401.55,8.0
+468-01-2051,Wuse,Abuja,Normal,Male,Food and beverages,6208.00,7,2172.80,45628.80,3/6/2019,1:46:00 PM,Ewallet,43456.00,4.761904762,2172.80,5.4
+577-34-7579,Trans-Amadi,Port Harcourt,Member,Male,Food and beverages,5049.00,9,2272.05,47713.05,1/10/2019,5:16:00 PM,Cash,45441.00,4.761904762,2272.05,5.4
+865-41-9075,Ikeja,Lagos,Normal,Male,Food and beverages,1153.00,7,403.55,8474.55,1/28/2019,5:35:00 PM,Cash,8071.00,4.761904762,403.55,8.1
+787-87-2010,Ikeja,Lagos,Member,Male,Health and beauty,5550.00,4,1110.00,23310.00,1/20/2019,3:48:00 PM,Credit card,22200.00,4.761904762,1110.00,6.6
+201-63-8275,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,6799.00,7,2379.65,49972.65,2/17/2019,4:50:00 PM,Ewallet,47593.00,4.761904762,2379.65,5.7
+704-10-4056,Trans-Amadi,Port Harcourt,Member,Male,Health and beauty,6047.00,3,907.05,19048.05,1/14/2019,10:55:00 AM,Credit card,18141.00,4.761904762,907.05,5.6
+787-56-0757,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,8036.00,4,1607.20,33751.20,2/23/2019,6:45:00 PM,Credit card,32144.00,4.761904762,1607.20,8.3
+873-51-0671,Ikeja,Lagos,Member,Female,Sports and travel,2198.00,7,769.30,16155.30,1/10/2019,4:42:00 PM,Ewallet,15386.00,4.761904762,769.30,5.1
+573-10-3877,Wuse,Abuja,Member,Male,Health and beauty,3901.00,1,195.05,4096.05,3/12/2019,4:46:00 PM,Credit card,3901.00,4.761904762,195.05,4.7
+319-50-3348,Wuse,Abuja,Member,Female,Home and lifestyle,4030.00,2,403.00,8463.00,3/11/2019,3:30:00 PM,Ewallet,8060.00,4.761904762,403.00,4.4
+712-39-0363,Ikeja,Lagos,Member,Male,FOOD AND BEVERAGES   ,4166.00,6,1249.80,26245.80,1/2/2019,3:24:00 PM,Ewallet,24996.00,4.761904762,1249.80,5.6
+895-66-0685,Wuse,Abuja,Member,Male,FOOD AND BEVERAGES   ,1808.00,3,271.20,5695.20,3/5/2019,7:46:00 PM,Ewallet,5424.00,4.761904762,271.20,8.0
+583-72-1480,Trans-Amadi,Port Harcourt,Member,Male,Electronic accessories,3706.00,4,741.20,15565.20,1/31/2019,4:24:00 PM,Ewallet,14824.00,4.761904762,741.20,9.7
+817-69-8206,Wuse,Abuja,Normal,Female,Electronic accessories,9973.00,9,4487.85,94244.85,3/2/2019,7:42:00 PM,Credit card,89757.00,4.761904762,4487.85,6.5
+442-48-3607,Ikeja,Lagos,Member,Male,Food and beverages,2348.00,2,234.80,4930.80,3/14/2019,11:21:00 AM,Credit card,4696.00,4.761904762,234.80,7.9
+544-32-5024,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,4979.00,4,995.80,20911.80,28-03-2019,7:16:00 PM,Credit card,19916.00,4.761904762,995.80,6.4
+339-38-9982,Wuse,Abuja,Member,Male,Fashion accessories,5986.00,2,598.60,12570.60,1/13/2019,2:55:00 PM,Ewallet,11972.00,4.761904762,598.60,6.7
+545-46-3100,Wuse,Abuja,Member,Female,Electronic accessories,1059.00,3,158.85,3335.85,3/12/2019,1:52:00 PM,Credit card,3177.00,4.761904762,158.85,8.7
+291-21-5991,Wuse,Abuja,Member,Male,HEALTH AND BEAUTY   ,6129.00,5,1532.25,32177.25,3/29/2019,2:28:00 PM,Cash,30645.00,4.761904762,1532.25,7.0
+741-73-3559,Wuse,Abuja,Normal,Male,Sports and travel,6727.00,5,1681.75,35316.75,2/27/2019,5:27:00 PM,Cash,33635.00,4.761904762,1681.75,6.9
+227-07-4446,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,7813.00,10,3906.50,82036.50,2/10/2019,8:51:00 PM,Cash,78130.00,4.761904762,3906.50,4.4
+733-29-1227,Trans-Amadi,Port Harcourt,Normal,Male,Home and lifestyle,5561.00,7,1946.35,40873.35,3/23/2019,12:41:00 PM,Cash,38927.00,4.761904762,1946.35,8.5
+840-19-2096,Trans-Amadi,Port Harcourt,Member,Male,Electronic accessories,8791.00,5,2197.75,46152.75,3/14/2019,6:10:00 PM,Ewallet,43955.00,4.761904762,2197.75,4.4
+582-52-8065,Wuse,Abuja,Normal,Female,Fashion accessories,5431.00,9,2443.95,51322.95,2/22/2019,10:49:00 AM,Cash,48879.00,4.761904762,2443.95,8.9
+489-82-1237,Ikeja,Lagos,Normal,Female,Electronic accessories,9388.00,7,3285.80,69001.80,1/5/2019,11:51:00 AM,Credit card,65716.00,4.761904762,3285.80,7.3
+346-84-3103,Wuse,Abuja,Member,Female,Electronic accessories,1322.00,5,330.50,6940.50,3/2/2019,7:26:00 PM,Cash,6610.00,4.761904762,330.50,4.3
+354-39-5160,Ikeja,Lagos,Member,Female,HOME AND LIFESTYLE   ,3442.00,6,1032.60,21684.60,2/18/2019,3:39:00 PM,Cash,20652.00,4.761904762,1032.60,9.8
+227-03-5010,Ikeja,Lagos,Member,Female,Home and lifestyle,5259.00,8,2103.60,44175.60,3/22/2019,7:20:00 PM,Credit card,42072.00,4.761904762,2103.60,8.5
+886-77-9084,Trans-Amadi,Port Harcourt,Normal,Male,Electronic accessories,7189.00,8,2875.60,60387.60,2/19/2019,11:33:00 AM,Ewallet,57512.00,4.761904762,2875.60,5.5
+146-09-5432,Ikeja,Lagos,Member,Male,Food and beverages,3504.00,9,1576.80,33112.80,2/9/2019,7:17:00 PM,Ewallet,31536.00,4.761904762,1576.80,4.6
+378-07-7001,Wuse,Abuja,Member,Male,Electronic accessories,4809.00,3,721.35,15148.35,2/10/2019,6:23:00 PM,Credit card,14427.00,4.761904762,721.35,7.8
+803-83-5989,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,5573.00,6,1671.90,35109.90,2/24/2019,10:55:00 AM,Ewallet,33438.00,4.761904762,1671.90,7.0
+803-17-8013,Ikeja,Lagos,Member,Female,Home and lifestyle,8879.00,8,3551.60,74583.60,2/17/2019,5:09:00 PM,Cash,71032.00,4.761904762,3551.60,4.1
+743-04-1105,Wuse,Abuja,Member,Male,Health and beauty,9722.00,9,4374.90,91872.90,3/30/2019,2:43:00 PM,Ewallet,87498.00,4.761904762,4374.90,6.0
+133-14-7229,Trans-Amadi,Port Harcourt,Normal,Male,Health and beauty,6287.00,2,628.70,13202.70,1/1/2019,11:43:00 AM,Cash,12574.00,4.761904762,628.70,5.0
+340-21-9136,Ikeja,Lagos,Member,Female,Sports and travel,4005.00,4,801.00,16821.00,1/25/2019,11:40:00 AM,Cash,16020.00,4.761904762,801.00,9.7
+765-26-6951,Ikeja,Lagos,Member,Female,Sports and travel,7261.00,6,2178.30,45744.30,1/1/2019,10:39:00 AM,Credit card,43566.00,4.761904762,2178.30,6.9
+880-46-5796,Ikeja,Lagos,Member,Male,Sports and travel,7692.00,10,3846.00,80766.00,3/17/2019,7:53:00 PM,Ewallet,76920.00,4.761904762,3846.00,5.6
+109-28-2512,Wuse,Abuja,Member,Female,FASHION ACCESSORIES   ,9761.00,6,2928.30,61494.30,1/7/2019,3:01:00 PM,Ewallet,58566.00,4.761904762,2928.30,9.9
+200-16-5952,Trans-Amadi,Port Harcourt,Member,Male,Food and beverages,6565.00,2,656.50,13786.50,1/17/2019,4:46:00 PM,Cash,13130.00,4.761904762,656.50,6.0
+210-30-7976,Wuse,Abuja,Member,Female,Fashion accessories,2232.00,4,446.40,9374.40,3/14/2019,11:16:00 AM,Ewallet,8928.00,4.761904762,446.40,4.1
+678-79-0726,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,9063.00,9,4078.35,85645.35,1/18/2019,3:28:00 PM,Cash,81567.00,4.761904762,4078.35,5.1
+227-78-1148,Wuse,Abuja,Member,Female,Fashion accessories,7284.00,7,2549.40,53537.40,2/15/2019,12:44:00 PM,Cash,50988.00,4.761904762,2549.40,8.4
+497-36-0989,Ikeja,Lagos,Normal,Male,Fashion accessories,5194.00,3,779.10,16361.10,2/15/2019,3:21:00 PM,Cash,15582.00,4.761904762,779.10,7.9
+149-14-0304,Trans-Amadi,Port Harcourt,Member,Female,Health and beauty,2850.00,8,1140.00,23940.00,2/6/2019,2:24:00 PM,Cash,22800.00,4.761904762,1140.00,6.6
+828-46-6863,Ikeja,Lagos,Member,Male,Food and beverages,9853.00,6,2955.90,62073.90,1/23/2019,11:22:00 AM,Credit card,59118.00,4.761904762,2955.90,4.0
+425-85-2085,Wuse,Abuja,Member,Male,Health and beauty,5486.00,5,1371.50,28801.50,3/29/2019,4:48:00 PM,Ewallet,27430.00,4.761904762,1371.50,9.8
+361-85-2571,Ikeja,Lagos,Normal,Female,Sports and travel,8948.00,5,2237.00,46977.00,3/30/2019,10:18:00 AM,Cash,44740.00,4.761904762,2237.00,7.4
+551-21-3069,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,2307.00,9,1038.15,21801.15,2/1/2019,11:27:00 AM,Cash,20763.00,4.761904762,1038.15,4.9
+268-03-6164,Wuse,Abuja,Normal,Male,Health and beauty,9611.00,1,480.55,10091.55,25-01-2019,4:28:00 PM,Ewallet,9611.00,4.761904762,480.55,7.8
+652-43-6591,Ikeja,Lagos,Normal,Female,Fashion accessories,9729.00,8,3891.60,81723.60,3/9/2019,1:18:00 PM,Credit card,77832.00,4.761904762,3891.60,6.2
+795-49-7276,Ikeja,Lagos,Normal,Male,Fashion accessories,3715.00,4,743.00,15603.00,3/23/2019,6:59:00 PM,Ewallet,14860.00,4.761904762,743.00,8.3
+731-59-7531,Wuse,Abuja,Member,Male,HEALTH AND BEAUTY   ,7257.00,8,2902.80,60958.80,30-03-2019,5:58:00 PM,Cash,58056.00,4.761904762,2902.80,4.6
+451-73-2711,Trans-Amadi,Port Harcourt,Normal,Male,Food and beverages,8483.00,1,424.15,8907.15,1/14/2019,3:20:00 PM,Ewallet,8483.00,4.761904762,424.15,8.8
+770-42-8960,Wuse,Abuja,Normal,Male,Food and beverages,2112.00,8,844.80,17740.80,1/1/2019,7:31:00 PM,Cash,16896.00,4.761904762,844.80,6.3
+558-80-4082,Trans-Amadi,Port Harcourt,Normal,Male,Electronic accessories,2785.00,7,974.75,20469.75,3/14/2019,5:20:00 PM,Ewallet,19495.00,4.761904762,974.75,6.0
+447-15-7839,Ikeja,Lagos,Member,Female,Sports and travel,2224.00,10,1112.00,23352.00,2/9/2019,11:00:00 AM,Cash,22240.00,4.761904762,1112.00,4.2
+662-47-5456,Trans-Amadi,Port Harcourt,Member,Male,Fashion accessories,3519.00,10,1759.50,36949.50,3/17/2019,7:06:00 PM,Credit card,35190.00,4.761904762,1759.50,8.4
+830-58-2383,Wuse,Abuja,Normal,Male,Home and lifestyle,3175.00,4,635.00,13335.00,2/8/2019,3:26:00 PM,Cash,12700.00,4.761904762,635.00,8.6
+642-61-4706,Wuse,Abuja,Member,Male,Food and beverages,9340.00,2,934.00,19614.00,3/30/2019,4:34:00 PM,Cash,18680.00,4.761904762,934.00,5.5
+618-34-8551,Ikeja,Lagos,Normal,Female,Sports and travel,9318.00,2,931.80,19567.80,1/16/2019,6:41:00 PM,Credit card,18636.00,4.761904762,931.80,8.5
+790-38-4466,Trans-Amadi,Port Harcourt,Normal,Female,Health and beauty,1099.00,5,274.75,5769.75,1/23/2019,10:18:00 AM,Credit card,5495.00,4.761904762,274.75,9.3
+226-31-3081,Trans-Amadi,Port Harcourt,Normal,Female,Electronic accessories,1528.00,5,382.00,8022.00,3/8/2019,10:29:00 AM,Cash,7640.00,4.761904762,382.00,9.6
+213-32-1216,Ikeja,Lagos,Normal,Female,Electronic accessories,6606.00,6,1981.80,41617.80,1/23/2019,10:28:00 AM,Cash,39636.00,4.761904762,1981.80,7.3
+667-23-5919,Ikeja,Lagos,Member,Female,Fashion accessories,9670.00,5,2417.50,50767.50,1/14/2019,12:52:00 PM,Ewallet,48350.00,4.761904762,2417.50,7.0
+305-89-2768,Wuse,Abuja,Member,Female,Home and lifestyle,2190.00,3,328.50,6898.50,1/9/2019,6:43:00 PM,Ewallet,6570.00,4.761904762,328.50,4.7
+416-17-9926,Ikeja,Lagos,Member,Female,ELECTRONIC ACCESSORIES   ,7422.00,10,3711.00,77931.00,1/1/2019,2:42:00 PM,Credit card,74220.00,4.761904762,3711.00,4.3
+468-88-0009,Ikeja,Lagos,Member,Male,Home and lifestyle,6594.00,4,1318.80,27694.80,3/24/2019,10:29:00 AM,Cash,26376.00,4.761904762,1318.80,6.0
+236-86-3015,Trans-Amadi,Port Harcourt,Member,Male,Home and lifestyle,1398.00,1,69.90,1467.90,2/4/2019,1:38:00 PM,Ewallet,1398.00,4.761904762,69.90,9.8
+648-94-3045,Trans-Amadi,Port Harcourt,Normal,Male,Health and beauty,5895.00,10,2947.50,61897.50,2/7/2019,2:27:00 PM,Ewallet,58950.00,4.761904762,2947.50,8.1
+869-11-3082,Wuse,Abuja,Member,Male,Health and beauty,9616.00,4,1923.20,40387.20,1/27/2019,8:03:00 PM,Credit card,38464.00,4.761904762,1923.20,8.4
+631-41-3108,Ikeja,Lagos,Normal,Female,Home and lifestyle,4633.00,7,1621.55,34052.55,3/3/2019,1:23:00 PM,Credit card,32431.00,4.761904762,1621.55,7.4
+594-34-4444,Ikeja,Lagos,Member,Female,Electronic accessories,9716.00,1,485.80,10201.80,3/8/2019,8:38:00 PM,Ewallet,9716.00,4.761904762,485.80,7.2
+583-41-4548,Trans-Amadi,Port Harcourt,Normal,Male,Home and lifestyle,1667.00,7,583.45,12252.45,2/7/2019,11:36:00 AM,Ewallet,11669.00,4.761904762,583.45,7.4
+556-97-7101,Trans-Amadi,Port Harcourt,Normal,Female,ELECTRONIC ACCESSORIES   ,6322.00,2,632.20,13276.20,1/1/2019,3:51:00 PM,Cash,12644.00,4.761904762,632.20,8.5
+427-45-9297,Wuse,Abuja,Member,Female,Home and lifestyle,4073.00,7,1425.55,29936.55,3/12/2019,11:01:00 AM,Ewallet,28511.00,4.761904762,1425.55,5.4
+595-94-9924,Ikeja,Lagos,Member,Female,Health and beauty,2773.00,5,693.25,14558.25,3/26/2019,8:21:00 PM,Credit card,13865.00,4.761904762,693.25,4.2
+565-17-3836,Ikeja,Lagos,Member,Female,HEALTH AND BEAUTY   ,4767.00,4,953.40,20021.40,3/12/2019,2:21:00 PM,Cash,19068.00,4.761904762,953.40,9.1
+677-11-0152,Trans-Amadi,Port Harcourt,Normal,Female,Food and beverages,9326.00,9,4196.70,88130.70,1/16/2019,6:08:00 PM,Cash,83934.00,4.761904762,4196.70,8.8
+244-08-0162,Wuse,Abuja,Normal,Female,Health and beauty,3421.00,10,1710.50,35920.50,1/2/2019,1:00:00 PM,Cash,34210.00,4.761904762,1710.50,5.1
+706-36-6154,Ikeja,Lagos,Member,Male,Home and lifestyle,1936.00,9,871.20,18295.20,1/18/2019,6:43:00 PM,Ewallet,17424.00,4.761904762,871.20,8.7
+608-27-6295,Wuse,Abuja,Member,Male,Electronic accessories,5289.00,6,1586.70,33320.70,1/19/2019,5:34:00 PM,Credit card,31734.00,4.761904762,1586.70,9.8
+226-71-3580,Trans-Amadi,Port Harcourt,Normal,Female,Sports and travel,2375.00,9,1068.75,22443.75,1/31/2019,12:02:00 PM,Cash,21375.00,4.761904762,1068.75,9.5
+759-98-4285,Trans-Amadi,Port Harcourt,Member,Female,Health and beauty,8587.00,7,3005.45,63114.45,2/27/2019,7:01:00 PM,Credit card,60109.00,4.761904762,3005.45,8.0
+338-65-2210,Trans-Amadi,Port Harcourt,Member,Female,Health and beauty,6860.00,10,3430.00,72030.00,2/5/2019,7:57:00 PM,Cash,68600.00,4.761904762,3430.00,9.1
+132-23-6451,Ikeja,Lagos,Member,Male,Health and beauty,2097.00,5,524.25,11009.25,1/4/2019,1:21:00 PM,Cash,10485.00,4.761904762,524.25,7.8
+286-43-6208,Trans-Amadi,Port Harcourt,Normal,Female,FOOD AND BEVERAGES   ,8780.00,9,3951.00,82971.00,3/16/2019,7:08:00 PM,Cash,79020.00,4.761904762,3951.00,9.2
+648-94-3045,Trans-Amadi,Port Harcourt,Normal,Male,Health and beauty,5895.00,10,2947.50,61897.50,2/7/2019,2:27:00 PM,Ewallet,58950.00,4.761904762,2947.50,8.1
+651-61-0874,Trans-Amadi,Port Harcourt,Normal,Male,Home and lifestyle,4622.00,4,924.40,19412.40,3/12/2019,8:04:00 PM,Credit card,18488.00,4.761904762,924.40,6.2
+721-86-6247,Ikeja,Lagos,Normal,Female,Home and lifestyle,6342.00,8,2536.80,53272.80,3/11/2019,12:55:00 PM,Ewallet,50736.00,4.761904762,2536.80,7.4
+459-45-2396,Ikeja,Lagos,Member,Female,Food and beverages,9960.00,3,1494.00,31374.00,2/25/2019,6:45:00 PM,Cash,29880.00,4.761904762,1494.00,5.8
+250-17-5703,Ikeja,Lagos,Member,Male,Food and beverages,1885.00,10,942.50,19792.50,2/27/2019,6:24:00 PM,Ewallet,18850.00,4.761904762,942.50,5.6
+319-74-2561,Ikeja,Lagos,Member,Female,Electronic accessories,9464.00,3,1419.60,29811.60,2/21/2019,4:55:00 PM,Cash,28392.00,4.761904762,1419.60,5.5
+123-35-4896,Trans-Amadi,Port Harcourt,Normal,Female,Sports and travel,4666.00,9,2099.70,44093.70,2/17/2019,7:11:00 PM,Ewallet,41994.00,4.761904762,2099.70,5.3
+525-09-8450,Wuse,Abuja,Normal,Male,Electronic accessories,7213.00,10,3606.50,75736.50,1/31/2019,3:12:00 PM,Credit card,72130.00,4.761904762,3606.50,4.2
+400-89-4171,Trans-Amadi,Port Harcourt,Normal,Female,Sports and travel,8097.00,8,3238.80,68014.80,28-01-2019,1:05:00 PM,Cash,64776.00,4.761904762,3238.80,9.3
+286-75-7818,Wuse,Abuja,Normal,Male,Fashion accessories,6908.00,2,690.80,14506.80,1/31/2019,7:48:00 PM,Credit card,13816.00,4.761904762,690.80,6.9
+831-64-0259,Wuse,Abuja,Normal,Female,Fashion accessories,3975.00,5,993.75,20868.75,2/22/2019,10:43:00 AM,Ewallet,19875.00,4.761904762,993.75,9.6
+434-83-9547,Trans-Amadi,Port Harcourt,Member,Male,Food and beverages,3847.00,8,1538.80,32314.80,23-01-2019,11:51:00 AM,Cash,30776.00,4.761904762,1538.80,7.7
+527-09-6272,Ikeja,Lagos,Member,Female,ELECTRONIC ACCESSORIES   ,2845.00,5,711.25,14936.25,3/21/2019,10:17:00 AM,Credit card,14225.00,4.761904762,711.25,9.1
+574-80-1489,Wuse,Abuja,Member,Female,FOOD AND BEVERAGES   ,6285.00,4,1257.00,26397.00,2/25/2019,1:22:00 PM,Ewallet,25140.00,4.761904762,1257.00,8.7
+287-21-9091,Ikeja,Lagos,Member,Female,Home and lifestyle,7467.00,9,3360.15,70563.15,1/22/2019,10:55:00 AM,Ewallet,67203.00,4.761904762,3360.15,9.4
+472-15-9636,Ikeja,Lagos,Normal,Male,Home and lifestyle,5093.00,8,2037.20,42781.20,3/22/2019,7:36:00 PM,Ewallet,40744.00,4.761904762,2037.20,9.2
+751-69-0068,Trans-Amadi,Port Harcourt,Normal,Male,Sports and travel,9924.00,9,4465.80,93781.80,3/19/2019,7:09:00 PM,Ewallet,89316.00,4.761904762,4465.80,9.0
+339-38-9982,Wuse,Abuja,Member,Male,Fashion accessories,5986.00,2,598.60,12570.60,1/13/2019,2:55:00 PM,Ewallet,11972.00,4.761904762,598.60,6.7
+135-13-8269,Wuse,Abuja,Member,Female,Food and beverages,7888.00,2,788.80,16564.80,1/26/2019,4:04:00 PM,Cash,15776.00,4.761904762,788.80,9.1
+695-09-5146,Wuse,Abuja,Member,Female,Food and beverages,9879.00,3,1481.85,31118.85,2/23/2019,8:00:00 PM,Ewallet,29637.00,4.761904762,1481.85,6.4
+269-04-5750,Wuse,Abuja,Member,Male,Fashion accessories,7382.00,4,1476.40,31004.40,2/21/2019,6:31:00 PM,Cash,29528.00,4.761904762,1476.40,6.7
+300-71-4605,Trans-Amadi,Port Harcourt,Member,Female,ELECTRONIC ACCESSORIES   ,8604.00,5,2151.00,45171.00,2/25/2019,11:24:00 AM,Ewallet,43020.00,4.761904762,2151.00,4.8
+888-02-0338,Ikeja,Lagos,Normal,Male,Electronic accessories,2623.00,9,1180.35,24787.35,1/25/2019,8:24:00 PM,Ewallet,23607.00,4.761904762,1180.35,5.9
+886-54-6089,Ikeja,Lagos,Normal,Female,Home and lifestyle,1143.00,6,342.90,7200.90,1/15/2019,5:24:00 PM,Cash,6858.00,4.761904762,342.90,7.7
+811-35-1094,Wuse,Abuja,Member,Male,Electronic accessories,5045.00,6,1513.50,31783.50,2/6/2019,3:16:00 PM,Credit card,30270.00,4.761904762,1513.50,8.9
+349-97-8902,Wuse,Abuja,Member,Male,Food and beverages,5789.00,2,578.90,12156.90,1/17/2019,10:37:00 AM,Ewallet,11578.00,4.761904762,578.90,8.9
+227-50-3718,Ikeja,Lagos,Normal,Male,Health and beauty,1462.00,5,365.50,7675.50,3/4/2019,12:23:00 PM,Cash,7310.00,4.761904762,365.50,4.4
+871-79-8483,Wuse,Abuja,Member,Female,Fashion accessories,9413.00,5,2353.25,49418.25,2/25/2019,7:39:00 PM,Credit card,47065.00,4.761904762,2353.25,4.8
+139-20-0155,Wuse,Abuja,Member,Male,Electronic accessories,4030.00,10,2015.00,42315.00,1/24/2019,5:37:00 PM,Credit card,40300.00,4.761904762,2015.00,7.0
+883-17-4236,Trans-Amadi,Port Harcourt,Normal,Female,Sports and travel,1439.00,2,143.90,3021.90,3/2/2019,7:44:00 PM,Credit card,2878.00,4.761904762,143.90,7.2
+382-03-4532,Ikeja,Lagos,Member,Female,Health and beauty,1833.00,1,91.65,1924.65,2/2/2019,6:50:00 PM,Cash,1833.00,4.761904762,91.65,4.3
+633-44-8566,Ikeja,Lagos,Member,Female,Food and beverages,4938.00,7,1728.30,36294.30,3/27/2019,8:35:00 PM,Credit card,34566.00,4.761904762,1728.30,7.3
+237-01-6122,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,8079.00,9,3635.55,76346.55,2/1/2019,8:31:00 PM,Credit card,72711.00,4.761904762,3635.55,9.5
+539-21-7227,Wuse,Abuja,Normal,Female,Sports and travel,5154.00,5,1288.50,27058.50,1/26/2019,5:45:00 PM,Cash,25770.00,4.761904762,1288.50,4.2
+225-32-0908,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,4486.00,10,2243.00,47103.00,1/26/2019,7:54:00 PM,Ewallet,44860.00,4.761904762,2243.00,8.2
+878-30-2331,Trans-Amadi,Port Harcourt,Member,Female,SPORTS AND TRAVEL   ,5455.00,10,2727.50,57277.50,3/2/2019,11:22:00 AM,Credit card,54550.00,4.761904762,2727.50,7.1
+885-56-0389,Trans-Amadi,Port Harcourt,Member,Male,Fashion accessories,5235.00,1,261.75,5496.75,2/12/2019,5:49:00 PM,Cash,5235.00,4.761904762,261.75,4.0
+760-27-5490,Trans-Amadi,Port Harcourt,Normal,Male,Fashion accessories,1562.00,8,624.80,13120.80,1/20/2019,8:37:00 PM,Ewallet,12496.00,4.761904762,624.80,9.1
+687-47-8271,Ikeja,Lagos,Normal,Male,Fashion accessories,9898.00,10,4949.00,103929.00,2/8/2019,4:20:00 PM,Credit card,98980.00,4.761904762,4949.00,8.7
+725-32-9708,Wuse,Abuja,Member,Female,Fashion accessories,6871.00,4,1374.20,28858.20,1/4/2019,7:01:00 PM,Cash,27484.00,4.761904762,1374.20,4.1
+327-40-9673,Wuse,Abuja,Member,Male,Sports and travel,7260.00,6,2178.00,45738.00,1/13/2019,7:51:00 PM,Cash,43560.00,4.761904762,2178.00,6.9
+649-11-3678,Trans-Amadi,Port Harcourt,Normal,Female,Food and beverages,2293.00,9,1031.85,21668.85,2/26/2019,8:26:00 PM,Cash,20637.00,4.761904762,1031.85,5.5
+235-06-8510,Trans-Amadi,Port Harcourt,Member,Male,HOME AND LIFESTYLE   ,8572.00,3,1285.80,27001.80,24-01-2019,8:59:00 PM,Ewallet,25716.00,4.761904762,1285.80,5.1
+127-47-6963,Ikeja,Lagos,Normal,Male,Health and beauty,5171.00,4,1034.20,21718.20,3/9/2019,1:53:00 PM,Credit card,20684.00,4.761904762,1034.20,9.8
+381-20-0914,Ikeja,Lagos,Member,Female,Fashion accessories,2001.00,9,900.45,18909.45,1/12/2019,3:48:00 PM,Credit card,18009.00,4.761904762,900.45,5.7
+640-48-5028,Wuse,Abuja,Member,Female,Home and lifestyle,8839.00,9,3977.55,83528.55,3/2/2019,12:40:00 PM,Cash,79551.00,4.761904762,3977.55,6.3
+718-57-9773,Trans-Amadi,Port Harcourt,Normal,Female,Sports and travel,4933.00,10,2466.50,51796.50,2/3/2019,4:40:00 PM,Credit card,49330.00,4.761904762,2466.50,9.4
+435-13-4908,Ikeja,Lagos,Member,Male,Fashion accessories,8668.00,8,3467.20,72811.20,1/24/2019,6:04:00 PM,Credit card,69344.00,4.761904762,3467.20,7.2
+258-69-7810,Trans-Amadi,Port Harcourt,Normal,Female,Fashion accessories,3685.00,5,921.25,19346.25,1/26/2019,6:53:00 PM,Cash,18425.00,4.761904762,921.25,9.2
+394-55-6384,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,7019.00,9,3158.55,66329.55,1/25/2019,1:38:00 PM,Cash,63171.00,4.761904762,3158.55,6.7
+729-09-9681,Ikeja,Lagos,Member,Male,Home and lifestyle,2591.00,6,777.30,16323.30,2/5/2019,10:16:00 AM,Ewallet,15546.00,4.761904762,777.30,8.7
+110-48-7033,Wuse,Abuja,Member,Male,Fashion accessories,3262.00,4,652.40,13700.40,29-01-2019,2:12:00 PM,Cash,13048.00,4.761904762,652.40,9.0
+174-64-0215,Wuse,Abuja,Normal,Male,Sports and travel,6974.00,10,3487.00,73227.00,3/5/2019,5:49:00 PM,Credit card,69740.00,4.761904762,3487.00,8.9
+825-94-5922,Wuse,Abuja,Normal,Male,Sports and travel,2531.00,2,253.10,5315.10,3/2/2019,7:26:00 PM,Ewallet,5062.00,4.761904762,253.10,7.2
+186-79-9562,Wuse,Abuja,Normal,Male,Health and beauty,7177.00,7,2511.95,52750.95,3/29/2019,2:06:00 PM,Cash,50239.00,4.761904762,2511.95,8.9
+862-59-8517,Trans-Amadi,Port Harcourt,Normal,Female,Food and beverages,9024.00,6,2707.20,56851.20,1/27/2019,11:17:00 AM,Cash,54144.00,4.761904762,2707.20,6.2
+191-10-6171,Wuse,Abuja,Normal,Female,Fashion accessories,3962.00,7,1386.70,29120.70,1/25/2019,1:18:00 PM,Cash,27734.00,4.761904762,1386.70,7.5
+518-71-6847,Wuse,Abuja,Member,Male,FOOD AND BEVERAGES   ,2660.00,6,798.00,16758.00,2/26/2019,3:10:00 PM,Ewallet,15960.00,4.761904762,798.00,4.9
+163-56-7055,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,4871.00,1,243.55,5114.55,3/26/2019,7:20:00 PM,Cash,4871.00,4.761904762,243.55,4.1
+316-55-4634,Wuse,Abuja,Member,Male,Food and beverages,8005.00,5,2001.25,42026.25,1/26/2019,12:45:00 PM,Credit card,40025.00,4.761904762,2001.25,9.4
+784-08-0310,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,2104.00,4,420.80,8836.80,1/13/2019,1:58:00 PM,Cash,8416.00,4.761904762,420.80,7.6
+191-29-0321,Wuse,Abuja,Member,Female,Fashion accessories,1977.00,10,988.50,20758.50,27-02-2019,6:57:00 PM,Credit card,19770.00,4.761904762,988.50,5.0
+884-80-6021,Ikeja,Lagos,Member,Female,Electronic accessories,7347.00,10,3673.50,77143.50,3/23/2019,1:14:00 PM,Ewallet,73470.00,4.761904762,3673.50,9.5
+568-88-3448,Ikeja,Lagos,Normal,Male,Health and beauty,2500.00,1,125.00,2625.00,3/3/2019,3:09:00 PM,Ewallet,2500.00,4.761904762,125.00,5.5
+652-49-6720,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,6095.00,1,304.75,6399.75,2/18/2019,11:40:00 AM,Ewallet,6095.00,4.761904762,304.75,5.9
+169-52-4504,Ikeja,Lagos,Normal,Female,Electronic accessories,1569.00,3,235.35,4942.35,3/14/2019,2:13:00 PM,Credit card,4707.00,4.761904762,235.35,5.8
+593-08-5916,Ikeja,Lagos,Normal,Female,Fashion accessories,1550.00,1,77.50,1627.50,3/19/2019,3:23:00 PM,Credit card,1550.00,4.761904762,77.50,7.4
+606-80-4905,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,1915.00,6,574.50,12064.50,1/29/2019,10:01:00 AM,Credit card,11490.00,4.761904762,574.50,6.8
+426-39-2418,Trans-Amadi,Port Harcourt,Normal,Male,Electronic accessories,6141.00,7,2149.35,45136.35,14-01-2019,10:02:00 AM,Cash,42987.00,4.761904762,2149.35,9.8
+183-21-3799,Trans-Amadi,Port Harcourt,Normal,Female,Electronic accessories,7763.00,9,3493.35,73360.35,2/19/2019,3:14:00 PM,Ewallet,69867.00,4.761904762,3493.35,7.2
+760-53-9233,Ikeja,Lagos,Member,Male,Fashion accessories,4128.00,3,619.20,13003.20,3/26/2019,6:37:00 PM,Credit card,12384.00,4.761904762,619.20,8.5
+322-02-2271,Wuse,Abuja,Normal,Female,Sports and travel,4297.00,3,644.55,13535.55,2/3/2019,11:46:00 AM,Cash,12891.00,4.761904762,644.55,9.3
+629-42-4133,Trans-Amadi,Port Harcourt,Normal,Male,Health and beauty,2180.00,8,872.00,18312.00,2/19/2019,7:24:00 PM,Cash,17440.00,4.761904762,872.00,8.3
+767-54-1907,Wuse,Abuja,Member,Female,Fashion accessories,2956.00,5,739.00,15519.00,2/13/2019,4:59:00 PM,Cash,14780.00,4.761904762,739.00,6.9
+420-04-7590,Wuse,Abuja,Normal,Male,Home and lifestyle,9970.00,3,1495.50,31405.50,3/18/2019,11:29:00 AM,Ewallet,29910.00,4.761904762,1495.50,4.7
+700-81-1757,Ikeja,Lagos,Normal,Female,Electronic accessories,2631.00,5,657.75,13812.75,1/18/2019,8:59:00 PM,Credit card,13155.00,4.761904762,657.75,8.8
+734-91-1155,Wuse,Abuja,Normal,Female,Electronic accessories,4571.00,3,685.65,14398.65,3/26/2019,10:34:00 AM,Credit card,13713.00,4.761904762,685.65,7.7
+491-38-3499,Ikeja,Lagos,Member,Male,Fashion accessories,5545.00,1,277.25,5822.25,2/26/2019,5:46:00 PM,Credit card,5545.00,4.761904762,277.25,4.9
+408-26-9866,Trans-Amadi,Port Harcourt,Normal,Female,Sports and travel,7398.00,7,2589.30,54375.30,3/2/2019,4:42:00 PM,Ewallet,51786.00,4.761904762,2589.30,4.1
+595-86-2894,Trans-Amadi,Port Harcourt,Member,Male,Fashion accessories,9698.00,4,1939.60,40731.60,2/6/2019,5:20:00 PM,Ewallet,38792.00,4.761904762,1939.60,9.4
+834-45-5519,Wuse,Abuja,Normal,Female,Electronic accessories,4300.00,4,860.00,18060.00,1/31/2019,8:48:00 PM,Ewallet,17200.00,4.761904762,860.00,7.6
+783-09-1637,Wuse,Abuja,Normal,Female,Sports and travel,6743.00,5,1685.75,35400.75,3/6/2019,6:13:00 PM,Ewallet,33715.00,4.761904762,1685.75,6.3
+559-98-9873,Ikeja,Lagos,Member,Female,Fashion accessories,5365.00,7,1877.75,39432.75,2/10/2019,12:56:00 PM,Ewallet,37555.00,4.761904762,1877.75,5.2
+199-75-8169,Ikeja,Lagos,Member,Female,Sports and travel,1581.00,10,790.50,16600.50,3/6/2019,12:27:00 PM,Credit card,15810.00,4.761904762,790.50,8.6
+308-47-4913,Ikeja,Lagos,Member,Female,Sports and travel,5226.00,10,2613.00,54873.00,3/9/2019,12:45:00 PM,Credit card,52260.00,4.761904762,2613.00,6.2
+393-65-2792,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,8948.00,10,4474.00,93954.00,1/6/2019,12:46:00 PM,Credit card,89480.00,4.761904762,4474.00,9.6
+892-05-6689,Ikeja,Lagos,Normal,Female,Home and lifestyle,2832.00,5,708.00,14868.00,3/11/2019,1:28:00 PM,Ewallet,14160.00,4.761904762,708.00,6.2
+687-15-1097,Trans-Amadi,Port Harcourt,Member,Female,Health and beauty,2112.00,2,211.20,4435.20,1/3/2019,7:17:00 PM,Cash,4224.00,4.761904762,211.20,9.7
+243-47-2663,Trans-Amadi,Port Harcourt,Member,Male,Electronic accessories,1877.00,6,563.10,11825.10,1/28/2019,4:43:00 PM,Credit card,11262.00,4.761904762,563.10,5.5
+102-06-2002,Trans-Amadi,Port Harcourt,Member,Male,Sports and travel,2525.00,5,631.25,13256.25,3/20/2019,5:52:00 PM,Cash,12625.00,4.761904762,631.25,6.1
+894-41-5205,Trans-Amadi,Port Harcourt,Normal,Female,Food and beverages,4318.00,8,1727.20,36271.20,1/19/2019,7:39:00 PM,Credit card,34544.00,4.761904762,1727.20,8.3
+460-93-5834,Ikeja,Lagos,Normal,Male,Sports and travel,4558.00,7,1595.30,33501.30,1/13/2019,10:03:00 AM,Cash,31906.00,4.761904762,1595.30,5.0
+105-31-1824,Ikeja,Lagos,Member,Male,Sports and travel,6952.00,7,2433.20,51097.20,2/1/2019,3:10:00 PM,Credit card,48664.00,4.761904762,2433.20,8.5
+129-29-8530,Ikeja,Lagos,Member,Female,Sports and travel,6262.00,5,1565.50,32875.50,3/10/2019,7:15:00 PM,Ewallet,31310.00,4.761904762,1565.50,7.0
+217-58-1179,Ikeja,Lagos,Member,Male,Home and lifestyle,6265.00,4,1253.00,26313.00,1/5/2019,11:25:00 AM,Cash,25060.00,4.761904762,1253.00,4.2
+480-63-2856,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,1925.00,8,770.00,16170.00,1/23/2019,6:37:00 PM,Ewallet,15400.00,4.761904762,770.00,6.6
+850-41-9669,Ikeja,Lagos,Normal,Female,Electronic accessories,7506.00,9,3377.70,70931.70,3/19/2019,1:25:00 PM,Ewallet,67554.00,4.761904762,3377.70,6.2
+848-95-6252,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,8627.00,1,431.35,9058.35,2/20/2019,1:24:00 PM,Ewallet,8627.00,4.761904762,431.35,7.0
+730-70-9830,Trans-Amadi,Port Harcourt,Normal,Female,Home and lifestyle,7011.00,6,2103.30,44169.30,3/14/2019,5:54:00 PM,Ewallet,42066.00,4.761904762,2103.30,5.2
+156-20-0370,Wuse,Abuja,Normal,Female,Electronic accessories,2545.00,1,127.25,2672.25,3/10/2019,6:10:00 PM,Credit card,2545.00,4.761904762,127.25,5.1
+273-16-6619,Wuse,Abuja,Member,Female,Home and lifestyle,3320.00,2,332.00,6972.00,3/15/2019,12:20:00 PM,Credit card,6640.00,4.761904762,332.00,4.4
+692-27-8933,Wuse,Abuja,Normal,Female,Sports and travel,5795.00,6,1738.50,36508.50,2/24/2019,1:02:00 PM,Cash,34770.00,4.761904762,1738.50,5.2
+512-98-1403,Ikeja,Lagos,Member,Female,Electronic accessories,2648.00,3,397.20,8341.20,3/21/2019,10:40:00 AM,Ewallet,7944.00,4.761904762,397.20,4.7
+602-16-6955,Wuse,Abuja,Normal,Female,SPORTS AND TRAVEL   ,7660.00,10,3830.00,80430.00,1/24/2019,6:10:00 PM,Ewallet,76600.00,4.761904762,3830.00,6.0
+585-86-8361,Ikeja,Lagos,Normal,Female,Food and beverages,2728.00,5,682.00,14322.00,2/3/2019,10:31:00 AM,Credit card,13640.00,4.761904762,682.00,8.6
+862-17-9201,Wuse,Abuja,Normal,Female,Food and beverages,8405.00,6,2521.50,52951.50,1/29/2019,10:48:00 AM,Credit card,50430.00,4.761904762,2521.50,7.7
+239-36-3640,Wuse,Abuja,Normal,Male,Electronic accessories,4535.00,6,1360.50,28570.50,1/31/2019,1:44:00 PM,Ewallet,27210.00,4.761904762,1360.50,6.1
+252-56-2699,Ikeja,Lagos,Member,Female,Food and beverages,4319.00,10,2159.50,45349.50,2/7/2019,4:48:00 PM,Ewallet,43190.00,4.761904762,2159.50,8.2
+148-41-7930,Trans-Amadi,Port Harcourt,Normal,Male,Health and beauty,9996.00,7,3498.60,73470.60,1/23/2019,10:33:00 AM,Cash,69972.00,4.761904762,3498.60,6.1
+576-31-4774,Wuse,Abuja,Normal,Female,Health and beauty,7341.00,3,1101.15,23124.15,3/2/2019,1:10:00 PM,Ewallet,22023.00,4.761904762,1101.15,4.0
+375-72-3056,Wuse,Abuja,Normal,Male,Sports and travel,6306.00,3,945.90,19863.90,1/19/2019,3:58:00 PM,Ewallet,18918.00,4.761904762,945.90,7.0
+209-61-0206,Ikeja,Lagos,Normal,Female,Home and lifestyle,4291.00,5,1072.75,22527.75,1/5/2019,5:29:00 PM,Ewallet,21455.00,4.761904762,1072.75,6.1
+139-52-2867,Trans-Amadi,Port Harcourt,Normal,Female,Fashion accessories,2251.00,7,787.85,16544.85,2/13/2019,10:50:00 AM,Credit card,15757.00,4.761904762,787.85,4.8
+526-86-8552,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,2182.00,10,1091.00,22911.00,1/7/2019,5:36:00 PM,Cash,21820.00,4.761904762,1091.00,7.1
+761-49-0439,Wuse,Abuja,Member,Female,ELECTRONIC ACCESSORIES   ,1210.00,8,484.00,10164.00,1/19/2019,10:17:00 AM,Ewallet,9680.00,4.761904762,484.00,8.6
+541-48-8554,Ikeja,Lagos,Normal,Male,Sports and travel,6095.00,9,2742.75,57597.75,1/7/2019,12:08:00 PM,Credit card,54855.00,4.761904762,2742.75,6.0
+660-29-7083,Trans-Amadi,Port Harcourt,Normal,Male,Electronic accessories,5587.00,10,2793.50,58663.50,1/15/2019,3:01:00 PM,Cash,55870.00,4.761904762,2793.50,5.8
+821-14-9046,Wuse,Abuja,Member,Female,Fashion accessories,1748.00,6,524.40,11012.40,1/18/2019,3:04:00 PM,Credit card,10488.00,4.761904762,524.40,6.1
+485-30-8700,Ikeja,Lagos,Normal,Female,Sports and travel,3326.00,5,831.50,17461.50,3/18/2019,4:10:00 PM,Credit card,16630.00,4.761904762,831.50,4.2
+746-68-6593,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,8716.00,2,871.60,18303.60,1/11/2019,2:29:00 PM,Credit card,17432.00,4.761904762,871.60,9.7
+589-02-8023,Ikeja,Lagos,Member,Male,FOOD AND BEVERAGES   ,8377.00,2,837.70,17591.70,1/15/2019,10:54:00 AM,Credit card,16754.00,4.761904762,837.70,7.0
+560-30-5617,Wuse,Abuja,Normal,Female,Sports and travel,2477.00,5,619.25,13004.25,3/24/2019,6:27:00 PM,Cash,12385.00,4.761904762,619.25,8.5
+848-62-7243,Ikeja,Lagos,Member,Female,Health and beauty,2489.00,9,1120.05,23521.05,3/15/2019,3:36:00 PM,Cash,22401.00,4.761904762,1120.05,7.4
+316-66-3011,Ikeja,Lagos,Member,Female,Food and beverages,4763.00,9,2143.35,45010.35,1/23/2019,12:35:00 PM,Cash,42867.00,4.761904762,2143.35,5.0
+626-43-7888,Trans-Amadi,Port Harcourt,Normal,Female,FASHION ACCESSORIES   ,6041.00,8,2416.40,50744.40,2/7/2019,12:23:00 PM,Ewallet,48328.00,4.761904762,2416.40,9.6
+776-68-1096,Wuse,Abuja,Normal,Male,Home and lifestyle,4412.00,3,661.80,13897.80,3/18/2019,1:45:00 PM,Credit card,13236.00,4.761904762,661.80,7.9
+670-71-7306,Wuse,Abuja,Normal,Male,Sports and travel,4463.00,6,1338.90,28116.90,1/2/2019,8:08:00 PM,Credit card,26778.00,4.761904762,1338.90,5.1
+130-98-8941,Trans-Amadi,Port Harcourt,Normal,Male,Fashion accessories,6426.00,7,2249.10,47231.10,2/9/2019,10:00:00 AM,Cash,44982.00,4.761904762,2249.10,5.7
+390-17-5806,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,3842.00,1,192.10,4034.10,2/2/2019,4:33:00 PM,Cash,3842.00,4.761904762,192.10,8.6
+777-67-2495,Wuse,Abuja,Normal,Male,Home and lifestyle,6897.00,3,1034.55,21725.55,2/22/2019,11:26:00 AM,Ewallet,20691.00,4.761904762,1034.55,8.7
+729-46-7422,Trans-Amadi,Port Harcourt,Normal,Male,FOOD AND BEVERAGES   ,3589.00,1,179.45,3768.45,2/23/2019,4:52:00 PM,Credit card,3589.00,4.761904762,179.45,7.9
+717-96-4189,Trans-Amadi,Port Harcourt,Normal,Female,Electronic accessories,3549.00,6,1064.70,22358.70,02-02-2019,12:40:00 PM,Cash,21294.00,4.761904762,1064.70,4.1
+274-05-5470,Ikeja,Lagos,Member,Female,Food and beverages,7347.00,4,1469.40,30857.40,2/23/2019,6:30:00 PM,Cash,29388.00,4.761904762,1469.40,6.0
+364-33-8584,Wuse,Abuja,Member,Female,Food and beverages,1763.00,5,440.75,9255.75,3/8/2019,3:27:00 PM,Cash,8815.00,4.761904762,440.75,8.5
+451-28-5717,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,8317.00,6,2495.10,52397.10,3/20/2019,11:23:00 AM,Cash,49902.00,4.761904762,2495.10,7.3
+676-39-6028,Ikeja,Lagos,Member,Female,Electronic accessories,6444.00,5,1611.00,33831.00,3/30/2019,5:04:00 PM,Cash,32220.00,4.761904762,1611.00,6.6
+154-74-7179,Wuse,Abuja,Normal,Male,Sports and travel,5445.00,1,272.25,5717.25,2/26/2019,7:24:00 PM,Ewallet,5445.00,4.761904762,272.25,7.9
+853-23-2453,Wuse,Abuja,Member,Female,Health and beauty,7574.00,4,1514.80,31810.80,2/14/2019,2:35:00 PM,Cash,30296.00,4.761904762,1514.80,7.6
+500-02-2261,Trans-Amadi,Port Harcourt,Normal,Female,Food and beverages,5729.00,6,1718.70,36092.70,3/21/2019,5:04:00 PM,Ewallet,34374.00,4.761904762,1718.70,5.9
+891-58-8335,Wuse,Abuja,Member,Female,Sports and travel,2961.00,7,1036.35,21763.35,3/11/2019,3:53:00 PM,Cash,20727.00,4.761904762,1036.35,6.5
+256-58-3609,Trans-Amadi,Port Harcourt,Member,Male,Fashion accessories,9198.00,1,459.90,9657.90,3/18/2019,3:29:00 PM,Cash,9198.00,4.761904762,459.90,9.8
+781-84-8059,Trans-Amadi,Port Harcourt,Normal,Male,Fashion accessories,6074.00,7,2125.90,44643.90,1/18/2019,4:23:00 PM,Ewallet,42518.00,4.761904762,2125.90,5.0
+843-73-4724,Ikeja,Lagos,Normal,Male,Fashion accessories,7410.00,1,370.50,7780.50,1/25/2019,11:05:00 AM,Cash,7410.00,4.761904762,370.50,9.2
+131-70-8179,Ikeja,Lagos,Member,Female,Health and beauty,9209.00,3,1381.35,29008.35,2/17/2019,4:27:00 PM,Cash,27627.00,4.761904762,1381.35,4.2
+827-26-2100,Ikeja,Lagos,Member,Male,Home and lifestyle,3384.00,-9,1522.80,31978.80,3/21/2019,4:21:00 PM,Ewallet,30456.00,4.761904762,1522.80,8.8
+793-10-3222,Wuse,Abuja,Member,Female,Health and beauty,4106.00,6,1231.80,25867.80,3/5/2019,1:30:00 PM,Credit card,24636.00,4.761904762,1231.80,8.3
+509-10-0516,Wuse,Abuja,Normal,Male,Home and lifestyle,4597.00,4,919.40,19307.40,2/9/2019,12:02:00 PM,Ewallet,18388.00,4.761904762,919.40,5.1
+733-33-4967,Trans-Amadi,Port Harcourt,Normal,Male,Electronic accessories,2085.00,8,834.00,17514.00,3/3/2019,7:17:00 PM,Cash,16680.00,4.761904762,834.00,6.3
+566-71-1091,Ikeja,Lagos,Normal,Male,Fashion accessories,7702.00,5,1925.50,40435.50,2/3/2019,3:59:00 PM,Cash,38510.00,4.761904762,1925.50,5.5
+640-49-2076,Wuse,Abuja,Member,Female,Sports and travel,8378.00,8,3351.20,70375.20,1/10/2019,2:49:00 PM,Cash,67024.00,4.761904762,3351.20,5.1
+149-71-6266,Wuse,Abuja,Member,Female,Sports and travel,7807.00,9,3513.15,73776.15,1/28/2019,12:43:00 PM,Cash,70263.00,4.761904762,3513.15,4.5
+345-68-9016,Trans-Amadi,Port Harcourt,Member,Female,Sports and travel,3167.00,8,1266.80,26602.80,1/2/2019,4:19:00 PM,Credit card,25336.00,4.761904762,1266.80,5.6
+645-78-8093,Ikeja,Lagos,Normal,Female,Sports and travel,9314.00,2,931.40,19559.40,1/20/2019,6:09:00 PM,Ewallet,18628.00,4.761904762,931.40,4.1
+422-29-8786,Ikeja,Lagos,Normal,Female,Home and lifestyle,6709.00,5,1677.25,35222.25,1/3/2019,4:47:00 PM,Credit card,33545.00,4.761904762,1677.25,9.1
+760-54-1821,Wuse,Abuja,Normal,Male,Home and lifestyle,1359.00,9,611.55,12842.55,3/15/2019,10:26:00 AM,Cash,12231.00,4.761904762,611.55,5.8
+256-08-8343,Ikeja,Lagos,Normal,Female,Home and lifestyle,5653.00,4,1130.60,23742.60,3/4/2019,7:48:00 PM,Ewallet,22612.00,4.761904762,1130.60,5.5
+751-41-9720,Trans-Amadi,Port Harcourt,Normal,Male,Home and lifestyle,9750.00,10,4875.00,102375.00,1/12/2019,4:18:00 PM,Ewallet,97500.00,4.761904762,4875.00,8.0
+241-96-5076,Wuse,Abuja,Member,Female,Home and lifestyle,4910.00,2,491.00,10311.00,1/8/2019,12:58:00 PM,Credit card,9820.00,4.761904762,491.00,6.4
+848-07-1692,Wuse,Abuja,Normal,Female,Health and beauty,5722.00,2,572.20,12016.20,1/12/2019,5:13:00 PM,Ewallet,11444.00,4.761904762,572.20,8.3
+596-42-3999,Wuse,Abuja,Normal,Male,Food and beverages,1822.00,7,637.70,13391.70,3/10/2019,2:04:00 PM,Credit card,12754.00,4.761904762,637.70,6.6
+809-46-1866,Ikeja,Lagos,Normal,Male,Health and beauty,5815.00,4,1163.00,24423.00,1/23/2019,5:44:00 PM,Cash,23260.00,4.761904762,1163.00,8.4
+499-27-7781,Wuse,Abuja,Normal,Female,FOOD AND BEVERAGES   ,5321.00,-8,2128.40,44696.40,14-03-2019,4:45:00 PM,Ewallet,42568.00,4.761904762,2128.40,5.0
+747-58-7183,Wuse,Abuja,Normal,Male,Fashion accessories,5727.00,3,859.05,18040.05,2/9/2019,8:31:00 PM,Ewallet,17181.00,4.761904762,859.05,6.5
+253-12-6086,Ikeja,Lagos,Member,Female,Sports and travel,9840.00,7,3444.00,72324.00,3/12/2019,12:43:00 PM,Credit card,68880.00,4.761904762,3444.00,8.7
+214-30-2776,Wuse,Abuja,Member,Female,ELECTRONIC ACCESSORIES   ,3449.00,5,862.25,18107.25,3/11/2019,7:44:00 PM,Credit card,17245.00,4.761904762,862.25,9.0
+829-34-3910,Ikeja,Lagos,Member,Female,Health and beauty,7138.00,10,3569.00,74949.00,3/29/2019,7:21:00 PM,Cash,71380.00,4.761904762,3569.00,5.7
+512-91-0811,Trans-Amadi,Port Harcourt,Member,Female,Health and beauty,8975.00,1,448.75,9423.75,06-02-2019,8:05:00 PM,Credit card,8975.00,4.761904762,448.75,6.6
+827-44-5872,Wuse,Abuja,Member,Female,Food and beverages,5436.00,10,2718.00,57078.00,2/7/2019,11:28:00 AM,Credit card,54360.00,4.761904762,2718.00,6.1
+173-82-9529,Wuse,Abuja,Normal,Female,Fashion accessories,3795.00,10,1897.50,39847.50,1/26/2019,2:51:00 PM,Cash,37950.00,4.761904762,1897.50,9.7
+866-70-2814,Wuse,Abuja,Normal,Female,Electronic accessories,5279.00,10,2639.50,55429.50,2/25/2019,11:58:00 AM,Ewallet,52790.00,4.761904762,2639.50,10.0
+299-29-0180,Wuse,Abuja,Member,Female,Home and lifestyle,5218.00,7,1826.30,38352.30,3/9/2019,10:54:00 AM,Cash,36526.00,4.761904762,1826.30,9.3
+324-41-6833,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,3020.00,8,1208.00,25368.00,3/3/2019,7:30:00 PM,Ewallet,24160.00,4.761904762,1208.00,5.1
+226-34-0034,Wuse,Abuja,Normal,Female,Electronic accessories,1378.00,4,275.60,5787.60,1/10/2019,11:10:00 AM,Ewallet,5512.00,4.761904762,275.60,9.0
+887-42-0517,Trans-Amadi,Port Harcourt,Normal,Female,Sports and travel,8314.00,7,2909.90,61107.90,1/10/2019,10:31:00 AM,Credit card,58198.00,4.761904762,2909.90,6.6
+829-49-1914,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,7831.00,10,3915.50,82225.50,05-03-2019,4:24:00 PM,Ewallet,78310.00,4.761904762,3915.50,6.6
+642-30-6693,Wuse,Abuja,Normal,Female,Sports and travel,5451.00,6,1635.30,34341.30,3/17/2019,1:54:00 PM,Ewallet,32706.00,4.761904762,1635.30,7.8
+725-56-0833,Ikeja,Lagos,Normal,Female,Health and beauty,3232.00,10,1616.00,33936.00,2/20/2019,4:49:00 PM,Credit card,32320.00,4.761904762,1616.00,10.0
+824-88-3614,Trans-Amadi,Port Harcourt,Normal,Male,Health and beauty,3431.00,8,1372.40,28820.40,1/25/2019,3:00:00 PM,Ewallet,27448.00,4.761904762,1372.40,5.7
+449-27-2918,Wuse,Abuja,Member,Female,Sports and travel,3912.00,1,195.60,4107.60,3/26/2019,11:02:00 AM,Credit card,3912.00,4.761904762,195.60,9.6
+289-15-7034,Ikeja,Lagos,Member,Male,Sports and travel,8233.00,4,1646.60,34578.60,1/11/2019,10:37:00 AM,Credit card,32932.00,4.761904762,1646.60,7.5
+807-34-3742,Ikeja,Lagos,Normal,Male,Fashion accessories,5238.00,1,261.90,5499.90,3/26/2019,7:44:00 PM,Cash,5238.00,4.761904762,261.90,5.8
+510-09-5628,Ikeja,Lagos,Member,Female,Fashion accessories,1966.00,10,983.00,20643.00,3/15/2019,6:20:00 PM,Credit card,19660.00,4.761904762,983.00,7.2
+457-94-0464,Wuse,Abuja,Member,Male,Electronic accessories,8787.00,9,3954.15,83037.15,1/31/2019,8:32:00 PM,Ewallet,79083.00,4.761904762,3954.15,5.6
+284-34-9626,Wuse,Abuja,Normal,Female,Home and lifestyle,7704.00,3,1155.60,24267.60,2/11/2019,10:39:00 AM,Credit card,23112.00,4.761904762,1155.60,7.2
+380-60-5336,Ikeja,Lagos,Normal,Female,ELECTRONIC ACCESSORIES   ,4026.00,10,2013.00,42273.00,2/24/2019,6:06:00 PM,Credit card,40260.00,4.761904762,2013.00,5.0
+436-54-4512,Ikeja,Lagos,Member,Female,Food and beverages,9161.00,1,458.05,9619.05,3/20/2019,7:44:00 PM,Cash,9161.00,4.761904762,458.05,
+272-27-9238,Trans-Amadi,Port Harcourt,Normal,Female,Food and beverages,4124.00,4,824.80,17320.80,2/19/2019,4:23:00 PM,Cash,16496.00,4.761904762,824.80,7.1
+631-34-1880,Trans-Amadi,Port Harcourt,Member,Male,Food and beverages,2431.00,3,364.65,7657.65,1/8/2019,7:09:00 PM,Credit card,7293.00,4.761904762,364.65,4.3
+597-78-7908,Trans-Amadi,Port Harcourt,Normal,Female,Fashion accessories,9022.00,3,1353.30,28419.30,18-02-2019,7:39:00 PM,Cash,27066.00,4.761904762,1353.30,6.2
+530-90-9855,Ikeja,Lagos,Member,Male,Home and lifestyle,4759.00,8,1903.60,39975.60,1/1/2019,2:47:00 PM,Cash,38072.00,4.761904762,1903.60,5.7
+115-38-7388,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,1018.00,8,407.20,8551.20,3/30/2019,12:51:00 PM,Credit card,8144.00,4.761904762,407.20,9.5
+477-24-6490,Wuse,Abuja,Normal,Female,Health and beauty,9971.00,6,2991.30,62817.30,2/26/2019,4:52:00 PM,Ewallet,59826.00,4.761904762,2991.30,7.9
+568-90-5112,Trans-Amadi,Port Harcourt,Normal,Male,Health and beauty,6614.00,4,1322.80,27778.80,3/19/2019,12:46:00 PM,Credit card,26456.00,4.761904762,1322.80,5.6
+704-48-3927,Ikeja,Lagos,Member,Female,Electronic accessories,8867.00,10,4433.50,93103.50,1/12/2019,2:50:00 PM,Ewallet,88670.00,4.761904762,4433.50,7.3
+585-03-5943,Wuse,Abuja,Normal,Male,Health and beauty,1811.00,10,905.50,19015.50,3/13/2019,11:46:00 AM,Ewallet,18110.00,4.761904762,905.50,5.9
+746-54-5508,Ikeja,Lagos,Normal,Male,Home and lifestyle,2152.00,6,645.60,13557.60,1/17/2019,12:48:00 PM,Credit card,12912.00,4.761904762,645.60,9.4
+707-32-7409,Wuse,Abuja,Member,Female,Sports and travel,9554.00,4,1910.80,40126.80,2/26/2019,11:58:00 AM,Ewallet,38216.00,4.761904762,1910.80,4.5
+401-09-4232,Trans-Amadi,Port Harcourt,Member,Male,Home and lifestyle,8669.00,5,2167.25,45512.25,2/11/2019,6:38:00 PM,Ewallet,43345.00,4.761904762,2167.25,9.4
+358-88-9262,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,8748.00,6,2624.40,55112.40,2/1/2019,6:43:00 PM,Ewallet,52488.00,4.761904762,2624.40,5.1
+266-20-6657,Trans-Amadi,Port Harcourt,Member,Male,Food and beverages,5504.00,7,1926.40,40454.40,12-03-2019,7:39:00 PM,Ewallet,38528.00,4.761904762,1926.40,5.2
+166-19-2553,Ikeja,Lagos,Member,Male,Sports and travel,8906.00,6,2671.80,56107.80,1/18/2019,5:26:00 PM,Cash,53436.00,4.761904762,2671.80,9.9
+752-23-3760,Wuse,Abuja,Member,Female,Sports and travel,6408.00,7,2242.80,47098.80,2/19/2019,7:29:00 PM,Credit card,44856.00,4.761904762,2242.80,7.3
+479-26-8945,Wuse,Abuja,Member,Female,Sports and travel,1649.00,2,164.90,3462.90,2/5/2019,11:32:00 AM,Ewallet,3298.00,4.761904762,164.90,4.6
+377-79-7592,Trans-Amadi,Port Harcourt,Member,Female,ELECTRONIC ACCESSORIES   ,4484.00,9,2017.80,42373.80,1/14/2019,2:00:00 PM,Credit card,40356.00,4.761904762,2017.80,7.5
+221-25-5073,Ikeja,Lagos,Normal,Female,Food and beverages,7466.00,4,1493.20,31357.20,3/4/2019,10:39:00 AM,Cash,29864.00,4.761904762,1493.20,8.5
+711-31-1234,Wuse,Abuja,Normal,Female,Electronic accessories,9564.00,4,1912.80,40168.80,3/16/2019,6:51:00 PM,Cash,38256.00,4.761904762,1912.80,7.9
+222-42-0244,Wuse,Abuja,Member,Female,Health and beauty,7211.00,9,3244.95,68143.95,1/28/2019,1:53:00 PM,Credit card,64899.00,4.761904762,3244.95,7.7
+699-14-3026,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,8539.00,7,2988.65,62761.65,3/25/2019,6:30:00 PM,Ewallet,59773.00,4.761904762,2988.65,4.1
+744-82-9138,Trans-Amadi,Port Harcourt,Normal,Male,Fashion accessories,8613.00,2,861.30,18087.30,2/7/2019,5:59:00 PM,Cash,17226.00,4.761904762,861.30,8.2
+239-10-7476,Ikeja,Lagos,Normal,Female,Home and lifestyle,7795.00,6,2338.50,49108.50,1/21/2019,4:37:00 PM,Ewallet,46770.00,4.761904762,2338.50,8.0
+212-62-1842,Ikeja,Lagos,Member,Female,Food and beverages,5826.00,6,1747.80,36703.80,3/28/2019,4:44:00 PM,Cash,34956.00,4.761904762,1747.80,9.9
+888-02-0338,Ikeja,Lagos,Normal,Male,Electronic accessories,2623.00,9,1180.35,24787.35,1/25/2019,8:24:00 PM,Ewallet,23607.00,4.761904762,1180.35,5.9
+409-49-6995,Trans-Amadi,Port Harcourt,Member,Female,Food and beverages,4727.00,6,1418.10,29780.10,2/5/2019,10:17:00 AM,Cash,28362.00,4.761904762,1418.10,8.8
+235-46-8343,Trans-Amadi,Port Harcourt,Member,Male,Food and beverages,2766.00,10,1383.00,29043.00,2/14/2019,11:26:00 AM,Credit card,27660.00,4.761904762,1383.00,8.9
+554-53-8700,Trans-Amadi,Port Harcourt,Member,Female,Home and lifestyle,5611.00,2,561.10,11783.10,2/2/2019,10:11:00 AM,Cash,11222.00,4.761904762,561.10,6.3
+471-41-2823,Trans-Amadi,Port Harcourt,Normal,Male,Food and beverages,9979.00,2,997.90,20955.90,3/7/2019,8:37:00 PM,Ewallet,19958.00,4.761904762,997.90,8.0
+740-11-5257,Trans-Amadi,Port Harcourt,Normal,Male,Electronic accessories,2474.00,10,1237.00,25977.00,2/24/2019,4:44:00 PM,Cash,24740.00,4.761904762,1237.00,7.1
+743-88-1662,Trans-Amadi,Port Harcourt,Normal,Male,Sports and travel,9549.00,7,3342.15,70185.15,2/22/2019,6:17:00 PM,Ewallet,66843.00,4.761904762,3342.15,8.7
+704-11-6354,Ikeja,Lagos,Member,Male,Home and lifestyle,5890.00,8,2356.00,49476.00,1/6/2019,11:23:00 AM,Cash,47120.00,4.761904762,2356.00,8.9
+685-64-1609,Ikeja,Lagos,Member,Female,Fashion accessories,3014.00,10,1507.00,31647.00,2/10/2019,12:28:00 PM,Ewallet,30140.00,4.761904762,1507.00,9.2
+318-81-2368,Trans-Amadi,Port Harcourt,Normal,Female,ELECTRONIC ACCESSORIES   ,4620.00,1,231.00,4851.00,3/19/2019,12:16:00 PM,Cash,4620.00,4.761904762,231.00,6.3
+362-58-8315,Trans-Amadi,Port Harcourt,Member,Female,Fashion accessories,7652.00,5,1913.00,40173.00,3/25/2019,10:23:00 AM,Cash,38260.00,4.761904762,1913.00,9.9
+728-47-9078,Trans-Amadi,Port Harcourt,Member,Male,FOOD AND BEVERAGES   ,5959.00,4,1191.80,25027.80,1/19/2019,12:46:00 PM,Cash,23836.00,4.761904762,1191.80,
+173-50-1108,Wuse,Abuja,Member,Female,Sports and travel,2018.00,4,403.60,8475.60,2/13/2019,12:14:00 PM,Credit card,8072.00,4.761904762,403.60,5.0
+574-57-9721,Trans-Amadi,Port Harcourt,Normal,Male,Food and beverages,4327.00,2,432.70,9086.70,3/8/2019,4:53:00 PM,Ewallet,8654.00,4.761904762,432.70,5.7
+877-22-3308,Ikeja,Lagos,Member,Female,Health and beauty,1587.00,10,793.50,16663.50,3/13/2019,4:40:00 PM,Cash,15870.00,4.761904762,793.50,5.8
+258-92-7466,Ikeja,Lagos,Normal,Female,Health and beauty,3568.00,5,892.00,18732.00,2/6/2019,6:33:00 PM,Credit card,17840.00,4.761904762,892.00,6.6
+749-24-1565,Ikeja,Lagos,Normal,Female,Health and beauty,2303.00,9,1036.35,21763.35,1/3/2019,12:02:00 PM,Ewallet,20727.00,4.761904762,1036.35,7.9
+617-15-4209,Trans-Amadi,Port Harcourt,Member,Female,Health and beauty,1537.00,2,153.70,3227.70,3/16/2019,7:47:00 PM,Cash,3074.00,4.761904762,153.70,7.2
+189-17-4241,Ikeja,Lagos,Member,Female,Fashion accessories,8767.00,2,876.70,18410.70,10-03-2019,12:17:00 PM,Credit card,17534.00,4.761904762,876.70,7.7
+870-72-4431,Trans-Amadi,Port Harcourt,Member,Female,Health and beauty,9919.00,6,2975.70,62489.70,21-01-2019,2:42:00 PM,Credit card,59514.00,4.761904762,2975.70,5.5
+849-09-3807,Ikeja,Lagos,Member,Female,Fashion accessories,8834.00,7,3091.90,64929.90,2/18/2019,1:28:00 PM,Cash,61838.00,4.761904762,3091.90,6.6
+345-08-4992,Ikeja,Lagos,Normal,Male,Home and lifestyle,3399.00,6,1019.70,21413.70,3/8/2019,3:37:00 PM,Credit card,20394.00,4.761904762,1019.70,7.7
+645-44-1170,Ikeja,Lagos,Member,Female,Home and lifestyle,5807.00,9,2613.15,54876.15,1/19/2019,8:07:00 PM,Ewallet,52263.00,4.761904762,2613.15,4.3
+151-27-8496,Trans-Amadi,Port Harcourt,Normal,Female,Electronic accessories,5613.00,4,1122.60,23574.60,1/19/2019,11:43:00 AM,Ewallet,22452.00,4.761904762,1122.60,8.6
+394-43-4238,Wuse,Abuja,Member,Male,Home and lifestyle,1777.00,5,444.25,9329.25,2/15/2019,12:42:00 PM,Credit card,8885.00,4.761904762,444.25,5.4
+600-38-9738,Trans-Amadi,Port Harcourt,Member,Male,Sports and travel,7192.00,5,1798.00,37758.00,1/17/2019,3:05:00 PM,Credit card,35960.00,4.761904762,1798.00,4.3
+418-05-0656,Wuse,Abuja,Normal,Female,Fashion accessories,2556.00,7,894.60,18786.60,2/2/2019,8:42:00 PM,Cash,17892.00,4.761904762,894.60,7.1
+588-47-8641,Ikeja,Lagos,Member,Male,Fashion accessories,5604.00,10,2802.00,58842.00,1/14/2019,7:30:00 PM,Ewallet,56040.00,4.761904762,2802.00,4.4
+598-06-7312,Wuse,Abuja,Member,Male,Fashion accessories,9135.00,1,456.75,9591.75,2/16/2019,3:42:00 PM,Cash,9135.00,4.761904762,456.75,6.8
+569-71-4390,Wuse,Abuja,Normal,Male,Sports and travel,2187.00,2,218.70,4592.70,1/25/2019,2:29:00 PM,Ewallet,4374.00,4.761904762,218.70,6.9
+867-47-1948,Trans-Amadi,Port Harcourt,Normal,Female,Home and lifestyle,1580.00,10,790.00,16590.00,1/9/2019,12:07:00 PM,Cash,15800.00,4.761904762,790.00,7.8
+546-80-2899,Ikeja,Lagos,Member,Male,Home and lifestyle,3769.00,2,376.90,7914.90,2/20/2019,3:29:00 PM,Ewallet,7538.00,4.761904762,376.90,9.5
+733-29-1227,Trans-Amadi,Port Harcourt,Normal,Male,Home and lifestyle,5561.00,7,1946.35,40873.35,3/23/2019,12:41:00 PM,Cash,38927.00,4.761904762,1946.35,8.5
+665-32-9167,Ikeja,Lagos,Member,Female,Health and beauty,3626.00,2,362.60,7614.60,1/10/2019,5:15:00 PM,Credit card,7252.00,4.761904762,362.60,7.2
+841-35-6630,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,7591.00,6,2277.30,47823.30,3/9/2019,6:21:00 PM,Cash,45546.00,4.761904762,2277.30,8.7
+110-05-6330,Trans-Amadi,Port Harcourt,Normal,Female,Food and beverages,3943.00,6,1182.90,24840.90,3/25/2019,8:18:00 PM,Credit card,23658.00,4.761904762,1182.90,9.4
+642-32-2990,Ikeja,Lagos,Member,Female,Food and beverages,1096.00,10,548.00,11508.00,2/2/2019,8:48:00 PM,Ewallet,10960.00,4.761904762,548.00,6.0
+347-56-2442,Ikeja,Lagos,Normal,Male,Home and lifestyle,6582.00,1,329.10,6911.10,2/22/2019,3:33:00 PM,Cash,6582.00,4.761904762,329.10,4.1
+176-64-7711,Wuse,Abuja,Normal,Male,Food and beverages,3232.00,3,484.80,10180.80,3/27/2019,7:11:00 PM,Credit card,9696.00,4.761904762,484.80,4.3
+189-52-0236,Ikeja,Lagos,Normal,Male,Electronic accessories,9955.00,7,3484.25,73169.25,3/14/2019,12:07:00 PM,Cash,69685.00,4.761904762,3484.25,7.6
+672-51-8681,Trans-Amadi,Port Harcourt,Member,Female,Electronic accessories,6665.00,9,2999.25,62984.25,1/4/2019,6:19:00 PM,Credit card,59985.00,4.761904762,2999.25,9.7
+101-81-4070,Trans-Amadi,Port Harcourt,Member,Female,HEALTH AND BEAUTY   ,6282.00,2,628.20,13192.20,1/17/2019,12:36:00 PM,Ewallet,12564.00,4.761904762,628.20,4.9

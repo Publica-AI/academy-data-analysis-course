@@ -1,0 +1,601 @@
+# -*- coding: utf-8 -*-
+"""Rebuild Module 2's MCQ bank: 57 items, every one carrying an explanation.
+
+Every figure quoted below was recomputed from Datasets/Ilesanmi_Sales_Clean_AnswerKey.xlsx
+and Datasets/Ilesanmi_Sales_Raw_Export.csv with pandas before this file was written, and is
+re-asserted against those files by verify_mcq.py.
+"""
+import csv
+import json
+import pathlib
+
+T1 = "the excel environment, tables and referencing"
+T2 = "core formulas and functions"
+T3 = "data cleaning in excel"
+T4 = "pivot tables"
+T5 = "charts and dashboard reporting"
+T6 = "power query"
+T7 = "ai-augmented excel"
+
+MC = "multiple choice"
+TF = "True or False"
+SA = "short answer"
+B, I, A = "beginner", "intermediate", "advanced"
+
+
+def q(title, desc, typ, question, options, answer, diff, explanation):
+    return {
+        "title": title,
+        "description": desc,
+        "type": typ,
+        "question": question,
+        "options": options,
+        "answer": answer,
+        "difficulty": diff,
+        "explanation": explanation,
+    }
+
+
+items = []
+add = items.append
+
+# ============================================================ Topic 2.1 (8)
+add(q(T1, "Workbook vs worksheet vocabulary", MC,
+      "In Excel, what is the name for a single tab inside a workbook, such as the Sheet1 tab?",
+      "Worksheet|Workbook|Range|Cell", "Worksheet", B,
+      "A worksheet is one tab; the workbook is the whole file that holds those tabs, which is why "
+      "Workbook is the strongest distractor and still wrong. A range is a selected block of cells "
+      "within a worksheet, and a cell is a single one of them, so neither names a tab."))
+
+add(q(T1, "Formula Bar function", MC,
+      "Which part of the Excel interface shows the exact content, formula or value, of the currently selected cell?",
+      "Formula Bar|Name Box|Status Bar|Ribbon", "Formula Bar", B,
+      "The Formula Bar shows what is actually stored in the cell, which is why it is the only place "
+      "you can see a formula rather than the result it displays. The Name Box, sitting immediately to "
+      "its left, shows the cell's address rather than its contents, and the Status bar shows quick "
+      "aggregates for a selection, not the contents of one cell."))
+
+add(q(T1, "Ctrl+T converts range to table", MC,
+      "Which keyboard shortcut converts a selected range of data into a structured Excel table?",
+      "Ctrl + T|Ctrl + R|Ctrl + Shift + L|Ctrl + K", "Ctrl + T", I,
+      "Ctrl+T opens the Create Table dialog, with the My table has headers box that decides whether "
+      "the Ilesanmi export's first row becomes column names or a data row. Ctrl+Shift+L is the "
+      "closest distractor because it adds filter buttons, which look like the ones a table gets, but "
+      "it creates no table and no structured references. Ctrl+R fills right and Ctrl+K inserts a hyperlink."))
+
+add(q(T1, "Relative reference shifts on copy", MC,
+      "A formula =A1+B1 is typed in row 1 and copied down to row 4, using the default relative reference type. "
+      "What does the formula become in row 4?",
+      "=A4+B4|=A1+B1|=$A$1+$B$1|=A1+B4", "=A4+B4", I,
+      "Relative references move with the formula, so copying down three rows adds three to every row "
+      "number. =A1+B1 would be the result only if both references had been locked, and =$A$1+$B$1 is "
+      "what locking actually looks like, which is why it is a tempting wrong answer for anyone who "
+      "has confused the two behaviours."))
+
+add(q(T1, "F4 reference cycling", MC,
+      "In the Formula Bar, a trainee selects the reference A1 and presses F4 once. What does the reference become?",
+      "$A$1|A$1|$A1|A1", "$A$1", I,
+      "One press of F4 locks both the column and the row, giving the fully absolute $A$1 that a shared "
+      "tax or commission rate needs. A$1 and $A1 are the mixed references reached by pressing F4 twice "
+      "and three times, so they are the right answers to a different question, and a fourth press "
+      "returns the reference to plain A1."))
+
+add(q(T1, "Relative reference commission error", MC,
+      "A commission formula =SalesAmount*B1 is copied down 10 rows using a relative reference to B1, where B1 "
+      "holds the shared commission rate and rows 3 to 10 are otherwise empty. What is the most likely result in rows 3 to 10?",
+      "Errors or zero values, because the reference shifts away from B1|Correct commission values, because Excel always finds the nearest rate|The formula will not copy at all|The formula copies but shows the row 2 result in every row",
+      "Errors or zero values, because the reference shifts away from B1", A,
+      "The relative reference walks down to B2, B3 and so on, landing on empty cells, so the results "
+      "collapse to zero rather than throwing a visible error. That silence is the danger, and it is the "
+      "reason the demo checks its Tax Check column against the dataset's existing Tax 5% column. Excel "
+      "has no concept of finding the nearest rate, so the second option describes behaviour that does not exist."))
+
+add(q(T1, "Structured table auto-expand", MC,
+      "A trainee adds a new row directly beneath an existing structured table and types data into it. What happens, "
+      "and why does this matter compared to a plain range?",
+      "The table automatically expands to include the new row, because a structured table tracks its own boundaries, unlike a plain range|Nothing happens until the trainee manually reselects the table range|The new row is ignored by any formulas in the table|The table's filter buttons are removed",
+      "The table automatically expands to include the new row, because a structured table tracks its own boundaries, unlike a plain range", A,
+      "The table absorbs the new row, extends its formatting and its calculated columns, and updates every "
+      "structured reference that points at it. That is exactly why a PivotTable should be built on "
+      "CleanSales rather than a fixed range: a range has no boundary of its own, so it needs the manual "
+      "reselection the second option describes."))
+
+add(q(T1, "Writing the locked tax formula", SA,
+      "In the RawSales table, cell B1 holds the 5% tax rate typed once. Write the calculated-column formula that "
+      "multiplies Unit price by Quantity and then by that single rate, so it stays correct when it fills down all 1,025 rows.",
+      "", "=[@[Unit price]]*[@Quantity]*$B$1", I,
+      "The two structured references must stay relative so they shift row by row, while B1 must be locked "
+      "with F4 to $B$1 so every row points at the same rate. Written without the dollar signs the formula "
+      "walks down to B2, B3 and so on and quietly returns zeros. The check that confirms it is correct is "
+      "comparing the result against the dataset's existing Tax 5% column, which it should match to the penny on every row."))
+
+# ============================================================ Topic 2.2 (8)
+add(q(T2, "Logical function family purpose", MC,
+      "Which function family would a trainee use to make a true or false decision, such as testing whether a score qualifies as a pass?",
+      "Logical|Lookup|Text|Date and aggregate", "Logical", B,
+      "A decision with two or more branching outcomes is what IF and IFS exist for, which places it in the "
+      "logical family. Lookup is the strongest distractor because a lookup table can also return one of "
+      "several values, but it retrieves an answer already written down somewhere rather than evaluating a "
+      "condition, so the two are not interchangeable."))
+
+add(q(T2, "TODAY function behaviour", MC,
+      "Which function returns the current date and updates automatically each time the workbook is opened?",
+      "=TODAY()|=DATE()|=DATEDIF()|=DAY()", "=TODAY()", B,
+      "TODAY() takes no arguments and re-evaluates whenever the workbook recalculates, which is what makes "
+      "the Days Since Transaction column in the demo stay current. DATE() builds a fixed date from a year, "
+      "month and day you supply, so it never changes on its own, and DATEDIF() measures the gap between two "
+      "dates rather than returning one."))
+
+add(q(T2, "VLOOKUP FALSE argument purpose", MC,
+      "In the formula =VLOOKUP(A2,PriceList,3,FALSE), what does setting the last argument to FALSE do?",
+      "Forces an exact match on the lookup value|Searches the price list from right to left|Returns the third row instead of the third column|Ignores blank cells in the lookup range",
+      "Forces an exact match on the lookup value", I,
+      "FALSE sets the range_lookup argument to exact, and leaving it out defaults to an approximate match "
+      "that returns the closest value at or below the lookup value without any error. On the Ilesanmi "
+      "export that means a wrong Branch comes back looking entirely plausible, which is the misconception "
+      "the demo demonstrates on purpose. VLOOKUP cannot search leftwards at all, which is why INDEX-MATCH exists."))
+
+add(q(T2, "IFS avoids nested IF", MC,
+      "A trainee needs to assign a grade band using three score thresholds. Which function avoids the need to nest one IF inside another?",
+      "IFS|VLOOKUP|XLOOKUP|TEXTSPLIT", "IFS", I,
+      "IFS takes condition and result pairs in a flat list, so three satisfaction bands read as three pairs "
+      "rather than an IF buried inside another IF. XLOOKUP is the strongest distractor because it can be "
+      "coerced into banding with a match mode, but it is built for retrieving a value from a list, not for "
+      "evaluating thresholds, and reads far less clearly to the next person opening the file."))
+
+add(q(T2, "SUMIF conditional total by branch", MC,
+      "Using the module's cleaned CleanSales table, which formula correctly totals Sales for the Trans-Amadi branch only?",
+      "=SUMIF(CleanSales[Branch],\"Trans-Amadi\",CleanSales[Sales])|=SUM(CleanSales[Branch],\"Trans-Amadi\",CleanSales[Sales])|=VLOOKUP(\"Trans-Amadi\",CleanSales[Branch],CleanSales[Sales],FALSE)|=COUNTIF(CleanSales[Branch],\"Trans-Amadi\")",
+      "=SUMIF(CleanSales[Branch],\"Trans-Amadi\",CleanSales[Sales])", I,
+      "SUMIF takes the range to test, the condition, and the range to add, in that order, and returns "
+      "₦11,056,870.65 on the cleaned 1,000-row table. SUM accepts no condition at all, so the second "
+      "option is not valid syntax. COUNTIF is the most instructive wrong answer because it does run and "
+      "does return a number, 328, but that is a count of transactions rather than a sum of money."))
+
+add(q(T2, "Choosing lookup without XLOOKUP", MC,
+      "A trainee is building a workbook that must run on an older Excel installation without XLOOKUP, and the lookup value "
+      "sits to the right of the column being searched. Which approach should they choose?",
+      "INDEX-MATCH|VLOOKUP|XLOOKUP|TEXTSPLIT", "INDEX-MATCH", A,
+      "INDEX-MATCH separates finding the row from returning the value, so the return column can sit anywhere, "
+      "left or right, and it runs on every version of Excel in use. VLOOKUP is the distractor that catches "
+      "people out, because it works perfectly until the return column is to the left of the lookup column, "
+      "at which point it cannot be made to work at all. XLOOKUP would solve it, but the question rules it out."))
+
+add(q(T2, "TRIM fixes VLOOKUP mismatch", MC,
+      "A VLOOKUP formula returns #N/A even though the lookup value looks identical on screen to a value in the lookup table. "
+      "What is the most likely cause, and which function would confirm it?",
+      "A stray trailing space in one of the values, confirmed by wrapping the value in TRIM|The lookup table is sorted in the wrong order|The FALSE argument is missing|The lookup value is stored as a formula instead of text",
+      "A stray trailing space in one of the values, confirmed by wrapping the value in TRIM", A,
+      "Excel compares text character by character, so a trailing space makes two visually identical entries "
+      "genuinely different values, exactly as it does on the 102 Product line rows in this export. LEN before "
+      "and after TRIM proves it by showing different character counts. A missing FALSE argument is the "
+      "strongest distractor and produces the opposite symptom: a wrong answer rather than #N/A, because an "
+      "approximate match usually finds something."))
+
+add(q(T2, "Writing the branch SUMIF", SA,
+      "Write the formula that totals Sales for the Wuse branch only from the cleaned CleanSales table, and state the figure it returns.",
+      "", "=SUMIF(CleanSales[Branch],\"Wuse\",CleanSales[Sales]) returns ₦10,619,767.20", I,
+      "The three arguments are the range to test, the condition, and the range to add. The check that "
+      "confirms the figure is that the three branch SUMIFs must reconstruct the chain total: "
+      "₦10,620,037.05 for Ikeja plus ₦10,619,767.20 for Wuse plus ₦11,056,870.65 for "
+      "Trans-Amadi is ₦32,296,674.90, which equals =SUM(CleanSales[Sales]). A trainee who answers "
+      "₦10,755,627.75 has run the right formula against the raw 1,025-row export instead of the cleaned table."))
+
+# ============================================================ Topic 2.3 (10)
+add(q(T3, "Raw dataset starting row count", MC,
+      "How many rows did the module's raw Ilesanmi Stores sales export contain before cleaning?",
+      "1,025|1,000|975|1,050", "1,025", B,
+      "Ilesanmi_Sales_Raw_Export.csv holds 1,025 data rows, confirmed by =COUNTA on the Invoice ID column "
+      "before any cleaning starts. 1,000 is the strongest distractor because it is the count the file "
+      "reaches after cleaning, and recording both numbers, along with the reason for the difference, is "
+      "the whole point of the before-and-after row count check."))
+
+add(q(T3, "Clean dataset row count", MC,
+      "How many rows remain in the cleaned dataset after Remove Duplicates is run on Invoice ID?",
+      "1,000|1,025|1,006|995", "1,000", B,
+      "Removing the 25 duplicated Invoice IDs from 1,025 rows leaves exactly 1,000, which is the count the "
+      "client stated and the answer key holds. 1,006 is what Remove Duplicates returns if it is left on its "
+      "default of every column ticked, and 995 is what a trainee reaches by deleting the five negative-quantity "
+      "rows instead of correcting them from cogs divided by Unit price."))
+
+add(q(T3, "Total duplicate rows removed on Invoice ID", MC,
+      "Remove Duplicates is run on the raw export with Invoice ID ticked and every other column unticked. How many rows are removed?",
+      "25|19|6|1,006", "25", I,
+      "25 Invoice IDs appear twice in the export, so deduplicating on that column alone removes 25 rows and "
+      "lands on 1,000. 19 is the count removed when the dialog is left on its default of every column ticked, "
+      "and 6 is the difference between those two runs: the disguised copies that an every-column rule misses."))
+
+add(q(T3, "Exact vs disguised duplicates", MC,
+      "Of the 25 duplicated Invoice IDs, how many were exact full-row duplicates rather than the same transaction disguised by a difference in one field?",
+      "19|25|6|10", "19", I,
+      "19 of the 25 repeat every one of the seventeen columns identically. The other 6 differ in exactly one "
+      "field each: three by date format, two by Product line casing, and one, invoice 263-10-3913, by a blank "
+      "Rating on one of the two rows. That 19 is also precisely the number Remove Duplicates finds when every "
+      "column is left ticked, which is why the two figures are worth learning together."))
+
+add(q(T3, "The every-column Remove Duplicates trap", MC,
+      "A trainee opens Remove Duplicates on the 1,025-row raw export and clicks OK without changing anything, leaving every "
+      "column ticked. How many rows remain, and why?",
+      "1,006, because only the 19 rows that are exact copies in every column matched|1,000, because Excel always deduplicates on the first column|1,006, because Excel ignores any column containing blanks|1,019, because Excel removes only the six disguised duplicates",
+      "1,006, because only the 19 rows that are exact copies in every column matched", A,
+      "Every column ticked means two rows must agree on all seventeen fields to count as duplicates, and only "
+      "19 pairs do, so 1,025 minus 19 leaves 1,006 with six duplicated sales still in a file that now looks "
+      "clean. Excel has no default first-column behaviour, which rules out the second option. The column "
+      "choice, not the step order, is what moves this number: trimming and re-casing first would not change "
+      "it, because Invoice ID itself carries no formatting fault."))
+
+add(q(T3, "ALL CAPS product line count", MC,
+      "How many rows in the raw export had the Product line entered in ALL CAPS with a trailing space?",
+      "102|51|25|10", "102", I,
+      "102 rows carry both faults together, detectable with LEN before and after TRIM and repaired with "
+      "PROPER(TRIM(...)) pasted back as values. 51 is the count of dates written DD-MM-YYYY instead of "
+      "M/D/YYYY, 25 is the count of duplicated Invoice IDs, and 10 is the count of blank Ratings, so every "
+      "distractor is a real fault count from this same file."))
+
+add(q(T3, "Disguised duplicate via date format", MC,
+      "Two rows share the same Invoice ID, Branch, Sales figure and Product line, but one row's Date reads 15-03-2019 and the "
+      "other reads 3/15/2019. What is the correct way to treat these two rows during cleaning?",
+      "Treat them as the same transaction disguised by a date format difference, and remove one|Keep both rows, since the Date values are technically different text|Delete both rows, since neither Date format can be trusted|Treat them as two separate sales on different dates",
+      "Treat them as the same transaction disguised by a date format difference, and remove one", A,
+      "15-03-2019 and 3/15/2019 are the same day written two ways, and one Invoice ID is one completed sale, "
+      "so this is one transaction recorded twice. Three of the six disguised duplicates in this export are "
+      "exactly this pattern. Keeping both is what an every-column Remove Duplicates does automatically, which "
+      "is why that run leaves 1,006 rows, and deleting both would destroy a real sale rather than clean it."))
+
+add(q(T3, "Recovering the sign-flipped quantities", MC,
+      "A cleaning pass finds 5 rows with a negative Quantity, such as -1, -6 and -9, while cogs and Unit price on those same "
+      "rows are intact. What should happen to these rows?",
+      "Correct them, because cogs divided by Unit price recovers the true quantity exactly from the file itself|Flag them for investigation, because the true quantity cannot be confirmed from this file|Keep them as they are, since negative quantities represent product returns|Delete the five rows, since a negative quantity is impossible",
+      "Correct them, because cogs divided by Unit price recovers the true quantity exactly from the file itself", A,
+      "This dataset holds cogs equal to Unit price multiplied by Quantity on every row, so ₦39,546.00 "
+      "divided by ₦6,591.00 returns 6 with no guesswork, and all five divisions return whole numbers "
+      "matching the magnitude already in the cell. Flagging is the answer when the first path genuinely "
+      "fails, and here it does not. Deleting is why a trainee ends up with 995 rows instead of 1,000, and "
+      "nothing else in the row supports reading these as returns, since Sales and cogs are both positive."))
+
+add(q(T3, "Diagnosing a mixed data type", MC,
+      "A trainee opens a sales export and notices small green triangles in several cells of the Sales column, and =SUM() on that "
+      "column returns a lower total than expected. What is the most likely cause, and how should it be confirmed?",
+      "Some Sales values are stored as text instead of true numbers, confirmed by =ISNUMBER() returning FALSE on those cells|The Sales column contains negative values that should be treated as impossible values|The table was built from a plain range instead of a structured table|The SUM formula's range reference is absolute instead of relative",
+      "Some Sales values are stored as text instead of true numbers, confirmed by =ISNUMBER() returning FALSE on those cells", A,
+      "SUM silently skips text, so a text-stored number lowers the total without producing any error, and "
+      "ISNUMBER returning FALSE proves it before VALUE or Paste Special Multiply repairs it. Negative values "
+      "would pull a total down too, but they would appear in the column as visible minus signs rather than "
+      "as green triangles, and an absolute range reference changes nothing about which values SUM includes."))
+
+add(q(T3, "Writing the quantity recovery formula", SA,
+      "Invoice 200-40-6154 shows a Quantity of -6, with a Unit price of ₦6,591.00 and cogs of ₦39,546.00. Write the "
+      "calculated-column formula that recovers the true Quantity, and state the value it returns for this row.",
+      "", "=[@cogs]/[@[Unit price]] returns 6", I,
+      "Because cogs equals Unit price multiplied by Quantity on every row of this dataset, dividing cogs by "
+      "Unit price inverts the relationship and returns the quantity exactly. The check that confirms it is "
+      "that all five sign-flipped rows return whole numbers, 1, 6, 7, 9 and 8, matching the magnitude already "
+      "shown; a fractional result on any row would mean cogs had been damaged too and the correct decision "
+      "would be to flag rather than correct. Repairing all five brings the cleaned total quantity to 5,510."))
+
+# ============================================================ Topic 2.4 (8)
+add(q(T4, "Rows area purpose", MC,
+      "In a PivotTable, which area determines the categories that appear down the left side of the table, such as one row per Branch?",
+      "Rows area|Values area|Columns area|Filters area", "Rows area", B,
+      "Dropping Branch into Rows produces one line per branch, which is what the cross-tab in the demo is "
+      "built on. The Columns area is the strongest distractor because it also lays out categories, but it "
+      "lays them across the top rather than down the side, which is exactly how the Branch by Product line "
+      "cross-tab is assembled from the two together."))
+
+add(q(T4, "Values area purpose", MC,
+      "Which area of a PivotTable performs the calculation, such as summing Sales for each Branch?",
+      "Values area|Rows area|Columns area|Filters area", "Values area", B,
+      "The Values area is where the aggregation happens, and it is also where Excel guesses the summary "
+      "function, defaulting to Sum for clean numeric fields and Count when it detects a blank or a "
+      "text-stored value. That guess is worth checking every time, because a field that silently arrives as "
+      "Count rather than Sum is usually pointing at a data quality problem upstream."))
+
+add(q(T4, "Highest total Sales by branch", MC,
+      "A trainee builds a PivotTable with Branch in the Rows area and Sales in the Values area, using Sum as the summary "
+      "function, on the module's cleaned 1,000-row dataset. Which Branch shows the highest total Sales?",
+      "Trans-Amadi|Ikeja|Wuse|All three are equal", "Trans-Amadi", I,
+      "Trans-Amadi leads on ₦11,056,870.65, ahead of Ikeja on ₦10,620,037.05 and Wuse on "
+      "₦10,619,767.20. Ikeja and Wuse are separated by only ₦269.85, which is why the answer to "
+      "this question is never obvious from the raw file and why the pivot has to be checked against a SUMIF "
+      "before it is reported. Trans-Amadi also leads on the raw 1,025-row export, so the ranking survives cleaning even though every figure moves."))
+
+add(q(T4, "Filters area narrows the display only", MC,
+      "A trainee drags Branch into the Filters area of a PivotTable and sets the dropdown to Trans-Amadi only. What happens to "
+      "the underlying source data?",
+      "Nothing changes in the source data, only what the PivotTable currently displays is narrowed|The source data is permanently filtered to Trans-Amadi only|The other branches' rows are deleted from the workbook|The PivotTable can no longer be refreshed until the filter is cleared",
+      "Nothing changes in the source data, only what the PivotTable currently displays is narrowed", I,
+      "A pivot filter changes the view and never the data, which is what makes a PivotTable safe to explore "
+      "with. The practical danger runs the other way: because the source is untouched, a filter left active "
+      "produces a total that looks complete and is not, and the reader has no way to tell. That is the "
+      "single most common cause of a pivot disagreeing with a manual SUMIF."))
+
+add(q(T4, "Cross-tab with Columns area", MC,
+      "A trainee wants to see total Sales broken down by both Branch and Customer type in one PivotTable. Where should Customer "
+      "type be placed alongside Branch in the Rows area?",
+      "In the Columns area, so Branch appears down the rows and Customer type across the columns|In the Values area, replacing Sales|Nowhere, PivotTables can only summarise by one field at a time|In the Filters area only",
+      "In the Columns area, so Branch appears down the rows and Customer type across the columns", I,
+      "A second dimension goes across rather than down, producing the cross-tab that shows every combination "
+      "at once: three branches against Member and Normal, over 565 Member and 435 Normal transactions in the "
+      "cleaned file. Putting Customer type in Filters would let you see one customer type at a time, which "
+      "answers a narrower question and loses the comparison the cross-tab exists to make."))
+
+add(q(T4, "Investigating a pivot vs SUMIF mismatch", MC,
+      "A trainee's PivotTable shows a Trans-Amadi total of ₦2,376,685.50, but a manual "
+      "=SUMIF(CleanSales[Branch],\"Trans-Amadi\",CleanSales[Sales]) on the same cleaned table returns ₦11,056,870.65. "
+      "What does this mismatch most likely indicate?",
+      "A filter or a dropped field is still narrowing what the PivotTable displays, and it needs investigating before it is trusted|The manual SUMIF formula must be wrong, since PivotTables are always correct|The two figures are both correct, PivotTables and SUMIF are expected to differ|The source data changed between building the PivotTable and running the SUMIF",
+      "A filter or a dropped field is still narrowing what the PivotTable displays, and it needs investigating before it is trusted", A,
+      "₦2,376,685.50 is exactly Trans-Amadi's Food and beverages total on the cleaned file, so a Product "
+      "line filter has been left active and the pivot is answering a narrower question than the SUMIF. "
+      "Neither figure is automatically the trustworthy one, which is why the second option is wrong as a "
+      "matter of principle as well as fact: the correct response is to find the cause, and only then decide "
+      "which number answers the question that was asked."))
+
+add(q(T4, "Connecting one slicer to two pivot tables", MC,
+      "A trainee has built two PivotTables from the same cleaned dataset, one by Branch and one by Product line, and wants one "
+      "Branch slicer to filter both at once. What is the correct approach?",
+      "Right-click the slicer, choose Report Connections (or PivotTable Connections), and tick both PivotTables, since they share the same source data|Insert a second, separate slicer for the other PivotTable|Copy and paste the first PivotTable's slicer onto the second PivotTable|This is not possible, each PivotTable needs its own independent slicer",
+      "Right-click the slicer, choose Report Connections (or PivotTable Connections), and tick both PivotTables, since they share the same source data", A,
+      "Report Connections is what turns a page of separate charts into a single report that responds to one "
+      "click, and it works because both pivots read the same CleanSales table. A second slicer would run and "
+      "look identical, which is what makes it the strongest distractor, but the two would drift out of step "
+      "the moment someone clicked only one of them, showing two branches on one screen."))
+
+add(q(T4, "Reading the verified branch total", SA,
+      "A PivotTable is built on the cleaned CleanSales table with Branch in Rows and Sales in Values, summarised by Sum. "
+      "State the figure the Trans-Amadi row shows, and write the formula that independently confirms it.",
+      "", "₦11,056,870.65, confirmed by =SUMIF(CleanSales[Branch],\"Trans-Amadi\",CleanSales[Sales])", B,
+      "The pivot and the SUMIF are two independent routes to the same number, which is what makes the total "
+      "safe to hand over. The check only proves anything if both read the same table: the identical formula "
+      "against the raw 1,025-row export returns ₦11,338,588.80, and that is a different question rather "
+      "than a mismatch to investigate. A trainee quoting the raw figure here has verified nothing."))
+
+# ============================================================ Topic 2.5 (7)
+add(q(T5, "Chart type for category comparison", MC,
+      "Which chart type is best suited to comparing total Sales across the six Product line categories?",
+      "Bar chart|Line chart|Pie chart alone|Scatter chart", "Bar chart", B,
+      "A bar chart puts the six categories on a common baseline, so small differences are readable by length. "
+      "A line chart is wrong because Product line has no natural order for a line to travel along, and a pie "
+      "chart alone fails here specifically because these six totals run from ₦5,614,484.40 down to only "
+      "₦4,919,373.90, which is far too close to rank by slice."))
+
+add(q(T5, "Chart type for trend over time", MC,
+      "Which chart type is best suited to showing a trend over time, such as daily Sales across a month?",
+      "Line chart|Pie chart|Bar chart|Tables are always better than a chart", "Line chart", B,
+      "Dates have a natural sequence, and a line makes the movement between them the thing the eye follows, "
+      "which is what a trend question asks about. A bar chart would show the same values correctly but "
+      "presents them as separate comparisons rather than one continuous movement, so it answers a slightly "
+      "different question."))
+
+add(q(T5, "What makes a chart clearly labelled", MC,
+      "A trainee builds a bar chart of Sales by Product line but leaves the default title 'Chart Title' in place, with no axis "
+      "labels. What should be added to make this a clearly labelled chart?",
+      "A specific title stating what the chart shows, plus labelled axes|Only a legend, since axis labels are optional on a bar chart|Nothing, Excel's default title is sufficient once data labels are added|A second chart repeating the same data with different colours",
+      "A specific title stating what the chart shows, plus labelled axes", I,
+      "A title that names the measure, the dimension and the scope, and axes that state units, mean nobody has "
+      "to ask what they are looking at. A legend is the weakest addition on a single-series chart, because it "
+      "repeats what the title already says and takes space without adding information, which is why the demo "
+      "removes it in that case."))
+
+add(q(T5, "Reading a real pie chart", MC,
+      "A trainee builds a pie chart of Payment method counts in the cleaned dataset. Based on the real counts, Ewallet 345, "
+      "Cash 344, Credit card 311, what should the pie chart show?",
+      "Three slices of broadly similar size, with Ewallet the largest and Credit card the smallest|One dominant slice taking up more than half the pie|Three slices of exactly equal size|A pie chart cannot display payment method data",
+      "Three slices of broadly similar size, with Ewallet the largest and Credit card the smallest", I,
+      "345, 344 and 311 out of 1,000 transactions are 34.5, 34.4 and 31.1 per cent, so the three slices are "
+      "nearly indistinguishable by eye. That is the honest reading, and it is also the argument against the "
+      "chart: Ewallet leads Cash by a single transaction, which no pie chart can communicate and a sorted bar "
+      "chart with data labels can."))
+
+add(q(T5, "Choosing which charts belong on a dashboard", MC,
+      "A trainee has built five charts while exploring the cleaned dataset, but the manager's stated question only needs three "
+      "of them. What is the correct approach when assembling the dashboard?",
+      "Include only the charts that actually answer the manager's stated question, not every chart built during exploration|Include all five charts, since more charts always make a dashboard more useful|Combine all five into one chart to save space|Remove the manager's original question and let the dashboard speak for itself",
+      "Include only the charts that actually answer the manager's stated question, not every chart built during exploration", I,
+      "A dashboard is one screen that answers a stated question, so exploration charts that do not serve it "
+      "are cost without benefit: they push the answer further from the top-left, where the eye lands first. "
+      "Combining five charts into one does not solve the problem either, since an overloaded chart hides the "
+      "comparison just as effectively as a crowded page does."))
+
+add(q(T5, "Bar vs pie for close values", MC,
+      "A trainee is choosing between a pie chart and a bar chart to show total Sales across the six Product line categories, "
+      "where the leading category (₦5,614,484.40) is only about 12 per cent above the smallest (₦4,919,373.90). "
+      "Which is the better choice, and why?",
+      "A bar chart, because a pie chart makes it hard to compare slices that are close in size|A pie chart, because it always shows proportions more clearly than a bar chart|Either works equally well regardless of how close the values are|A line chart, because Product line is a continuous variable",
+      "A bar chart, because a pie chart makes it hard to compare slices that are close in size", A,
+      "A 12 per cent spread across six categories means six slices of roughly a sixth each, which the eye "
+      "cannot rank reliably, whereas six bars on a shared baseline can be read at a glance. The pie option is "
+      "wrong on the word always: a pie can work when one slice genuinely dominates, and the mistake here is "
+      "applying it without checking how close the values are. Product line is categorical, not continuous, so "
+      "a line chart implies a sequence that does not exist."))
+
+add(q(T5, "Incomplete slicer connection on a dashboard", MC,
+      "A finished dashboard has three charts and one slicer, but the slicer was only connected to two of the three charts via "
+      "Report Connections. What is the practical consequence of this?",
+      "Clicking the slicer will filter two charts but leave the third showing unfiltered data, which can mislead anyone reading the dashboard without noticing|Nothing, slicers automatically connect to every chart on the same sheet|The dashboard will fail to open until every chart is connected|The unconnected chart will simply disappear from the dashboard",
+      "Clicking the slicer will filter two charts but leave the third showing unfiltered data, which can mislead anyone reading the dashboard without noticing", A,
+      "The dashboard keeps working and produces no error, so the fault is invisible: two charts show one "
+      "branch while the third shows all three, and a reader has no way to tell them apart. Slicers connect "
+      "only to what Report Connections names, never automatically by sheet, which is why every slicer button "
+      "has to be clicked and watched before a dashboard is called finished."))
+
+# ============================================================ Topic 2.6 (8)
+add(q(T6, "Applied Steps definition", MC,
+      "In Power Query, what is the name for the ordered list of transformation steps applied to a query, such as Remove "
+      "Duplicates followed by Change Type?",
+      "Applied Steps|Formula Bar|Value Field Settings|Filter Pane", "Applied Steps", B,
+      "Applied Steps sits on the right of the Power Query Editor and records every transformation in order, "
+      "so each can be reviewed, reordered, edited or deleted. Value Field Settings is the strongest "
+      "distractor for anyone who has just come from Topic 2.4, but it belongs to PivotTables and controls how "
+      "one field is summarised, not how a query is built."))
+
+add(q(T6, "Remove Duplicates action", MC,
+      "Which Power Query action removes rows repeating a value already seen in the selected column or columns, such as the 25 "
+      "duplicated Invoice IDs in the module's raw export?",
+      "Remove Duplicates|Remove Rows|Change Type|Fill Down", "Remove Duplicates", B,
+      "Remove Duplicates works on whichever columns are selected when it runs, which is the decision that "
+      "matters: on Invoice ID alone it removes all 25 and leaves 1,000 rows, while across every column it "
+      "removes only the 19 exact copies and leaves 1,006. Remove Rows deletes rows by position or by a filter "
+      "condition rather than by repetition, so it cannot answer this at all."))
+
+add(q(T6, "Importing from a table already in the workbook", MC,
+      "Which Power Query action starts a query directly from data already inside the workbook, such as a structured table built "
+      "in Topic 2.1, rather than an external file?",
+      "Data tab, From Table/Range|Data tab, Get Data, From File|Home tab, Close & Load|Transform tab, Change Type",
+      "Data tab, From Table/Range", I,
+      "From Table/Range picks up the structured table the cursor is sitting in, and because it is a table "
+      "rather than a fixed range, rows added later are picked up automatically on refresh. Get Data, From "
+      "File is the correct action for the monthly export arriving as a new CSV, and Close & Load runs at the "
+      "other end of the process, sending the finished query back to the workbook."))
+
+add(q(T6, "Fixing ALL CAPS with trailing spaces", MC,
+      "A Power Query step needs to fix 102 rows where Product line is in ALL CAPS with trailing spaces. Which two transformations, "
+      "applied in sequence, correctly resolve this?",
+      "Trim, then a capitalisation transformation such as Capitalize Each Word|Remove Duplicates, then Change Type|Fill Down, then Remove Rows|Change Type, then Remove Duplicates",
+      "Trim, then a capitalisation transformation such as Capitalize Each Word", I,
+      "Trim strips the trailing space and the capitalisation step normalises the casing, which together turn "
+      "FOOD AND BEVERAGES with a trailing space into Food And Beverages consistently across all 102 rows. "
+      "These are the same two repairs as the TRIM and PROPER formulas from Topic 2.3, applied once to the "
+      "whole column and remembered. Neither Change Type nor Remove Duplicates touches spacing or casing at all."))
+
+add(q(T6, "Why Applied Steps matter", MC,
+      "Why does Power Query keep a record of Applied Steps rather than simply changing the data directly, the way a manual "
+      "find-and-replace would?",
+      "So each transformation can be reviewed, reordered or removed, and the whole process re-run automatically if the source data changes|Because Power Query cannot make permanent changes to any data|Applied Steps exist only for documentation and have no effect on the output|So multiple people can edit the same step simultaneously",
+      "So each transformation can be reviewed, reordered or removed, and the whole process re-run automatically if the source data changes", I,
+      "The steps are the process rather than a note about it, which is why next month's export cleans itself "
+      "with one Refresh All. That is also what makes an error reviewable: a wrong row count sends you to the "
+      "step list to find which step did it. The third option inverts the truth, since editing a step changes "
+      "the output immediately."))
+
+add(q(T6, "Step order and the date column", MC,
+      "A trainee's Power Query step order is Change Type on the Date column, then Remove Duplicates on Invoice ID. The 51 rows "
+      "written DD-MM-YYYY come through as errors or as the wrong date. What is the most likely issue with the step order?",
+      "The DD-MM-YYYY rows need their format resolved before or as part of the Change Type step, since Excel reads them against the wrong locale and 15-03-2019 has no fifteenth month|Remove Duplicates must always run before Change Type|Applied Steps cannot include more than one transformation on the same column|Power Query cannot handle date columns at all",
+      "The DD-MM-YYYY rows need their format resolved before or as part of the Change Type step, since Excel reads them against the wrong locale and 15-03-2019 has no fifteenth month", A,
+      "Change Type parses text against a locale, so a day-first date read month-first either errors, when the "
+      "day exceeds 12, or silently converts to the wrong day when it does not, which is the more dangerous "
+      "half. Using Change Type With Locale, or splitting and rebuilding the date first, fixes it. Note what "
+      "this is not: the step order has no bearing on how many duplicates come out, because Invoice ID carries "
+      "no formatting fault and deduplicating on it returns 1,000 rows whether the dates were repaired first or not."))
+
+add(q(T6, "Debugging a wrong row count after refresh", MC,
+      "After refreshing a Power Query against an updated source file, a trainee counts 1,010 rows instead of the expected 1,000. "
+      "What is the correct next step?",
+      "Reopen the query, check the Applied Steps in order to find which step failed to remove all duplicate or invalid rows, and fix that step|Manually delete 10 rows from the loaded table to match the expected count|Assume the expected 1,000-row count is wrong and update it to 1,010|Reload the same query again without changes, since reloading usually fixes row count issues",
+      "Reopen the query, check the Applied Steps in order to find which step failed to remove all duplicate or invalid rows, and fix that step", A,
+      "A refresh reruns the steps; it does not guarantee the result, so an unexpected count is a signal to "
+      "audit the process rather than the output. Deleting rows by hand is the worst option available, because "
+      "it fixes this month's table and guarantees the same fault returns next month, with the row count now "
+      "hiding it. Reloading unchanged simply repeats the same steps and the same answer."))
+
+add(q(T6, "Verifying a loaded query", SA,
+      "A Power Query has been loaded from the raw export into a table named CleanSales. Write the two formulas that check the "
+      "load produced the expected result, and state the figure each should return.",
+      "", "=COUNTA(CleanSales[Invoice ID]) returns 1000 and =SUM(CleanSales[Sales]) returns ₦32,296,674.90", B,
+      "The row count alone is not enough, because a query can reach 1,000 rows having dropped or duplicated "
+      "the wrong ones, so a value check has to sit beside it. Together these two reproduce the Topic 2.3 "
+      "figures exactly and prove the query did the same job as the manual pass. A count of 1,006 means Remove "
+      "Duplicates ran across every column rather than on Invoice ID alone."))
+
+# ============================================================ Topic 2.7 (8)
+add(q(T7, "Explaining an unfamiliar formula with AI", MC,
+      "According to the module, what should a trainee do after pasting an unfamiliar nested formula into an AI chatbot and asking "
+      "what it does?",
+      "Ask for the explanation in plain English, then check it against what happens if a specific input changes|Accept the explanation immediately without further questions|Ignore the explanation and rebuild the formula from scratch|Ask the AI to delete the formula and write a simpler one",
+      "Ask for the explanation in plain English, then check it against what happens if a specific input changes", B,
+      "Asking the AI to predict what happens when Customer type changes from Member to Normal, and then "
+      "actually making that change in the sheet, converts an explanation into a testable claim. An "
+      "explanation that cannot be tested is just a confident paragraph, and confidence is not evidence, which "
+      "is why accepting it unchecked is the mistake this topic exists to prevent."))
+
+add(q(T7, "Copilot demonstration-only status", TF,
+      "True or False: Copilot in Excel is a feature that trainees are expected to have direct hands-on access to and practise "
+      "themselves during this topic's lab.",
+      "True|False", "False", B,
+      "Copilot is a paid add-on, so it is demonstrated on the instructor's machine only and trainees are not "
+      "assessed on it. What they are expected to take away is that Copilot can see the selected data inside "
+      "the workbook while a browser chatbot cannot, and that this changes the convenience and not the "
+      "verification duty."))
+
+add(q(T7, "Vague AI prompt consequence", MC,
+      "A free AI chatbot accessed in a browser is asked to write a formula for the module's dataset, but the trainee only types "
+      "'write me a formula for ratings' without naming any columns. What is the most likely result?",
+      "A vague or wrong formula, since the AI cannot see the actual workbook or column locations|A perfect formula, since AI assistants can see any open Excel file automatically|An error message refusing to answer without a column name|The exact same IF formula built manually in Topic 2.2, since AI always defaults to IF",
+      "A vague or wrong formula, since the AI cannot see the actual workbook or column locations", I,
+      "A browser chatbot only knows what was typed into it, so it guesses at column names and locations and "
+      "returns something plausible rather than something correct. It will not refuse, which is what makes the "
+      "third option wrong and the situation risky: an answer always arrives, and it arrives in the same "
+      "confident tone whether it fits the file or not."))
+
+add(q(T7, "Verifying an AI-generated total", MC,
+      "An AI-generated formula claims a total Sales figure for the Ikeja branch on the cleaned dataset. What is the correct way "
+      "to confirm whether this figure is right?",
+      "Build =SUMIF(CleanSales[Branch],\"Ikeja\",CleanSales[Sales]) independently and compare it against ₦10,620,037.05|Trust the AI's figure, since it was generated from the correct column names|Ask the AI a second time and use whichever answer comes back faster|Round both figures to the nearest thousand and assume they match",
+      "Build =SUMIF(CleanSales[Branch],\"Ikeja\",CleanSales[Sales]) independently and compare it against ₦10,620,037.05", I,
+      "The verification has to be independent of the thing being verified, which a second prompt to the same "
+      "assistant is not: two confident answers that agree with each other are still one source. Rounding is "
+      "worse than useless here, because it would hide the single most common real error on this dataset, an "
+      "AI answer of ₦11,062,565.85 computed against the raw 1,025-row export rather than the cleaned table."))
+
+add(q(T7, "Copilot vs free chatbot difference", MC,
+      "What is the key functional difference between Copilot in Excel and a free AI chatbot used in a separate browser window, "
+      "according to the module?",
+      "Copilot can see the selected data directly inside the workbook, so nothing needs to be copied or pasted|Copilot always produces more accurate answers than a free chatbot|A free chatbot can debug formulas but Copilot cannot|Copilot does not require any verification of its results, unlike a free chatbot",
+      "Copilot can see the selected data directly inside the workbook, so nothing needs to be copied or pasted", I,
+      "The difference is access to context, not reliability, which is the distinction the whole topic turns "
+      "on. The last option is the one to reject hardest: seeing the data removes the risk of a wrong column "
+      "reference, and leaves every other way an answer can be wrong exactly where it was, so the "
+      "verification habit is identical in both windows."))
+
+add(q(T7, "Confidently wrong AI formula", MC,
+      "An AI assistant suggests a formula that runs without any error on the module's dataset, but it sums the Quantity column "
+      "when the trainee actually asked for a total of Sales. What does this demonstrate about verifying AI-generated formulas?",
+      "A formula can be confidently wrong without producing an error, so checking against a known total is essential, not optional|Since the formula ran without an error, it must be correct|This kind of mistake can only happen with lookup functions, not aggregate ones|AI assistants cannot make column-selection mistakes if the prompt names the dataset",
+      "A formula can be confidently wrong without producing an error, so checking against a known total is essential, not optional", A,
+      "Both formulas return a valid number, 5,510 for Quantity and ₦32,296,674.90 for Sales, and only "
+      "one answers the question asked. Nothing in Excel flags the difference, which is why a known total is "
+      "the only defence. Naming the dataset in the prompt reduces the risk without removing it, so the last "
+      "option overstates what a good prompt can guarantee."))
+
+add(q(T7, "Testing an AI-suggested debug fix", MC,
+      "A VLOOKUP formula returns #N/A. A trainee pastes the formula, the error message, and a description of the intended result "
+      "into an AI chatbot to debug it, and the AI suggests adding FALSE as the last argument. What must the trainee do before "
+      "trusting this fix?",
+      "Test the suggested fix on the actual data and confirm it now returns the correct value, since an AI suggestion is a hypothesis, not a guarantee|Apply the fix immediately across the whole workbook without testing, since the AI already identified the cause|Reject the fix, since AI assistants cannot debug VLOOKUP errors|Ask a second AI assistant the same question and use whichever answer matches the first one",
+      "Test the suggested fix on the actual data and confirm it now returns the correct value, since an AI suggestion is a hypothesis, not a guarantee", A,
+      "A plausible diagnosis is not a confirmed one, and here it may well be the wrong diagnosis: #N/A on a "
+      "value that looks identical on screen is more often a trailing space than a missing FALSE argument, "
+      "since an approximate match usually returns something wrong rather than nothing at all. Testing on the "
+      "real data is what tells the two apart, and rolling the fix across the workbook first is how one wrong "
+      "hypothesis becomes many wrong cells."))
+
+add(q(T7, "Writing the AI verification check", SA,
+      "An AI assistant reports that 508 transactions in the Ilesanmi dataset were rated 7 or above. Write the formula that "
+      "checks this against the cleaned CleanSales table, state what it returns, and say which figure is reportable.",
+      "", "=COUNTIF(CleanSales[Rating],\">=7\") returns 501, and 501 is the reportable figure", A,
+      "508 is not invented: it is the correct answer to the same COUNTIF run against the raw 1,025-row "
+      "export, which is why this is the most convincing kind of wrong answer an assistant produces. The "
+      "arithmetic between the two is checkable: 12 of the 25 duplicated rows were rated 7 or above and come "
+      "out, and 5 of the 9 restored blank Ratings are 7 or above and go in, so 508 minus 12 plus 5 is 501. "
+      "Only the cleaned figure is reportable, because the raw file counts 25 sales twice."))
+
+# ---------------------------------------------------------------- write out
+root = pathlib.Path('MCQ')
+json_path = root / 'module-02-mcq.json'
+csv_path = root / 'module-02-mcq.csv'
+
+json_path.write_text(json.dumps(items, indent=2, ensure_ascii=False) + "\n", encoding='utf-8')
+
+fields = ["title", "description", "type", "question", "options", "answer", "difficulty", "explanation"]
+with csv_path.open('w', newline='', encoding='utf-8') as fh:
+    w = csv.DictWriter(fh, fieldnames=fields)
+    w.writeheader()
+    for it in items:
+        w.writerow(it)
+
+print(f"wrote {len(items)} items")
+from collections import Counter
+print("by topic:", Counter(i['title'] for i in items))
+print("by difficulty:", Counter(i['difficulty'] for i in items))
+print("by type:", Counter(i['type'] for i in items))
