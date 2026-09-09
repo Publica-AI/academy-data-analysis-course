@@ -1,0 +1,5 @@
+order_item_id,order_id,product_id,quantity,line_total
+1,5001,P1,2,16000
+2,5002,P4,1,18000
+3,5003,P2,1,25000
+4,5004,P5,3,18000

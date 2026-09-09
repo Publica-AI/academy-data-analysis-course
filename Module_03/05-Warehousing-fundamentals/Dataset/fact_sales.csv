@@ -1,0 +1,7 @@
+sale_key,date_key,customer_key,product_key,quantity,line_total
+F1,D1,101,P1,2,16000
+F2,D1,103,P2,1,25000
+F3,D2,106,P3,5,7500
+F4,D2,101,P4,1,18000
+F5,D3,104,P5,3,18000
+F6,D4,103,P2,1,25000

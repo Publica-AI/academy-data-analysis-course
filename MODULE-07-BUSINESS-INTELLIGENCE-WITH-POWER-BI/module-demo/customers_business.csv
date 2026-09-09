@@ -1,0 +1,311 @@
+CustomerID,BusinessName,Sector,BillingHub
+C-0001,Zenith Grocery Nigeria Ltd,Grocery,Surulere
+C-0002,Anchor Electronics Global,Fashion,Surulere
+C-0003,Ivory Restaurant Stores,Fashion,Ikeja
+C-0004,Beacon Fashion Stores,Bookshop,Lekki
+C-0005,Zenith Retail & Sons,Bookshop,Lekki
+C-0006,Delta Restaurant Group,Restaurant,Lekki
+C-0007,Palmwine Fashion Nigeria Ltd,Fashion,Yaba
+C-0008,Delta Restaurant Stores,Bookshop,Surulere
+C-0009,Zenith Bookshop Global,Pharmacy,Ikorodu
+C-0010,Naija Cosmetics Stores,Bookshop,Ikeja
+C-0011,Crownline Restaurant Nigeria Ltd,Cosmetics,Yaba
+C-0012,Beacon Pharmacy Enterprises,Electronics,Ikeja
+C-0013,Zenith Electronics Group,Electronics,Surulere
+C-0014,Goldmark Restaurant Enterprises,Electronics,Apapa
+C-0015,Zenith Pharmacy Enterprises,Cosmetics,Ikeja
+C-0016,Delta Retail & Sons,Fashion,Lekki
+C-0017,Highland Fashion Global,Grocery,Surulere
+C-0018,Crownline Electronics Ltd,Restaurant,Yaba
+C-0019,Highland Cosmetics Enterprises,Electronics,Surulere
+C-0020,Highland Retail Group,Electronics,Surulere
+C-0021,Zenith Electronics Enterprises,Electronics,Yaba
+C-0022,Naija Retail Global,Bookshop,Apapa
+C-0023,Ivory Retail Stores,Fashion,Lekki
+C-0024,Sahara Pharmacy Group,Retail,Apapa
+C-0025,Everfresh Restaurant Stores,Grocery,Yaba
+C-0026,Highland Bookshop Stores,Grocery,Surulere
+C-0027,Delta Bookshop Enterprises,Cosmetics,Apapa
+C-0028,Beacon Bookshop Global,Pharmacy,Ikorodu
+C-0029,Harmattan Cosmetics Nigeria Ltd,Fashion,Ikorodu
+C-0030,Kola Pharmacy Enterprises,Restaurant,Ikeja
+C-0031,Cocoa Electronics Group,Fashion,Ikorodu
+C-0032,Naija Cosmetics Group,Electronics,Ikorodu
+C-0033,Harmattan Electronics Ventures,Cosmetics,Lekki
+C-0034,Crownline Fashion Global,Restaurant,Apapa
+C-0035,Anchor Retail Global,Bookshop,Yaba
+C-0036,Zenith Cosmetics Global,Grocery,Surulere
+C-0037,Palmwine Pharmacy Stores,Pharmacy,Apapa
+C-0038,Cocoa Grocery Ltd,Electronics,Lekki
+C-0039,Lagoon Cosmetics & Sons,Cosmetics,Ikeja
+C-0040,Ivory Bookshop Global,Pharmacy,Lekki
+C-0041,Sahara Electronics Ventures,Pharmacy,Lekki
+C-0042,Zenith Pharmacy & Sons,Pharmacy,Surulere
+C-0043,Harmattan Pharmacy & Sons,Pharmacy,Yaba
+C-0044,Zenith Restaurant Ventures,Grocery,Surulere
+C-0045,Lagoon Retail Stores,Pharmacy,Ikeja
+C-0046,Cocoa Retail Enterprises,Fashion,Lekki
+C-0047,Kola Fashion & Sons,Bookshop,Surulere
+C-0048,Baobab Grocery Global,Retail,Lekki
+C-0049,Sahara Retail Ltd,Fashion,Surulere
+C-0050,Goldmark Fashion Group,Pharmacy,Ikorodu
+C-0051,Crownline Bookshop Ventures,Grocery,Ikorodu
+C-0052,Delta Fashion Global,Fashion,Ikorodu
+C-0053,Lagoon Cosmetics Global,Retail,Ikeja
+C-0054,Zenith Pharmacy & Sons,Cosmetics,Ikeja
+C-0055,Sahara Pharmacy Ventures,Grocery,Surulere
+C-0056,Harmattan Grocery Ltd,Bookshop,Ikeja
+C-0057,Baobab Grocery Group,Retail,Lekki
+C-0058,Anchor Restaurant Global,Fashion,Apapa
+C-0059,Kola Fashion Global,Electronics,Apapa
+C-0060,Sunrise Cosmetics Nigeria Ltd,Bookshop,Lekki
+C-0061,Highland Fashion Stores,Retail,Apapa
+C-0062,Cocoa Pharmacy Enterprises,Cosmetics,Surulere
+C-0063,Sahara Cosmetics Ltd,Grocery,Lekki
+C-0064,Harmattan Pharmacy Enterprises,Cosmetics,Lekki
+C-0065,Goldmark Electronics & Sons,Electronics,Apapa
+C-0066,Highland Cosmetics Enterprises,Retail,Ikorodu
+C-0067,Harmattan Pharmacy Ltd,Retail,Ikeja
+C-0068,Anchor Pharmacy Ventures,Bookshop,Surulere
+C-0069,Sahara Retail Stores,Bookshop,Lekki
+C-0070,Zenith Bookshop Nigeria Ltd,Pharmacy,Ikorodu
+C-0071,Highland Pharmacy Group,Grocery,Apapa
+C-0072,Cocoa Fashion Stores,Fashion,Ikorodu
+C-0073,Everfresh Bookshop Ventures,Pharmacy,Yaba
+C-0074,Kola Retail Stores,Pharmacy,Surulere
+C-0075,Lagoon Restaurant & Sons,Grocery,Surulere
+C-0076,Lagoon Retail Group,Retail,Yaba
+C-0077,Cocoa Pharmacy Stores,Bookshop,Lekki
+C-0078,Highland Grocery Group,Bookshop,Yaba
+C-0079,Naija Fashion & Sons,Pharmacy,Yaba
+C-0080,Zenith Grocery Group,Pharmacy,Surulere
+C-0081,Everfresh Grocery Ventures,Fashion,Ikeja
+C-0082,Palmwine Pharmacy Enterprises,Grocery,Lekki
+C-0083,Lagoon Grocery Nigeria Ltd,Restaurant,Ikeja
+C-0084,Goldmark Bookshop Ventures,Retail,Ikeja
+C-0085,Zenith Bookshop Group,Cosmetics,Lekki
+C-0086,Lagoon Cosmetics Global,Cosmetics,Lekki
+C-0087,Naija Restaurant Ltd,Restaurant,Lekki
+C-0088,Beacon Pharmacy Stores,Retail,Ikorodu
+C-0089,Kola Grocery Global,Pharmacy,Yaba
+C-0090,Beacon Pharmacy Global,Cosmetics,Lekki
+C-0091,Sahara Grocery Nigeria Ltd,Retail,Ikorodu
+C-0092,Kola Electronics Stores,Grocery,Yaba
+C-0093,Highland Restaurant Stores,Restaurant,Yaba
+C-0094,Zenith Cosmetics Stores,Pharmacy,Apapa
+C-0095,Crownline Bookshop Enterprises,Grocery,Yaba
+C-0096,Sahara Electronics Enterprises,Bookshop,Yaba
+C-0097,Sunrise Grocery & Sons,Grocery,Ikorodu
+C-0098,Cocoa Cosmetics Stores,Grocery,Yaba
+C-0099,Ivory Cosmetics Nigeria Ltd,Electronics,Ikorodu
+C-0100,Baobab Pharmacy Stores,Bookshop,Surulere
+C-0101,Harmattan Bookshop Global,Bookshop,Yaba
+C-0102,Lagoon Fashion Stores,Pharmacy,Ikeja
+C-0103,Sunrise Pharmacy Global,Fashion,Lekki
+C-0104,Cocoa Fashion Ltd,Cosmetics,Yaba
+C-0105,Crownline Fashion Ventures,Grocery,Lekki
+C-0106,Sahara Bookshop & Sons,Restaurant,Ikeja
+C-0107,Highland Fashion Nigeria Ltd,Grocery,Ikeja
+C-0108,Beacon Cosmetics Group,Cosmetics,Lekki
+C-0109,Zenith Electronics Ltd,Cosmetics,Ikorodu
+C-0110,Goldmark Bookshop Ltd,Pharmacy,Yaba
+C-0111,Highland Bookshop Group,Fashion,Apapa
+C-0112,Harmattan Electronics Enterprises,Pharmacy,Ikorodu
+C-0113,Everfresh Pharmacy Ltd,Retail,Ikeja
+C-0114,Harmattan Retail & Sons,Electronics,Ikorodu
+C-0115,Cocoa Cosmetics Nigeria Ltd,Pharmacy,Apapa
+C-0116,Kola Fashion Ventures,Grocery,Ikeja
+C-0117,Zenith Retail & Sons,Bookshop,Lekki
+C-0118,Sunrise Fashion Group,Fashion,Surulere
+C-0119,Harmattan Retail Ventures,Grocery,Apapa
+C-0120,Zenith Fashion Group,Cosmetics,Apapa
+C-0121,Cocoa Fashion Ventures,Restaurant,Ikeja
+C-0122,Goldmark Retail Global,Cosmetics,Lekki
+C-0123,Beacon Fashion Ltd,Grocery,Ikorodu
+C-0124,Highland Pharmacy Stores,Bookshop,Ikeja
+C-0125,Kola Fashion Stores,Bookshop,Ikeja
+C-0126,Cocoa Grocery Nigeria Ltd,Bookshop,Surulere
+C-0127,Baobab Fashion Group,Cosmetics,Ikorodu
+C-0128,Sahara Electronics Ventures,Retail,Ikeja
+C-0129,Zenith Electronics Ventures,Retail,Ikorodu
+C-0130,Sahara Electronics Ventures,Bookshop,Ikorodu
+C-0131,Sunrise Pharmacy Nigeria Ltd,Electronics,Lekki
+C-0132,Delta Electronics Group,Retail,Lekki
+C-0133,Beacon Restaurant Global,Bookshop,Ikeja
+C-0134,Naija Retail Nigeria Ltd,Grocery,Apapa
+C-0135,Anchor Cosmetics Nigeria Ltd,Fashion,Yaba
+C-0136,Anchor Grocery Ventures,Pharmacy,Apapa
+C-0137,Goldmark Fashion Global,Bookshop,Ikeja
+C-0138,Sunrise Restaurant Group,Retail,Ikorodu
+C-0139,Crownline Fashion Ventures,Retail,Yaba
+C-0140,Sahara Bookshop Nigeria Ltd,Retail,Lekki
+C-0141,Delta Pharmacy Global,Restaurant,Lekki
+C-0142,Sunrise Retail & Sons,Restaurant,Lekki
+C-0143,Kola Retail Nigeria Ltd,Retail,Ikeja
+C-0144,Naija Bookshop Group,Cosmetics,Lekki
+C-0145,Crownline Bookshop Enterprises,Bookshop,Ikeja
+C-0146,Zenith Grocery Enterprises,Fashion,Lekki
+C-0147,Sunrise Bookshop Global,Pharmacy,Surulere
+C-0148,Delta Cosmetics Enterprises,Fashion,Yaba
+C-0149,Palmwine Retail Group,Restaurant,Ikeja
+C-0150,Crownline Pharmacy Nigeria Ltd,Grocery,Surulere
+C-0151,Palmwine Fashion Nigeria Ltd,Cosmetics,Yaba
+C-0152,Everfresh Electronics Stores,Electronics,Yaba
+C-0153,Everfresh Fashion Nigeria Ltd,Grocery,Lekki
+C-0154,Cocoa Grocery Global,Grocery,Ikorodu
+C-0155,Cocoa Fashion Group,Fashion,Ikeja
+C-0156,Harmattan Fashion Enterprises,Grocery,Surulere
+C-0157,Delta Restaurant Nigeria Ltd,Cosmetics,Lekki
+C-0158,Harmattan Fashion Nigeria Ltd,Bookshop,Apapa
+C-0159,Naija Retail Group,Fashion,Yaba
+C-0160,Anchor Retail & Sons,Fashion,Apapa
+C-0161,Sahara Fashion Stores,Pharmacy,Lekki
+C-0162,Highland Electronics Group,Grocery,Ikorodu
+C-0163,Zenith Pharmacy Global,Fashion,Apapa
+C-0164,Anchor Restaurant Enterprises,Retail,Ikeja
+C-0165,Cocoa Retail Stores,Retail,Lekki
+C-0166,Crownline Restaurant Enterprises,Grocery,Apapa
+C-0167,Delta Retail Group,Bookshop,Apapa
+C-0168,Crownline Pharmacy Ventures,Electronics,Ikorodu
+C-0169,Ivory Pharmacy Enterprises,Cosmetics,Ikorodu
+C-0170,Cocoa Cosmetics & Sons,Grocery,Yaba
+C-0171,Sahara Grocery Global,Cosmetics,Yaba
+C-0172,Zenith Restaurant Stores,Cosmetics,Ikorodu
+C-0173,Beacon Fashion Ltd,Cosmetics,Ikeja
+C-0174,Crownline Pharmacy Nigeria Ltd,Cosmetics,Surulere
+C-0175,Anchor Bookshop Enterprises,Electronics,Apapa
+C-0176,Sahara Electronics Ventures,Pharmacy,Surulere
+C-0177,Anchor Electronics Enterprises,Restaurant,Lekki
+C-0178,Baobab Electronics Nigeria Ltd,Pharmacy,Yaba
+C-0179,Goldmark Fashion & Sons,Electronics,Apapa
+C-0180,Goldmark Restaurant Ltd,Cosmetics,Apapa
+C-0181,Baobab Fashion Ventures,Fashion,Yaba
+C-0182,Baobab Fashion Ltd,Cosmetics,Surulere
+C-0183,Baobab Cosmetics Global,Pharmacy,Ikeja
+C-0184,Harmattan Fashion Ltd,Retail,Ikorodu
+C-0185,Sunrise Pharmacy Ventures,Bookshop,Surulere
+C-0186,Kola Cosmetics & Sons,Fashion,Yaba
+C-0187,Beacon Restaurant Group,Bookshop,Ikeja
+C-0188,Zenith Retail Group,Bookshop,Ikeja
+C-0189,Everfresh Bookshop Enterprises,Bookshop,Yaba
+C-0190,Naija Pharmacy Enterprises,Restaurant,Yaba
+C-0191,Anchor Pharmacy Group,Retail,Apapa
+C-0192,Lagoon Pharmacy Global,Pharmacy,Apapa
+C-0193,Highland Cosmetics Enterprises,Retail,Apapa
+C-0194,Naija Fashion Enterprises,Bookshop,Lekki
+C-0195,Baobab Fashion Nigeria Ltd,Restaurant,Surulere
+C-0196,Cocoa Electronics Global,Grocery,Yaba
+C-0197,Lagoon Grocery Group,Fashion,Surulere
+C-0198,Cocoa Fashion Global,Restaurant,Apapa
+C-0199,Delta Electronics Ventures,Electronics,Ikorodu
+C-0200,Cocoa Restaurant Ventures,Electronics,Lekki
+C-0201,Naija Retail Global,Bookshop,Surulere
+C-0202,Highland Pharmacy & Sons,Cosmetics,Ikorodu
+C-0203,Anchor Grocery Ventures,Restaurant,Surulere
+C-0204,Lagoon Restaurant Global,Pharmacy,Yaba
+C-0205,Harmattan Electronics Ltd,Grocery,Surulere
+C-0206,Cocoa Grocery Global,Retail,Ikorodu
+C-0207,Sahara Fashion Enterprises,Grocery,Surulere
+C-0208,Crownline Cosmetics Global,Retail,Ikeja
+C-0209,Goldmark Fashion Ltd,Retail,Apapa
+C-0210,Zenith Restaurant & Sons,Pharmacy,Surulere
+C-0211,Anchor Fashion Ventures,Grocery,Surulere
+C-0212,Lagoon Fashion Global,Bookshop,Ikeja
+C-0213,Lagoon Retail Stores,Electronics,Yaba
+C-0214,Naija Pharmacy Enterprises,Grocery,Yaba
+C-0215,Cocoa Retail Ltd,Restaurant,Surulere
+C-0216,Everfresh Bookshop Stores,Electronics,Apapa
+C-0217,Sahara Retail Ltd,Cosmetics,Ikeja
+C-0218,Harmattan Electronics Ltd,Pharmacy,Apapa
+C-0219,Ivory Fashion Enterprises,Cosmetics,Ikeja
+C-0220,Highland Cosmetics Enterprises,Grocery,Apapa
+C-0221,Kola Retail Group,Retail,Yaba
+C-0222,Crownline Bookshop Nigeria Ltd,Bookshop,Ikeja
+C-0223,Harmattan Pharmacy & Sons,Fashion,Ikorodu
+C-0224,Sahara Pharmacy Global,Grocery,Ikorodu
+C-0225,Sahara Grocery Ventures,Grocery,Lekki
+C-0226,Delta Pharmacy Ltd,Electronics,Lekki
+C-0227,Harmattan Fashion Enterprises,Restaurant,Ikeja
+C-0228,Beacon Restaurant Stores,Cosmetics,Ikorodu
+C-0229,Ivory Bookshop Group,Retail,Apapa
+C-0230,Crownline Fashion & Sons,Fashion,Yaba
+C-0231,Palmwine Electronics Enterprises,Retail,Apapa
+C-0232,Naija Pharmacy Enterprises,Restaurant,Ikeja
+C-0233,Zenith Retail Ltd,Electronics,Ikorodu
+C-0234,Sahara Pharmacy Ltd,Pharmacy,Surulere
+C-0235,Anchor Fashion Nigeria Ltd,Cosmetics,Apapa
+C-0236,Harmattan Fashion Stores,Pharmacy,Apapa
+C-0237,Sahara Pharmacy & Sons,Bookshop,Apapa
+C-0238,Lagoon Pharmacy Stores,Grocery,Lekki
+C-0239,Sunrise Cosmetics & Sons,Retail,Lekki
+C-0240,Cocoa Grocery Ltd,Restaurant,Lekki
+C-0241,Highland Bookshop & Sons,Retail,Yaba
+C-0242,Zenith Cosmetics Nigeria Ltd,Restaurant,Yaba
+C-0243,Sahara Fashion Nigeria Ltd,Grocery,Ikeja
+C-0244,Crownline Retail Stores,Grocery,Apapa
+C-0245,Zenith Restaurant Group,Pharmacy,Yaba
+C-0246,Baobab Bookshop Global,Grocery,Surulere
+C-0247,Baobab Grocery Stores,Fashion,Yaba
+C-0248,Baobab Pharmacy Nigeria Ltd,Bookshop,Ikorodu
+C-0249,Ivory Pharmacy Global,Restaurant,Apapa
+C-0250,Beacon Cosmetics Nigeria Ltd,Cosmetics,Ikorodu
+C-0251,Zenith Restaurant Stores,Grocery,Lekki
+C-0252,Crownline Electronics Ventures,Fashion,Yaba
+C-0253,Lagoon Retail Global,Restaurant,Surulere
+C-0254,Lagoon Bookshop Global,Electronics,Yaba
+C-0255,Everfresh Grocery Stores,Electronics,Lekki
+C-0256,Everfresh Fashion Stores,Grocery,Lekki
+C-0257,Lagoon Electronics Stores,Restaurant,Surulere
+C-0258,Highland Restaurant Enterprises,Fashion,Lekki
+C-0259,Delta Grocery Nigeria Ltd,Electronics,Ikorodu
+C-0260,Naija Fashion Ventures,Electronics,Ikeja
+C-0261,Kola Grocery Ventures,Grocery,Ikeja
+C-0262,Naija Pharmacy & Sons,Fashion,Yaba
+C-0263,Everfresh Retail Ltd,Cosmetics,Yaba
+C-0264,Harmattan Grocery Group,Retail,Ikeja
+C-0265,Cocoa Cosmetics Ltd,Fashion,Yaba
+C-0266,Crownline Fashion Stores,Electronics,Ikorodu
+C-0267,Naija Bookshop Ventures,Restaurant,Lekki
+C-0268,Naija Cosmetics Stores,Cosmetics,Ikorodu
+C-0269,Baobab Grocery Ventures,Bookshop,Yaba
+C-0270,Zenith Cosmetics Enterprises,Restaurant,Apapa
+C-0271,Beacon Bookshop Nigeria Ltd,Retail,Lekki
+C-0272,Ivory Fashion Enterprises,Fashion,Surulere
+C-0273,Anchor Pharmacy Group,Fashion,Ikorodu
+C-0274,Goldmark Retail Global,Restaurant,Yaba
+C-0275,Everfresh Fashion Enterprises,Cosmetics,Surulere
+C-0276,Naija Restaurant Ltd,Grocery,Lekki
+C-0277,Beacon Cosmetics Ltd,Retail,Apapa
+C-0278,Crownline Cosmetics Global,Grocery,Apapa
+C-0279,Harmattan Grocery Ventures,Fashion,Yaba
+C-0280,Everfresh Fashion Enterprises,Electronics,Apapa
+C-0281,Delta Bookshop Stores,Electronics,Lekki
+C-0282,Crownline Bookshop & Sons,Electronics,Yaba
+C-0283,Anchor Fashion & Sons,Cosmetics,Ikorodu
+C-0284,Cocoa Cosmetics Enterprises,Bookshop,Apapa
+C-0285,Cocoa Restaurant Stores,Grocery,Lekki
+C-0286,Goldmark Bookshop Ventures,Pharmacy,Ikorodu
+C-0287,Anchor Electronics & Sons,Cosmetics,Apapa
+C-0288,Palmwine Restaurant Enterprises,Restaurant,Ikorodu
+C-0289,Zenith Retail Stores,Pharmacy,Ikorodu
+C-0290,Kola Grocery Nigeria Ltd,Electronics,Ikeja
+C-0291,Baobab Bookshop Global,Electronics,Ikeja
+C-0292,Beacon Electronics Nigeria Ltd,Grocery,Ikeja
+C-0293,Goldmark Fashion Nigeria Ltd,Bookshop,Ikorodu
+C-0294,Naija Pharmacy & Sons,Cosmetics,Ikeja
+C-0295,Lagoon Bookshop Group,Retail,Yaba
+C-0296,Everfresh Electronics Group,Fashion,Yaba
+C-0297,Baobab Retail Enterprises,Restaurant,Yaba
+C-0298,Goldmark Grocery Group,Restaurant,Yaba
+C-0299,Crownline Pharmacy Enterprises,Restaurant,Ikorodu
+C-0300,Zenith Retail Ltd,Restaurant,Apapa
+C-0301,Highland Bookshop Group,Electronics,Apapa
+C-0302,Delta Cosmetics Enterprises,Restaurant,Apapa
+C-0303,Anchor Restaurant Group,Fashion,Lekki
+C-0304,Crownline Restaurant Ventures,Grocery,Surulere
+C-0305,Sahara Grocery & Sons,Restaurant,Yaba
+C-0306,Beacon Restaurant & Sons,Restaurant,Ikeja
+C-0307,Goldmark Pharmacy Global,Fashion,Lekki
+C-0308,Kola Electronics Nigeria Ltd,Retail,Yaba
+C-0309,Ivory Cosmetics Ltd,Cosmetics,Lekki
+C-0310,Naija Retail Ltd,Fashion,Yaba

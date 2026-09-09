@@ -1,0 +1,452 @@
+[
+  {
+    "title": "descriptive statistics and distributions",
+    "description": "Definition of the mean",
+    "type": "multiple choice",
+    "question": "What does the \"mean\" of a dataset represent?",
+    "options": "The value that appears most often|The sum of all values divided by the number of values|The middle value when the data is sorted|The difference between the highest and lowest value",
+    "answer": "The sum of all values divided by the number of values",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "descriptive statistics and distributions",
+    "description": "Definition of the median",
+    "type": "True or False",
+    "question": "True or False: The median is found by sorting the data and taking the middle value, or the average of the two middle values if there is an even number of values.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "descriptive statistics and distributions",
+    "description": "Excel function for mode",
+    "type": "multiple choice",
+    "question": "Which Excel function returns the value that appears most frequently in a range?",
+    "options": "=AVERAGE()|=MEDIAN()|=MODE.SNGL()|=STDEV.S()",
+    "answer": "=MODE.SNGL()",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "descriptive statistics and distributions",
+    "description": "Interpreting mean vs median gap",
+    "type": "multiple choice",
+    "question": "At Ikeja branch, 30 days of customer data gave a mean of 112.87 and a median of 96. What does the gap between these two figures suggest?",
+    "options": "The data is evenly spread with no unusual days|At least one unusually high day is pulling the mean upward|The dataset contains a calculation error|The median is always wrong when it differs from the mean",
+    "answer": "At least one unusually high day is pulling the mean upward",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "descriptive statistics and distributions",
+    "description": "Range formula in Excel",
+    "type": "multiple choice",
+    "question": "Which Excel formula correctly calculates the range of daily customers recorded in cells D5 to D34?",
+    "options": "=RANGE(D5:D34)|=MAX(D5:D34)-MIN(D5:D34)|=AVERAGE(D5:D34)|=D34-D5",
+    "answer": "=MAX(D5:D34)-MIN(D5:D34)",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "descriptive statistics and distributions",
+    "description": "Units of standard deviation",
+    "type": "True or False",
+    "question": "True or False: The sample standard deviation is expressed in the same units as the original data, for example customers, not customers squared.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "descriptive statistics and distributions",
+    "description": "Choosing mean vs median for skewed data",
+    "type": "multiple choice",
+    "question": "A branch manager wants to know how many customers to plan for on a normal day, given a dataset with one extreme promo-day outlier. Which statistic should the analyst report as the \"typical day\" figure?",
+    "options": "The mean, because it uses every value|The median, because it is less affected by the outlier|The mode, because it is the easiest to calculate|The range, because it shows the full spread",
+    "answer": "The median, because it is less affected by the outlier",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "descriptive statistics and distributions",
+    "description": "Outlier effect on standard deviation",
+    "type": "multiple choice",
+    "question": "Ikeja branch's daily customer data has a standard deviation of about 62 customers when a single promo day is included, but only about 21 when that day is excluded. What is the best explanation for this drop?",
+    "options": "The formula was entered incorrectly the first time|Removing a single extreme value can sharply reduce measures of spread|Standard deviation always decreases as more days are added|The mean and standard deviation are unrelated",
+    "answer": "Removing a single extreme value can sharply reduce measures of spread",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "descriptive statistics and distributions",
+    "description": "Comparing spread across branches",
+    "type": "multiple choice",
+    "question": "Two Aduke Stores branches have nearly identical mean daily customers, but Branch A has a much higher standard deviation than Branch B. What does this tell an analyst about Branch A?",
+    "options": "Branch A serves more customers overall|Branch A's daily performance is less predictable, even though the average is similar|Branch A has a data entry error|Branch A's mode is invalid",
+    "answer": "Branch A's daily performance is less predictable, even though the average is similar",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "descriptive statistics and distributions",
+    "description": "Multiple modes",
+    "type": "True or False",
+    "question": "True or False: A dataset can have more than one mode if two or more values are tied for the highest frequency.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "correlation and relationships",
+    "description": "Definition of correlation coefficient",
+    "type": "multiple choice",
+    "question": "What does a correlation coefficient (r) measure?",
+    "options": "The average of two variables|How strongly and in which direction two variables move together|The total number of data points in a dataset|The percentage of missing values in a dataset",
+    "answer": "How strongly and in which direction two variables move together",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "correlation and relationships",
+    "description": "Range of r",
+    "type": "True or False",
+    "question": "True or False: A correlation coefficient can range from -1 to +1.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "correlation and relationships",
+    "description": "Excel function for correlation",
+    "type": "multiple choice",
+    "question": "Which Excel function calculates the correlation coefficient between two ranges of data?",
+    "options": "=CORREL()|=SLOPE()|=RSQ()|=T.TEST()",
+    "answer": "=CORREL()",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "correlation and relationships",
+    "description": "Interpreting r value",
+    "type": "multiple choice",
+    "question": "At Ikeja branch, the correlation between marketing spend and daily sales was calculated as r = 0.78. How should this be described?",
+    "options": "A weak negative relationship|A strong positive relationship|No relationship at all|A perfect relationship",
+    "answer": "A strong positive relationship",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "correlation and relationships",
+    "description": "Interpreting a weak correlation",
+    "type": "multiple choice",
+    "question": "At Yaba branch, the same marketing test produced r = 0.27. What is the most appropriate conclusion?",
+    "options": "There is a strong relationship and the manager should copy Ikeja's strategy immediately|There is a weak relationship, so spend alone is not a reliable basis for a budget decision|The result is invalid because it is lower than Ikeja's|A correlation below 0.5 always means no relationship exists",
+    "answer": "There is a weak relationship, so spend alone is not a reliable basis for a budget decision",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "correlation and relationships",
+    "description": "Correlation vs causation",
+    "type": "True or False",
+    "question": "True or False: If two variables have a strong positive correlation, this proves that one variable causes the other to increase.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "correlation and relationships",
+    "description": "Spotting a confounding variable",
+    "type": "multiple choice",
+    "question": "Sachet water purchases and generator fuel purchases show a strong correlation (r = 0.786), but temperature was never recorded in the dataset. What should an analyst suspect?",
+    "options": "Generator fuel definitely causes people to buy water|A hidden factor, such as temperature, may be driving both variables|The correlation coefficient must have been calculated incorrectly|Correlation coefficients cannot be used for this kind of data",
+    "answer": "A hidden factor, such as temperature, may be driving both variables",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "correlation and relationships",
+    "description": "Critiquing an overstated correlation claim",
+    "type": "multiple choice",
+    "question": "A colleague claims that because generator fuel purchases and sachet water purchases are correlated, bundling the two products will definitely increase sales of both. What is the strongest critique of this reasoning?",
+    "options": "The correlation coefficient is too low to matter|The claim treats a correlation as proof of a direct causal link, without ruling out a shared underlying driver|Correlation coefficients cannot be calculated for purchase data|The bundling idea is unrelated to statistics entirely",
+    "answer": "The claim treats a correlation as proof of a direct causal link, without ruling out a shared underlying driver",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "correlation and relationships",
+    "description": "Why to visualise before trusting r",
+    "type": "multiple choice",
+    "question": "Why is it good practice to build a scatter plot before calculating and reporting a correlation coefficient?",
+    "options": "Scatter plots are required by Excel before CORREL will run|A scatter plot lets you visually check whether the relationship looks linear and spot outliers before trusting a single summary number|Scatter plots automatically calculate r for you|Scatter plots replace the need for any further analysis",
+    "answer": "A scatter plot lets you visually check whether the relationship looks linear and spot outliers before trusting a single summary number",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "correlation and relationships",
+    "description": "Limits of the correlation coefficient",
+    "type": "True or False",
+    "question": "True or False: A correlation coefficient close to 0 always means there is no relationship of any kind between the two variables.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "regression fundamentals",
+    "description": "Definition of slope",
+    "type": "multiple choice",
+    "question": "In a simple regression equation Sales = Intercept + (Slope x Spend), what does the \"slope\" represent?",
+    "options": "The predicted sales when spend is zero|How much sales change, on average, for each one-unit increase in spend|The total number of days in the dataset|The correlation coefficient between the two variables",
+    "answer": "How much sales change, on average, for each one-unit increase in spend",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "regression fundamentals",
+    "description": "Range of R-squared",
+    "type": "True or False",
+    "question": "True or False: R-squared is always a value between 0 and 1.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "regression fundamentals",
+    "description": "Excel function for intercept",
+    "type": "multiple choice",
+    "question": "Which Excel function calculates the intercept of a regression line?",
+    "options": "=SLOPE()|=INTERCEPT()|=RSQ()|=CORREL()",
+    "answer": "=INTERCEPT()",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "regression fundamentals",
+    "description": "Interpreting R-squared",
+    "type": "multiple choice",
+    "question": "The Ikeja branch regression gave R-squared = 0.61. What does this mean?",
+    "options": "The model is correct 61% of the time|About 61% of the variation in sales is explained by marketing spend|61% of the data points are outliers|The slope is 0.61",
+    "answer": "About 61% of the variation in sales is explained by marketing spend",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "regression fundamentals",
+    "description": "Recognising extrapolation",
+    "type": "multiple choice",
+    "question": "The Ikeja marketing data was tested with spend values between 8,584 naira and 69,535 naira. Using this regression model to predict sales at a spend of 150,000 naira is an example of what?",
+    "options": "Interpolation, which is always safe|Extrapolation, which goes beyond the tested range and is risky|A calculation error|Correlation, not regression",
+    "answer": "Extrapolation, which goes beyond the tested range and is risky",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "regression fundamentals",
+    "description": "R-squared does not guarantee linearity",
+    "type": "True or False",
+    "question": "True or False: A high R-squared value always means a straight line is the correct model for the data.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "regression fundamentals",
+    "description": "Acting on a low R-squared",
+    "type": "multiple choice",
+    "question": "Yaba branch's regression of sales on marketing spend produced R-squared = 0.07. What is the most appropriate recommendation?",
+    "options": "Use the model confidently to plan a specific budget, since a line was successfully fitted|Do not rely on this model for planning, since spend explains only about 7% of the variation in sales|Recalculate because R-squared should never be this low|Report only the slope and ignore R-squared entirely",
+    "answer": "Do not rely on this model for planning, since spend explains only about 7% of the variation in sales",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "regression fundamentals",
+    "description": "R-squared vs true model fit",
+    "type": "multiple choice",
+    "question": "A staffing-versus-sales dataset produced R-squared = 0.85, but a scatter plot shows sales rising steeply at first, then flattening out as staff numbers increase. What is the best interpretation?",
+    "options": "R-squared = 0.85 proves the straight-line model is fully reliable at every staffing level|A high R-squared can still hide a poor fit; the true relationship appears to curve, so the straight line likely over-predicts at both ends of the range|The data must contain an error, since R-squared cannot be high if the shape looks curved|Regression cannot be used on this kind of data at all",
+    "answer": "A high R-squared can still hide a poor fit; the true relationship appears to curve, so the straight line likely over-predicts at both ends of the range",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "regression fundamentals",
+    "description": "Compounding extrapolation and non-linearity risk",
+    "type": "multiple choice",
+    "question": "Why is predicting sales at a staffing level of 20, when the tested data only covered 2 to 12 staff, especially risky in this dataset?",
+    "options": "It is not risky, since regression models work equally well outside the tested range|It combines extrapolation beyond the tested range with a relationship that was already shown to curve within that range|Excel cannot calculate predictions above the tested range|The slope becomes negative outside the tested range",
+    "answer": "It combines extrapolation beyond the tested range with a relationship that was already shown to curve within that range",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "regression fundamentals",
+    "description": "Regression and causation",
+    "type": "True or False",
+    "question": "True or False: Regression can show that two variables are related, but on its own it does not prove that changing one variable will cause a change in the other.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "hypothesis testing",
+    "description": "Definition of null hypothesis",
+    "type": "multiple choice",
+    "question": "What does the null hypothesis (H0) typically state in a business comparison?",
+    "options": "That there is definitely a real difference between the two groups|That there is no difference between the two groups, and any observed difference is due to chance|That the sample size is too small to test|That the alternative hypothesis is automatically true",
+    "answer": "That there is no difference between the two groups, and any observed difference is due to chance",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "hypothesis testing",
+    "description": "Comparing p-value to threshold",
+    "type": "True or False",
+    "question": "True or False: A p-value of 0.03 is below the common 0.05 significance threshold.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "hypothesis testing",
+    "description": "Excel function for hypothesis testing",
+    "type": "multiple choice",
+    "question": "Which Excel function is used to calculate a p-value comparing two independent groups of data?",
+    "options": "=CORREL()|=T.TEST()|=RSQ()|=MODE.SNGL()",
+    "answer": "=T.TEST()",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "hypothesis testing",
+    "description": "Correct interpretation of a small p-value",
+    "type": "multiple choice",
+    "question": "Ikeja branch's checkout pilot produced a p-value of 0.0003. What is the correct interpretation?",
+    "options": "There is a 0.03% chance the checkout lane pilot happened|If there were truly no effect, a difference this large would be very unlikely to occur by chance, so the result is statistically significant|The pilot definitely increased sales by exactly 0.03%|The p-value shows the pilot had no measurable impact",
+    "answer": "If there were truly no effect, a difference this large would be very unlikely to occur by chance, so the result is statistically significant",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "hypothesis testing",
+    "description": "Correct phrasing for a non-significant result",
+    "type": "multiple choice",
+    "question": "Yaba branch ran the identical checkout lane pilot and got a p-value of 0.80. What is the correct conclusion?",
+    "options": "The pilot has been proven to have no effect at Yaba|There is not enough evidence to conclude the pilot changed sales at Yaba|The p-value formula must have been entered incorrectly|Yaba's result should be ignored and Ikeja's result applied instead",
+    "answer": "There is not enough evidence to conclude the pilot changed sales at Yaba",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "hypothesis testing",
+    "description": "Fail to reject vs prove",
+    "type": "True or False",
+    "question": "True or False: Failing to reject the null hypothesis is the same as proving the null hypothesis is true.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "hypothesis testing",
+    "description": "Statistical vs practical significance",
+    "type": "multiple choice",
+    "question": "A trial across 500 transactions found a statistically significant difference in basket value (p = 0.026), but the actual difference was only about 34 naira, roughly 1.4% of the average basket. What should an analyst point out before recommending a full rollout?",
+    "options": "A p-value below 0.05 means the change is automatically worth the cost of a full rollout|Statistical significance does not by itself prove the effect is large enough to justify the cost of acting on it|A large sample size makes a result less trustworthy|The 34 naira difference should be ignored since the p-value is significant",
+    "answer": "Statistical significance does not by itself prove the effect is large enough to justify the cost of acting on it",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "hypothesis testing",
+    "description": "Why large samples detect small effects",
+    "type": "multiple choice",
+    "question": "Why does a very large sample size make it easier for even a tiny, practically unimportant difference to become statistically significant?",
+    "options": "Large samples always contain more errors|Larger samples reduce random noise around the estimate, so smaller true differences become detectable as unlikely to be chance|Large samples automatically increase the size of the actual effect|The p-value formula changes at large sample sizes",
+    "answer": "Larger samples reduce random noise around the estimate, so smaller true differences become detectable as unlikely to be chance",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "hypothesis testing",
+    "description": "Recommending next steps beyond a significant p-value",
+    "type": "multiple choice",
+    "question": "A manager wants to roll out a new price display chain-wide based only on a statistically significant p-value. What is the most professionally responsible next step for the analyst to recommend?",
+    "options": "Approve the rollout immediately, since statistical significance is sufficient justification|Compare the total projected revenue gain from the observed effect against the full cost of the rollout before recommending action|Reject the result because the sample size was too large|Recalculate the p-value using a stricter threshold until it is no longer significant",
+    "answer": "Compare the total projected revenue gain from the observed effect against the full cost of the rollout before recommending action",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "hypothesis testing",
+    "description": "0.05 as a convention, not a law",
+    "type": "True or False",
+    "question": "True or False: Using a 0.05 significance threshold is a widely used convention, not a fixed scientific law that applies identically in every context.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai as statistics tutor and interpreter",
+    "description": "Traditional-first, AI-second sequencing",
+    "type": "multiple choice",
+    "question": "In this programme, when is AI assistance introduced for a statistical skill?",
+    "options": "Before the manual method is taught, to save time|After the manual method has already been taught, practised and verified by hand|Instead of teaching the manual method at all|Only during the closing assessment",
+    "answer": "After the manual method has already been taught, practised and verified by hand",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai as statistics tutor and interpreter",
+    "description": "AI drafts, you verify",
+    "type": "True or False",
+    "question": "True or False: An AI-drafted statistical interpretation should always be verified against your own calculations before it is shared with anyone.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai as statistics tutor and interpreter",
+    "description": "Prompt structure for statistical interpretation",
+    "type": "multiple choice",
+    "question": "When writing a prompt asking an AI assistant to interpret a statistical result, which element is NOT part of the recommended prompt structure?",
+    "options": "A role for the AI to act as|The actual data or results, calculated and verified by you first|Clear constraints, such as audience and length|A request for the AI to invent additional data points if needed",
+    "answer": "A request for the AI to invent additional data points if needed",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai as statistics tutor and interpreter",
+    "description": "Catching an overstated causal claim",
+    "type": "multiple choice",
+    "question": "An AI response claims a regression result \"proves conclusively\" that marketing spend causes higher sales. What is the correct way to flag this?",
+    "options": "This is an accurate and acceptable claim if R-squared is high enough|This overstates what the data shows; regression and correlation describe association, not proof of causation|The claim is fine as long as the numbers themselves are correct|AI responses about statistics should never be trusted at all, for any reason",
+    "answer": "This overstates what the data shows; regression and correlation describe association, not proof of causation",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai as statistics tutor and interpreter",
+    "description": "Catching a misdefinition of R-squared",
+    "type": "multiple choice",
+    "question": "An AI response states that \"R-squared of 0.61 means the model is correct 61% of the time.\" What is wrong with this statement?",
+    "options": "Nothing, this is a correct definition of R-squared|R-squared measures the share of variation explained by the model, not how often the model is \"correct\"|R-squared should never be expressed as a percentage|The number 0.61 itself must be wrong",
+    "answer": "R-squared measures the share of variation explained by the model, not how often the model is \"correct\"",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai as statistics tutor and interpreter",
+    "description": "Errors of omission in AI interpretation",
+    "type": "True or False",
+    "question": "True or False: An AI-generated interpretation can be wrong by leaving something important out, not only by stating something incorrect.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai as statistics tutor and interpreter",
+    "description": "Correcting a misread p-value",
+    "type": "multiple choice",
+    "question": "An AI response describes a p-value of 0.0003 as \"only a 0.03% chance the pilot had no effect.\" What is the correct interpretation it should have given instead?",
+    "options": "There is a 99.97% chance the pilot caused the increase|If the pilot truly had no effect, a difference this large would only have about a 0.03% chance of occurring by chance|The pilot definitely worked, with no uncertainty at all|The result should be discarded since the explanation is confusing",
+    "answer": "If the pilot truly had no effect, a difference this large would only have about a 0.03% chance of occurring by chance",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai as statistics tutor and interpreter",
+    "description": "Auditing an AI's large-sample reassurance claim",
+    "type": "multiple choice",
+    "question": "An AI recommends an immediate full rollout of a price display based on a statistically significant p-value, describing the large sample size as proof the result is \"especially trustworthy.\" What is the strongest flaw in this framing?",
+    "options": "Large sample sizes cannot produce statistically significant results|The framing ignores that large samples make small, practically trivial effects easier to detect as significant, which calls for more caution about effect size, not less|The p-value itself must be incorrect|AI should never be allowed to discuss sample size",
+    "answer": "The framing ignores that large samples make small, practically trivial effects easier to detect as significant, which calls for more caution about effect size, not less",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai as statistics tutor and interpreter",
+    "description": "Applying the full verification checklist",
+    "type": "multiple choice",
+    "question": "When auditing an AI-generated statistical interpretation, which of these is the most complete verification approach?",
+    "options": "Only checking whether the stated numbers match your own calculations|Checking the numbers, checking for unjustified causal language, checking whether the data's limits are respected, checking that significance is not confused with importance, and checking for missing caveats|Trusting the response if it sounds confident and well-written|Only checking the response's length against the prompt's word limit",
+    "answer": "Checking the numbers, checking for unjustified causal language, checking whether the data's limits are respected, checking that significance is not confused with importance, and checking for missing caveats",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai as statistics tutor and interpreter",
+    "description": "AI drafts, you verify, keep what's accurate",
+    "type": "True or False",
+    "question": "True or False: Once an AI-drafted interpretation has been verified and corrected, it is acceptable to reuse the accurate parts of the original draft rather than rewriting everything from scratch.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "advanced"
+  }
+]
