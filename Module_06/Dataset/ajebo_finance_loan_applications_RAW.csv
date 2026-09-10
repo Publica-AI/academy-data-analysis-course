@@ -1,0 +1,413 @@
+Application_ID,Application_Date,Branch_Region,Gender,Marital_Status,Dependents,Education,Employment_Type,Loan_Purpose,Monthly_Income_NGN,Coapplicant_Income_NGN,Loan_Amount_NGN,Loan_Term_Months,Credit_History,Loan_Status
+AJB2867,02-Jan-2025,Abuja,Male,Married,1,Graduate,Self-Employed,Construction,543900,0,4311000.0,240.0,0.0,Approved
+AJB2611,2026-04-03,Port  Harcourt,Male,Single,2,Not Graduate,Salaried,Renovation,288300,0,2397000.0,12.0,0.0,Approved
+AJB2539,2025-10-03,Ibadan,Male,Single,1,Graduate,Self-Employed,Construction,242200,41700,2680000.0,240.0,1.0,Approved
+AJB2762,08/06/2025,port harcourt,Male,Married,0,Graduate,Self Employed,Purchase,273600,0,4130000.0,12.0,1.0,Approved
+AJB2823,10-Jan-2025,Lagos,Male,Single,0,Not Graduate,Salaried,Renovation,233900,0,881000.0,,1.0,Approved
+AJB2777,14/02/2026,Lagos,Male,Married,1,Not Graduate,Salaried,Construction,180300,125500,2880000.0,240.0,1.0,Approved
+AJB2503,2025-09-25,Kano,Female,Married,1,Graduate,Self-Employed,Construction,1164100,134000,14350000.0,240.0,1.0,Rejected
+AJB2586,20/06/2026,Abuja,Female,Married,0,Graduate,Salaried,Construction,220600,150300,3355000.0,360.0,1.0,Approved
+AJB2719,2026-01-25,Abuja,Male,Married,0,Not Graduate,,Land Acquisition,228000,20700,1595000.0,180.0,1.0,Approved
+AJB2601,2026-06-20,Lagos,Female,N,0,Graduate,Self-Employed,Construction,116600,55600,1977000.0,240.0,,Approved
+AJB2527,23-Sep-2025,Abuja, Male,Single,0,Graduate, Salaried,Construction,171400,0,1942000.0,60.0,1.0,Approved
+AJB2769,2025-11-24,Rural North,Male,Married,0,Graduate,Self-Employed,Renovation,550800,102700,4968000.0,60.0,1.0,Rejected
+AJB2872,19/04/2025,Abuja,Male,Married,0,Graduate,Self-Employed,Construction,290900,61100,5687000.0,240.0,1.0,Approved
+AJB2632,2025-04-18,Rural North,Male,Married,0,Graduate,self-employed,Construction,398200,63900,9132000.0,360.0,,Approved
+AJB2673,2026-06-24,Lagos,Female,Single,3+,Not Graduate,Self Employed,Construction,313700,0,3568000.0,240.0,1.0,Approved
+AJB2679,2025-10-04,Rural North,Female,Married,0,Graduate,Salaried,Land Acquisition,348200,91200,2654000.0,120.0,1.0,Approved
+AJB2598,05-Sep-2025,Lagos,male,Married,0,Not Graduate,Self Employed,Construction,401700,83200,7559000.0,240.0,1.0,Rejected
+AJB2541,2026-01-20,Ibadan,Female,Y,2,Graduate,Salaried,Purchase,149200,98800,5309000.0,360.0,1.0,Approved
+AJB2814,2026-02-26,abuja,Male,Single,3+,Not Graduate,salaried,Construction,156800,0,1477000.0,12.0,1.0,Rejected
+AJB2713,02/04/2026,Port Harcourt,,Single,3+,Not Graduate, Salaried,Construction,272800,0,4534000.0,12.0,1.0,Rejected
+AJB2899,05-Mar-2026,Port Harcourt,Male,Single,2,Graduate,,Construction,294600,0,2300000.0,60.0,0.0,Rejected
+AJB2519,2026-01-05,Abuja,Male,Single,0,Graduate,Salaried,Land Acquisition,243200,0,2039000.0,36.0,0.0,Rejected
+AJB2617,12/09/2025,Lagos,Female,Single,0,Graduate,Salaried,Purchase,330300,0,5397000.0,36.0,1.0,Rejected
+AJB2811,24/06/2026,Lagos,Male,Single,0,Graduate,Salaried,Purchase,319600,54900,,120.0,1.0,Approved
+AJB2647,2025-04-07,Rural North,Male,Married,2,Graduate,Salaried,Purchase,241200,70800,2872000.0,360.0,1.0,Approved
+AJB2529,28/05/2025,Kano,Female,Single,0,Graduate,Salaried,Construction,342700,0,6427000.0,240.0,1.0,Approved
+AJB2506,05/12/2025,Port Harcourt,Female,Married,1,Graduate,Self-Employed,Renovation,176500,138000,2157000.0,60.0,1.0,Approved
+AJB2831,2026-01-31,abuja,Male,Married,1,Graduate,Salaried,Purchase,160800,134800,2977000.0,120.0,0.0,Approved
+AJB2709,2025-10-07,Lagos,Male,Married,0,Graduate,Salaried,Purchase,249600,102200,5461000.0,24.0,1.0,Approved
+AJB2511,2025-05-02,Abuja,Female,Single,0,Not Graduate,Self-Employed,Land Acquisition,250600,0,2212000.0,360.0,1.0,Approved
+AJB2816,30-Apr-2026,Lagos,Male,Married,0,Graduate,Salaried,Renovation,188400,98600,2331000.0,180.0,1.0,Approved
+AJB2516,03-Oct-2025,Lagos,Male,Y,3+,Graduate,Salaried,Purchase,295500,0,5987000.0,60.0,1.0,Approved
+AJB2666,12/07/2025,Rural North,Female,Single,3+,Graduate,Self-Employed,Purchase,1201000,0,20000000.0,240.0,1.0,Approved
+AJB2619,22/07/2025,lagos,Male,Single,1,Not Graduate,Self-Employed,Purchase,542700,0,7105000.0,60.0,1.0,Approved
+AJB2772,04/05/2025,Ibadan,Male,Single,0,Graduate,Self-Employed,Purchase,65700,45200,1721000.0,24.0,0.0,Approved
+AJB2782,2025-07-10,Abuja, Male,Married,3+,Graduate,Salaried,Purchase,134200,112200,2832000.0,12.0,1.0,Approved
+AJB2515,2026-01-08,Port Harcourt,Male,married,3+,Graduate,Salaried,Purchase,228000,88000,5854000.0,60.0,1.0,Approved
+AJB2861,2025-05-25,Lagos,Male,Married,1,Graduate,Salaried,Land Acquisition,261400,27000,2672000.0,180.0,1.0,Approved
+AJB2671,2025-07-04,Lagos,Male,Single ,0,Not Graduate,self-employed,Renovation,172100,0,809000.0,180.0,,Approved
+AJB2727,2026-03-30,Lagos,Male,Married,0,Graduate,Salaried,Purchase,108000,143500,4815000.0,240.0,1.0,Approved
+AJB2819,2025-02-20,Rural North,Female,Single,3+,Graduate,Self-Employed,Renovation,130800,0,910000.0,240.0,1.0,Approved
+AJB2556,10/04/2026,Rural North,Male,Single,2,Not Graduate,Salaried,Renovation,297000,0,1921000.0,60.0,,Approved
+AJB2512,10-Jan-2025,Lagos,Male,Married,3+,Graduate,Self-Employed,Renovation,254900,56500,1105000.0,120.0,1.0,Approved
+AJB2543,02/05/2025,Rural North,Male,Married,0,Graduate,Salaried,Renovation,173700,158000,2893000.0,36.0,1.0,Approved
+AJB2686,2025-06-15,Rural North,Male,Married,0,Graduate,Salaried,Purchase,172700,0,2943000.0,36.0,1.0,Approved
+AJB2603,2025-05-21,Rural North,Female,Married,1,Graduate,salaried,Construction,296700,0,5384000.0,240.0,,Approved
+AJB2775,28-Aug-2025,Lagos ,Male,Married,,Graduate,Self-Employed,Renovation,180400,79700,993000.0,60.0,1.0,Approved
+AJB2629,2026-04-19,Lagos,Male,Married,2,Graduate,Salaried,Renovation,327100,86100,3239000.0,120.0,1.0,Approved
+AJB2612,18/02/2025,Lagos,Male,Y,3+,Graduate,Self-Employed,Purchase,413400,88700,9311000.0,120.0,1.0,Approved
+AJB2544,28-Mar-2025,Rural North,Female,Married,0,Graduate,Salaried,Renovation,255100,63300,1694000.0,180.0,,Approved
+AJB2822,25/10/2025,Abuja,Male,Married,2,Not Graduate,SALARIED,Purchase,302500,109300,5392000.0,36.0,1.0,Rejected
+AJB2780,2025-01-08,Abuja,,Married,0,Graduate,Salaried,Construction,246500,91400,4860000.0,60.0,1.0,Approved
+AJB2866,2025-05-15,Lagos,Female,Married,2,Graduate, Self-Employed,Renovation,240100,0,1517000.0,180.0,,Approved
+AJB2627,2025-11-09,Abuja ,Male,Single,2,Graduate,,Land Acquisition,273000,0,2292000.0,120.0,1.0,Approved
+AJB2706,25/03/2025,Ibadan,Male,Single,3+,Not Graduate,,Renovation,210800,0,994000.0,360.0,1.0,Approved
+AJB2759,2025-11-29,Abuja,Male,Married,2,Graduate,SALARIED,Purchase,383200,0,3192000.0,180.0,1.0,Approved
+AJB2848,2025-03-31,Lagos,Male,Single,1,Graduate,Salaried,Renovation,138700,0,673000.0,120.0,1.0,Rejected
+AJB2658,2026-02-13,Abuja,Female,Married,1,Graduate,Self-Employed,Renovation,280200,72300,1771000.0,360.0,1.0,Approved
+AJB2741,2025-05-05,Lagos,Female,Single,1,Graduate,Salaried,Construction,381000,0,2868000.0,120.0,1.0,Approved
+AJB2894,2025-09-22,Kano,Male,Married,2,Not Graduate,Salaried,Construction,223600,52700,2237000.0,12.0,0.0,Rejected
+AJB2614,21/12/2025,Lagos,Male,Married,3+,Graduate,Salaried,Purchase,315800,51500,6286000.0,240.0,1.0,Approved
+AJB2731,28/03/2025,Kano,Male,Single,2,Graduate,Self-Employed,Renovation,235300,0,1586000.0,180.0,1.0,Approved
+AJB2553,2026-04-07,Rural North,Male,Married,3+,Graduate,Salaried,Construction,212400,0,3838000.0,180.0,1.0,Approved
+AJB2548,15-Jan-2026,Lagos,Female ,Married,,Not Graduate,,Renovation,128100,119800,1564000.0,36.0,1.0,Approved
+AJB2781,03/06/2026,Lagos,Male,Married,3+,Graduate,Salaried,Construction,76900,102000,2288000.0,180.0,1.0,Approved
+AJB2583,2026-02-13,lagos,Male,Married,0,Graduate,SALARIED,Purchase,240900,158900,8033000.0,24.0,1.0,Approved
+AJB2707,2026-05-14,port harcourt,Male,Married,0,Graduate,salaried,Purchase,235900,98100,6537000.0,360.0,,Rejected
+AJB2520,16/07/2025,Kano,Female,Single,0,Graduate,Salaried,Purchase,272500,0,2920000.0,240.0,0.0,Rejected
+AJB2818,06-Aug-2025,Port Harcourt,Male,Single,,Graduate,SALARIED,Purchase,189100,0,2394000.0,24.0,0.0,Approved
+AJB2690,2025-09-28,Lagos,Female,Single,1,Not Graduate,Self-Employed,Construction,151700,83600,3476000.0,240.0,1.0,Approved
+AJB2561,2026-04-13,Lagos,male,Married,2,Graduate,Salaried,Construction,175000,48600,3171000.0,240.0,1.0,Approved
+AJB2884,2025-11-25,Lagos,Male,Single,0,Graduate,Salaried,Purchase,268100,0,4452000.0,360.0,,Rejected
+AJB2650,2025-04-21,Kano,Female,Married,1,Not Graduate,Salaried,Renovation,192200,134300,2746000.0,180.0,1.0,Rejected
+AJB2875,13-Dec-2025,Lagos ,Male,Single,2,Graduate,Salaried,Purchase,274600,0,4608000.0,36.0,,Approved
+AJB2522,02-Mar-2025,Lagos,Female,Married,0,Not Graduate,Self-Employed,Construction,213600,87400,4386000.0,12.0,1.0,Rejected
+AJB2779,2026-06-08,Kano,Female,Married,0,Graduate,salaried,Purchase,294000,0,2951000.0,360.0,1.0,Rejected
+AJB2547,2026-01-22,Port Harcourt,Male,Married,1,Graduate,Self-Employed,Renovation,103500,79800,1392000.0,24.0,1.0,Approved
+AJB2882,2025-12-24,Lagos,Female,Married,0,Graduate,Self-Employed,Renovation,147300,91700,1182000.0,360.0,1.0,Rejected
+AJB2681,15-Feb-2025,Rural North,Female,Married,2,Graduate, Self-Employed,Construction,336300,112300,5405000.0,240.0,1.0,Approved
+AJB2893,22-May-2025,Lagos,Female,Married,3+,Graduate,Salaried,Land Acquisition,173100,94700,2232000.0,36.0,1.0,Rejected
+AJB2888,2025-12-17,Ibadan,Male,Single,0,Graduate,Self-Employed,Land Acquisition,271500,0,3056000.0,24.0,1.0,Approved
+AJB2784,2026-05-27,Lagos,Male,Single,,Graduate,Salaried,Purchase,248100,0,4324000.0,120.0,1.0,Rejected
+AJB2855,11-Aug-2025,Ibadan,,Married,0,Not Graduate,SELF-EMPLOYED,Construction,250900,157700,5876000.0,0.0,1.0,Rejected
+AJB2880,23-Jul-2025,Rural North,,Married,2,Not Graduate,Self-Employed,Purchase,221200,0,,360.0,1.0,Approved
+AJB2551,28-Oct-2025,Lagos,Male,Single,0,Graduate,Salaried,Construction,188500,0,2146000.0,180.0,1.0,Approved
+AJB2502,2026-02-08,Rural North,Female,Single ,3+,Not Graduate,Salaried,Construction,160300,0,1747000.0,240.0,1.0,Approved
+AJB2508,09/03/2026,Lagos,Male,Married,1,Graduate,Salaried,Purchase,293200,92700,4176000.0,24.0,1.0,Approved
+AJB2715,2025-01-20,LAGOS,FEMALE,Single,0,Not Graduate,Salaried,Renovation,45000,0,379000.0,12.0,0.0,Approved
+AJB2776,2026-05-23,Port Harcourt,Male,Single,1,Graduate,Salaried,Renovation,289100,0,2514000.0,180.0,1.0,Approved
+AJB2730,2026-03-10,Abuja,Male,Single,1,Not Graduate, Salaried,Purchase,362200,0,3388000.0,36.0,1.0,Approved
+AJB2682,07-Jun-2025,Rural North,Male,MARRIED,2,Graduate,SALARIED,Purchase,169500,64300,3472000.0,240.0,1.0,Rejected
+AJB2639,14-Nov-2025,Rural North,Male,Single,0,Graduate,Self Employed,Renovation,68800,0,304000.0,240.0,1.0,Approved
+AJB2894,2025-09-22,Kano,Male,Married,2,Not Graduate,Salaried,Construction,223600,52700,2237000.0,12.0,0.0,Rejected
+AJB2743,02/09/2025,Lagos,Male,Married,1,Graduate,Self-Employed,Construction,262700,60200,3750000.0,240.0,1.0,Approved
+AJB2644,2025-01-06,Abuja,Male,Married,0,Not Graduate,Self-Employed,Renovation,161700,41400,865000.0,360.0,,Approved
+AJB2566,18-Feb-2026,Port Harcourt,Male,Single,2,Graduate,Self-Employed,Construction,278200,34500,4742000.0,120.0,0.0,Rejected
+AJB2790,05/07/2025,Rural North,Female,Married,0,Graduate,salaried,Land Acquisition,161100,0,1870000.0,12.0,1.0,Approved
+AJB2744,2025-09-12,Abuja,Male,Single,0,Graduate,Salaried,Purchase,206300,40100,3234000.0,360.0,1.0,Approved
+AJB2554,13-Jul-2025,Abuja,Female,Married,0,Graduate,Self-Employed,Renovation,230400,57800,2001000.0,360.0,,Approved
+AJB2787,2026-02-09,Ibadan,Male,Single,2,Graduate,,Construction,220900,0,2443000.0,240.0,0.0,Approved
+AJB2820,13/02/2025,Lagos,Female,Y,1,Graduate,Salaried,Renovation,173000,79300,1018000.0,120.0,1.0,Approved
+AJB2764,2025-01-18,Kano,Female,Married,0,Graduate, Salaried,Renovation,357600,0,2398000.0,240.0,1.0,Approved
+AJB2646,2026-02-26,Lagos,Male,Married,2,Graduate,Self-Employed,Land Acquisition,146200,0,1659000.0,240.0,1.0,Approved
+AJB2845,2025-05-19,Lagos,Female,Married,0,Graduate, Self-Employed,Construction,451600,74500,8539000.0,240.0,1.0,Approved
+AJB2688,19/02/2026,lagos,Female ,Y,0,Not Graduate,Self-Employed,Renovation,303100,61700,2837000.0,60.0,,Rejected
+AJB2812,21/02/2026,Abuja ,Male,Single,1,Graduate,Self-Employed,Purchase,92100,0,820000.0,180.0,,Approved
+AJB2507,2026-03-29,Lagos,Female,Single,0,Graduate, Salaried,Purchase,301200,0,4558000.0,180.0,,Approved
+AJB2841,2025-01-06,Lagos,Female ,married,2,Graduate,Salaried,Construction,293400,46700,5441000.0,180.0,1.0,Approved
+AJB2757,28/09/2025,Ibadan,male,Married,0,Graduate,Salaried,Renovation,166300,75300,,24.0,0.0,Approved
+AJB2755,2025-11-07,Port Harcourt,Female,Married,1,Graduate,Self-Employed,Land Acquisition,123500,0,1485000.0,12.0,1.0,Approved
+AJB2840,2025-06-14,Lagos,Male,married,0,Not Graduate,Salaried,Purchase,131900,39200,3170000.0,240.0,1.0,Approved
+AJB2655,31/01/2026,Rural North,Male,MARRIED,3+,Graduate,Salaried,Construction,173600,89200,3328000.0,240.0,1.0,Approved
+AJB2869,2025-08-20,Port Harcourt,Female,Single,0,Graduate,Salaried,Land Acquisition,229200,0,1926000.0,240.0,1.0,Approved
+AJB2582,2026-01-11,Ibadan,Female,Married,3+,Graduate,SELF-EMPLOYED,Purchase,481600,117500,10112000.0,24.0,1.0,Approved
+AJB2656,05/05/2026,Lagos,,Married,2,Graduate,Salaried,Purchase,173600,0,2389000.0,180.0,1.0,Rejected
+AJB2651,2025-03-22,Lagos,Female,Married,0,Not Graduate,Salaried,Renovation,196700,0,1248000.0,240.0,,Approved
+AJB2865,2025-05-28,Ibadan,,Married,2,Graduate,Salaried,Land Acquisition,293700,108000,3777000.0,24.0,1.0,Approved
+AJB2609,28-Mar-2025,Lagos,Female,Married,0,Not Graduate,Salaried,Renovation,176500,0,1223000.0,360.0,0.0,Rejected
+AJB2838,2025-10-22,Kano,Male,Married,0,Not Graduate,Salaried,Construction,219400,136300,5594000.0,120.0,0.0,Rejected
+AJB2854,2025-06-12,Abuja,Male,Single,1,Graduate,Self-Employed,Construction,188100,45700,1711000.0,360.0,1.0,Approved
+AJB2660,2025-07-03,Port Harcourt,Male,Married,1,Graduate,Salaried,Renovation,159600,0,547000.0,120.0,0.0,Approved
+AJB2842,27/09/2025,Ibadan,Female,Single,2,Graduate,Salaried,Purchase,187400,0,,180.0,0.0,Rejected
+AJB2607,04-Apr-2026,Rural North, Male,N,0,Graduate,Salaried,Land Acquisition,146800,42400,2058000.0,36.0,,Rejected
+AJB2878,20-Jul-2025,Lagos,Male,Single ,0,Not Graduate,Self-Employed,Purchase,280800,0,5531000.0,240.0,1.0,Approved
+AJB2620,07-May-2025,Lagos,Male,Single,0,Graduate,Salaried,Purchase,196200,0,3819000.0,24.0,0.0,Approved
+AJB2698,2025-01-19,Lagos,,Single,3+,Graduate,Salaried,Land Acquisition,96300,0,627000.0,180.0,1.0,Rejected
+AJB2804,2026-02-07,Abuja,Female,MARRIED,0,Not Graduate,Salaried,Construction,157700,139200,4382000.0,240.0,1.0,Approved
+AJB2505,07-May-2026,Rural North,Female,Single ,0,Graduate,Salaried,Purchase,95700,0,1383000.0,180.0,1.0,Approved
+AJB2853,09/03/2025,port harcourt,Male,Married,0,Graduate,Self-Employed,Purchase,129900,71500,3260000.0,360.0,1.0,Approved
+AJB2597,22/12/2025,Port Harcourt,Male,Single,0,Graduate,Self-Employed,Purchase,296600,0,5259000.0,180.0,0.0,Rejected
+AJB2881,13-Jan-2026,Lagos,Female,Single,0,Graduate,Salaried,Purchase,132600,129400,3721000.0,360.0,1.0,Approved
+AJB2641,2025-11-07,Abuja,Male,MARRIED,2,Not Graduate,Salaried,Renovation,247700,83700,1467000.0,360.0,1.0,Approved
+AJB2843,22-Jan-2026,Abuja,Male,Married,2,Graduate,Salaried,Construction,142400,163800,3456000.0,240.0,1.0,Approved
+AJB2530,2025-05-24,Lagos,Female,Single,1,Graduate,Salaried,Construction,277800,0,3717000.0,240.0,1.0,Rejected
+AJB2805,2026-01-10,Abuja,Male,Married,2,Graduate,Salaried,Renovation,185500,0,1166000.0,12.0,1.0,Rejected
+AJB2767,2025-12-15,Port Harcourt,Male,Single,1,Graduate,Salaried,Purchase,187600,0,1943000.0,180.0,1.0,Approved
+AJB2574,2026-05-04,Abuja,Male,Married,2,Graduate,Self-Employed,Purchase,323600,147200,7973000.0,240.0,0.0,Approved
+AJB2771,22/08/2025,Kano,Male,Married,1,Graduate, Salaried,Renovation,271800,10400,1063000.0,360.0,1.0,Approved
+AJB2581,07/07/2025,Lagos,Male,Married,1,Graduate,Self-Employed,Purchase,381200,100300,4435000.0,240.0,1.0,Approved
+AJB2555,2025-05-15,port harcourt,Female,Married,0,Not Graduate,Salaried,Renovation,183900,65100,1860000.0,240.0,,Approved
+AJB2796,17-Jan-2025,Ibadan,Female,Single,0,Not Graduate,,Construction,296400,0,4943000.0,180.0,1.0,Approved
+AJB2726,2025-02-15,Ibadan,Male,Single,3+,Graduate,Salaried,Renovation,222000,0,1717000.0,120.0,0.0,Approved
+AJB2584,23/02/2025,Ibadan,Male,Married,0,Not Graduate,Salaried,Construction,267300,96800,2810000.0,360.0,1.0,Approved
+AJB2592,02/02/2026,Kano,Male,Single,0,Graduate,Salaried,Purchase,155900,0,2868000.0,,1.0,Approved
+AJB2523,09-Jun-2025,Lagos,Female,Married,1,Graduate,Salaried,Purchase,106800,0,1086000.0,180.0,1.0,Approved
+AJB2662,05-Feb-2025,Abuja,Male,Single,0,Graduate,Salaried,Construction,180800,0,1760000.0,180.0,1.0,Approved
+AJB2717,30-Oct-2025,Rural North,Male,Married,2,Graduate,Salaried,Construction,148700,169800,3009000.0,180.0,1.0,Approved
+AJB2753,08/01/2026,Kano,Male,Married,0,Not Graduate,Self-Employed,Construction,85000,184200,2743000.0,180.0,0.0,Rejected
+AJB2507,2026-03-29,Lagos,Female,Single,0,Graduate, Salaried,Purchase,301200,0,4558000.0,180.0,,Approved
+AJB2537,26-Jan-2026,Lagos,Male,married,3+,Graduate,Self-Employed,Construction,83400,48200,1905000.0,36.0,1.0,Rejected
+AJB2871,2025-01-07,Abuja,Male,Married,2,Graduate,Self-Employed,Construction,124200,133800,2011000.0,240.0,1.0,Approved
+AJB2558,2027-03-15,Lagos,Male,Single ,0,Graduate,Salaried,Purchase,259200,0,2950000.0,360.0,1.0,Approved
+AJB2785,21/11/2025,Lagos,male,Married,2,Graduate,Salaried,Construction,166600,0,1791000.0,180.0,1.0,Approved
+AJB2694,2025-09-09,Kano,Male,Married,3+,Not Graduate,Self-Employed,Purchase,77900,119900,2765000.0,240.0,1.0,Approved
+AJB2683,2025-05-28,Lagos,Male,Married,0,Not Graduate,Salaried,Purchase,235700,111900,6603000.0,240.0,,Approved
+AJB2736,13-Jan-2026,lagos,Male,Single,0,Graduate,Salaried,Renovation,228300,0,,180.0,1.0,Approved
+AJB2800,27/06/2025,Rural North,Female,Married,0,Graduate,Salaried,Construction,-161600,136500,2150000.0,240.0,1.0,Approved
+AJB2691,2025-08-31,Kano,male,Married,2,Not Graduate,Salaried,Construction,198200,119300,3715000.0,240.0,0.0,Rejected
+AJB2591,10-Jun-2026,Rural North,Female,Single ,3+,Graduate,Self-Employed,Renovation,98800,0,740000.0,60.0,1.0,Approved
+AJB2533,08/02/2026,Abuja ,Male,N,1,Graduate,Salaried,Purchase,260400,0,5092000.0,120.0,1.0,Approved
+AJB2768,2025-05-25,Ibadan,Male,Y,0,Not Graduate,Salaried,Renovation,81800,8400,491000.0,180.0,0.0,Approved
+AJB2766,2026-05-01,Ibadan,Male,Single,0,Graduate,Self-Employed,Construction,95500,0,1124000.0,360.0,1.0,Approved
+AJB2886,2025-12-05,Rural North,Female,Single,0,Graduate,Salaried,Construction,237000,0,3521000.0,360.0,,Approved
+AJB2640,25/04/2026,Rural North,Male,Single,0,Graduate,Salaried,Renovation,161800,0,1269000.0,24.0,1.0,Approved
+AJB2803,2025-05-18,Port Harcourt,Male,Single,2,Graduate,Salaried,Construction,211700,86500,4396000.0,36.0,0.0,Approved
+AJB2898,2025-06-26,Lagos,,Single,0,Not Graduate,self-employed,Construction,367900,0,5947000.0,60.0,,Approved
+AJB2657,2025-12-18,lagos,Male,Married,1,Graduate,Self-Employed,Purchase,309000,0,3822000.0,180.0,0.0,Rejected
+AJB2792,06/02/2026,Kano,Female,Married,0,Graduate,Salaried,Construction,213000,220800,7723000.0,60.0,0.0,Rejected
+AJB2616,17-May-2025,Lagos,Female,Married,0,Graduate,SALARIED,Purchase,162500,0,3412000.0,180.0,1.0,Approved
+AJB2873,07/05/2026,Lagos,Male,Single,2,Not Graduate,Salaried,Purchase,305100,0,3666000.0,12.0,1.0,Approved
+AJB2802,2025-12-31,Port Harcourt,male,Married,2,Graduate,Self-Employed,Purchase,653600,51600,11068000.0,180.0,0.0,Approved
+AJB2711,20/05/2025,Port Harcourt,Male,Single,1,Not Graduate,Salaried,Construction,301800,0,2195000.0,360.0,0.0,Rejected
+AJB2600,2025-05-27,Ibadan,Female,Single,0,Graduate,Self-Employed,Purchase,362200,0,4303000.0,120.0,1.0,Approved
+AJB2542,2026-05-13,Kano,Female,Single,1,Graduate,Salaried,Purchase,325300,0,3981000.0,120.0,1.0,Approved
+AJB2621,13/11/2025,Lagos,Male,Married,2,Graduate,Salaried,Renovation,157700,86000,1660000.0,24.0,1.0,Approved
+AJB2720,2026-05-26,Abuja,Male,Single,3+,Graduate,Self-Employed,Construction,125400,0,1003000.0,60.0,1.0,Approved
+AJB2873,07/05/2026,Lagos,Male,Single,2,Not Graduate,Salaried,Purchase,305100,0,3666000.0,12.0,1.0,Approved
+AJB2687,16-Jan-2026,Kano,Male,Married,,Graduate,Salaried,Purchase,282900,0,6028000.0,240.0,1.0,Approved
+AJB2859,13/05/2025,Lagos,Male,MARRIED,2,Not Graduate,Salaried,Renovation,174000,106600,1801000.0,360.0,1.0,Rejected
+AJB2633,2025-01-22,Rural North,Male,Single,2,Not Graduate,Salaried,Purchase,172600,60700,1965000.0,60.0,1.0,Approved
+AJB2798,2026-04-05,Lagos,Female,Single,2,Graduate,Salaried,Purchase,229700,0,3789000.0,120.0,1.0,Approved
+AJB2615,27/08/2025,Rural North,female,Married,3+,Graduate,Self-Employed,Construction,373800,84000,8513000.0,24.0,1.0,Approved
+AJB2752,2026-05-18,Abuja,Male,Single,0,Not Graduate,salaried,Construction,264900,0,4121000.0,180.0,0.0,Rejected
+AJB2680,06/05/2025,Ibadan,Female,Married,3+,Graduate,Salaried,Purchase,148600,112400,3379000.0,120.0,1.0,Approved
+AJB2524,30-Jan-2025,Port Harcourt,Female,Married,2,Graduate,Salaried,Land Acquisition,182700,91000,3350000.0,36.0,1.0,Approved
+AJB2844,11-Aug-2025,Ibadan,Female,Married,0,Graduate,,Purchase,375500,105700,8680000.0,120.0,1.0,Approved
+AJB2568,04/01/2026,Lagos,Male,Married,0,Graduate,Salaried,Renovation,340800,64000,1963000.0,240.0,1.0,Rejected
+AJB2636,16/05/2025,Abuja,Female,Married,3+,Graduate,Self Employed,Construction,76600,0,1210000.0,12.0,0.0,Rejected
+AJB2751,25-Aug-2025,Ibadan,Female,Single,0,Graduate,Self-Employed,Renovation,165900,0,821000.0,360.0,1.0,Rejected
+AJB2596,2025-01-08,Lagos,male,Married,0,Graduate,SALARIED,Renovation,254500,0,1920000.0,360.0,,Approved
+AJB2670,24-Feb-2025,Abuja,Male,Married,0,Graduate,Salaried,Purchase,136100,112600,4838000.0,240.0,0.0,Rejected
+AJB2573,25-Jan-2025,Rural North,Male,Married,0,Graduate,salaried,Renovation,194500,179600,1924000.0,,1.0,Approved
+AJB2559,31/05/2026,Lagos,Male,Single,,Not Graduate,Salaried,Renovation,202000,81500,1324000.0,360.0,1.0,Approved
+AJB2786,2025-11-26,Rural North, Male,Married,2,Not Graduate,Salaried,Purchase,208100,138400,7212000.0,36.0,1.0,Rejected
+AJB2669,2025-04-29,Port Harcourt,Female,Married,0,Graduate,Self-Employed,Land Acquisition,323600,81200,2713000.0,24.0,1.0,Approved
+AJB2746,2025-03-01,Lagos,Male,Married,0,Not Graduate,Salaried,Construction,127500,106400,4374000.0,12.0,1.0,Approved
+AJB2852,26-Jan-2026,Lagos,Male,Married,0,Graduate,Self-Employed,Construction,112800,121900,4029000.0,240.0,1.0,Approved
+AJB2857,05/04/2026,Port Harcourt,Female,Single,0,Graduate,,Construction,140600,51700,3602000.0,180.0,0.0,Rejected
+AJB2702,28/05/2025,Rural North,Male,Single,0,Not Graduate,Salaried,Renovation,335000,0,2595000.0,120.0,1.0,Approved
+AJB2643,2026-03-01,Rural North,Male,Single,0,Graduate,Self-Employed,Purchase,335300,53300,7371000.0,180.0,,Approved
+AJB2576,21-May-2025,Rural North,Male,Married,0,Graduate,Self-Employed,Purchase,384400,77300,6254000.0,36.0,1.0,Approved
+AJB2608,10-Nov-2025,Abuja,Male,Married,0,Graduate,Self-Employed,Renovation,138100,0,,,1.0,Approved
+AJB2824,2026-04-02,Lagos,Female,Married,0,Graduate,Salaried,Purchase,393000,58400,4715000.0,120.0,1.0,Approved
+AJB2645,22/03/2025,Rural North,Male,Married,0,Graduate,Salaried,Purchase,299900,57000,4044000.0,60.0,1.0,Approved
+AJB2652,2025-01-08,Ibadan,Male,Married,0,Graduate,Self-Employed,Renovation,195000,0,1047000.0,240.0,1.0,Approved
+AJB2794,01-Nov-2025,Abuja,Female,Single,1,Graduate,Salaried,Construction,133900,0,1549000.0,60.0,1.0,Approved
+AJB2517,11-Sep-2025,Lagos,Male,Single,1,Graduate,Salaried,Renovation,136200,0,895000.0,360.0,1.0,Approved
+AJB2710,27-Dec-2025,Rural North,Female,Married,1,Not Graduate,Salaried,Construction,270800,84200,4549000.0,240.0,1.0,Rejected
+AJB2703,27-Apr-2026,Lagos,Male,Single,0,Graduate,Salaried,Construction,308600,0,5405000.0,60.0,1.0,Approved
+AJB2594,06/05/2026,Rural North,Male,Single,2,Graduate,Salaried,Construction,287900,0,2656000.0,360.0,1.0,Approved
+AJB2833,2025-02-27,Lagos,Female,Married,2,Graduate,self-employed,Purchase,186000,124700,4666000.0,180.0,0.0,Rejected
+AJB2896,16/05/2026,Lagos,Female,Married,0,Graduate,Salaried,Renovation,183100,131800,2187000.0,360.0,1.0,Approved
+AJB2500,2025-05-13,Rural North,Female,Married,2,Graduate,Self-Employed,Renovation,295300,47700,2183000.0,180.0,1.0,Approved
+AJB2828,24/07/2025,Kano,Male,married,1,Graduate,Salaried,Purchase,238000,150400,3956000.0,60.0,1.0,Approved
+AJB2692,2025-10-02,Ibadan,Male,Married,2,Graduate,Salaried,Construction,167800,50000,2784000.0,60.0,1.0,Rejected
+AJB2704,2025-04-11,Abuja,Male,Single,1,Graduate,Salaried,Purchase,221700,0,4067000.0,180.0,0.0,Rejected
+AJB2850,09-Apr-2025,Lagos, Male,Married,0,Graduate,Self-Employed,Purchase,230800,146300,6257000.0,180.0,1.0,Approved
+AJB2701,06/02/2026,Rural North,Female,Single,0,Graduate,Salaried,Construction,167400,58500,1994000.0,120.0,1.0,Approved
+AJB2830,22-Mar-2026,Kano,Female,Married,3+,Graduate,Salaried,Purchase,365400,0,7421000.0,240.0,1.0,Rejected
+AJB2664,11/05/2025,Rural North,Male,Single,3+,Graduate,Salaried,Renovation,291500,0,1172000.0,180.0,1.0,Approved
+AJB2536,2025-02-23,Rural North,Male,Married,2,Graduate,Salaried,Renovation,190100,0,1414000.0,360.0,1.0,Approved
+AJB2590,03-Jan-2025,Abuja,Male,Single,0,Graduate,Self-Employed,Land Acquisition,308200,0,2369000.0,60.0,1.0,Approved
+AJB2827,2025-05-27,Lagos,Male,Married,1,Graduate,Self-Employed,Purchase,683600,134700,14133000.0,240.0,1.0,Rejected
+AJB2622,30-Dec-2025,lagos,Male,Married,1,Graduate,Self-Employed,Purchase,233100,106000,3080000.0,360.0,1.0,Approved
+AJB2889,09-Nov-2025,Lagos,Female,Married,1,Graduate,Salaried,Purchase,248900,211000,4059000.0,360.0,1.0,Approved
+AJB2613,07/01/2025,Kano,Male,Y,3+,Graduate,Self-Employed,Purchase,214400,0,,240.0,1.0,Approved
+AJB2729,2025-02-12,Kano,Male,Single,0,Graduate,Salaried,Purchase,172300,116700,4409000.0,36.0,1.0,Approved
+AJB2863,2026-03-13,Rural North,Male,Married,0,Not Graduate, Salaried,Purchase,183400,141300,6676000.0,180.0,1.0,Approved
+AJB2578,19/09/2025,Abuja,Male,Single,1,Not Graduate,Self-Employed,Purchase,106500,0,2221000.0,360.0,1.0,Rejected
+AJB2631,2026-02-22,Ibadan,Female,Single,0,Graduate,,Renovation,260100,0,1044000.0,240.0,0.0,Rejected
+AJB2509,15-Mar-2026,Ibadan,Male,Single,3+,Graduate,Salaried,Land Acquisition,187100,0,1060000.0,120.0,1.0,Rejected
+AJB2645,22/03/2025,Rural North,Male,Married,0,Graduate,Salaried,Purchase,299900,57000,4044000.0,60.0,1.0,Approved
+AJB2791,2025-09-16,Ibadan,Male,Single,1,Not Graduate, Self-Employed,Purchase,339700,0,4349000.0,360.0,1.0,Approved
+AJB2675,2025-06-13,Kano,Male,Married,1,Graduate,Salaried,Renovation,63500,0,462000.0,180.0,1.0,Approved
+AJB2723,2026-04-12,Lagos,Female,Married,1,Graduate,salaried,Land Acquisition,218100,56400,1563000.0,180.0,1.0,Approved
+AJB2528,2025-08-26,Port Harcourt,Male,Married,2,Not Graduate,salaried,Renovation,92500,64800,1270000.0,360.0,1.0,Approved
+AJB2618,10/04/2025,Lagos,Male,Married,0,Not Graduate,Salaried,Renovation,215700,82900,1652000.0,180.0,1.0,Approved
+AJB2874,19-Jun-2026,Abuja, Male,Married,1,Graduate, Salaried,Construction,333100,90400,6527000.0,180.0,0.0,Approved
+AJB2734,2025-08-24,Ibadan,Female,Married,0,Graduate,Salaried,Renovation,217800,0,950000.0,36.0,1.0,Approved
+AJB2570,2025-11-07,Rural North,Male,Married,2,Not Graduate,Salaried,Renovation,239500,100100,1623000.0,180.0,1.0,Approved
+AJB2521,2026-02-15,Lagos,MALE,Married,1,Graduate,Salaried,Purchase,281000,185400,7981000.0,120.0,1.0,Approved
+AJB2720,2026-05-26,Abuja,Male,Single,3+,Graduate,Self-Employed,Construction,125400,0,1003000.0,60.0,1.0,Approved
+AJB2676,27-May-2025,Abuja,Male,Single,0,Graduate,self-employed,Construction,399600,0,5236000.0,240.0,1.0,Approved
+AJB2739,2026-04-18,Port Harcourt,Male,Single,0,Not Graduate,Self-Employed,Purchase,188400,0,3019000.0,240.0,,Approved
+AJB2649,11-Feb-2026,Lagos,Male,Married,0,Graduate,Salaried,Purchase,229900,0,3305000.0,240.0,1.0,Approved
+AJB2728,2026-05-15,Lagos,Male,Married,2,Not Graduate,Self-Employed,Purchase,223400,132100,3548000.0,240.0,0.0,Rejected
+AJB2623,10/05/2026,Lagos,male,Married,1,Not Graduate,Salaried,Renovation,264300,68300,1329000.0,240.0,1.0,Approved
+AJB2587,14/04/2026,Abuja,Male,Married,0,Graduate,Salaried,Construction,211900,128700,5037000.0,240.0,1.0,Approved
+AJB2689,2025-01-28,Rural North,Male,Married,2,Graduate,Salaried,Renovation,239400,60700,2520000.0,180.0,1.0,Approved
+AJB2858,23/05/2026,Rural North,,Married,0,Graduate,,Construction,381500,84800,5788000.0,240.0,1.0,Approved
+AJB2770,2025-07-13,Kano,Male,Married,2,Not Graduate,Salaried,Renovation,201100,57600,1685000.0,36.0,1.0,Rejected
+AJB2817,2025-05-25,Ibadan,Female ,Married,2,Not Graduate,Self-Employed,Land Acquisition,137900,110000,1820000.0,180.0,1.0,Approved
+AJB2565,2025-11-24,Rural North,male,Single,3+,Not Graduate,Self-Employed,Construction,403300,0,2966000.0,180.0,1.0,Rejected
+AJB2653,11/09/2025,Ibadan,Male,Single,0,Graduate,Self-Employed,Land Acquisition,255900,0,3331000.0,36.0,1.0,Approved
+AJB2742,11-Mar-2025,Abuja,Male,Married,1,Graduate, Salaried,Renovation,213700,0,684000.0,60.0,1.0,Approved
+AJB2626,2025-05-23,Abuja ,Male,Single,0,Graduate,salaried,Land Acquisition,144000,0,1843000.0,120.0,,Approved
+AJB2806,2025-08-08,Port Harcourt,Male,Single,0,Not Graduate,Salaried,Construction,234100,0,2541000.0,60.0,1.0,Approved
+AJB2747,2025-03-05,Kano,Male,Married,2,Graduate,Salaried,Construction,188700,103500,5346000.0,60.0,1.0,Rejected
+AJB2876,2025-10-09,Rural North,Female,Married,0,Not Graduate,Salaried,Renovation,240100,100400,1522000.0,24.0,1.0,Rejected
+AJB2610,25-Jun-2025,Port Harcourt,Male,Married,2,Graduate,Self-Employed,Renovation,355000,93700,1948000.0,360.0,1.0,Rejected
+AJB2885,2025-02-02,Ibadan,Female,Married,2,Not Graduate,Self-Employed,Construction,91900,87900,1318000.0,240.0,1.0,Rejected
+AJB2663,2026-06-08,Abuja,Male,Single,0,Graduate,Salaried,Renovation,121500,0,650000.0,240.0,1.0,Approved
+AJB2714,2026-06-05,Rural North,Female,Married,0,Graduate,Self-Employed,Purchase,346000,146800,5147000.0,60.0,1.0,Rejected
+AJB2665,2025-08-31,Lagos,Male,Single,1,Graduate,salaried,Purchase,182400,0,2871000.0,180.0,1.0,Approved
+AJB2815,2025-05-12,Abuja,Male,Married,0,Graduate,Salaried,Purchase,214700,88900,5243000.0,120.0,1.0,Rejected
+AJB2638,2026-01-03,Ibadan,Female,Married,3+,Not Graduate,Salaried,Purchase,127400,0,2306000.0,180.0,1.0,Approved
+AJB2851,17/06/2026,Rural North,Male,Married,2,Graduate,Salaried,Construction,287900,0,3621000.0,24.0,1.0,Rejected
+AJB2526,14/05/2026,Rural North,Male,Married,1,Graduate,Salaried,Purchase,182100,59600,2102000.0,240.0,0.0,Approved
+AJB2892,01/09/2025,Abuja,Male,Married,2,Not Graduate,Salaried,Construction,266800,30200,2811000.0,180.0,1.0,Rejected
+AJB2693,03-Apr-2025,Lagos,Female,Married,0,Graduate,Salaried,Purchase,280900,104300,6630000.0,120.0,0.0,Rejected
+AJB2879,2025-04-19,Ibadan,Female,Single,0,Not Graduate,,Purchase,209300,0,3449000.0,240.0,0.0,Rejected
+AJB2546,2025-06-29,Port Harcourt,Male,Single,0,Graduate,Salaried,Purchase,246900,0,2363000.0,12.0,0.0,Rejected
+AJB2877,11/11/2025,Kano,Male,Married,0,Not Graduate,Self-Employed,Renovation,185800,173700,2037000.0,36.0,1.0,Rejected
+AJB2628,2025-10-15,lagos,Male,Single,1,Graduate,Salaried,Construction,255700,0,4367000.0,180.0,1.0,Approved
+AJB2738,2025-11-12,Abuja,Male,Single,0,Not Graduate,Self-Employed,Construction,309900,93700,5199000.0,36.0,1.0,Rejected
+AJB2810,2026-06-17,Rural North,Male,Single,0,Graduate,Salaried,Land Acquisition,282200,56400,2919000.0,240.0,1.0,Approved
+AJB2835,2026-04-13,Ibadan,Male,Single,0,Graduate,Salaried,Renovation,273900,0,1376000.0,360.0,1.0,Approved
+AJB2700,16/05/2026,Lagos,Female,Married,0,Graduate,Salaried,Renovation,191900,130700,1313000.0,36.0,1.0,Approved
+AJB2518,05-Jan-2025,Kano,Female,Y,1,Graduate,Self-Employed,Purchase,955000,87800,14516000.0,240.0,1.0,Rejected
+AJB2705,14/05/2025,Kano,Male,Single,0,Graduate,,Purchase,199500,0,4279000.0,180.0,1.0,Rejected
+AJB2535,2025-09-12,Ibadan,Male,Married,1,Graduate,Salaried,Land Acquisition,208500,57800,2132000.0,180.0,0.0,Rejected
+AJB2837,2025-04-30,Abuja,Female,Married,0,Not Graduate,Salaried,Renovation,160000,103700,2294000.0,240.0,1.0,Approved
+AJB2674,13/04/2025,Abuja,Male,Single,0,Not Graduate,Salaried,Renovation,219900,76800,1263000.0,240.0,1.0,Approved
+AJB2577,17-Aug-2025,Lagos,Male,Married,0,Graduate,Salaried,Purchase,182500,108800,2494000.0,240.0,1.0,Approved
+AJB2718,24-Jan-2025,Rural North,Female,Married,0,Not Graduate,Salaried,Construction,257200,85400,5255000.0,180.0,1.0,Approved
+AJB2602,16-Jul-2025,Rural North,Male,Single,0,Not Graduate,Salaried,Land Acquisition,208200,0,1073000.0,180.0,1.0,Approved
+AJB2708,23/01/2026,Lagos,Male,Single,2,Not Graduate,,Construction,332000,0,3863000.0,,0.0,Approved
+AJB2589,2026-02-01,Port Harcourt,Male,Married,1,Graduate,Salaried,Renovation,354700,0,2005000.0,360.0,1.0,Approved
+AJB2685,20/06/2026,Lagos,Male,Single,3+,Graduate,Self-Employed,Renovation,337200,0,2840000.0,120.0,1.0,Approved
+AJB2561,2026-04-13,Lagos,male,Married,2,Graduate,Salaried,Construction,175000,48600,3171000.0,240.0,1.0,Approved
+AJB2783,20-Mar-2026,Ibadan,Male,Married,2,Graduate,Self-Employed,Renovation,206200,84700,1630000.0,240.0,0.0,Approved
+AJB2637,26/01/2025,Ibadan,Male,Married,0,Graduate,SALARIED,Purchase,63000,87000,1737000.0,240.0,1.0,Approved
+AJB2538,13/03/2026,Kano,Male,Single,0,Graduate,Salaried,Renovation,258900,0,1872000.0,180.0,1.0,Approved
+AJB2668,03-May-2026,Abuja,Male,Married,1,Graduate,Salaried,Construction,300000,107500,3773000.0,240.0,1.0,Approved
+AJB2735,2026-04-07,Rural North,Female,Married,1,Not Graduate,Salaried,Renovation,179100,102200,1976000.0,36.0,1.0,Approved
+AJB2887,21-Apr-2026,Lagos,Female,Married,3+,Graduate,Salaried,Renovation,259000,68300,2394000.0,36.0,1.0,Approved
+AJB2695,08-Mar-2025,Rural North,Male,Married,0,Graduate,Salaried,Land Acquisition,293900,86500,4164000.0,180.0,1.0,Approved
+AJB2763,2026-01-13,lagos, Male,Married,1,Graduate,Salaried,Purchase,268100,49900,3046000.0,36.0,,Approved
+AJB2897,2026-01-15,Lagos,Male,married,1,Graduate,Salaried,Purchase,141300,108900,2921000.0,360.0,1.0,Approved
+AJB2789,2025-04-07,Abuja,,Married,0,Graduate,SALARIED,Renovation,124900,74500,1704000.0,360.0,1.0,Approved
+AJB2795,02/01/2025,Lagos,Female,Married,0,Graduate,Salaried,Purchase,245000,106800,6950000.0,60.0,1.0,Approved
+AJB2821,01-Aug-2025,Lagos,MALE,Married,0,Graduate, Salaried,Construction,197900,72700,5117000.0,12.0,1.0,Rejected
+AJB2534,2026-02-02,Lagos ,MALE,Married,2,Graduate,Self-Employed,Construction,375900,80400,8228000.0,180.0,1.0,Approved
+AJB2846,18/08/2025,Rural North,Female,Married,2,Graduate,Salaried,Purchase,187000,120600,6554000.0,,,Rejected
+AJB2813,2025-07-08,Lagos,Male,N,3+,Not Graduate,Salaried,Purchase,154600,0,1995000.0,180.0,1.0,Approved
+AJB2630,2026-05-12,Lagos,Male,Single,0,Not Graduate,Self-Employed,Renovation,184900,0,919000.0,240.0,1.0,Rejected
+AJB2574,2026-05-04,Abuja,Male,Married,2,Graduate,Self-Employed,Purchase,323600,147200,7973000.0,240.0,0.0,Approved
+AJB2504,2026-01-13,Lagos,Male,N,0,Graduate,SALARIED,Construction,161800,0,1698000.0,120.0,0.0,Approved
+AJB2879,2025-04-19,Ibadan,Female,Single,0,Not Graduate,,Purchase,209300,0,3449000.0,240.0,0.0,Rejected
+AJB2624,06/02/2025,Abuja,Male,Married,0,Graduate,Salaried,Land Acquisition,165200,112900,3438000.0,360.0,,Approved
+AJB2659,24-Apr-2025,Lagos,Female,Married,1,Graduate,Self-Employed,Purchase,212500,0,3746000.0,240.0,1.0,Approved
+AJB2560,27-Feb-2026,Rural North,Male,Married,2,Graduate,Salaried,Construction,260100,101300,3024000.0,24.0,1.0,Approved
+AJB2696,2026-05-26,Lagos,Male,Single,1,Graduate,Salaried,Purchase,167100,0,1552000.0,24.0,1.0,Approved
+AJB2722,08-Jun-2025,Abuja,Male,single,3+,Graduate,Salaried,Purchase,131200,0,1253000.0,12.0,1.0,Approved
+AJB2799,12/04/2026,Ibadan,Male,Married,0,Graduate, Salaried,Construction,213300,0,2529000.0,240.0,1.0,Approved
+AJB2540,2025-02-19,Abuja,Male,Single,0,Not Graduate,Self-Employed,Land Acquisition,310200,0,3395000.0,120.0,0.0,Rejected
+AJB2634,01/05/2026,Port Harcourt,Male,Married,2,Not Graduate,Self-Employed,Land Acquisition,199300,97300,2912000.0,180.0,1.0,Approved
+AJB2825,03-Mar-2025,Rural North,Male,Married,1,Graduate,,Construction,231900,129200,6844000.0,240.0,0.0,Rejected
+AJB2836,2025-03-01,Rural North,male,Y,,Not Graduate,Salaried,Purchase,308700,58000,3592000.0,60.0,1.0,Approved
+AJB2876,2025-10-09,Rural North,Female,Married,0,Not Graduate,Salaried,Renovation,240100,100400,1522000.0,24.0,1.0,Rejected
+AJB2891,04-Mar-2026,Ibadan,Male,Married,0,Graduate,Salaried,Purchase,245900,94000,4724000.0,120.0,1.0,Approved
+AJB2575,03-Mar-2026,Port Harcourt,Male,Married,3+,Graduate, Self-Employed,Purchase,125000,77700,2601000.0,24.0,1.0,Rejected
+AJB2724,12-Jul-2025,Rural North,Male,single,1,Graduate,Self-Employed,Renovation,247300,0,1816000.0,240.0,1.0,Rejected
+AJB2593,25-Apr-2026,Lagos,Male,Married,0,Graduate,Self-Employed,Land Acquisition,504000,0,3464000.0,240.0,1.0,Approved
+AJB2677,2025-01-15,Rural North,Female,MARRIED,0,Not Graduate,Salaried,Construction,356100,141100,3776000.0,120.0,1.0,Approved
+AJB2758,02/12/2025,Lagos,Male,Married,1,Not Graduate,Salaried,Purchase,135300,60900,2411000.0,240.0,1.0,Rejected
+AJB2733,2025-07-25,Rural North,Male,Married,3+,Graduate,Salaried,Renovation,216300,36200,2143000.0,24.0,1.0,Approved
+AJB2721,01-Jun-2025,Port Harcourt,Male,Y,2,Graduate,Salaried,Land Acquisition,356600,148200,5329000.0,180.0,,Rejected
+AJB2514,2025-05-15,Abuja,Male,Married,0,Graduate,Self-Employed,Renovation,276600,0,2131000.0,120.0,1.0,Approved
+AJB2864,03-Jul-2025,Ibadan,Male,Single,0,Not Graduate,Self-Employed,Purchase,311700,0,6466000.0,36.0,1.0,Rejected
+AJB2750,19/11/2025,Port Harcourt,Male,Married,1,Not Graduate,Salaried,Land Acquisition,235500,138200,4135000.0,24.0,0.0,Approved
+AJB2756,2026-02-16,Rural North,Female ,Single,3+,Graduate,Salaried,Purchase,186000,0,2140000.0,240.0,0.0,Rejected
+AJB2754,23-Jan-2026,Rural North,Male,Single,0,Graduate,Self-Employed,Renovation,141800,0,711000.0,240.0,0.0,Rejected
+AJB2712,2025-02-08,Rural North,Male,Single,0,Not Graduate,Self-Employed,Renovation,227700,0,1461000.0,360.0,1.0,Approved
+AJB2654,10/12/2025,Kano,Male,Married,3+,Not Graduate,Salaried,Purchase,213400,131000,4991000.0,24.0,1.0,Approved
+AJB2778,2025-08-12,Rural North,Female,Married,1,Graduate,Salaried,Construction,175800,134900,2992000.0,240.0,1.0,Approved
+AJB2761,01-May-2026,Rural North,Female,Single,,Graduate,Self-Employed,Purchase,167400,0,1740000.0,240.0,1.0,Approved
+AJB2604,2025-12-20,Kano,Female,Married,3+,Not Graduate, Salaried,Purchase,260600,0,4210000.0,360.0,1.0,Rejected
+AJB2883,2026-01-01,Lagos,Male,Married,0,Graduate,Salaried,Purchase,233000,99800,5652000.0,36.0,,Rejected
+AJB2599,2025-01-12,Lagos,Female,Married,,Graduate,SELF-EMPLOYED,Renovation,330300,97900,3359000.0,360.0,1.0,Approved
+AJB2648,22-Apr-2025,Ibadan,Male,Single,2,Graduate,Salaried,Purchase,255800,0,2730000.0,240.0,1.0,Rejected
+AJB2740,24-Dec-2025,Abuja,Female,Single,0,Graduate,Salaried,Construction,177300,0,3508000.0,60.0,1.0,Approved
+AJB2550,2025-01-23,Rural North,Male,Married,0,Graduate,Salaried,Construction,179600,103100,4203000.0,360.0,1.0,Approved
+AJB2809,10/03/2026,Rural North,Male,Married,0,Not Graduate,Self-Employed,Renovation,376300,115600,3422000.0,120.0,1.0,Approved
+AJB2510,06-Apr-2026,Lagos,Male,Single,0,Not Graduate,Salaried,Construction,208300,50400,4542000.0,36.0,1.0,Approved
+AJB2745,2025-07-10,Lagos,FEMALE,Single,0,Graduate,Salaried,Construction,238200,0,4368000.0,,0.0,Rejected
+AJB2839,28/02/2025,Lagos,Female,Married,1,Graduate,salaried,Renovation,99200,82600,1448000.0,36.0,1.0,Approved
+AJB2847,03-Oct-2025,Rural North,Male,Married,2,Not Graduate,Self-Employed,Purchase,398200,80400,7639000.0,12.0,1.0,Rejected
+AJB2765,15-Oct-2025,Lagos,Male,Single,3+,Graduate,,Construction,391800,0,7140000.0,180.0,1.0,Approved
+AJB2585,2025-09-09,Lagos,Male,Married,0,Not Graduate,Salaried,Purchase,147800,85500,2341000.0,240.0,1.0,Approved
+AJB2890,2025-05-01,Kano,Male,Married,0,Graduate,Salaried,Construction,169200,0,1866000.0,36.0,1.0,Approved
+AJB2553,2026-04-07,Rural North,Male,Married,3+,Graduate,Salaried,Construction,212400,0,3838000.0,180.0,1.0,Approved
+AJB2862,2025-11-11,Port Harcourt,Male,Married,2,Not Graduate,SALARIED,Purchase,148900,55400,1827000.0,24.0,1.0,Approved
+AJB2725,2025-05-10,Lagos,Female,Married,0,Graduate,Salaried,Renovation,168500,67600,829000.0,240.0,1.0,Approved
+AJB2748,13/10/2025,Abuja,,Single,2,Graduate,Salaried,Construction,234700,0,2113000.0,36.0,0.0,Rejected
+AJB2635,2026-05-25,Port Harcourt, Male,Married,0,Not Graduate,self-employed,Renovation,178500,106600,1950000.0,60.0,1.0,Approved
+AJB2788,10-May-2025,Lagos,Male,Single,1,Not Graduate,Self-Employed,Purchase,270900,0,2919000.0,240.0,,Approved
+AJB2525,2025-06-03,Abuja,Male,Single,0,Not Graduate,Self-Employed,Construction,318700,0,3774000.0,60.0,1.0,Approved
+AJB2774,18/04/2025,Rural North,FEMALE,Married,2,Graduate,self-employed,Renovation,235900,145600,1920000.0,60.0,1.0,Approved
+AJB2562,08-Mar-2026,Port Harcourt,MALE,Single,2,Graduate,Self-Employed,Purchase,160200,0,2657000.0,24.0,1.0,Approved
+AJB2829,2025-03-28,Port Harcourt,,Married,3+,Graduate,Salaried,Construction,250500,0,2416000.0,180.0,1.0,Approved
+AJB2563,05-Aug-2025,lagos,Female ,Married,,Not Graduate,Salaried,Renovation,287900,62400,2545000.0,24.0,0.0,Rejected
+AJB2564,2025-02-03,Abuja ,Male,Married,0,Graduate,Self-Employed,Purchase,185600,114100,3805000.0,240.0,0.0,Rejected
+AJB2807,2025-08-23,Abuja,Male,Single,0,Graduate,Salaried,Purchase,193900,0,4189000.0,24.0,,Rejected
+AJB2571,04-Mar-2025,Port Harcourt,Male,Married,0,Graduate,Salaried,Construction,123700,125800,3134000.0,240.0,1.0,Approved
+AJB2572,2025-01-04,Lagos,Female,Married,3+,Graduate, Self-Employed,Construction,224700,0,2328000.0,180.0,1.0,Approved
+AJB2699,2025-10-01,Ibadan,Male,single,0,Graduate,Salaried,Land Acquisition,319500,0,4067000.0,180.0,0.0,Rejected
+AJB2797,2026-06-07,Lagos,Female,Married,2,Graduate,Salaried,Purchase,254100,168000,5137000.0,60.0,1.0,Approved
+AJB2549,2025-05-24,Abuja,Male,Married,3+,Not Graduate,Self-Employed,Renovation,147600,121000,1321000.0,240.0,1.0,Approved
+AJB2801,2025-10-05,Ibadan,Male,Married,0,Not Graduate,Salaried,Renovation,215000,0,1846000.0,240.0,0.0,Approved
+AJB2849,2025-03-02,Lagos,male,Single,3+,Graduate,Self-Employed,Purchase,254200,0,3776000.0,360.0,0.0,Rejected
+AJB2826,24/06/2026,Lagos,FEMALE,Married,1,Graduate,,Construction,199700,0,2060000.0,60.0,1.0,Approved
+AJB2595,18-May-2025,Abuja,Male,Married,3+,Graduate,Salaried,Renovation,150300,0,782000.0,36.0,1.0,Approved
+AJB2605,2025-12-25,Ibadan,Female,Single,1,Not Graduate,Self-Employed,Purchase,253200,0,3082000.0,240.0,,Rejected
+AJB2625,26/06/2025,Abuja,,Married,0,Not Graduate,Salaried,Purchase,-434200,0,8850000.0,180.0,0.0,Rejected
+AJB2732,2025-03-16,lagos,Female,Married,1,Graduate,Salaried,Construction,292000,111300,3224000.0,60.0,1.0,Approved
+AJB2557,2026-02-02,Port Harcourt,male,Married,2,Not Graduate,,Purchase,393300,107600,10959000.0,36.0,1.0,Approved
+AJB2868,08/01/2025,Abuja,Male,Married,2,Graduate,Salaried,Construction,273100,0,4024000.0,360.0,1.0,Rejected
+AJB2545,2026-02-03,Lagos,Female,Single,3+,Graduate,Salaried,Renovation,294600,0,1272000.0,120.0,1.0,Rejected
+AJB2531,27/12/2025,Port Harcourt,FEMALE,Single,,Graduate,Self-Employed,Construction,114300,0,2200000.0,180.0,0.0,Approved
+AJB2870,30-Nov-2025,Port Harcourt,Female,Married,0,Graduate,Salaried,Purchase,129500,72300,3618000.0,360.0,1.0,Rejected
+AJB2501,2025-11-07,Port Harcourt,Male,Single,0,Graduate,Salaried,Construction,317400,0,2840000.0,120.0,1.0,Approved
+AJB2642,2026-02-15,Ibadan,Female,Single,0,Graduate,Salaried,Purchase,241400,0,4286000.0,360.0,1.0,Approved
+AJB2606,2025-06-29,Ibadan,male,Married,1,Graduate,Salaried,Land Acquisition,173500,178000,1892000.0,,1.0,Approved
+AJB2737,20/03/2025,Abuja,Female ,Single,0,Graduate,Salaried,Purchase,242300,0,2649000.0,180.0,,Rejected
+AJB2661,14/06/2025,Lagos,Female,Married,0,Graduate,Salaried,Construction,276600,92500,5828000.0,120.0,1.0,Approved
+AJB2579,2025-05-14,Lagos,Female,Married,1,Graduate,Salaried,Land Acquisition,274600,136700,3380000.0,24.0,0.0,Approved
+AJB2697,2025-11-14,Port Harcourt,Female,Single,0,Not Graduate,Salaried,Renovation,45000,0,353000.0,360.0,,Approved
+AJB2567,2026-06-20,Rural North,Male,Single,2,Not Graduate,Salaried,Renovation,227600,0,2001000.0,360.0,0.0,Rejected
+AJB2552,2025-08-09,Port Harcourt,Female,Single,2,Graduate,Salaried,Renovation,323600,0,1848000.0,24.0,1.0,Approved
+AJB2808,15/06/2025,Kano,Male,Married,3+,Graduate,,Purchase,174300,86900,4363000.0,240.0,1.0,Approved
+AJB2773,2025-12-04,Rural North,Male,Single,3+,Graduate,Self-Employed,Renovation,72200,0,420000.0,180.0,0.0,Approved
+AJB2834,2025-11-25,Abuja,Male,Married,3+,Graduate,Self-Employed,Purchase,401300,0,8057000.0,360.0,1.0,Approved
+AJB2793,2025-05-19,Abuja, Male,Married,0,Not Graduate,Salaried,Land Acquisition,260000,42300,2768000.0,120.0,1.0,Approved
+AJB2749,2026-05-25,Abuja ,Male,Married,0,Graduate,Self-Employed,Construction,166800,58600,2793000.0,240.0,1.0,Approved
+AJB2760,2026-02-11,Ibadan,Male,married,3+,Not Graduate,Salaried,Construction,277400,130100,4243000.0,24.0,0.0,Rejected
+AJB2580,17-Aug-2025,Abuja,Male,Married,0,Graduate,Self-Employed,Renovation,750700,104500,4308000.0,24.0,1.0,Approved
+AJB2895,07/03/2025,Rural North,Male,Married,0,Graduate,SELF-EMPLOYED,Renovation,266600,72300,1299000.0,360.0,1.0,Approved
+AJB2717,30-Oct-2025,Rural North,Male,Married,2,Graduate,Salaried,Construction,148700,169800,3009000.0,180.0,1.0,Approved
+AJB2716,2025-01-28,LAGOS,Male,Single,1,Graduate,,Purchase,181700,0,2803000.0,240.0,0.0,Approved
+AJB2529,28/05/2025,Kano,Female,Single,0,Graduate,Salaried,Construction,342700,0,6427000.0,240.0,1.0,Approved
+AJB2532,16-Jun-2026,Abuja,Male,Single,0,Graduate,Salaried,Renovation,287700,0,2331000.0,360.0,1.0,Approved
+AJB2667,25-Jan-2025,Abuja,,MARRIED,0,Graduate, Salaried,Purchase,222900,122700,4481000.0,240.0,1.0,Approved
+AJB2684,18-Aug-2025,Port Harcourt,Female,Single,0,Not Graduate,Salaried,Purchase,130900,0,1058000.0,36.0,1.0,Approved
+AJB2832,2025-02-12,Rural North,Female,Married,0,Graduate,Self-Employed,Renovation,93900,71300,546000.0,12.0,1.0,Approved
+AJB2672,19-Mar-2025,Port Harcourt,Male,Married,0,Graduate,Salaried,Construction,186100,58900,4156000.0,24.0,1.0,Approved
+AJB2513,2025-03-24,Port Harcourt,Female,N,1,Graduate,Salaried,Renovation,192400,0,894000.0,180.0,0.0,Approved
+AJB2856,2025-04-08,Port Harcourt,FEMALE,Married,0,Not Graduate,Salaried,Construction,347800,61400,6213000.0,120.0,1.0,Rejected
+AJB2678,07/01/2025,Lagos,Female,Single,1,Graduate,salaried,Purchase,330300,0,7081000.0,60.0,1.0,Approved
+AJB2569,2025-11-03,Port Harcourt,Male,MARRIED,0,Graduate,Self-Employed,Purchase,262000,39900,3193000.0,24.0,1.0,Approved
+AJB2860,2025-01-09,Rural North,Female,Single,0,Not Graduate,Salaried,Construction,360900,0,4758000.0,240.0,0.0,Rejected
+AJB2588,2026-03-05,Ibadan,Male,Married,,Graduate, Salaried,Purchase,349000,0,7293000.0,120.0,1.0,Approved

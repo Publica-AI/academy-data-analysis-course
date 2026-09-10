@@ -1,0 +1,452 @@
+[
+  {
+    "title": "the cleaning and transformation workflow",
+    "description": "First step in cleaning",
+    "type": "multiple choice",
+    "question": "What should be the very first step when opening a new raw dataset for cleaning?",
+    "options": "Check the shape and look at the first few rows with df.shape and df.head()|Immediately fill all missing values with the column mean|Drop every column with more than one missing value|Convert every column to its expected data type",
+    "answer": "Check the shape and look at the first few rows with df.shape and df.head()",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the cleaning and transformation workflow",
+    "description": "Detecting duplicate rows",
+    "type": "multiple choice",
+    "question": "Which pandas method identifies rows that are exact copies of another row across every column?",
+    "options": "df.unique()|df.duplicated()|df.dropna()|df.value_counts()",
+    "answer": "df.duplicated()",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the cleaning and transformation workflow",
+    "description": "Raw dataset dimensions",
+    "type": "True or False",
+    "question": "True or False: the raw AJEBO Finance loan applications file contained 412 rows and 15 columns.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the cleaning and transformation workflow",
+    "description": "Counting missing values",
+    "type": "multiple choice",
+    "question": "df.info() shows Loan_Amount_NGN as '405 non-null float64' in a dataset of 412 rows. How many missing values does this column have?",
+    "options": "7|405|5|412",
+    "answer": "7",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the cleaning and transformation workflow",
+    "description": "Why Dependents stays categorical",
+    "type": "multiple choice",
+    "question": "Testing pd.to_numeric(df['Dependents'], errors='coerce') turns the value '3+' into NaN. What does this confirm?",
+    "options": "That Dependents should remain a categorical column, not be converted to numeric|That the Dependents column is corrupted and should be dropped|That '3+' is a data entry error that must be corrected to 3|That errors='coerce' does not work on text values",
+    "answer": "That Dependents should remain a categorical column, not be converted to numeric",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the cleaning and transformation workflow",
+    "description": "Standardising branch names",
+    "type": "multiple choice",
+    "question": "Which chained method call correctly standardises Branch_Region values such as 'lagos', ' Lagos', and 'LAGOS' into a single consistent value?",
+    "options": "df['Branch_Region'].str.strip().str.title()|df['Branch_Region'].str.upper().str.len()|df['Branch_Region'].astype(int)|df['Branch_Region'].fillna('Lagos')",
+    "answer": "df['Branch_Region'].str.strip().str.title()",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the cleaning and transformation workflow",
+    "description": "Why Credit_History is dropped",
+    "type": "multiple choice",
+    "question": "Why does the workflow drop the 35 rows with missing Credit_History rather than filling them with the most common value?",
+    "options": "Because Credit_History is the strongest driver of loan approval in this dataset, and imputing it would manufacture a pattern that is not real|Because Credit_History is a text column and cannot be filled|Because 35 rows is too many for fillna() to process|Because Credit_History has no missing values to begin with",
+    "answer": "Because Credit_History is the strongest driver of loan approval in this dataset, and imputing it would manufacture a pattern that is not real",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the cleaning and transformation workflow",
+    "description": "Correct versus remove reasoning",
+    "type": "multiple choice",
+    "question": "A negative Monthly_Income_NGN value is corrected using .abs(), but a row with Loan_Term_Months == 0 is removed rather than corrected. What is the reasoning behind treating these two errors differently?",
+    "options": "A negative income is very likely a sign error with a defensible true value, whereas a zero month term cannot be safely inferred, so it is safer to remove that row|Removing rows is always preferred to correcting values|Loan_Term_Months cannot contain zero values in pandas|Negative numbers cause pandas to crash, so they must be corrected first",
+    "answer": "A negative income is very likely a sign error with a defensible true value, whereas a zero month term cannot be safely inferred, so it is safer to remove that row",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "the cleaning and transformation workflow",
+    "description": "Checklist item for uniqueness",
+    "type": "multiple choice",
+    "question": "Which item from the seven part data quality checklist is confirmed specifically by checking that df['Application_ID'].nunique() equals len(df)?",
+    "options": "Uniqueness|Completeness|Plausible ranges|Consistency",
+    "answer": "Uniqueness",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "the cleaning and transformation workflow",
+    "description": "Running without proof of success",
+    "type": "True or False",
+    "question": "True or False: according to this topic, a cleaning script running without raising any error is sufficient proof that every cleaning step worked correctly.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "visualisation principles and chart choice",
+    "description": "Chart selection framework order",
+    "type": "multiple choice",
+    "question": "What is the correct order of the chart selection framework taught in this topic?",
+    "options": "Question, then data type, then comparison, then chart|Chart, then question, then data type, then comparison|Data type, then chart, then question, then comparison|Comparison, then chart, then question, then data type",
+    "answer": "Question, then data type, then comparison, then chart",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "visualisation principles and chart choice",
+    "description": "Chart for a single distribution",
+    "type": "multiple choice",
+    "question": "Which chart type is the correct tool for showing the shape and spread of a single numeric variable, such as monthly income?",
+    "options": "Histogram|Pie chart|Bar chart of individual records|Stacked bar chart",
+    "answer": "Histogram",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "visualisation principles and chart choice",
+    "description": "Pie chart for two averages",
+    "type": "True or False",
+    "question": "True or False: according to this topic, a pie chart is an appropriate way to compare two independent averages, such as average loan amount for salaried versus self-employed applicants.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "visualisation principles and chart choice",
+    "description": "Problem with oversized markers",
+    "type": "multiple choice",
+    "question": "Why is a scatter plot of income against loan amount, drawn with large, fully opaque markers, considered a poor chart for that data?",
+    "options": "The oversized, opaque markers hide the point density, making it impossible to tell how many applicants are stacked in a dense region|Scatter plots cannot show numeric data|Opaque markers always change the underlying data values|Matplotlib does not support scatter plots with more than 30 points",
+    "answer": "The oversized, opaque markers hide the point density, making it impossible to tell how many applicants are stacked in a dense region",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "visualisation principles and chart choice",
+    "description": "Effect of a truncated axis",
+    "type": "multiple choice",
+    "question": "A chart's y-axis for branch approval rates runs from 45 to 80 rather than from 0 to 100. What effect does this truncated axis have?",
+    "options": "It exaggerates the visual size of the differences between branches|It has no effect on how the chart is read|It automatically sorts the branches by value|It converts the chart into a pie chart",
+    "answer": "It exaggerates the visual size of the differences between branches",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "visualisation principles and chart choice",
+    "description": "Preparing bars for ranking",
+    "type": "multiple choice",
+    "question": "For a ranking question such as 'which branch processes the most applications', what should be done to the bars before presenting the chart?",
+    "options": "Sort the bars by value rather than alphabetically|Colour every bar a different colour|Rotate the category labels to 90 degrees|Add a legend even though there is only one series",
+    "answer": "Sort the bars by value rather than alphabetically",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "visualisation principles and chart choice",
+    "description": "Radius versus area scaling",
+    "type": "multiple choice",
+    "question": "Why does scaling a circle's radius linearly with a data value mislead the reader, as in the Lagos versus Kano bubble comparison?",
+    "options": "The eye perceives area, not radius, so scaling radius linearly makes the perceived difference grow with the square of the true ratio|Circles cannot represent numeric data accurately in any form|Radius and area always scale at the same rate|Matplotlib does not allow circles to be resized",
+    "answer": "The eye perceives area, not radius, so scaling radius linearly makes the perceived difference grow with the square of the true ratio",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "visualisation principles and chart choice",
+    "description": "Risk of dual axis charts",
+    "type": "multiple choice",
+    "question": "Two variables with unrelated units are plotted on the same chart using two separate y-axes, a dual axis chart. Why does this technique risk misleading the reader?",
+    "options": "The apparent overlap or crossing of the two lines depends on where each axis happens to start, which is an arbitrary choice unrelated to the data itself|Dual axis charts are always technically impossible to create in matplotlib|Using two y-axes automatically doubles the data being shown|Two y-axes force the chart into a pie chart layout",
+    "answer": "The apparent overlap or crossing of the two lines depends on where each axis happens to start, which is an arbitrary choice unrelated to the data itself",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "visualisation principles and chart choice",
+    "description": "Reporting a rate without n",
+    "type": "multiple choice",
+    "question": "Kano's approval rate of 50% is reported without its sample size. Why does this specifically risk misleading a reader, given Kano has only 32 applications?",
+    "options": "A rate calculated from a small sample can swing widely by chance alone, so the headline figure may look more certain than it actually is|Percentages calculated from small samples are always mathematically incorrect|Sample size never affects how trustworthy a rate is|32 applications is too large a sample to report accurately",
+    "answer": "A rate calculated from a small sample can swing widely by chance alone, so the headline figure may look more certain than it actually is",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "visualisation principles and chart choice",
+    "description": "Table versus chart for exact figures",
+    "type": "True or False",
+    "question": "True or False: according to this topic, when a stakeholder needs exact figures to quote directly in a memo, a well formatted table is a better choice than a chart.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "insight narrative and business communication",
+    "description": "Finding versus insight",
+    "type": "multiple choice",
+    "question": "What is the key difference between a finding and an insight, as defined in this topic?",
+    "options": "An insight adds the business implication to the observation, while a finding is the observation alone|A finding and an insight are two names for the same thing|An insight must always contain a chart, while a finding is text only|A finding is always wrong and an insight is always correct",
+    "answer": "An insight adds the business implication to the observation, while a finding is the observation alone",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "insight narrative and business communication",
+    "description": "Four part narrative order",
+    "type": "multiple choice",
+    "question": "What are the four parts of the narrative structure taught in this topic, in order?",
+    "options": "Context, Finding, Implication, Recommendation|Finding, Context, Recommendation, Implication|Question, Data type, Comparison, Chart|Introduction, Data, Analysis, Conclusion",
+    "answer": "Context, Finding, Implication, Recommendation",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "insight narrative and business communication",
+    "description": "Definition of the so what test",
+    "type": "True or False",
+    "question": "True or False: the 'so what' test asks whether a busy manager reading only one sentence could reasonably reply 'so what?'",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "insight narrative and business communication",
+    "description": "Identifying a sharp insight",
+    "type": "multiple choice",
+    "question": "Which sentence passes the 'so what' test?",
+    "options": "Self-employed applicants request 22% larger loans on average, but their incomes are also more volatile, so underwriting for this segment may need a different verification standard.|The data shows some interesting patterns in loan amounts.|Kano is underperforming and should be investigated.|There is a strong relationship between income and loan amount, which makes sense intuitively.",
+    "answer": "Self-employed applicants request 22% larger loans on average, but their incomes are also more volatile, so underwriting for this segment may need a different verification standard.",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "insight narrative and business communication",
+    "description": "What a recommendation needs",
+    "type": "multiple choice",
+    "question": "What is missing from the recommendation 'we should investigate this further' that stops it from being an acceptable recommendation?",
+    "options": "A named owner or method, and a way to know when the question is resolved|A chart to accompany it|A reference to Module 6.2|A confidence interval",
+    "answer": "A named owner or method, and a way to know when the question is resolved",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "insight narrative and business communication",
+    "description": "What changes for an audience",
+    "type": "multiple choice",
+    "question": "According to this topic, what should change and what should stay the same when the same finding is adapted for a technical versus a non-technical audience?",
+    "options": "The vocabulary and level of statistical detail should change, the underlying facts should stay the same|The underlying facts should change, the vocabulary should stay the same|Both the facts and the vocabulary should change|Neither the facts nor the vocabulary should change",
+    "answer": "The vocabulary and level of statistical detail should change, the underlying facts should stay the same",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "insight narrative and business communication",
+    "description": "Specific and falsifiable recommendations",
+    "type": "multiple choice",
+    "question": "Why does the recommendation 'pull a manual sample of Kano's last 20 rejections and compare against Ibadan's' count as specific and falsifiable, while 'investigate further' does not?",
+    "options": "It names a concrete action, a comparison benchmark, and a way to check whether the action resolved the question|It contains a percentage figure, which automatically makes any recommendation acceptable|It is shorter than 'investigate further'|It avoids naming a specific branch",
+    "answer": "It names a concrete action, a comparison benchmark, and a way to check whether the action resolved the question",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "insight narrative and business communication",
+    "description": "Correlation versus causation wording",
+    "type": "multiple choice",
+    "question": "Why does the topic warn against writing 'being self-employed causes larger loan requests' based on the AJEBO data?",
+    "options": "The data shows a correlation between employment type and loan size, not a causal mechanism, so 'causes' overstates what the evidence supports|Self-employed applicants never request larger loans in this dataset|Causal language is always acceptable once a correlation is found|The word 'causes' is a synonym for 'is associated with'",
+    "answer": "The data shows a correlation between employment type and loan size, not a causal mechanism, so 'causes' overstates what the evidence supports",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "insight narrative and business communication",
+    "description": "Why state sample size directly",
+    "type": "multiple choice",
+    "question": "Kano's approval rate finding states the sample size, n=32, directly in the finding sentence rather than in a footnote. Why does this topic insist on that placement?",
+    "options": "Because a small sample size materially affects how much the reader should trust the finding, so it must not be easy to overlook|Because footnotes are not supported by markdown|Because sample sizes are only relevant for non-technical audiences|Because the recommendation section always repeats the sample size regardless",
+    "answer": "Because a small sample size materially affects how much the reader should trust the finding, so it must not be easy to overlook",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "insight narrative and business communication",
+    "description": "Vague recommendations fail the test",
+    "type": "True or False",
+    "question": "True or False: according to this topic, the sentence 'we should look into this' fails the same test as a weak insight statement.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "github for portfolios",
+    "description": "What a README does",
+    "type": "multiple choice",
+    "question": "What does a README.md file do on a GitHub repository?",
+    "options": "GitHub automatically displays it on the repository's front page|It stores the repository's commit history|It automatically deletes personal data from uploaded files|It is only visible after cloning the repository locally",
+    "answer": "GitHub automatically displays it on the repository's front page",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "github for portfolios",
+    "description": "Definition of a commit",
+    "type": "multiple choice",
+    "question": "Which of the three core GitHub concepts taught in this topic is described as 'a saved snapshot of changes, with a short message describing what changed'?",
+    "options": "A commit|A repository|A README|A pull request",
+    "answer": "A commit",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "github for portfolios",
+    "description": "Assumption about README readers",
+    "type": "True or False",
+    "question": "True or False: according to this topic, most employers reviewing a portfolio repository are assumed to read the README and never open a single code file.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "github for portfolios",
+    "description": "Linking versus embedding",
+    "type": "multiple choice",
+    "question": "What is the key difference between linking to a chart image in a README and embedding it?",
+    "options": "An embedded image displays directly on the page, while a linked image requires the reader to click through to view it|A linked image loads faster than an embedded one|Embedding an image removes it from the repository's file history|GitHub does not support embedded images in README files",
+    "answer": "An embedded image displays directly on the page, while a linked image requires the reader to click through to view it",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "github for portfolios",
+    "description": "The hardcoded Kano bug",
+    "type": "multiple choice",
+    "question": "In the worked README example, what specific problem was found in the generated text even though the notebook ran without any errors?",
+    "options": "The business problem paragraph still named 'Kano' directly, even after the underlying data-driven figures had been recalculated dynamically|The README failed to render as markdown|The chart images were embedded twice|The commit message was left blank",
+    "answer": "The business problem paragraph still named 'Kano' directly, even after the underlying data-driven figures had been recalculated dynamically",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "github for portfolios",
+    "description": "What never to upload",
+    "type": "multiple choice",
+    "question": "Which item belongs on the 'what NOT to upload' list for a public portfolio repository?",
+    "options": "API keys or credentials pasted into a cell during testing|The cleaned dataset with a synthetic Application_ID|Chart images exported as PNG files|A README.md file",
+    "answer": "API keys or credentials pasted into a cell during testing",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "github for portfolios",
+    "description": "Structure of a strong README",
+    "type": "multiple choice",
+    "question": "What is the recommended minimum content of a strong analyst README, according to this topic's structure?",
+    "options": "Project summary, business problem, data source and safety confirmation, method, key findings with embedded charts, tools, reproduction steps, and contact details|Only the project title and a link to the notebook|A single paragraph describing the code used|A list of every column name in the dataset",
+    "answer": "Project summary, business problem, data source and safety confirmation, method, key findings with embedded charts, tools, reproduction steps, and contact details",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "github for portfolios",
+    "description": "Why check values individually",
+    "type": "multiple choice",
+    "question": "The data safety checker scans string columns for values matching email and phone patterns individually, rather than joining column values into one string first. Why does this distinction matter?",
+    "options": "Joining values into a single string before pattern matching can create false matches that span across multiple unrelated values|Joining values always makes the check run faster with no downside|Checking values individually can never detect an email address|Pandas cannot search for regex patterns in a joined string",
+    "answer": "Joining values into a single string before pattern matching can create false matches that span across multiple unrelated values",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "github for portfolios",
+    "description": "Re-confirming data safety",
+    "type": "multiple choice",
+    "question": "Why does this topic insist that a dataset must still be re-confirmed as safe before publishing, even after an earlier module already guaranteed no real personal data was present?",
+    "options": "Because any dataset that is merged, extended, or otherwise changed from its original safe version needs to be re-checked before it goes anywhere public|Because the original safety guarantee only applies for 24 hours|Because GitHub automatically re-adds personal data to any uploaded file|Because the data safety check cannot be run more than once",
+    "answer": "Because any dataset that is merged, extended, or otherwise changed from its original safe version needs to be re-checked before it goes anywhere public",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "github for portfolios",
+    "description": "Rendering does not mean correct",
+    "type": "True or False",
+    "question": "True or False: according to this topic, a README that renders without any errors can be safely assumed to be factually correct.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai-assisted exploration and drafting",
+    "description": "The verification loop steps",
+    "type": "multiple choice",
+    "question": "What are the three steps of the verification loop taught in this topic for checking an AI-surfaced claim?",
+    "options": "Trace it, reproduce it, compare it|Prompt it, publish it, archive it|Summarise it, format it, submit it|Read it, trust it, cite it",
+    "answer": "Trace it, reproduce it, compare it",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai-assisted exploration and drafting",
+    "description": "What confident tone tells you",
+    "type": "multiple choice",
+    "question": "According to this topic, what does a confident tone from an AI assistant tell you about whether its answer is correct?",
+    "options": "Nothing, tone carries no information about factual correctness|It guarantees the answer is correct|It means the answer has already been verified|It means the AI is quoting directly from the source data",
+    "answer": "Nothing, tone carries no information about factual correctness",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai-assisted exploration and drafting",
+    "description": "Re-checking data before AI upload",
+    "type": "True or False",
+    "question": "True or False: this topic states that a dataset must be re-checked for real personal data before it is uploaded to an AI tool, especially after it has been merged or extended.",
+    "options": "True|False",
+    "answer": "True",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "ai-assisted exploration and drafting",
+    "description": "The wrong Kano percentage",
+    "type": "multiple choice",
+    "question": "In the red-pen exercise, the AI draft stated Kano's approval rate as 'approximately 35%.' What was wrong with this claim?",
+    "options": "The verified figure from Module 6.2 is 50%, not 35%|The claim was correct and needed no correction|35% referred to a different branch, not Kano|The AI draft never mentioned a specific percentage",
+    "answer": "The verified figure from Module 6.2 is 50%, not 35%",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-assisted exploration and drafting",
+    "description": "The real application volume trend",
+    "type": "multiple choice",
+    "question": "The AI draft claimed application volume 'has grown significantly' in 2025 to 2026. What did the verified Module 6.2 figures actually show?",
+    "options": "Monthly application volume had softened, declining roughly 23% from its early-2025 average|Application volume had grown by exactly 23%|Application volume stayed completely flat with no change|Application volume data was not available to check this claim",
+    "answer": "Monthly application volume had softened, declining roughly 23% from its early-2025 average",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-assisted exploration and drafting",
+    "description": "An invented mechanism",
+    "type": "multiple choice",
+    "question": "Why is the sentence 'self-employed applicants request larger loans because they have more unpredictable income needs' flagged as a problem in the red-pen exercise?",
+    "options": "The data shows self-employed applicants request larger loans on average, but it does not establish why, so the stated reason is invented, not observed|Self-employed applicants do not request larger loans in the dataset|The sentence contains no numbers at all|'Unpredictable income needs' is the officially documented reason in Module 6.1",
+    "answer": "The data shows self-employed applicants request larger loans on average, but it does not establish why, so the stated reason is invented, not observed",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-assisted exploration and drafting",
+    "description": "Required deliverable attachments",
+    "type": "multiple choice",
+    "question": "Besides the final corrected narrative, what two additional items must be submitted with an AI-assisted deliverable in this programme?",
+    "options": "A prompt log and a verification note|A confidence interval and a p-value|A second AI-drafted narrative and a peer review|A raw, unedited copy of the dataset",
+    "answer": "A prompt log and a verification note",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "ai-assisted exploration and drafting",
+    "description": "Internal contradiction in the draft",
+    "type": "multiple choice",
+    "question": "The AI draft's final paragraph states the loan book is 'healthy, with no major causes for concern,' despite an earlier paragraph flagging Kano's low approval rate. What problem does this illustrate?",
+    "options": "The AI draft's own claims are internally inconsistent, since the summary judgement contradicts the specific finding raised earlier in the same draft|The two paragraphs are consistent and this is a normal pattern in insight writing|The AI draft correctly resolved the Kano concern by the final paragraph|This is an example of a well supported summary judgement",
+    "answer": "The AI draft's own claims are internally inconsistent, since the summary judgement contradicts the specific finding raised earlier in the same draft",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai-assisted exploration and drafting",
+    "description": "Why verify every claim",
+    "type": "multiple choice",
+    "question": "Why does this topic insist on checking every claim that will appear in a final deliverable, rather than verifying only the first claim and assuming the rest are equally solid?",
+    "options": "Each claim in an AI draft can independently be wrong regardless of whether earlier claims turned out to be correct|Once the first claim is verified, all following claims in the same draft are mathematically guaranteed to be correct|AI assistants only make one error per document|Verifying every claim is optional once a prompt log has been submitted",
+    "answer": "Each claim in an AI draft can independently be wrong regardless of whether earlier claims turned out to be correct",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "ai-assisted exploration and drafting",
+    "description": "Red pen step cannot be skipped",
+    "type": "True or False",
+    "question": "True or False: according to this topic, the red-pen markup step can be skipped as long as the trainee submits a 'cleaned-up' rewrite of the AI's draft.",
+    "options": "True|False",
+    "answer": "False",
+    "difficulty": "advanced"
+  }
+]
