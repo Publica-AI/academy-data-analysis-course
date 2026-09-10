@@ -1,0 +1,452 @@
+[
+  {
+    "title": "the analytics lifecycle and data-driven decision making",
+    "description": "Lifecycle stage order",
+    "type": "multiple choice",
+    "question": "What is the correct order of the six stages in the analytics lifecycle?",
+    "options": "Data Collection, Business Question, Analysis, Data Preparation, Communication, Interpretation|Business Question, Data Collection, Data Preparation, Analysis, Interpretation, Communication|Business Question, Analysis, Data Collection, Interpretation, Data Preparation, Communication|Data Preparation, Data Collection, Business Question, Analysis, Communication, Interpretation",
+    "answer": "Business Question, Data Collection, Data Preparation, Analysis, Interpretation, Communication",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the analytics lifecycle and data-driven decision making",
+    "description": "Business question stage",
+    "type": "multiple choice",
+    "question": "Which stage of the analytics lifecycle involves turning a vague concern such as \"delivery is bad\" into a specific, answerable question?",
+    "options": "Data Preparation|Analysis|Business Question|Communication",
+    "answer": "Business Question",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the analytics lifecycle and data-driven decision making",
+    "description": "Data preparation definition",
+    "type": "multiple choice",
+    "question": "Which of the following best describes the Data Preparation stage?",
+    "options": "Gathering the data needed to answer the question|Cleaning and organising raw data so it is fit for analysis|Deciding what the numbers mean for the business|Presenting a finding so the right person can act on it",
+    "answer": "Cleaning and organising raw data so it is fit for analysis",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the analytics lifecycle and data-driven decision making",
+    "description": "Classify duplicate removal task",
+    "type": "multiple choice",
+    "question": "A colleague asks you to remove duplicate rows from the delivery log before any calculations are done. Which lifecycle stage does this task belong to?",
+    "options": "Business Question|Data Preparation|Interpretation|Communication",
+    "answer": "Data Preparation",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the analytics lifecycle and data-driven decision making",
+    "description": "Classify manager's question",
+    "type": "multiple choice",
+    "question": "A manager asks: \"Are late deliveries getting better or worse this quarter?\" Formulating and sharpening this request into something answerable represents which stage?",
+    "options": "Business Question|Analysis|Data Collection|Interpretation",
+    "answer": "Business Question",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the analytics lifecycle and data-driven decision making",
+    "description": "Classify average calculation task",
+    "type": "multiple choice",
+    "question": "You use a spreadsheet formula to calculate the average delay per branch from the cleaned delivery log. Which stage are you performing?",
+    "options": "Data Collection|Data Preparation|Analysis|Communication",
+    "answer": "Analysis",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the analytics lifecycle and data-driven decision making",
+    "description": "Classify summary communication task",
+    "type": "multiple choice",
+    "question": "You send a one-page summary to the operations manager recommending a dispatch-process review for the Ikeja branch. Which stage is this?",
+    "options": "Analysis|Interpretation|Communication|Data Collection",
+    "answer": "Communication",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the analytics lifecycle and data-driven decision making",
+    "description": "Analysis vs interpretation distinction",
+    "type": "multiple choice",
+    "question": "Ikeja's average delay is calculated as 2.3 days, nearly double every other branch. Stating that this is driving most of last month's complaints and is worth investigating first belongs to which stage?",
+    "options": "Analysis|Interpretation|Data Collection|Business Question",
+    "answer": "Interpretation",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "the analytics lifecycle and data-driven decision making",
+    "description": "Lifecycle as a loop",
+    "type": "multiple choice",
+    "question": "Why is the analytics lifecycle better represented as a loop rather than a straight line?",
+    "options": "Because each stage must be repeated exactly twice before moving on|Because a communicated insight often produces a new business question, restarting the cycle|Because Data Collection and Data Preparation are actually the same stage|Because Analysis always comes before Data Collection in practice",
+    "answer": "Because a communicated insight often produces a new business question, restarting the cycle",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "the analytics lifecycle and data-driven decision making",
+    "description": "Identify skipped interpretation stage",
+    "type": "multiple choice",
+    "question": "A team produces a chart of branch delay averages and hands it to a manager with no accompanying explanation of why it matters or what to do next. Which stage was most likely skipped?",
+    "options": "Data Collection|Data Preparation|Interpretation|Business Question",
+    "answer": "Interpretation",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "data types, data structures and the data team",
+    "description": "Identify numerical column",
+    "type": "multiple choice",
+    "question": "In the delivery log, which column is an example of numerical data?",
+    "options": "branch|delay_days|complaint_notes|delivery_partner",
+    "answer": "delay_days",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "data types, data structures and the data team",
+    "description": "Identify categorical column",
+    "type": "multiple choice",
+    "question": "Which column in the delivery log is best described as categorical data?",
+    "options": "delay_days|order_value_naira|branch|dispatch_date",
+    "answer": "branch",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "data types, data structures and the data team",
+    "description": "Structured vs unstructured definition",
+    "type": "multiple choice",
+    "question": "What is the key difference between structured and unstructured data?",
+    "options": "Structured data is always numerical, unstructured data is always text|Structured data fits neatly into rows and columns, unstructured data has no fixed row-and-column shape|Structured data is stored on paper, unstructured data is stored digitally|Structured data cannot be analysed, unstructured data can always be analysed directly",
+    "answer": "Structured data fits neatly into rows and columns, unstructured data has no fixed row-and-column shape",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "data types, data structures and the data team",
+    "description": "Order ID as categorical",
+    "type": "multiple choice",
+    "question": "The delivery log's order_id column is made up entirely of digits. Why is it best classified as categorical rather than numerical?",
+    "options": "Because it is stored as text in the file|Because you would never meaningfully average or sum two order IDs|Because it always starts with the letters \"ORD\"|Because it is the first column in the file",
+    "answer": "Because you would never meaningfully average or sum two order IDs",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "data types, data structures and the data team",
+    "description": "Customer rating data type",
+    "type": "multiple choice",
+    "question": "A new column, customer_rating (1 to 5 stars), is added to the delivery log. What data type is it?",
+    "options": "Numerical, continuous|Text|Categorical, ordinal (it has a natural order)|Date/time",
+    "answer": "Categorical, ordinal (it has a natural order)",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "data types, data structures and the data team",
+    "description": "Complaint notes as unstructured",
+    "type": "multiple choice",
+    "question": "The delivery log's complaint_notes column sits inside a structured CSV file. How should its content best be described?",
+    "options": "Structured, because the file itself is structured|Unstructured in content, even though it sits inside a structured file|Numerical, because it is a column in a spreadsheet|Date/time, because complaints are logged over time",
+    "answer": "Unstructured in content, even though it sits inside a structured file",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "data types, data structures and the data team",
+    "description": "Data engineer role",
+    "type": "multiple choice",
+    "question": "Which data team role is primarily responsible for building and maintaining the pipelines that collect and store data?",
+    "options": "Data analyst|Data engineer|Business intelligence developer|Data governance officer",
+    "answer": "Data engineer",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "data types, data structures and the data team",
+    "description": "Combined roles in small team",
+    "type": "multiple choice",
+    "question": "In a small Nigerian fintech, one person single-handedly collects, cleans, analyses and reports on data. Which established data-team roles are most closely being combined in this situation?",
+    "options": "Data governance officer and business intelligence developer only|Data engineer and data analyst, and often elements of BI reporting|Data scientist only, since all data work is inherently predictive modelling|No roles are being combined, since one person cannot perform more than one role",
+    "answer": "Data engineer and data analyst, and often elements of BI reporting",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "data types, data structures and the data team",
+    "description": "Why order ID isn't numerical",
+    "type": "multiple choice",
+    "question": "Two columns both contain only digits: order_id and delay_days. What is the best explanation for why only one of them is treated as numerical data?",
+    "options": "delay_days has fewer unique values than order_id|order_id is an identifier that is never meaningfully summed or averaged, while delay_days represents a measurable quantity|order_id is always longer than delay_days|Numerical data must always be a whole number, and both columns are whole numbers, so both are numerical",
+    "answer": "order_id is an identifier that is never meaningfully summed or averaged, while delay_days represents a measurable quantity",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "data types, data structures and the data team",
+    "description": "Analyst vs data scientist roles",
+    "type": "multiple choice",
+    "question": "Which statement most accurately distinguishes the data analyst's role from the data scientist's role on a data team?",
+    "options": "The analyst only writes code, while the data scientist never writes code|The analyst cleans, explores and interprets data to answer business questions and communicate findings, while the data scientist builds predictive models and deeper statistical work|The analyst and data scientist perform identical tasks in every organisation|The data scientist reports to the analyst in every data team structure",
+    "answer": "The analyst cleans, explores and interprets data to answer business questions and communicate findings, while the data scientist builds predictive models and deeper statistical work",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "the ai-augmented analyst and toolkit setup",
+    "description": "Google Colab purpose",
+    "type": "multiple choice",
+    "question": "Which tool in the programme toolkit is used for running real code in notebooks, rather than for chat-based conversation?",
+    "options": "Claude|ChatGPT|Google Colab|Gemini",
+    "answer": "Google Colab",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the ai-augmented analyst and toolkit setup",
+    "description": "What changes with AI tools",
+    "type": "multiple choice",
+    "question": "According to this topic, what is one thing that genuinely changes for an analyst who uses AI tools?",
+    "options": "The analyst no longer needs to verify any answer|Drafting speed and first-pass code, formulas or summaries become faster|The business question no longer needs to be defined|AI tools remove the need for a data team entirely",
+    "answer": "Drafting speed and first-pass code, formulas or summaries become faster",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the ai-augmented analyst and toolkit setup",
+    "description": "Data never to paste",
+    "type": "multiple choice",
+    "question": "Which category of information must never be pasted into an AI tool, according to this topic?",
+    "options": "The names of the four toolkit assistants|Real customer or colleague personal data|The column headers of a safe, prepared dataset|A business question written in your own words",
+    "answer": "Real customer or colleague personal data",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "the ai-augmented analyst and toolkit setup",
+    "description": "Currency text parsing error",
+    "type": "multiple choice",
+    "question": "A trainee pastes the order_value_naira column into a chatbot as plain text, with currency symbols and commas left in, and asks for the total. Based on this topic's hook exercise, what is the most likely outcome?",
+    "options": "The assistant will always refuse to respond|The assistant may confidently state an incorrect total that must be checked against the real sum|The assistant will automatically remove the currency symbols and calculate correctly every time|The spreadsheet total will change to match the assistant's answer",
+    "answer": "The assistant may confidently state an incorrect total that must be checked against the real sum",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the ai-augmented analyst and toolkit setup",
+    "description": "What stays the same with AI",
+    "type": "multiple choice",
+    "question": "Which statement correctly reflects what does NOT change about the analyst's job when AI tools are introduced?",
+    "options": "The analyst no longer needs to understand the business context|The analyst still owns the business question and must verify the AI's output before trusting it|The analyst can skip the Data Preparation stage entirely|The analyst's communication stage becomes automatic",
+    "answer": "The analyst still owns the business question and must verify the AI's output before trusting it",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the ai-augmented analyst and toolkit setup",
+    "description": "Safe use of AI suggestions",
+    "type": "multiple choice",
+    "question": "A trainee has already calculated branch delay averages in a spreadsheet and wants an assistant to suggest follow-up questions worth investigating. Which is the most appropriate use of the assistant here?",
+    "options": "Ask it to recalculate the averages from scratch to double-check the spreadsheet|Ask it to suggest questions to investigate further, then filter which ones are answerable from the real data|Ask it to replace the spreadsheet entirely for all future calculations|Ask it to decide which branch should be investigated without any human review",
+    "answer": "Ask it to suggest questions to investigate further, then filter which ones are answerable from the real data",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the ai-augmented analyst and toolkit setup",
+    "description": "Gemini toolkit fit",
+    "type": "multiple choice",
+    "question": "Which toolkit component would be most useful if a trainee's work already lives in Google Sheets or Google Docs?",
+    "options": "Google Colab|Claude|Gemini|publica.academy",
+    "answer": "Gemini",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "the ai-augmented analyst and toolkit setup",
+    "description": "Confident wrong AI count",
+    "type": "multiple choice",
+    "question": "A pair of trainees ask an assistant to count the unique branches in the delivery log and receive an incorrect count. What does this best illustrate?",
+    "options": "That counting tasks are too advanced for any AI assistant|That a confident AI answer can still be wrong, so verification is required even for simple-looking tasks|That the delivery log itself must be corrupted|That only complex calculations, never simple ones, need to be verified",
+    "answer": "That a confident AI answer can still be wrong, so verification is required even for simple-looking tasks",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "the ai-augmented analyst and toolkit setup",
+    "description": "Why core skill comes first",
+    "type": "multiple choice",
+    "question": "Why does the programme insist on teaching the traditional, non-AI method of a skill before the AI-assisted version, rather than teaching the AI-assisted method alone?",
+    "options": "Because AI tools are unreliable and should never be used in practice|So the analyst can operate without AI tools and is equipped to judge whether the AI's output is actually correct|Because traditional methods are always faster than AI-assisted methods|Because the programme's software licences do not permit AI tools in early weeks",
+    "answer": "So the analyst can operate without AI tools and is equipped to judge whether the AI's output is actually correct",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "the ai-augmented analyst and toolkit setup",
+    "description": "Cause of wrong currency total",
+    "type": "multiple choice",
+    "question": "A trainee's assistant, when asked to sum a currency column, returns a total that does not match the spreadsheet's SUM formula. Based on the topic's hook exercise, what is the most likely underlying cause?",
+    "options": "The spreadsheet formula is broken and the assistant's answer should be trusted instead|Currency symbols and commas left in the pasted text were most likely misread when the assistant processed the values|The assistant deliberately gives wrong answers to test the trainee|Spreadsheets cannot calculate totals correctly, only AI assistants can",
+    "answer": "Currency symbols and commas left in the pasted text were most likely misread when the assistant processed the values",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "prompt fundamentals for data work",
+    "description": "Four prompt ingredients",
+    "type": "multiple choice",
+    "question": "What are the four ingredients of a good data prompt, as taught in this topic?",
+    "options": "Context, Data description, Task, Output format|Greeting, Question, Apology, Closing|Data description, Output format, Signature, Deadline|Context, Opinion, Task, Conclusion",
+    "answer": "Context, Data description, Task, Output format",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "prompt fundamentals for data work",
+    "description": "Data description ingredient",
+    "type": "multiple choice",
+    "question": "Which prompt ingredient tells the assistant what the dataset actually contains, since it usually cannot see your spreadsheet directly?",
+    "options": "Context|Data description|Task|Output format",
+    "answer": "Data description",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "prompt fundamentals for data work",
+    "description": "Output format ingredient",
+    "type": "multiple choice",
+    "question": "Which prompt ingredient states exactly how you want the answer structured, such as a table or a short list?",
+    "options": "Context|Task|Output format|Data description",
+    "answer": "Output format",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "prompt fundamentals for data work",
+    "description": "Task ingredient weakness",
+    "type": "multiple choice",
+    "question": "A trainee writes the prompt \"Look at the delays.\" Compared to a stronger version like \"Calculate the average delay_days per branch and identify the branch with the highest average,\" which ingredient is the weak prompt missing precision on?",
+    "options": "Context|Task|Output format|Data description",
+    "answer": "Task",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "prompt fundamentals for data work",
+    "description": "Identify data description example",
+    "type": "multiple choice",
+    "question": "Which of these best demonstrates including a data description in a prompt?",
+    "options": "\"You are helping a Lagos logistics firm.\"|\"Here is a delivery log with columns order_id, dispatch_date, delivery_date, branch and delay_days, 400 rows.\"|\"Return the result as a table sorted from highest to lowest.\"|\"Please help me.\"",
+    "answer": "\"Here is a delivery log with columns order_id, dispatch_date, delivery_date, branch and delay_days, 400 rows.\"",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "prompt fundamentals for data work",
+    "description": "Fixing unstructured paragraph answer",
+    "type": "multiple choice",
+    "question": "A trainee's first prompt attempt returns a long, unstructured paragraph instead of something directly usable. Which ingredient, if added, would most directly fix this?",
+    "options": "Context|Data description|Output format|Task",
+    "answer": "Output format",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "prompt fundamentals for data work",
+    "description": "Correct response to poor answer",
+    "type": "multiple choice",
+    "question": "What is the correct action to take when a prompt returns a poor first answer?",
+    "options": "Assume the task is impossible and abandon the prompt entirely|Diagnose which ingredient was thin or missing, sharpen it, and re-run the prompt|Repeat the exact same prompt several times until the answer changes|Switch to a different assistant without changing the prompt at all",
+    "answer": "Diagnose which ingredient was thin or missing, sharpen it, and re-run the prompt",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "prompt fundamentals for data work",
+    "description": "Iterative prompt refinement",
+    "type": "multiple choice",
+    "question": "Iteration 1 of a prompt has no context or format and returns a generic answer. Iteration 2 adds data description and task, and returns a long unstructured paragraph. Iteration 3 adds output format and returns a clean, verifiable table. What does this progression best demonstrate?",
+    "options": "That only the first ingredient added ever matters|Iterative prompt refinement, where each added ingredient measurably improves the usability of the answer|That assistants become less accurate the more detail you give them|That output format is the only ingredient that ever matters",
+    "answer": "Iterative prompt refinement, where each added ingredient measurably improves the usability of the answer",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "prompt fundamentals for data work",
+    "description": "Why poor answers are normal",
+    "type": "multiple choice",
+    "question": "Why is receiving a poor first answer from an AI assistant considered a normal part of the workflow rather than a sign of failure?",
+    "options": "Because AI assistants are designed to always give a wrong answer first|Because a poor answer usually reflects one missing or unclear ingredient, not an impossible question|Because trainees are expected to give up after the first attempt|Because the programme discourages re-running any prompt more than once",
+    "answer": "Because a poor answer usually reflects one missing or unclear ingredient, not an impossible question",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "prompt fundamentals for data work",
+    "description": "Combining Topic 3 and 4 fixes",
+    "type": "multiple choice",
+    "question": "A trainee's prompt already includes clear context and a precise task, but the assistant still returns a wrong total for a currency column. Drawing on both Topic 3 and Topic 4, what is the most likely remaining fix?",
+    "options": "Remove the task ingredient entirely, since it is not needed|Improve the data description to flag currency symbols or commas in the values, and still verify the output against the spreadsheet|Assume the answer is correct, since context and task were already strong|Switch the output format to a paragraph instead of a table",
+    "answer": "Improve the data description to flag currency symbols or commas in the values, and still verify the output against the spreadsheet",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "verification habits and responsible use",
+    "description": "Verification definition",
+    "type": "multiple choice",
+    "question": "Which of the following best defines \"verification\" of an AI-produced answer?",
+    "options": "Deciding the answer looks reasonable and moving on|Checking the answer against something you trust more than the AI's confidence, such as a manual calculation|Asking a second AI assistant the same question and comparing tone|Assuming the answer is correct if it was returned quickly",
+    "answer": "Checking the answer against something you trust more than the AI's confidence, such as a manual calculation",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "verification habits and responsible use",
+    "description": "Acceptable verification method",
+    "type": "multiple choice",
+    "question": "Which of the following counts as an acceptable verification method for an AI-produced answer?",
+    "options": "\"It looks right\"|Recalculating the result independently and comparing it|Trusting the answer because it was stated confidently|Assuming the answer is correct because the assistant is usually reliable",
+    "answer": "Recalculating the result independently and comparing it",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "verification habits and responsible use",
+    "description": "Data never to paste",
+    "type": "multiple choice",
+    "question": "Which category of data must never be entered into an AI tool, according to this topic?",
+    "options": "Column headers from a safely prepared dataset|Real customer names, phone numbers or addresses|A business question written in the analyst's own words|A branch name such as \"Ikeja\"",
+    "answer": "Real customer names, phone numbers or addresses",
+    "difficulty": "beginner"
+  },
+  {
+    "title": "verification habits and responsible use",
+    "description": "Choosing recalculation method",
+    "type": "multiple choice",
+    "question": "An assistant claims \"Ikeja's average delay is 2.3 days, the highest of the three branches.\" Given that this is a low-effort, high-stakes number that will drive a business recommendation, which verification method fits best?",
+    "options": "Cross-reference against an unrelated report|Recalculate the average directly from the prepared data|Accept the claim since it matches expectations|Ask a different assistant to repeat the same claim",
+    "answer": "Recalculate the average directly from the prepared data",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "verification habits and responsible use",
+    "description": "Cross-reference verification method",
+    "type": "multiple choice",
+    "question": "Which of the three verification methods involves comparing an AI-produced answer against a separate, already-trusted source, such as an earlier report?",
+    "options": "Recalculate|Spot-check|Cross-reference|Disclose",
+    "answer": "Cross-reference",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "verification habits and responsible use",
+    "description": "Responding to unsafe data request",
+    "type": "multiple choice",
+    "question": "A manager asks a trainee to paste a real customer complaint log, including names and phone numbers, into an assistant to summarise common issues. What should the trainee do?",
+    "options": "Paste the file as requested, since the manager approved it|Decline to paste the raw file, explain why, and propose an anonymised alternative|Paste only the phone numbers, since names are the more sensitive field|Proceed, but only using a personal AI account instead of the company one",
+    "answer": "Decline to paste the raw file, explain why, and propose an anonymised alternative",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "verification habits and responsible use",
+    "description": "NDPA unauthorised transfer risk",
+    "type": "multiple choice",
+    "question": "Under the Nigeria Data Protection Act (NDPA), why can pasting real customer data into a public AI tool be a problem?",
+    "options": "Because AI tools are always slower than manual analysis|Because it may count as an unauthorised transfer of personal data to a third party|Because AI tools cannot process any text data|Because the NDPA only applies to government agencies, not analysts",
+    "answer": "Because it may count as an unauthorised transfer of personal data to a third party",
+    "difficulty": "intermediate"
+  },
+  {
+    "title": "verification habits and responsible use",
+    "description": "Row count verification lesson",
+    "type": "multiple choice",
+    "question": "A claim states \"The delivery log shows 400 total orders,\" but the actual raw file contains 412 rows, including 12 exact duplicates. What does this best illustrate about verification?",
+    "options": "That row counts never need to be checked, only averages do|That a stated figure should be checked directly against the file rather than trusted, since duplicates or other quirks can make a raw count differ from a clean one|That the delivery log is unusable once any duplicates are present|That duplicates always increase the average delay, so no verification is needed",
+    "answer": "That a stated figure should be checked directly against the file rather than trusted, since duplicates or other quirks can make a raw count differ from a clean one",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "verification habits and responsible use",
+    "description": "Data protection as personal duty",
+    "type": "multiple choice",
+    "question": "Why is data protection described as a professional duty resting with the individual analyst, rather than only with the employer's policy?",
+    "options": "Because employers are never responsible for data protection under any circumstance|Because analysts routinely handle the personal data that other roles collect, so responsibility for safe use sits with whoever is handling it at that moment|Because only senior managers are covered by the NDPA|Because personal data protection only applies once data leaves the company's building",
+    "answer": "Because analysts routinely handle the personal data that other roles collect, so responsibility for safe use sits with whoever is handling it at that moment",
+    "difficulty": "advanced"
+  },
+  {
+    "title": "verification habits and responsible use",
+    "description": "Why delivery log is safe",
+    "type": "multiple choice",
+    "question": "Which best explains why delivery_log.csv is safe to paste into an AI tool throughout the programme?",
+    "options": "Because it is a small file, and small files are always safe|Because real personal identifiers were removed or replaced with generated values before it was distributed to trainees|Because it is only used internally within the programme|Because AI tools cannot read CSV files, so no data is actually shared",
+    "answer": "Because real personal identifiers were removed or replaced with generated values before it was distributed to trainees",
+    "difficulty": "advanced"
+  }
+]
