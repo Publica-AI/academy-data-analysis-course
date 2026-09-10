@@ -3,3 +3,5 @@ my_resources/
 ~$*
 .DS_Store
 __pycache__/
+.DS_Store
+Module_05/.venv
