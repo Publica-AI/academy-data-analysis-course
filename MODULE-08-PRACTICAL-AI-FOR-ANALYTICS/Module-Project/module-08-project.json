@@ -1,0 +1,38 @@
+{
+  "course": "data_analysis",
+  "module": "Practical AI for Analytics",
+  "project_title": "SwiftRoute Q4 Planning Report — Pipeline, Forecast & Verification",
+  "project_brief": "## SwiftRoute Q4 Planning Report — Pipeline, Forecast & Verification\n\n### Scenario\n\nAdaeze now wants next quarter's planning materials, and this time she wants them from you, independently, with your own AI-assisted pipeline, your own forecast, and proof that you actually checked your own work before it reached her desk.\n\nThis is a **non-coding module project**: you will use Python, pandas, and an AI assistant to do the work, but what you submit is a written report. The report, your reported figures, your verification checklist, and your prompt log are what gets graded — not a review of your raw script.\n\n---\n\n### The Dataset\n\nUse `swiftroute_q3_raw.xlsx` in this module's `Dataset` folder — the same raw workbook used in class (three sheets: `deliveries`, `fuel_cost`, `customer_complaints`). Do not start from `swiftroute_q3_cleaned.xlsx` — clean it yourself, independently, from the raw file.\n\n---\n\n### What Your Report Must Cover\n\n---\n\n#### Section 1 — Clean & Verify\n\n- List every data-quality fault you found in the raw `deliveries` sheet (dates, currency formatting, spacing, duplicate ids, blank statuses, out-of-range dates — find them yourself, do not just recite the ones from class).\n- For each fault, state the rule you applied to fix it, and explicitly name the ones you deliberately left as unknowns rather than guessed, and why.\n- Report your final row count and total fee after cleaning.\n\n#### Section 2 — Forecast Q4\n\n- Group your cleaned deliveries into calendar weeks and identify any partial week at either end of the series.\n- Report the trend you fit excluding partial weeks: the slope, the R-squared, and what R-squared tells you about how much you can trust a single-figure answer.\n- Report your Q4 point estimate as a range (not a single number), and compare it against the naive baseline (last quarter's weekly average held flat). State whether your trend forecast earns its place over the baseline, and why.\n\n#### Section 3 — Verification, AI Use, and Classification\n\n- Run the five-question verification checklist against your own Q4 forecast (not the cleaning step) and write one line of evidence for each question.\n- Include a prompt log with at least two entries: one where you asked an AI assistant for help, and what — if anything — you changed about its answer before using it. Include at least one entry where the assistant's answer had to be corrected, not just successful ones.\n- In one or two sentences, classify whether \"how many deliveries next quarter\" is a classification or a regression question, and justify it using the ranking/subtraction test.\n\n---\n\n### Deliverables\n\n- One written report covering all three sections above\n- The completed five-question checklist and the prompt log, both included in Section 3\n- Do not submit your raw script or notebook — the report is the deliverable",
+  "report_sections": [
+    "Section 1 – Clean & Verify",
+    "Section 2 – Forecast Q4",
+    "Section 3 – Verification, AI Use, and Classification"
+  ],
+  "submission_format": "structured_report",
+  "grading_notes": "This project reuses the exact SwiftRoute Q3 raw workbook used in the Topic 8.1/8.2 demos, so grading has fixed ground truth to check written claims against without re-running the student's own script. Known-correct cleaning values (from the verified Topic 8.1 pipeline): rows after de-duplication on delivery_id = 3,600 (raw 3,640 minus 40 duplicates); distinct route_code = 14; rows with a usable date = 3,598 (2 rows fall in 2027 and are correctly left as unresolved, not guessed); rows with a known status = 3,485 (115 blank statuses remain unknown after de-dup, since one blank row was also a duplicate - accept either 115 or 116 as the raw-vs-post-dedup count as long as the student explains which stage they are reporting); total fee = ₦12,196,290. The two 2027 dates and the blank statuses must be reported as explicit unknowns, not filled in with a guessed value - penalise any submission that invents a status or a date instead of leaving it as a counted unknown. Known-correct forecast values (12 complete weeks, 2 partial weeks correctly excluded): slope = +2.948 deliveries/week, R-squared = 0.3262, point estimate = 4,049 deliveries with a defensible range of roughly 3,840 to 4,257 (built from a residual standard deviation of 16.0), naive baseline = 3,570. A report that includes only a bare point estimate with no range, or that fits the trend on all 14 weeks including partial ones (producing a negative slope), should lose points on methodology even if the arithmetic shown is internally consistent. Do not penalise minor variation in exact slope/R-squared if the student's own reported numbers are internally consistent and the partial-week exclusion is correctly reasoned - the dataset should reproduce these figures closely if cleaned and fitted correctly. For Section 3, the classification/regression justification must use the ranking-or-subtraction test explicitly, not just assert an answer; \"how many deliveries next quarter\" is a regression question (a number that can be meaningfully subtracted) - do not accept 'classification' as correct. Do not penalise which specific AI assistant was used or the exact prompt wording, only whether the prompt log shows genuine verification (at least one entry where the assistant's answer was checked and corrected, not merely accepted).",
+  "rubric": {
+    "total_points": 100,
+    "criteria": [
+      {
+        "id": "cleaning_accuracy",
+        "description": "Section 1: the real faults in the raw deliveries sheet are identified (mixed date formats, currency-as-text, duplicate ids, at minimum). Fixes are described as rules, not one-off edits. Final row count (3,600) and total fee (₦12,196,290) are reported correctly. The blank statuses and 2027 dates are explicitly named as deliberate unknowns, not silently filled in.",
+        "max_points": 30
+      },
+      {
+        "id": "forecast_methodology",
+        "description": "Section 2: partial weeks at either end of the series are correctly identified and excluded before fitting. Slope and R-squared are reported and match known-correct figures within a reasonable tolerance. R-squared is correctly interpreted as a limit on how much precision the point estimate deserves. The Q4 forecast is reported as a range, not a bare single figure, and is compared against the naive baseline with a reasoned verdict on whether the trend forecast earns its place.",
+        "max_points": 35
+      },
+      {
+        "id": "verification_and_prompt_log",
+        "description": "Section 3: all five verification questions are answered against the student's own forecast with one specific line of evidence each (not a bare yes/no). The prompt log contains at least two real entries, including at least one where the AI assistant's answer was checked and corrected rather than accepted as-is.",
+        "max_points": 25
+      },
+      {
+        "id": "ml_literacy_classification",
+        "description": "Section 3: the classification-vs-regression question is answered correctly (regression) and justified using the ranking/subtraction test, not asserted without reasoning.",
+        "max_points": 10
+      }
+    ]
+  }
+}
