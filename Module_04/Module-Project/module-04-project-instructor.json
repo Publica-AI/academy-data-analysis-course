@@ -1,0 +1,59 @@
+{
+  "course": "data_analysis",
+  "module": "Module 4: Statistics for Analytics",
+  "project_title": "Credo Finance Statistical Analysis and AI Audit Report",
+  "project_brief": "## AI Tool Evaluation and Statistical Analysis Report: Credo Finance\n\n### Scenario\n\nYou have just joined the data team at Credo Finance, a Nigerian fintech offering a mobile wallet and bill payment app. The operations director has asked you to analyse this month's activity and review a draft summary an AI assistant already produced, before anything goes to the leadership team.\n\nYou have been given `Credo-Finance-Module-Project-Dataset.xlsx`, containing three datasets and one AI-generated draft. This is new data you have not seen during the module, use the same skills you built on the Aduke Stores examples.\n\n---\n\n### Task\n\n**Question 1 – Daily Transaction Volume**\n\nUsing the Daily Transaction Volume sheet, calculate the mean, median, range, and sample standard deviation of daily transactions processed in January. Identify whether an outlier is present, and if so, recalculate the same statistics excluding it. Write a short recommendation (100-150 words) stating what daily transaction volume the operations team should plan support-desk staffing around, and how any outlier should be handled in the report.\n\n**Question 2 – Marketing Spend and Signups**\n\nUsing the Marketing Spend and Signups sheet, build a scatter plot and calculate the correlation coefficient between marketing spend and new signups. Fit a regression line (slope, intercept, R-squared) and use it to predict signups at a spend of 80,000 naira. State whether this prediction is safe to report, then explain, in plain language (100-150 words), what this analysis does and does not prove about spend driving signups.\n\n**Question 3 – Onboarding Flow A/B Test**\n\nUsing the Onboarding AB Test sheet, state a null and alternative hypothesis comparing the old and new onboarding flows, then calculate a p-value using a two-sample t-test. In 100-150 words, state whether the result is statistically significant, whether the improvement is large enough to matter practically, and what, if anything, should happen before a full rollout.\n\n**Question 4 – Auditing an AI-Generated Summary**\n\nRead the AI-Generated Summary Draft sheet, a real draft a colleague received after asking an AI assistant to summarise this month's findings. Identify every claim that is inaccurate, overstated, or missing an important caveat, referencing your own answers to Questions 1 to 3. Rewrite the draft into an accurate, business-ready version (150-200 words) that keeps its accurate content and corrects only the flawed parts.\n\n---\n\n### Deliverables\n\n- All four questions answered in full, submitted as a single written report\n- Your supporting Excel workbook (with your formulas visible) attached alongside the report\n",
+  "report_sections": [
+    "Question 1 – Daily Transaction Volume",
+    "Question 2 – Marketing Spend and Signups",
+    "Question 3 – Onboarding Flow A/B Test",
+    "Question 4 – Auditing an AI-Generated Summary"
+  ],
+  "submission_format": "structured_report",
+  "grading_notes": "This project uses a new dataset (Credo Finance) not seen during Module 4 teaching, so grade for transfer of skill, not recall of specific figures. Do not penalise for the exact wording of a recommendation, award marks for the underlying judgement being sound and clearly explained. Question 1: expected outlier is 25 January (a salary-day spike); mean/median with it included diverge (~1,063 vs 967), and converge once excluded (~961 vs 967); a correct answer recommends staffing around the excluding-outlier figure and reporting the salary day separately, not deleting it. Question 2: expected correlation is approximately 0.78 (strong positive), R-squared approximately 0.615; the tested spend range is 16,605 to 111,103 naira, so a prediction at 80,000 is safe and a prediction anywhere near or above 111,103 should be flagged as extrapolation; a correct answer states the analysis shows association, not proof of causation. Question 3: expected p-value is approximately 0.0002 (statistically significant) with a real, meaningful difference of about 8.7 minutes (about 23% faster); a full-marks answer still notes that a single test does not rule out other simultaneous explanations and recommends monitoring after rollout rather than treating this as absolute proof of a sole cause. Question 4: the AI draft contains five planted issues: an unflagged outlier in the transaction-volume figure, an overstated causal claim about marketing spend, a misdefinition of R-squared as 'the model is correct X% of the time,' an unflagged extrapolation to 300,000 naira spend, and an overstated causal claim about the onboarding result that dismisses further monitoring. Award marks per issue caught and explained, plus marks for a rewritten version that keeps the draft's accurate content rather than discarding it entirely.",
+  "rubric": {
+    "total_points": 100,
+    "criteria": [
+      {
+        "id": "q1_execution",
+        "description": "Question 1: Mean, median, range, and standard deviation are calculated correctly, both including and excluding the identified outlier.",
+        "max_points": 8
+      },
+      {
+        "id": "q1_judgement",
+        "description": "Question 1: The outlier is correctly identified and explained as a genuine event (salary day) rather than an error. The recommendation correctly states which set of figures to plan staffing around and explicitly states the outlier should be reported separately, not deleted from the dataset.",
+        "max_points": 12
+      },
+      {
+        "id": "q2_execution",
+        "description": "Question 2: A scatter plot is built, the correlation coefficient and regression statistics (slope, intercept, R-squared) are calculated correctly, and the prediction at 80,000 naira spend is calculated correctly.",
+        "max_points": 10
+      },
+      {
+        "id": "q2_judgement",
+        "description": "Question 2: The response correctly states the analysis shows association, not proof that spend causes signups, and correctly evaluates whether the 80,000 naira prediction is safe by checking it against the tested spend range, without conflating a safe prediction with an unsafe extrapolation.",
+        "max_points": 20
+      },
+      {
+        "id": "q3_execution",
+        "description": "Question 3: A correct null and alternative hypothesis are stated, and the p-value is calculated correctly using a two-sample t-test.",
+        "max_points": 8
+      },
+      {
+        "id": "q3_judgement",
+        "description": "Question 3: The response correctly identifies the result as both statistically significant and practically meaningful, and additionally notes that a single test does not rule out other simultaneous explanations, recommending monitoring rather than treating the result as absolute proof of a sole cause.",
+        "max_points": 17
+      },
+      {
+        "id": "q4_error_detection",
+        "description": "Question 4: The response identifies the planted issues in the AI draft (outlier omission, overstated causation on spend and signups, misdefined R-squared, unflagged extrapolation, overstated causation on the onboarding result). Award proportional credit for each of the five issues correctly identified and explained with reference to Questions 1 to 3.",
+        "max_points": 20
+      },
+      {
+        "id": "q4_rewrite_quality",
+        "description": "Question 4: The rewritten summary corrects the identified issues while preserving the AI draft's accurate content and plain-language, business-ready tone, rather than discarding the draft and starting over.",
+        "max_points": 5
+      }
+    ]
+  }
+}
