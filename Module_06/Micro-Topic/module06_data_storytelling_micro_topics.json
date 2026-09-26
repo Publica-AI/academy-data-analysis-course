@@ -1,0 +1,243 @@
+[
+  {
+    "micro_topic_id": "mt_dsv_da_01_01",
+    "topic_id": "topic_dsv_da_01",
+    "micro_topic_order": 1,
+    "title": "Profiling a Raw Dataset and Detecting Data Quality Problems",
+    "learning_objective": "Profile a raw dataset's shape, structure, and dtypes before changing any values, and detect missing values, duplicate rows, inconsistent text categories, invalid numeric values, and values that silently fail type coercion.",
+    "description_for_ai": "Detection and fixing are two separate jobs; nothing gets changed during profiling. df.shape and df.head() give a first look; df.info() and df.describe() reveal dtype problems (a date column stored as text/object) and impossible values (a negative minimum in an income column). df.isna().sum() and (df.isna().mean() * 100).round(1).sort_values(ascending=False) rank columns by missingness. df.duplicated().sum() should be cross-checked against a unique-ID column's own duplicated().sum() - if the two disagree, that mismatch is itself a separate problem to chase. value_counts(dropna=False) on a text category column exposes casing and whitespace variants hiding as separate categories (e.g. 'lagos', 'Lagos ', 'LAGOS', and 'Port  Harcourt' with an internal double space all sitting alongside their clean counterparts, inflating 6 real categories into 13 distinct strings). Filtering with a boolean mask (df[df['col'] < 0]) surfaces invalid numeric values like negative income. Comparing pd.to_numeric(series, errors='coerce').isna().sum() against series.isna().sum() reveals values that look numeric-ish but aren't (e.g. '3+'), which silently become NaN under forced numeric conversion even though the column has far fewer genuinely missing values - the gap between the two counts is exactly how many values would be destroyed by a careless conversion.",
+    "common_mistakes_for_ai": "Running .astype(int) directly on a column containing a value like '3+', causing a ValueError, instead of first testing safely with pd.to_numeric(series, errors='coerce'). Declaring a text column 'fixed' after only .str.strip().str.title() without re-checking .nunique() or value_counts() afterwards, missing an embedded double space that survives both operations. Checking df.duplicated().sum() alone without cross-checking it against a unique identifier column. Reading describe()'s min/max as automatically valid instead of checking them for impossible values such as a negative income.",
+    "example_code_for_ai": "df = pd.read_csv('ajebo_finance_loan_applications_RAW.csv')\nprint(df.shape)              # (412, 15)\n\ndf.info()                    # Application_Date shows as object, not datetime\ndf.describe()                # Monthly_Income_NGN min is negative - impossible\n\n(df.isna().mean() * 100).round(1).sort_values(ascending=False)\n\nprint(df.duplicated().sum(), df['Application_ID'].duplicated().sum())  # (12, 12)\n\nprint(df['Branch_Region'].value_counts(dropna=False))   # 13 strings, 6 real branches\n\ncoerced_missing = pd.to_numeric(df['Dependents'], errors='coerce').isna().sum()\nreal_missing = df['Dependents'].isna().sum()\nprint(coerced_missing, real_missing)   # (65, 12) - the gap of 53 is all '3+' values",
+    "difficulty_level": 2,
+    "estimated_minutes": 45,
+    "language": "python",
+    "is_coding": true,
+    "not_yet_taught": [
+      "chart-selection framework (6.2)",
+      "misleading visualisation techniques (6.2)",
+      "insight narrative structure (6.3)",
+      "github portfolio publishing (6.4)",
+      "AI-assisted verification workflow (6.5)",
+      "power_bi_dashboards"
+    ]
+  },
+  {
+    "micro_topic_id": "mt_dsv_da_01_02",
+    "topic_id": "topic_dsv_da_01",
+    "micro_topic_order": 2,
+    "title": "Fixing Data Quality Issues: Duplicates, Text, Dates, and Missing Values",
+    "learning_objective": "Apply the correct fix for each data-quality problem type in a fixed order (duplicates, text standardisation, dates, missing values), deciding column by column instead of applying one blanket rule, and choose correctly between imputing and dropping rows based on how important a column is to the outcome being studied.",
+    "description_for_ai": "Fix order matters: duplicates first, since everything downstream should be counted once - df.drop_duplicates() followed immediately by assert df['Application_ID'].nunique() == len(df) to prove it. Text standardisation uses a reusable pattern: series.str.strip().str.replace(r'\\s+', ' ', regex=True).str.title(), which handles case and edge whitespace but needs the explicit regex whitespace collapse for an internal double space; a mapping dict layered on top handles real relabelling rather than just case changes (e.g. {'Y': 'Married', 'N': 'Single'}, {'Self Employed': 'Self-Employed'}). Dates are parsed with pd.to_datetime(col, format='mixed', dayfirst=True) when a column mixes multiple real date formats, then checked against a FIXED reference date (a hard-coded pd.Timestamp, never pd.Timestamp.today()) - using the live clock would flag a different, growing number of 'future' rows every time the same code runs, because the dataset also contains legitimately far-dated applications. Missing-value strategy is a per-column decision, not a formula: low-stakes categorical columns get an explicit 'Not Stated' label (keeps the gap honest instead of hiding it in the majority category); numeric columns with no special role get median imputation; but a column that is the strongest single predictor of the outcome being studied gets its rows dropped instead of imputed, because imputing a high-stakes column risks manufacturing a pattern that was never really there. A defensible error gets corrected (abs() on a negative income, since the rest of that row looks normal); an error that can't be safely guessed gets the row removed instead (a zero-month loan term, an impossible date).",
+    "common_mistakes_for_ai": "Using the system clock (pd.Timestamp.today()) instead of a fixed reference date for a future-date validity check, which silently changes how many rows get flagged depending on what day the code happens to run. Applying the exact same fillna() strategy to every column regardless of how important that column is to the outcome being analysed. Treating 'the fix ran with no error' as proof it worked, instead of re-running the same detection check used earlier to confirm the problem is actually gone.",
+    "example_code_for_ai": "df = df.drop_duplicates()\nassert df['Application_ID'].nunique() == len(df)   # 412 rows become 400\n\nmarital_map = {'Y': 'Married', 'N': 'Single'}\n\ndef clean_text(series, mapping=None):\n    s = series.str.strip().str.replace(r'\\s+', ' ', regex=True).str.title()\n    return s.replace(mapping) if mapping else s\n\ndf['Branch_Region'] = clean_text(df['Branch_Region'])\ndf['Marital_Status'] = clean_text(df['Marital_Status'], marital_map)\n\nDATA_BUILD_DATE = pd.Timestamp('2026-12-31')   # fixed, never pd.Timestamp.today()\ndf['Application_Date'] = pd.to_datetime(df['Application_Date'], format='mixed', dayfirst=True)\n\ndf['Gender'] = df['Gender'].fillna('Not Stated')          # low-stakes: label the gap\ndf = df.dropna(subset=['Credit_History'])                 # high-stakes: drop, don't guess\ndf['Monthly_Income_NGN'] = df['Monthly_Income_NGN'].abs()  # defensible correction",
+    "difficulty_level": 3,
+    "estimated_minutes": 50,
+    "language": "python",
+    "is_coding": true,
+    "not_yet_taught": [
+      "chart-selection framework (6.2)",
+      "misleading visualisation techniques (6.2)",
+      "insight narrative structure (6.3)",
+      "github portfolio publishing (6.4)",
+      "AI-assisted verification workflow (6.5)",
+      "power_bi_dashboards"
+    ]
+  },
+  {
+    "micro_topic_id": "mt_dsv_da_01_03",
+    "topic_id": "topic_dsv_da_01",
+    "micro_topic_order": 3,
+    "title": "Deriving Columns, Validating with Assertions, and Building a Reusable Cleaning Function",
+    "learning_objective": "Build derived columns only from inputs that have already been cleaned, use the IQR method to flag outliers and judge whether they are errors or a genuine feature of the data, turn detection checks into pass/fail assertions, write a plain-language cleaning log, and wrap a full cleaning sequence into one reusable function that produces identical output when run twice on the same file.",
+    "description_for_ai": "Outlier detection with the IQR method: q1, q3 = df[col].quantile([0.25, 0.75]); iqr = q3 - q1; upper = q3 + 1.5 * iqr; rows above upper are flagged, then their breakdown by a relevant category column (e.g. Employment_Type) is checked before deciding what to do - if every flagged row belongs to one legitimate subgroup (e.g. all Self-Employed), that is the data revealing a real feature of the business (self-employed income is naturally more variable), not an error, and none of those rows should be removed. Derived columns are only trustworthy because their inputs were already cleaned: Total_Household_Income_NGN = Monthly_Income_NGN + Coapplicant_Income_NGN, Loan_To_Income_Ratio = (Loan_Amount_NGN / Total_Household_Income_NGN).round(2), and Application_Year = Application_Date.dt.year all depend on income columns already being validated non-negative and Application_Date already being a real datetime rather than text. Validation re-runs the exact same checks used during detection as assert statements (df.isna().sum().sum() == 0, df['Application_ID'].nunique() == len(df), (df['Monthly_Income_NGN'] >= 0).all(), (df['Loan_Term_Months'] > 0).all(), df['Application_Date'].max() <= cutoff, df['Branch_Region'].nunique() == 6) - re-running the same test rather than writing a new one closes the loop, leaving no gap where a looser definition of 'fixed' could sneak in. A cleaning log documents, in plain language, what was removed, standardised, imputed, corrected, and added, with counts, before anyone else has to trust the file without reading the code. The whole sequence (dedupe, standardise text, parse dates, handle missing values by column, correct/remove remaining errors, derive columns, validate) is wrapped into one function with the reference date exposed as a parameter rather than hard-coded, and proven repeatable by calling it twice on the same file and checking result_1.equals(result_2) is True.",
+    "common_mistakes_for_ai": "Building a derived column, like a ratio or a total, before its input columns have been cleaned, which silently bakes earlier errors into brand-new columns. Removing flagged outliers automatically without first checking whether they cluster inside one legitimate subgroup. Writing a brand-new validation check instead of re-running the exact detection check used earlier, leaving a gap where a different definition of 'fixed' could go unnoticed. Hard-coding a cutoff date or file path inside a reusable cleaning function instead of exposing it as a parameter.",
+    "example_code_for_ai": "q1, q3 = df['Monthly_Income_NGN'].quantile([0.25, 0.75])\niqr = q3 - q1\nupper = q3 + 1.5 * iqr\noutliers = df[df['Monthly_Income_NGN'] > upper]\nprint(outliers['Employment_Type'].value_counts())   # all Self-Employed - keep them\n\ndf['Total_Household_Income_NGN'] = df['Monthly_Income_NGN'] + df['Coapplicant_Income_NGN']\ndf['Loan_To_Income_Ratio'] = (df['Loan_Amount_NGN'] / df['Total_Household_Income_NGN']).round(2)\n\nassert df.isna().sum().sum() == 0\nassert df['Application_ID'].nunique() == len(df)\nprint('All validation checks passed.')\n\ndef clean_ajebo_data(filepath, build_date='2026-12-31'):\n    data = pd.read_csv(filepath).drop_duplicates()\n    # ... standardise text, parse dates, handle missing values, derive columns ...\n    assert data.isna().sum().sum() == 0\n    return data\n\nresult_1 = clean_ajebo_data('file.csv')\nresult_2 = clean_ajebo_data('file.csv')\nprint(result_1.equals(result_2))   # True - same input, identical output, every time",
+    "difficulty_level": 3,
+    "estimated_minutes": 45,
+    "language": "python",
+    "is_coding": true,
+    "not_yet_taught": [
+      "chart-selection framework (6.2)",
+      "misleading visualisation techniques (6.2)",
+      "insight narrative structure (6.3)",
+      "github portfolio publishing (6.4)",
+      "AI-assisted verification workflow (6.5)",
+      "power_bi_dashboards"
+    ]
+  },
+  {
+    "micro_topic_id": "mt_dsv_da_02_01",
+    "topic_id": "topic_dsv_da_02",
+    "micro_topic_order": 1,
+    "title": "The Chart-Selection Framework and Choosing the Right Chart Type",
+    "learning_objective": "State an analytical question in one sentence before building any chart, apply the Question -> Data Type -> Comparison -> Chart framework, and choose correctly among bar, line, histogram, scatter, box plot, stacked bar, pie/donut, heatmap, and table for a stated business question.",
+    "description_for_ai": "The most common charting mistake is opening a plotting library around a column name ('let's chart Monthly_Income_NGN') instead of a real question ('Which region has lower purchasing power, and does that explain their approval rate?') - the question determines everything downstream. The four-step framework, worked left to right every time: Question (what decision does this chart inform?), Data type (categorical, numeric, time series, geographic?), Comparison (comparison, trend, distribution, relationship, composition, or ranking?), Chart (the narrowest chart type that fits all of the above). Nine chart types and their best/poor use: bar chart for comparing a value across named categories (poor for a trend over many time points; common mistake: not sorting by value, or an axis that doesn't start at zero); line chart for change over a continuous time sequence (poor for comparing unrelated categories; mistake: too many series at once, a 'spaghetti' chart with no single takeaway); histogram for the shape/spread of one numeric variable, e.g. a right-skewed income distribution (poor for comparing named categories; mistake: too few or too many bins hiding real structure); scatter plot for the relationship between two numeric variables, needing roughly 15-20+ points and alpha transparency so oversized opaque markers don't hide the density pattern the chart exists to reveal; box plot for comparing spread and outliers across groups (poor when the audience is unfamiliar with quartiles); stacked bar for composition plus total across categories (poor past roughly 4-5 segments); pie/donut for one whole split into 2-4 categories with large size gaps (poor with 5+ slices, and never for comparing two independent totals - a pie built from two averages shows percentages of an artificial combined total that correspond to no real business figure); heatmap for patterns across two categorical dimensions or a correlation matrix - the one place colour IS the data, not decoration; table for precise lookup or quoting exact, often mixed-scale figures - a legitimate 'no chart' answer to a chart-choice question, not an admission of failure.",
+    "common_mistakes_for_ai": "Opening a plotting library before the analytical question has been stated in one sentence. Defaulting to a bar or pie chart out of habit without running the four-step framework. Using a pie chart to compare two independent averages (such as average loan size by employment type), which produces percentages that are shares of an artificial combined total and correspond to no real figure. Sorting bars alphabetically instead of by value when the underlying question is about ranking.",
+    "example_code_for_ai": "import matplotlib.pyplot as plt\n\n# Question: 'Do average loans differ by employment type?' - two independent averages, so bar, not pie\navg_by_type = df.groupby('Employment_Type')['Loan_Amount_NGN'].mean().sort_values()\nfig, ax = plt.subplots()\nax.barh(avg_by_type.index, avg_by_type.values)\nax.set_xlabel('Average loan amount (NGN)')\nax.set_title('Self-employed applicants request larger loans on average')",
+    "difficulty_level": 3,
+    "estimated_minutes": 45,
+    "language": "python",
+    "is_coding": true,
+    "not_yet_taught": [
+      "visual design and formatting standards (6.2)",
+      "misleading visualisation techniques (6.2)",
+      "insight narrative structure (6.3)",
+      "github portfolio publishing (6.4)",
+      "AI-assisted verification workflow (6.5)",
+      "power_bi_dashboards"
+    ]
+  },
+  {
+    "micro_topic_id": "mt_dsv_da_02_02",
+    "topic_id": "topic_dsv_da_02",
+    "micro_topic_order": 2,
+    "title": "Formatting Standards That Make a Chart Self-Explanatory",
+    "learning_objective": "Apply thirteen visual design principles, grouped into structure & text, data & categories, and restraint, so that a reader unfamiliar with the data understands a chart's finding without any narration.",
+    "description_for_ai": "Chart quality is judged in a strict order: accurate first (never distorts or misleads, even by accident - non-negotiable), clear second (a reader unfamiliar with the data understands the finding unaided), efficient third (says only what's needed; every extra gridline, colour, or decoration is a small tax on the reader's attention) - 'impressive', 'colourful', and 'on-brand' are deliberately absent from this list; they are welcome side effects of a good chart, never its goal. Thirteen habits in three groups: Structure & Text - a clear title that states the finding rather than just naming a column, an informative subtitle, correctly labelled axes with units, an appropriate scale (a zero baseline unless the exception is explicitly disclosed), readable font sizes; Data & Categories - meaningful categories rather than arbitrary row order, consistent formatting across related charts, a legend only when there is more than one series, data labels when an exact value matters to the reader; Restraint - remove decoration that carries no information (unnecessary gridlines, 3D effects, shadows), use whitespace deliberately, use colour-blind-safe palettes, and never rely on colour alone to carry meaning.",
+    "common_mistakes_for_ai": "Writing a chart title that just names the column or chart type instead of stating the actual finding the chart shows. Trusting a plotting library's default axis range without checking whether it starts at zero. Giving every bar or slice its own colour from a rainbow palette even when colour encodes no additional variable. Adding a legend to a single-series chart, or leaving one off a chart with more than one series.",
+    "example_code_for_ai": "fig, ax = plt.subplots(figsize=(7, 4))\nax.barh(branch_rates.index, branch_rates.values, color='#028090')\nax.set_title(\"Kano's approval rate is lowest of six branches (50%, n=32)\",\n             loc='left', fontweight='bold', fontsize=11)\nax.set_xlabel('Approval rate (%)')\nax.set_xlim(0, 100)             # zero baseline, disclosed and deliberate\nax.spines[['top', 'right']].set_visible(False)   # remove non-informative decoration",
+    "difficulty_level": 2,
+    "estimated_minutes": 35,
+    "language": "python",
+    "is_coding": true,
+    "not_yet_taught": [
+      "misleading visualisation techniques (6.2)",
+      "insight narrative structure (6.3)",
+      "github portfolio publishing (6.4)",
+      "AI-assisted verification workflow (6.5)",
+      "power_bi_dashboards"
+    ]
+  },
+  {
+    "micro_topic_id": "mt_dsv_da_02_03",
+    "topic_id": "topic_dsv_da_02",
+    "micro_topic_order": 3,
+    "title": "Spotting Misleading Visualisation Techniques",
+    "learning_objective": "Identify ten specific ways a chart can mislead even while remaining technically accurate - truncated axes, 3D distortion, radius-based proportion scaling, excessive colour, dual-axis confusion, inappropriate pie charts, overloaded charts, misleading small-sample aggregation, cherry-picked time windows, and missing context - and state the correct fix for each.",
+    "description_for_ai": "Ten misleading techniques, each with a real worked example: (1) truncated y-axis - a real 3.4-point gap (75.0% vs 71.6%) visually inflated to look roughly ten times more dramatic once the axis starts above zero instead of at zero; (2) 3D charts - perspective makes angled bars or slices look larger than their true value and makes exact values hard to read off a tilted axis; the fix is simply flattening the chart, since a 3D pie or bar almost never encodes a real third variable; (3) distorted proportions - scaling a circle's radius linearly with a value exaggerates the true ratio by squaring it (a real 3.4x gap in application counts between two branches looks like roughly 12x once radius is scaled instead of area; matplotlib's scatter(s=...) already scales by area correctly by default); (4) excessive rainbow colours that encode no additional variable, which doesn't distort any single number but measurably slows the reader down; (5) dual-axis charts - two unrelated variables sharing one chart with two separate y-axes can be made to visually converge, diverge, or cross purely by where each arbitrary axis happens to start; the fix is two stacked panels sharing the x-axis instead; (6) inappropriate pie charts - past roughly 4-5 slices, or with similarly-sized slices, human vision cannot compare angles or areas precisely, so a sorted bar chart is the safer default; (7) overloaded charts - cramming many variables, series, and annotations onto one chart doesn't distort any single number, but it prevents the reader from finding ANY number, which has the same practical effect as hiding it; the fix is almost always deletion (one chart, one question), not redesign; (8) misleading small-sample aggregation - a 50% approval rate looks like a solid finding but is based on only 32 applications, with a roughly 33-67% 95% confidence interval that genuinely overlaps several other groups, so the honest conclusion may be 'not enough data yet to be confident', not a definitive verdict; (9) cherry-picked time windows - a short, convenient window can show genuine growth that is actually one bump inside a longer overall decline; the fix is always showing the full available history by default, with any zoomed view sitting alongside the full series rather than replacing it; (10) missing context - a stated finding (e.g. an approval rate rising several points) needs its base rate and sample size attached whenever that context would change a reader's recommendation.",
+    "common_mistakes_for_ai": "Reading a chart's printed axis numbers as proof it can't be misleading, when a reader's eye actually judges the visual gap between bars or lines, not the labelled numbers. Reporting a rate or average from a small group with no stated sample size or uncertainty. Treating a short, convenient time window as representative of the full underlying trend. Assuming a chart that doesn't distort any single number can't still mislead, when an overloaded chart with five or more competing visual elements prevents the reader from finding any number at all.",
+    "example_code_for_ai": "import numpy as np\n\n# The honest fix for technique 8 (misleading small-sample aggregation): show the interval, not just the rate\nbranch_ci = df.groupby('Branch_Region').agg(n=('Application_ID', 'count'),\n                                              rate=('Loan_Status', lambda s: (s == 'Approved').mean()))\nbranch_ci['se'] = np.sqrt(branch_ci['rate'] * (1 - branch_ci['rate']) / branch_ci['n'])\nbranch_ci['lo'] = (branch_ci['rate'] - 1.96 * branch_ci['se']).clip(0, 1)\nbranch_ci['hi'] = (branch_ci['rate'] + 1.96 * branch_ci['se']).clip(0, 1)\nprint(branch_ci.sort_values('rate'))   # Kano's interval is visibly wider than a large branch's",
+    "difficulty_level": 3,
+    "estimated_minutes": 45,
+    "language": "python",
+    "is_coding": false,
+    "not_yet_taught": [
+      "insight narrative structure (6.3)",
+      "github portfolio publishing (6.4)",
+      "AI-assisted verification workflow (6.5)",
+      "power_bi_dashboards"
+    ]
+  },
+  {
+    "micro_topic_id": "mt_dsv_da_03_01",
+    "topic_id": "topic_dsv_da_03",
+    "micro_topic_order": 1,
+    "title": "Turning a Finding Into an Insight: The 'So What' Test",
+    "learning_objective": "Distinguish a finding (an observation about the data) from an insight (the same observation plus its business implication), and rewrite a weak insight statement so it passes the 'so what' test by naming a number, a comparison, a mechanism or reason, and a next step.",
+    "description_for_ai": "A finding is an observation about the data ('Kano's approval rate is 50%'); an insight is that same observation plus its business implication ('Kano's approval rate is 50% - 20+ points below every other branch - which is either a genuine local risk difference or an inconsistency in how criteria are applied there, and it's worth a manual file review before the next lending cycle'). The 'so what' test: if a busy manager read only this one sentence, could they reasonably reply 'so what?' - if yes, the sentence isn't finished. Worked conversions from finding to insight: a correlation of r=0.72 between income and loan amount becomes 'income verification, not loan-amount justification, is where fraud risk concentrates'; self-employed applicants requesting 23% larger loans on average becomes a note that a flat loan cap may be the wrong lever, since their incomes are also more volatile, so underwriting may need a different verification standard for this segment; a 17-point approval gap between graduates and non-graduates (77.7%, n=265 vs 61.2%, n=98) becomes a question worth checking against actual repayment data - is education a fair risk proxy, or a bias worth removing? The rule: a sharp insight names a number, a comparison, a mechanism or reason, and a next step; a weak one ('the data shows some interesting patterns in loan amounts') could be true of almost any dataset and still say nothing.",
+    "common_mistakes_for_ai": "Restating the chart in words ('the bar for Kano is shorter than the others') instead of stating the number and its comparison. Writing a recommendation with no owner or method ('we should investigate this further'), which fails the same test as a weak insight. Overclaiming causation ('being self-employed causes larger loan requests') when the data only shows an association. Skipping the sample-size caveat on a finding built from a small group (32 applications, or a comparison group of 98).",
+    "example_code_for_ai": "# The stat that grounds the insight has to be computed before it can be written about\nbranch_stats = df.groupby('Branch_Region').agg(\n    n=('Application_ID', 'count'),\n    approval_rate=('Loan_Status', lambda s: (s == 'Approved').mean())\n).sort_values('approval_rate')\nprint(branch_stats.head(1))   # Kano: rate 0.50, n 32 - the two numbers any insight must name",
+    "difficulty_level": 2,
+    "estimated_minutes": 35,
+    "language": "none",
+    "is_coding": false,
+    "not_yet_taught": [
+      "Context->Finding->Implication->Recommendation structure (6.3)",
+      "audience adaptation (6.3)",
+      "github portfolio publishing (6.4)",
+      "AI-assisted verification workflow (6.5)",
+      "power_bi_dashboards"
+    ]
+  },
+  {
+    "micro_topic_id": "mt_dsv_da_03_02",
+    "topic_id": "topic_dsv_da_03",
+    "micro_topic_order": 2,
+    "title": "Structuring a Narrative: Context, Finding, Implication, Recommendation - and Adapting It by Audience",
+    "learning_objective": "Write a full four-part narrative (Context, Finding, Implication, Recommendation) for a data finding, write a specific and falsifiable recommendation that names an action and a way to check it worked, and adapt the same finding's framing for a technical versus a non-technical audience without changing the underlying facts.",
+    "description_for_ai": "The four-part structure, worked on Kano's approval rate: Context (the credit committee reviews branch performance quarterly and is deciding whether Kano's lending criteria need to change); Finding (50% approval, the lowest of six branches, next-lowest Ibadan at 73%, with a small sample of 32 applications giving a roughly 33-67% confidence interval); Implication (the gap could reflect a genuine difference in local applicant risk, an inconsistency in how loan officers apply the criteria, or simply noise from the small sample - these cannot currently be distinguished from the approval rate alone); Recommendation (pull a manual sample of Kano's rejected applications, compare the stated rejection reasons against a comparably-sized branch such as Ibadan, n=44, for consistency, and revisit the approval rate once Kano's sample reaches roughly 60-80 applications, where the confidence interval narrows meaningfully). A recommendation must be specific and falsifiable - it names an action and a way to know whether the action resolved the question; 'investigate further' is not a recommendation, 'pull a manual sample of X and compare against Y' is. Audience adaptation keeps the underlying finding and its honesty identical, and only changes vocabulary, statistical detail, and which implication is emphasised: for a technical audience, the r=0.72 income/loan finding is framed as a Pearson correlation supporting income as a single-variable proxy in a loan-sizing model, noisier at the high-income tail; for a non-technical audience, the same fact becomes 'applicants who earn more tend to ask for bigger loans, fairly consistently across employment types', with the implication reframed operationally - income as a first check when a request looks unusually large relative to stated earnings.",
+    "common_mistakes_for_ai": "Skipping straight from Finding to Recommendation without stating the Implication - what the finding could mean, and what can't yet be distinguished. Writing 'we should investigate this further' as a Recommendation, which names no owner and no method. Sending the technical write-up to a non-technical audience, or the plain-language version to a technical reviewer who needs the actual statistic, which undermines trust in both directions. Changing what the data actually shows when simplifying language for a non-technical reader, rather than only changing vocabulary and emphasis.",
+    "example_code_for_ai": "import numpy as np\n\n# Grounding the Kano recommendation's confidence-interval claim before writing about it\nn, rate = 32, 0.50\nse = np.sqrt(rate * (1 - rate) / n)\nlo, hi = max(0, rate - 1.96 * se), min(1, rate + 1.96 * se)\nprint(f'{lo:.0%} - {hi:.0%}')   # roughly 33% - 67%, the number the Implication and Recommendation rest on",
+    "difficulty_level": 3,
+    "estimated_minutes": 45,
+    "language": "none",
+    "is_coding": false,
+    "not_yet_taught": [
+      "github portfolio publishing (6.4)",
+      "AI-assisted verification workflow (6.5)",
+      "power_bi_dashboards"
+    ]
+  },
+  {
+    "micro_topic_id": "mt_dsv_da_04_01",
+    "topic_id": "topic_dsv_da_04",
+    "micro_topic_order": 1,
+    "title": "GitHub Basics and Running a Data-Safety Check Before Publishing",
+    "learning_objective": "Explain what a repository, a commit, and a README are for a portfolio project, and write a data-safety checker that scans a DataFrame's column names and individual string values for likely personal data before any dataset is uploaded publicly.",
+    "description_for_ai": "Three GitHub concepts are enough for a portfolio project: a repository is a project folder on GitHub with a full history of changes (one repo per project is the right default); a commit is a saved snapshot of changes with a short message, and that message is part of the portfolio too ('fixed stuff' reads very differently to an employer than 'clean duplicate applications and standardise branch names'); a README is the file GitHub automatically displays on the repository's front page, and for a portfolio project it IS the pitch, since most visitors read only the README and never open the code. A data-safety checker scans column names against a keyword list (name, email, phone, mobile, address, ssn, nin, bvn, passport, dob, date_of_birth, account_number, card_number) and scans string columns for email-shaped values (a regex like [\\w.+-]+@[\\w-]+\\.[\\w.-]+) and phone-shaped values (a run of 9+ digits allowing dashes and spaces). Critically, every value must be checked on its own, never joined into one string first: joining a column's sampled values with spaces between them (e.g. to pattern-match once instead of once per value) creates false positives, because a run of several short, unrelated values sitting next to each other (like a Dependents column full of '0', '1', '2', '3+') can itself look exactly like a messy phone number to a regex that allows internal spaces. A checker should be proven to actually work by deliberately injecting a fake row with an obvious email address and confirming it gets flagged - not just trusted because it runs without error. A clean pass is necessary but never sufficient on its own; it should always be paired with a manual look at the columns and a sample of rows.",
+    "common_mistakes_for_ai": "Joining every sampled value in a column into one string before pattern-matching, instead of checking each value individually - this produces false positives on short, unrelated values that happen to sit next to each other. Trusting a data-safety checker just because it runs without error, without first proving it catches an obviously bad case deliberately injected as a test. Writing a vague, low-value commit message ('fixed stuff') instead of describing what changed and why. Assuming a clean automated scan means no manual review of the data is still needed.",
+    "example_code_for_ai": "import re\n\nEMAIL_PATTERN = re.compile(r'[\\w.+-]+@[\\w-]+\\.[\\w.-]+')\n\ndef data_safety_check(dataframe, sample_rows=50):\n    flags = []\n    for col in dataframe.columns:\n        sample = dataframe[col].dropna().astype(str).head(sample_rows)\n        for value in sample:                       # check each value on its own, never joined\n            if EMAIL_PATTERN.search(value):\n                flags.append((col, 'possible email'))\n                break\n    return flags\n\ntest_df = df.head(3).copy()\ntest_df['Contact_Email'] = ['not.a.real.person@example.com', None, None]\nflags = data_safety_check(test_df)\nassert len(flags) > 0, 'Checker should have flagged the injected email column'",
+    "difficulty_level": 3,
+    "estimated_minutes": 40,
+    "language": "python",
+    "is_coding": true,
+    "not_yet_taught": [
+      "strong README structure (6.4)",
+      "AI-assisted verification workflow (6.5)",
+      "power_bi_dashboards"
+    ]
+  },
+  {
+    "micro_topic_id": "mt_dsv_da_04_02",
+    "topic_id": "topic_dsv_da_04",
+    "micro_topic_order": 2,
+    "title": "Writing a Strong Analyst README",
+    "learning_objective": "Structure a portfolio README in the order a skimming reader needs, embed chart images rather than only linking them, generate README statistics directly from the underlying data rather than typing them by hand, and proofread a generated README for drafting inconsistencies before publishing.",
+    "description_for_ai": "An eight-part README structure, most-convincing-material-first, since most visitors skim: project title and one-line summary; business problem (2-3 sentences: what question, for whom); data source (origin, size, and a one-line data-safety confirmation); method (a short numbered summary linking to each notebook); key findings (2-4 sharp insights, each with its supporting chart embedded, not just linked); tools used; how to reproduce; contact/links. Generating README statistics live from the dataframe (e.g. a groupby for approval rate and count per branch, .corr() for a relationship between two columns) rather than typing numbers by hand keeps the document correct automatically if the underlying data changes - but this creates a real, common drafting risk: a hand-typed sentence naming a specific detail (like a branch name) can silently go stale if the computed answer changes on a future run, while every number elsewhere in the same document updates automatically, because it's pulled from the same computed statistics. A README that renders with no Python error is not the same as a README that is actually correct, so a generated README must always be read start to finish, and any hand-typed reference should be pulled from the same computed variable as everything else in the document, not typed separately. A weak README ('Some analysis of loan data. See notebook.ipynb for code.') has no business problem, no findings, no visuals, and gets scrolled past in seconds; a strong one states the business problem, embeds real chart images, and states sharp, number-backed findings a reader can absorb without opening any code.",
+    "common_mistakes_for_ai": "Linking to a chart image instead of embedding it directly in the README. Leaving a hand-typed detail (like a named branch) out of sync with numbers elsewhere in the same document that are computed live from the data. Publishing a README that is only a table of contents, with links but no summary the reader can act on. Trusting that a README is correct simply because the code that generated it ran without error, instead of reading the finished document start to finish.",
+    "example_code_for_ai": "branch_stats = df.groupby('Branch_Region').agg(\n    n=('Application_ID', 'count'),\n    approval_rate=('Loan_Status', lambda s: (s == 'Approved').mean())\n).sort_values('approval_rate')\nlowest_branch_name = branch_stats.index[0]   # pull the name from data, never type it by hand\n\nreadme_content = f'''## Key Findings\\n- {lowest_branch_name} has the lowest approval rate at {branch_stats.iloc[0][\"approval_rate\"]:.0%} (n={int(branch_stats.iloc[0][\"n\"])}).\\n'''\nwith open('README.md', 'w') as f:\n    f.write(readme_content)",
+    "difficulty_level": 3,
+    "estimated_minutes": 45,
+    "language": "none",
+    "is_coding": false,
+    "not_yet_taught": [
+      "AI-assisted verification workflow (6.5)",
+      "power_bi_dashboards"
+    ]
+  },
+  {
+    "micro_topic_id": "mt_dsv_da_05_01",
+    "topic_id": "topic_dsv_da_05",
+    "micro_topic_order": 1,
+    "title": "Exploratory AI Prompting and the Three-Step Verification Loop",
+    "learning_objective": "Write an exploratory prompt that gives an AI assistant context, the data, a specific task, and an output format that asks it to show its working, and independently verify every AI-surfaced numeric claim by tracing it to a calculation, reproducing that calculation from the source data, and comparing the two results.",
+    "description_for_ai": "Before uploading any dataset to an AI tool, confirm it is free of real personal data - the same data-safety habit taught for public GitHub repositories, applied as a habit for every new file, not a one-time check. A weak, open-ended prompt ('Tell me about this data') produces generic, unverifiable observations that could apply to almost any dataset. A strong prompt gives context (what the data is, that it's already cleaned), states a specific task (identify the three most notable patterns in a named outcome), and explicitly asks the assistant to show which columns and calculation produced each claim, so it can be checked - never accept a claim that can't be traced back to a specific calculation. The three-step verification loop: trace (ask which columns and calculation produced the claim, if not already stated), reproduce (run that calculation independently against the source data - pandas or Excel, the tool doesn't matter, only that it was done independently), compare (if the numbers match, the claim is verified; if they don't, the claim is wrong until proven otherwise - never split the difference between the two numbers, and never assume the verifier made the error instead of the AI).",
+    "common_mistakes_for_ai": "Treating a confident tone as evidence a claim is correct - an AI assistant can state a wrong number exactly as fluently as a right one. Verifying only the first claim in a draft and assuming the rest are equally solid. Accepting a rounded or approximate AI-stated figure without re-running the calculation against the source data. When an independently reproduced number disagrees with the AI's claim, assuming the mistake is the verifier's own rather than treating the AI's claim as unverified until checked again.",
+    "example_code_for_ai": "# Verifying an AI-surfaced claim like 'Kano's approval rate is the lowest' by reproducing it independently\nverified_rate = df[df['Branch_Region'] == 'Kano']['Loan_Status'].eq('Approved').mean()\nverified_n = (df['Branch_Region'] == 'Kano').sum()\nprint(f'{verified_rate:.0%} (n={verified_n})')   # compare this against the AI's stated figure",
+    "difficulty_level": 3,
+    "estimated_minutes": 40,
+    "language": "python",
+    "is_coding": true,
+    "not_yet_taught": [
+      "red-pen critique of AI drafts (6.5)",
+      "power_bi_dashboards"
+    ]
+  },
+  {
+    "micro_topic_id": "mt_dsv_da_05_02",
+    "topic_id": "topic_dsv_da_05",
+    "micro_topic_order": 2,
+    "title": "The Red-Pen Exercise: Catching Overconfident and Unverifiable AI-Drafted Claims",
+    "learning_objective": "Mark up an AI-drafted narrative sentence by sentence to catch wrong numbers, invented causal mechanisms, unstated sample sizes, vague unquantified claims, and unsupported summary judgements, and rewrite the narrative using only verified figures.",
+    "description_for_ai": "Seven concrete problem patterns to catch in an AI-drafted narrative, each with its correct handling: a confidently stated wrong-direction claim ('application volume has grown significantly') where the honest correction is not simply a confident number in the other direction either - if the data's most recent months are 5-20x lower than the rest of a much longer history, that pattern is more consistent with incomplete data capture for that period than a genuine trend, so the fix names the anomaly and recommends confirming with the data team, rather than reporting any confident percentage change; a wrong number stated as fact (e.g. 'approximately 35%' when the independently verified figure is 50%); an unverifiable causal explanation presented as established fact ('this is likely because of X') when nothing in the dataset establishes why a pattern exists - the correct move names the uncertainty (could be a genuine difference, could be inconsistent process, cannot currently distinguish) instead of picking one explanation; a missing sample-size caveat on a headline rate that was actually computed from a small group; an invented mechanism ('because they have more unpredictable income needs') attached to a real, verified association, when the data only supports the association itself, not the reason behind it; a vague claim with no number ('there is a strong relationship... which makes sense intuitively' instead of stating the actual correlation value); and an unsupported global summary judgement ('the loan book appears healthy overall, no major causes for concern') that isn't established anywhere in the narrative and directly contradicts a specific finding raised earlier in the same draft.",
+    "common_mistakes_for_ai": "Skipping the markup step and jumping straight to a 'cleaned-up' rewrite, losing the evidence that verification actually happened. Accepting an AI's causal explanation for a pattern when the dataset only supports a correlation or association. Fixing an overconfident wrong claim with an equally overconfident replacement number, instead of naming genuine uncertainty when the data doesn't cleanly support a figure either way. Letting the AI draft's paragraph structure dictate the final narrative instead of still applying a Context-Finding-Implication-Recommendation structure.",
+    "example_code_for_ai": "# Re-running the two most commonly wrong claims from an AI draft before accepting or rejecting them\nkano_rate = df[df['Branch_Region'] == 'Kano']['Loan_Status'].eq('Approved').mean()\nincome_loan_corr = df['Monthly_Income_NGN'].corr(df['Loan_Amount_NGN'])\nprint(f'Kano: {kano_rate:.0%}  |  income-loan correlation: {income_loan_corr:.2f}')\n# Compare both against whatever the AI draft claimed before keeping or correcting either sentence",
+    "difficulty_level": 4,
+    "estimated_minutes": 45,
+    "language": "none",
+    "is_coding": false,
+    "not_yet_taught": [
+      "power_bi_dashboards"
+    ]
+  }
+]
