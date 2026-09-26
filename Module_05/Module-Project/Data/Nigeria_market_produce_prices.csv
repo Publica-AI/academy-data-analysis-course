@@ -1,0 +1,107 @@
+RecordID,State,Market,ProduceType,Unit,Price,Quantity,DateCollected,FieldOfficer,Notes
+1020,Enugu,Ogbete Main Market,Pepper (Tatashe),Basket,NGN 24520,,2026-01-13,,supply shortage
+1046,Abia,Ariaria Market,Sugar,50kg bag,NGN 45353,,01/08/2026,S. Danladi,N/A
+1057,Katsina,Katsina Central Market,Palm Oil,25L Keg,34498,2,2026-06-28,  J. Nwosu,PENDING VERIFICATION
+1011,Anambra,Onitsha Main Market,Yam,tuber,1028,1,01/01/2026,  J. Nwosu,supply shortage
+1039,Plateau,Jos Terminus Market,Yam,tuber,"₦1,624",,2026-02-19,K. Chukwu,PENDING VERIFICATION
+1018,FCT,Kubwa Market,Groundnut Oil,25L Keg,36239,10,19/04/2026,K. Chukwu,N/A
+1074,Ekiti,Erekesan Market,Yam,Tuber (medium),1699,3,04/14/2026,  J. Nwosu,supply shortage
+1096,Anambra,Onitsha Main Market,Rice (Foreign),50kg bag,65586,1,21/07/2026,A.Bello,
+1031,Abia,Ariaria Market,Fresh Fish (Catfish),Kg,,1,2026-08-30,M. Yusuf,supply shortage
+1048,Ogun,Kara Market,Yam,tuber,1906,1,2026-04-09,M. Yusuf,
+1009,Plateau,Jos Terminus Market,Chicken (Live),Bird,,1,07-May-2026,C. Okoro,
+1016,Ekiti,Erekesan Market,Fresh Fish (Catfish),Kg,"₦2,271",1,2026-07-01,,
+1080,Kaduna,Kaduna Central Market,Yam,Tuber (medium),"1,697",,2026-01-08,,verified
+1036,Katsina,Katsina Central Market,Fresh Fish (Catfish),Kg,,1,15/02/2026,R. Etim,Off-season
+1002,Abia,Ariaria Market,Chicken (Live),Bird,NGN 6778,1,"26 July, 2026",M. Yusuf,
+1055,lagos,Mile 12 Market,Tomatoes,Basket,16102,1,09-Feb-2026,T. Adewale,
+1044,Enugu,Ogbete Main Market,Rice (Foreign),50kg bag,"₦66,497",1,"19 April, 2026",T. Adewale,
+1045,Borno,Monday Market,Garri (White),50kg bag,NGN 37031,,2026-07-25,A.Bello,PENDING VERIFICATION
+1048,Ogun,Kara Market,Yam,tuber,1906,1,2026-04-09,M. Yusuf,
+1077,FCT,Kubwa Market,Pepper (Tatashe),Basket,25401,5,21/06/2026,C. Okoro,
+1037,,Kara Market,Groundnut Oil,25L Keg,"49,864",1,19/08/2026,R. Etim,Price surge due to fuel scarcity
+1050,FCT,Kubwa Market,Tomatoes,Basket,19526,10,"17 August, 2026",K. Chukwu,supply shortage
+1067,lagos,Mile 12 Market,Tomatoes,basket,26132,1,08/11/2026,A.Bello,
+1000,Kano,Dawanau Market,Tomatoes,Basket,32299,2,2026-07-08,C. Okoro,PENDING VERIFICATION
+1072,Kwara,Ipata Market,Cassava Flour,50kg bag,22771,3,03/14/2026,A.Bello,
+1033,Plateau,Jos Terminus Market,Sugar,50kg bag,,2,"11 February, 2026",M. Yusuf,Flooding affected supply
+1024,Rivers,Mile 3 Market,Pepper (Tatashe),,29498,2,31/01/2026,R. Etim,Price surge due to fuel scarcity
+1010,Plateau,Jos Terminus Market,Sugar,50kg bag,33040,,06-Mar-2026,S. Danladi,
+1065,Enugu,Ogbete Main Market,Rice (Local),50kg bag,61635,1,05/18/2026,M. Yusuf,Price surge due to fuel scarcity
+1064,Ekiti,Erekesan Market,Onions,Bag,"₦56,015",5,10/07/2026,S. Danladi,Festive demand
+1026,Abia,Ariaria Market,Yam,tuber,"2,339",1,09/06/2026,R. Etim,
+1032,Plateau,Jos Terminus Market,Rice (Foreign),50kg bag,46370,1,23/02/2026,,Price surge due to fuel scarcity
+1093,Delta,Ogbogonogo Market,Chicken (Live),Bird,"₦6,950",10,03/06/2026,A.Bello,Off-season
+1066,Abuja,Kubwa Market,Sugar,50kg bag,"36,636",2,28/02/2026,F. Ibrahim,
+1090,Kano,Dawanau Market,Maize (Yellow),100kg bag,"₦35,451",1,2026-03-25,A. Bello,Off-season
+1095,lagos,Mile 12 Market,Sugar,50kg bag,44208,3,"24 July, 2026",T. Adewale,verified
+1061,Ekiti,Erekesan Market,Sugar,50kg bag,42947,1,06/08/2026,F. Ibrahim,
+1021,Enugu,Ogbete Main Market,Beans (Oloyin),100kg bag,91634,2,"13 April, 2026",A. Bello,
+1051,Enugu,Ogbete Main Market,Cassava Flour,50kg bag,21595,,2026-04-10,F. Ibrahim,PENDING VERIFICATION
+1001,lagos,Mile 12 Market,Tomatoes,Basket,11070,,07-Jan-2026,S. Danladi,Price surge due to fuel scarcity
+1084,Ekiti,Erekesan Market,Chicken (Live),Bird,"8,511",,04-May-2026,F. Ibrahim,Festive demand
+1040,Kwara,Ipata Market,Chicken (Live),Bird,6965,1,15/03/2026,T. Adewale,Flooding affected supply
+1074,Ekiti,Erekesan Market,Yam,Tuber (medium),1699,3,04/14/2026,  J. Nwosu,supply shortage
+1013,FCT,Kubwa Market,Tomatoes,Basket,"11,665",3,2026-01-15,T. Adewale,verified
+1042,Ogun,Kara Market,Pepper (Tatashe),,"36,818",2,03/21/2026,T. Adewale,
+9999,Lagos,Mile 12 Market,Tomatoes,,,,,,Data lost - officer phone stolen
+1013,FCT,Kubwa Market,Tomatoes,Basket,"11,665",3,2026-01-15,T. Adewale,verified
+1007,Ogun,Kara Market,Tomatoes,basket,NGN 15505,5,10/03/2026,C. Okoro,Price surge due to fuel scarcity
+1070,Enugu,Ogbete Main Market,Plantain,Bunch,3058,,09/08/2026,R. Etim,Flooding affected supply
+1098,Anambra,Onitsha Main Market,Cassava Flour,50kg bag,31213,5,"30 January, 2026",A.Bello,
+1025,Ekiti,Erekesan Market,Chicken (Live),Bird,8782,3,2026-06-21,F. Ibrahim,Price surge due to fuel scarcity
+1081,Lagos,Mile 12 Market,Fresh Fish (Catfish),Kg,2635,1,31/08/2026,C. Okoro,PENDING VERIFICATION
+1022,Abia,Ariaria Market,Yam,Tuber (medium),"₦1,666",,07/03/2026,A.Bello,
+1099,Katsina,Katsina Central Market,Fresh Fish (Catfish),Kg,2549,10,2026-03-09,S. Danladi,
+1034,Plateau,Jos Terminus Market,Garri (White),50kg bag,26371,1,12/08/2026,A. Bello,N/A
+1076,Anambra,Onitsha Main Market,Chicken (Live),Bird,NGN 4829,1,13/05/2026,,N/A
+1043,FCT,Kubwa Market,Sugar,50kg bag,NGN 45922,,15/08/2026,,verified
+1006,Oyo,Bodija Market,Sugar,50kg bag,42403,2,2026-04-29,K. Chukwu,Off-season
+1023,Borno,Monday Market,Tomatoes,basket,32509,1,03-May-2026,S. Danladi,supply shortage
+1054,Plateau,Jos Terminus Market,Garri (Yellow),50kg bag,37679,1,05/19/2026,A. Bello,Festive demand
+1015,Borno,Monday Market,Beans (Brown),100kg bag,75428,5,19/08/2026,S. Danladi,N/A
+1047,Anambra,Onitsha Main Market,Garri (White),50kg bag,"₦35,760",,10/06/2026,T. Adewale,Off-season
+1097,Benue,Wurukum Market,Yam,tuber,2330,2,2026-07-21,S. Danladi,Festive demand
+1056,Abia,Ariaria Market,Garri (Yellow),,36564,1,"29 July, 2026",M. Yusuf,Off-season
+1027,Delta,Ogbogonogo Market,Pepper (Tatashe),Basket,38811,3,2026-04-23,S. Danladi,
+1075,Plateau,Jos Terminus Market,Yam,,2036,1,2026-09-04,,verified
+1085,Ogun,Kara Market,Beans (Brown),100kg bag,"₦70,650",2,"18 July, 2026",K. Chukwu,
+1035,Benue,Wurukum Market,Garri (White),50kg bag,25652,2,26/03/2026,  J. Nwosu,
+1092,Enugu,Ogbete Main Market,Maize (Yellow),100kg bag,50902,3,01/03/2026,A.Bello,Off-season
+1062,Anambra,Onitsha Main Market,Sugar,50kg bag,"43,488",,2026-05-13,T. Adewale,
+1094,Enugu,Ogbete Main Market,Palm Oil,25L Keg,"₦39,762",3,2026-09-08,,Flooding affected supply
+1073,Ekiti,Erekesan Market,Beans (Brown),100kg bag,82861,2,02/08/2026,  J. Nwosu,
+1019,Kano,Dawanau Market,Tomatoes,basket,NGN 21193,1,2026-02-19,T. Adewale,supply shortage
+1053,Rivers,Mile 3 Market,Tomatoes,basket,16524,2,25/03/2026,F. Ibrahim,
+1069,lagos,Mile 12 Market,Rice (Foreign),50kg bag,NGN 49888,3,2026-03-05,C. Okoro,supply shortage
+1047,Anambra,Onitsha Main Market,Garri (White),50kg bag,"₦35,760",,10/06/2026,T. Adewale,Off-season
+1058,lagos,Mile 12 Market,Onions,Bag,,5,2026-05-10,,Festive demand
+1049,Abia,Ariaria Market,Groundnut Oil,25L Keg,,10,20/08/2026,R. Etim,
+1087,Abuja,Kubwa Market,Maize (Yellow),100kg bag,NGN 30502,10,"17 June, 2026",M. Yusuf,
+1068,Abia,Ariaria Market,Yam,tuber,"1,177",3,"03 May, 2026",C. Okoro,
+1030,lagos,Mile 12 Market,Pepper (Tatashe),Basket,30784,3,2026-01-01,F. Ibrahim,
+1012,Benue,Wurukum Market,Plantain,Bunch,3994,5,"11 February, 2026",S. Danladi,
+1088,Katsina,Katsina Central Market,Pepper (Tatashe),Basket,37910,,02/09/2026,F. Ibrahim,PENDING VERIFICATION
+1063,Enugu,Ogbete Main Market,Cassava Flour,50kg bag,NGN 28582,,"05 January, 2026",C. Okoro,Off-season
+1091,Plateau,Jos Terminus Market,Chicken (Live),Bird,5975,1,11-Aug-2026,K. Chukwu,verified
+1004,Katsina,Katsina Central Market,Pepper (Tatashe),Basket,28089,5,19-Feb-2026,C. Okoro,
+1005,Enugu,Ogbete Main Market,Rice (Local),50kg bag,50455,5,2026-04-05,F. Ibrahim,Price surge due to fuel scarcity
+1017,Oyo,Bodija Market,Plantain,Bunch,2474,,2026-05-19,M. Yusuf,
+1014,Oyo,Bodija Market,Fresh Fish (Catfish),Kg,2057,,12-Feb-2026,  J. Nwosu,supply shortage
+1052,Abia,Ariaria Market,Rice (Foreign),50kg bag,"₦65,390",10,25-May-2026,,
+1083,Kaduna,Kaduna Central Market,Pepper (Tatashe),Basket,NGN 19052,10,28/08/2026,S. Danladi,Off-season
+1038,Borno,Monday Market,Beans (Brown),100kg bag,78869,5,22-Mar-2026,,
+1089,lagos,Mile 12 Market,Sugar,50kg bag,33121,3,2026-07-11,C. Okoro,Flooding affected supply
+1059,Plateau,Jos Terminus Market,Onions,Bag,NGN 55129,10,2026-07-07,S. Danladi,PENDING VERIFICATION
+1081,Lagos,Mile 12 Market,Fresh Fish (Catfish),Kg,2635,1,31/08/2026,C. Okoro,PENDING VERIFICATION
+1008,Rivers ,Mile 3 Market,Cassava Flour,50kg bag,"24,482",,2026-03-09,M. Yusuf,Price surge due to fuel scarcity
+1082,Abuja,Kubwa Market,Garri (Yellow),50kg bag,NGN 30807,,2026-04-27,S. Danladi,
+1028,Abuja,Kubwa Market,Tomatoes,Basket,NGN 29884,3,01/27/2026,M. Yusuf,Off-season
+1078,Katsina,Katsina Central Market,Fresh Fish (Catfish),Kg,1875,5,24/03/2026,C. Okoro,
+1041,Abia,Ariaria Market,Maize (Yellow),100kg bag,52138,,"19 August, 2026",M. Yusuf,PENDING VERIFICATION
+1071,Kano,Dawanau Market,Beans (Brown),,68829,1,2026-03-03,M. Yusuf,supply shortage
+1079,Borno,Monday Market,Maize (Yellow),100kg bag,43541,,09/06/2026,A.Bello,PENDING VERIFICATION
+1003,Ogun,Kara Market,Rice (Local),50kg bag,41039,5,"30 March, 2026",R. Etim,Off-season
+1060,FCT,Kubwa Market,Maize (Yellow),100kg bag,NGN 44272,3,07/08/2026,T. Adewale,
+1029,Anambra,Onitsha Main Market,Yam,Tuber (medium),2038,5,2026-06-25,,Off-season
+1086,Katsina,Katsina Central Market,Palm Oil,25L Keg,32984,1,2026-05-09,R. Etim,Festive demand
