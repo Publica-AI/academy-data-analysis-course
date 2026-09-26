@@ -1,0 +1,403 @@
+Application_ID,Application_Date,Branch_Region,Gender,Marital_Status,Dependents,Education,Employment_Type,Loan_Purpose,Monthly_Income_NGN,Coapplicant_Income_NGN,Loan_Amount_NGN,Loan_Term_Months,Credit_History,Loan_Status
+TBM3062,2025-02-16,Lagos,Male,Single,0,Not Graduate,Salaried,Land Acquisition,188900,0,1733000.0,360.0,1.0,Approved
+TBM3277,2026-02-27,Kano,Male,Single,1,Graduate,Self-Employed,Construction,326300,0,2155000.0,300.0,1.0,Approved
+TBM3311,07-Mar-2026,Ibadan,Male,Single,0,Not Graduate,Salaried,Land Acquisition,233700,0,2612000.0,60.0,1.0,Approved
+TBM3008,2026-05-11,Lagos,Male,Married,0,Not Graduate,Self-Employed,Construction,383100,91100,4163000.0,180.0,1.0,Rejected
+TBM3127,10-Nov-2025,Lagos,Male,Married,1,Graduate,Self-Employed,Land Acquisition,131700,0,300000.0,180.0,1.0,Approved
+TBM3148,26-Aug-2025,Abuja,,Married,1,Not Graduate,Salaried,Renovation,151800,0,2715000.0,120.0,1.0,Approved
+TBM3175,2026-03-19,Abuja,Male,Married,0,Not Graduate,Salaried,Renovation,206200,0,1460000.0,180.0,1.0,Approved
+TBM3004,19-Oct-2024,Lagos,Male,Married,0,Graduate,Salaried,Renovation,160000,0,385000.0,36.0,1.0,Approved
+TBM3196,28-May-2026,Abuja,Male,Single,0,Not Graduate,Salaried,Purchase,200700,0,3367000.0,60.0,1.0,Approved
+TBM3266,26/07/2026,Kano,Male,Single,3+,Graduate,Self-Employed,Purchase,370700,0,3430000.0,240.0,1.0,Approved
+TBM3058,18-Jun-2025,Lagos,Female,Married,0,Not Graduate,Salaried,Construction,211400,0,3132000.0,300.0,,Rejected
+TBM3275,2026-07-11,Kano,,Married,2,Not Graduate,Salaried,Renovation,260700,0,3964000.0,60.0,1.0,Approved
+TBM3342,10/04/2025,JOS,Male,Single,1,Not Graduate,Salaried,Construction,204300,0,2618000.0,180.0,0.0,Rejected
+TBM3232,2025-04-06,Port Harcourt,Male,Single,0,Graduate,Self-Employed,Purchase,193800,0,382000.0,300.0,1.0,Approved
+TBM3054,2025-04-23,Lagos,Female,Married,1,Graduate,Salaried,Purchase,167300,96900,300000.0,120.0,0.0,Rejected
+TBM3093,2025-02-06,Lagos,Male,Married,2,Not Graduate,Salaried,Renovation,471500,0,6537000.0,60.0,,Approved
+TBM3238,22-Sep-2024,Port Harcourt,Female,Single,3+,Graduate,Salaried,Renovation,338500,0,868000.0,180.0,1.0,Rejected
+TBM3345,11-May-2026,Jos,Female,Married,1,Graduate,Salaried,Construction,174200,0,300000.0,60.0,1.0,Approved
+TBM3181,2026-03-07,Abuja,Male,Married,1,Not Graduate,Salaried,Renovation,158800,0,2654000.0,180.0,1.0,Approved
+TBM3334,17-Aug-2025,Ibadan,Female,Married,0,Graduate,Salaried,Land Acquisition,130300,64100,2637000.0,120.0,1.0,Approved
+TBM3362,2025-11-20,Jos,Male,Married,1,Not Graduate,Salaried,Construction,222500,0,3396000.0,240.0,0.0,Rejected
+TBM3217,25/08/2024,Port Harcourt,Male,Single,1,Not Graduate,Salaried,Construction,265900,0,3275000.0,60.0,1.0,Rejected
+TBM3108,2026-04-09,Lagos,Female,Married,1,Graduate,Self Employed,Renovation,255400,0,3003000.0,180.0,1.0,Approved
+TBM3050,26/06/2025,Lagos,Female,Married,1,Not Graduate,Self-Employed,Construction,438800,98800,5449000.0,120.0,1.0,Rejected
+TBM3119,21/02/2025,Lagos,Male,Single,0,Not Graduate,Salaried,Land Acquisition,253300,0,2157000.0,180.0,0.0,Rejected
+TBM3011,2025-03-06,Lagos,Male,Single,2,Graduate,Self-Employed,Renovation,150100,0,1569000.0,300.0,0.0,Approved
+TBM3087,26-Feb-2026,Lagos,Female,Married,1,Not Graduate,Self-Employed,Land Acquisition,198400,0,4701000.0,120.0,1.0,Rejected
+TBM3358,2025-08-26,Jos,Male,Single,1,Not Graduate,Self-Employed,Purchase,523600,0,6699000.0,180.0,0.0,Approved
+TBM3247,2026-01-16,Kano,Female,Married,1,Graduate,Salaried,Construction,260000,46500,1693000.0,12.0,1.0,Approved
+TBM3066,13-Jul-2026,Lagos,Female,Single,1,Not Graduate,Self-Employed,Renovation,818100,154400,8654000.0,360.0,1.0,Rejected
+TBM3155,04-Oct-2024,Abuja,Female,Single,2,Graduate,Salaried,Land Acquisition,130500,0,311000.0,240.0,1.0,Approved
+TBM3288,03/03/2026,Kano,Male,Single,2,Graduate,Salaried,Construction,209600,58700,2661000.0,300.0,1.0,Approved
+TBM3272,06/05/2026,Kano,Male,Single,3+,Graduate,Salaried,Construction,155900,0,1749000.0,36.0,0.0,Rejected
+TBM3195,2025-11-24,Abuja,Female,Married,2,Not Graduate,Salaried,Land Acquisition,125700,0,1700000.0,300.0,1.0,Approved
+TBM3367,26-Dec-2024,Jos,Male,Single,1,Graduate,Salaried,Purchase,221400,0,3158000.0,240.0,1.0,Approved
+TBM3151,15-Aug-2027,Abuja,Male,M,3+,Graduate,Salaried,Purchase,231600,46000,584000.0,240.0,1.0,Approved
+TBM3286,2026-06-27,Kano,Male,Married,0,Graduate,Salaried,Working Capital,208800,0,3021000.0,240.0,1.0,Approved
+TBM3331,05-May-2026,Ibadan,Female,Married,1,Graduate,Salaried,Construction,118600,0,300000.0,180.0,0.0,Rejected
+TBM3051,22/08/2025,Lagos,Male,Married,1,Graduate,Self-Employed,Construction,475400,0,9541000.0,300.0,1.0,Approved
+TBM3064,11-Jun-2026,Lagos,Male,Married,0,Not Graduate,Salaried,Purchase,249100,100900,2798000.0,240.0,1.0,Approved
+TBM3306,2026-02-04,Ibadan,Female,Married,1,Graduate,Salaried,Construction,182500,0,923000.0,240.0,0.0,Approved
+TBM3283,2026-01-12,Kano,Male,Married,0,Not Graduate,Self-Employed,Purchase,58500,0,2559000.0,240.0,1.0,Approved
+TBM3344,2024-12-20,Jos,Male,Married,0,Not Graduate,Salaried,Construction,275800,159400,755000.0,12.0,,Rejected
+TBM3029,26/09/2024,Lagos,Female,Married,1,Not Graduate,Salaried,Construction,190800,0,1334000.0,120.0,1.0,Approved
+TBM3254,2024-11-27,Kano,Male,Single,3+,Graduate,Salaried,Purchase,421400,76700,3379000.0,300.0,1.0,Approved
+TBM3297,2025-04-25,Ibadan,Female,Married,2,Graduate,Salaried,Purchase,211800,0,2387000.0,240.0,0.0,Approved
+TBM3126,2025-11-08,Lagos,Male,Married,1,Not Graduate,Self-Employed,Working Capital,90000,0,300000.0,180.0,1.0,Approved
+TBM3114,2025-02-07,Lagos,Male,Married,3+,Graduate,Salaried,Renovation,419400,0,4356000.0,120.0,1.0,Approved
+TBM3320,17-Jan-2026,Ibadan,Male,Single,2,Graduate,Salaried,Renovation,180700,0,330000.0,36.0,1.0,Rejected
+TBM3082,2025-01-09,Lagos,Female,Single,2,Graduate,Self-Employed,Construction,158500,0,1087000.0,300.0,1.0,Approved
+TBM3038,03/06/2026,Lagos,Male,Married,2,Graduate,Salaried,Construction,230200,0,3156000.0,36.0,1.0,Approved
+TBM3172,2024-12-28,Abuja,Female,Married,1,Not Graduate,Self-Employed,Purchase,443800,0,3787000.0,360.0,,Rejected
+TBM3301,2025-07-05,Ibadan,Female,Married,0,Graduate,Salaried,Working Capital,187200,76000,3984000.0,240.0,0.0,Approved
+TBM3047,14-Jul-2025,Lagos,Female,Single,3+,Not Graduate,Salaried,Construction,234600,0,2353000.0,12.0,,Approved
+TBM3143,2025-11-19,Abuja,Female,Single,0,Not Graduate,Self-Employed,Renovation,152800,168300,300000.0,180.0,1.0,Rejected
+TBM3234,2025-10-23,PORT HARCOURT,Female,Single,0,graduate,Salaried,Purchase,304500,0,2634000.0,12.0,1.0,Approved
+TBM3101,03-Jun-2026,Lagos,Male,Single,1,Graduate,Salaried,Construction,240200,66000,2117000.0,240.0,1.0,Approved
+TBM3318,02-Aug-2025,Ibadan,Female,Single,0,Graduate,Salaried,Construction,164900,0,300000.0,240.0,1.0,Approved
+TBM3145,19-Jul-2026,Abuja,Male,Married,0,Graduate,Self-Employed,Renovation,119800,81900,958000.0,180.0,0.0,Approved
+TBM3100,14-Sep-2024,Lagos,Male,Married,3+,Graduate,Self-Employed,Renovation,291700,66400,1552000.0,180.0,,Approved
+TBM3209,27-Apr-2026,Port Harcourt,Male,Married,0,Graduate,Self-Employed,Working Capital,267800,0,5801000.0,240.0,0.0,Approved
+TBM3137,08-Jul-2026,Abuja,Female,Single,2,Graduate,Salaried,Construction,170700,125600,1757000.0,240.0,0.0,Rejected
+TBM3368,23/10/2025,Jos,,Single,2,Graduate,Salaried,Purchase,124100,72700,929000.0,300.0,,Rejected
+TBM3052,16-Jun-2026,Lagos,Female,Married,2,Graduate,Salaried,Land Acquisition ,-241600,146700,1215000.0,240.0,1.0,Approved
+TBM3290,2026-04-08,Kano,Female,Single,2,Not Graduate,Salaried,Purchase,141600,154000,2313000.0,240.0,0.0,Approved
+TBM3315,14/07/2026,Ibadan,Male,Single,0,Graduate,Salaried,Purchase,212500,81700,300000.0,180.0,0.0,Approved
+TBM3085,2026-07-18,Lagos,Female,Married,1,Graduate,Salaried,Construction,173000,0,2334000.0,180.0,1.0,Approved
+TBM3016,2024-08-09,Lagos,Male,Married,1,Not Graduate,Self-Employed,Purchase,104400,0,2986000.0,180.0,1.0,Approved
+TBM3314,26-Dec-2024,Ibadan,Male,Single,0,Graduate,Salaried,Renovation,191400,0,2399000.0,240.0,1.0,Approved
+TBM3264,04-Jun-2026,Kano,Female,Single,1,Graduate,Self-Employed,Construction,147600,59900,1461000.0,60.0,1.0,Approved
+TBM3312,15/01/2025,Ibadan,Male,Single,3+,Graduate,Salaried,Renovation,294000,0,2427000.0,60.0,1.0,Approved
+TBM3122,2026-07-17,Lagos,Male,Single,2,Not Graduate,Self-Employed,Construction,176900,36000,4202000.0,60.0,,Rejected
+TBM3037,23/02/2026,Lagos,Female,S,1,Graduate,Salaried,Land Acquisition,129600,100300,797000.0,240.0,1.0,Approved
+TBM3097,14-Mar-2025,Lagos,Male,Married,2,Graduate,Salaried,Construction,317800,112400,2189000.0,120.0,1.0,Approved
+TBM3226,17-Apr-2025,Port Harcourt,Female,Single,0,Not Graduate,Self-Employed,Purchase,370500,105900,3311000.0,12.0,1.0,Approved
+TBM3102,23/07/2026,Lagos,Male,Single,0,Graduate,Self-Employed,Purchase,332900,107000,3146000.0,240.0,1.0,Approved
+TBM3242,23-Feb-2026,Kano,Male,Married,1,Not Graduate,Self Employed,Working Capital,327200,0,6600000.0,300.0,1.0,Approved
+TBM3289,15/03/2026,Kano,Male,Married,0,Not Graduate,Salaried,Purchase,255900,0,1884000.0,360.0,1.0,Approved
+TBM3281,16/12/2024,Kano,Female,Married,2,Graduate,,Renovation,575400,0,4927000.0,36.0,1.0,Approved
+TBM3200,11/04/2025,Abuja,Female,Married,2,Graduate,Salaried,Purchase,211900,0,3206000.0,360.0,1.0,Rejected
+TBM3165,15-Mar-2025,Abuja,Female,Married,0,Not Graduate,Salaried,Construction,247500,0,2850000.0,240.0,1.0,Approved
+TBM3173,09-Jan-2025,Abuja,Female,Married,0,Graduate,Salaried,Working Capital,328300,0,2818000.0,180.0,1.0,Approved
+TBM3212,2026-04-17,Port Harcourt,Male,Single,1,Not Graduate,Salaried,Purchase,139000,184100,2046000.0,120.0,1.0,Approved
+TBM3007,11-Sep-2024,Lagos,Female,Single,0,Graduate,Self-Employed,Purchase,356900,75500,4686000.0,360.0,0.0,Approved
+TBM3263,20-Dec-2024,Kano,Male,Single,0,Graduate,Self-Employed,Purchase,187500,0,300000.0,240.0,1.0,Approved
+TBM3257,21-Jul-2025,Kano,Male,Married,0,Graduate,Salaried,Construction,181400,0,1494000.0,240.0,,Approved
+TBM3223,2025-04-21,PORT HARCOURT,Male,Married,0,Graduate,Self-Employed,Construction,76200,0,300000.0,240.0,1.0,Approved
+TBM3380,2025-06-07,Jos,Male,Married,0,Graduate,Salaried,Renovation,277400,45700,3974000.0,240.0,1.0,Approved
+TBM3351,25-Mar-2026,Jos,Male,Single,1,Not Graduate,Salaried,Construction,264600,177000,2214000.0,36.0,1.0,Approved
+TBM3330,2025-04-25,Ibadan,Female,Single,0,Graduate,Self-Employed,Construction,157700,0,1701000.0,360.0,1.0,Approved
+TBM3112,04/09/2024,Lagos,Male,Married,0,Not Graduate,Salaried,Construction,145500,92500,2370000.0,180.0,1.0,Approved
+TBM3260,10-May-2026,Kano,Female,Married,2,Graduate,Self-Employed,Construction,289400,0,1489000.0,240.0,1.0,Approved
+TBM3210,09/05/2026,Port Harcourt,Male,Married,1,Graduate,Salaried,Construction,209500,110900,5064000.0,360.0,1.0,Rejected
+TBM3164,18-Oct-2024,Abuja,Female,Single,0,Graduate,Self-Employed,Purchase,400900,101900,5785000.0,180.0,1.0,Approved
+TBM3013,03-Feb-2025,Lagos,Male,Married,0,Graduate,Salaried,Construction,249000,0,2256000.0,120.0,0.0,Rejected
+TBM3094,20/02/2026,Lagos,Male,Married,1,Graduate,Self Employed,Renovation,367300,0,2935000.0,360.0,,Approved
+TBM3178,2026-07-16,Abuja,Male,Single,0,Graduate,Self Employed,Purchase,176200,0,3313000.0,60.0,1.0,Approved
+TBM3337,26-Aug-2024,Ibadan,Male,Married,0,Graduate,Self-Employed,Construction,253300,69500,3211000.0,60.0,1.0,Approved
+TBM3221,12/02/2025,PORT HARCOURT,Female,Single,2,Graduate,Salaried,Construction,165200,0,3113000.0,12.0,1.0,Approved
+TBM3045,2025-06-09,Lagos,Female,Married,1,Graduate,Salaried,Purchase,249500,0,3060000.0,120.0,1.0,Approved
+TBM3244,11-Jul-2025,Kano,Female,Married,1,Graduate,Salaried,Construction,222600,0,3293000.0,12.0,1.0,Approved
+TBM3142,2025-09-03,Abuja,Male,Married,0,Graduate,Salaried,Renovation,232800,97900,1884000.0,360.0,1.0,Approved
+TBM3180,20-Jan-2026,Abuja,Male,Married,0,Graduate,Salaried,Construction,188900,0,1151000.0,360.0,1.0,Approved
+TBM3168,16-Sep-2025,Abuja,Female,Married,0,Graduate,Salaried,Land Acquisition ,111700,0,1547000.0,360.0,1.0,Approved
+TBM3005,23-Mar-2025,Lagos,Male,Married,1,Not Graduate,Self-Employed,Renovation,673600,0,5388000.0,180.0,1.0,Rejected
+TBM3003,10-Apr-2025,Lagos,Male,Married,1,Graduate,Salaried,Land Acquisition,219300,0,2109000.0,240.0,0.0,Approved
+TBM3293,2026-05-21,Kano,Female,Single,1,Not Graduate,Salaried,Working Capital,175300,0,1600000.0,300.0,1.0,Approved
+TBM3163,2025-05-14,Abuja,Male,Married,1,graduate,Salaried,Construction,331900,220800,2446000.0,180.0,1.0,Approved
+TBM3213,24/03/2026,Port Harcourt,,Married,0,Not Graduate,Salaried,Purchase,147800,0,300000.0,120.0,1.0,Approved
+TBM3197,2024-09-06,Abuja,Male,Single,0,graduate,Self-Employed,Construction,71100,0,392000.0,36.0,0.0,Approved
+TBM3302,16-Aug-2024,Ibadan,Male,Married,2,Not Graduate,Salaried,Purchase,105600,43700,300000.0,360.0,1.0,Approved
+TBM3192,15-Feb-2025,Abuja,Male,Single,0,Graduate,Salaried,Purchase,149000,0,1589000.0,60.0,1.0,Approved
+TBM3265,03/04/2026,Kano,Male,Married,0,Not Graduate,Salaried,Land Acquisition,159500,0,3417000.0,240.0,1.0,Rejected
+TBM3248,2024-09-28,Kano,,Single,0,Not Graduate,Self-Employed,Renovation ,224400,180900,3303000.0,240.0,1.0,Approved
+TBM3270,07/11/2025,Kano,Male,Single,2,Not Graduate,,Construction,354800,66000,2828000.0,0.0,1.0,Approved
+TBM3033,2026-04-08,Lagos,,Married,1,Graduate,Self-Employed,Land Acquisition,126400,0,1752000.0,240.0,,Approved
+TBM3191,24/06/2025,Abuja,Male,Married,1,Graduate,Salaried,Land Acquisition,185700,118700,1460000.0,180.0,0.0,Approved
+TBM3138,10-Jun-2026,Abuja,Male,Single,0,Graduate,Salaried,Working Capital,230900,63600,1344000.0,180.0,,Approved
+TBM3205,2025-11-08,Port  Harcourt,Male,Single,0,Graduate,Self Employed,Construction,201800,57900,2363000.0,300.0,1.0,Approved
+TBM3107,25-Jul-2025,Lagos,,Single,0,Graduate,Salaried,Working Capital,279200,0,2772000.0,300.0,,Approved
+TBM3313,08-Dec-2024,Ibadan,Male,Married,0,Graduate,Salaried,Construction,247800,103100,1900000.0,0.0,1.0,Approved
+TBM3385,2024-12-07,Jos,Female,Single,3+,Graduate,Salaried,Construction,182700,117000,2041000.0,120.0,1.0,Approved
+TBM3379,25/05/2026,Jos,Female,Single,1,Graduate,Salaried,Construction,236200,0,2254000.0,36.0,1.0,Rejected
+TBM3218,17-Feb-2026,port harcourt,Male,Married,1,Graduate,Self-Employed,Construction,221800,55500,2612000.0,120.0,1.0,Approved
+TBM3116,2025-03-09,Lagos,Male,Married,1,Not Graduate,Salaried,Land Acquisition,236900,46100,300000.0,360.0,1.0,Approved
+TBM3025,2024-09-02,Lagos,,Married,2,Graduate,Salaried,Construction,111500,0,2122000.0,240.0,0.0,Approved
+TBM3044,02-Oct-2025,Lagos,Male,S,0,Not Graduate,Salaried,Purchase,233500,0,1535000.0,300.0,0.0,Approved
+TBM3382,2026-06-20,jos,Male,Single,1,Not Graduate,Self-Employed,Construction,205100,59700,2092000.0,240.0,1.0,Rejected
+TBM3252,14-Aug-2025,Kano,Female,Married,1,Not Graduate,Salaried,Purchase,112400,0,2671000.0,180.0,0.0,Approved
+TBM3384,10-Jul-2026,Jos,Female,Married,2,Graduate,Self-Employed,Construction,162300,185300,5800000.0,360.0,0.0,Rejected
+TBM3282,2026-07-11,Kano,,Married,1,Not Graduate,Self-Employed,Purchase,261600,0,3712000.0,240.0,1.0,Approved
+TBM3083,2026-06-02,Lagos,Male,Single,0,Graduate,Salaried,Working Capital ,196500,76200,2760000.0,240.0,,Rejected
+TBM3357,22-Apr-2025,JOS,Male,Married,1,Not Graduate,Salaried,Purchase,226100,0,2846000.0,300.0,1.0,Approved
+TBM3125,2026-06-15,Lagos,Female,Married,0,Graduate,Self Employed,Construction,171900,0,300000.0,240.0,1.0,Approved
+TBM3215,2024-10-14,Port  Harcourt,Female,Single,0,Not Graduate,Self-Employed,Construction,323600,0,3667000.0,300.0,1.0,Approved
+TBM3102,23/07/2026,Lagos,Male,Single,0,Graduate,Self-Employed,Purchase,332900,107000,3146000.0,240.0,1.0,Approved
+TBM3345,11-May-2026,Jos,Female,Married,1,Graduate,Salaried,Construction,174200,0,300000.0,60.0,1.0,Approved
+TBM3294,25/07/2026,Kano,Female,Married,2,Not Graduate,Salaried,Renovation,257900,139700,300000.0,120.0,1.0,Rejected
+TBM3246,21/04/2025,Kano,Female,Married,0,Graduate,Salaried,Construction,244700,0,2127000.0,240.0,1.0,Approved
+TBM3239,2025-08-14,port harcourt,Male,Married,0,graduate,Salaried,Working Capital,191600,191300,3005000.0,240.0,,Rejected
+TBM3027,07-Dec-2025,Lagos,Female,Married,0,Graduate,Salaried,Construction,166500,0,2078000.0,240.0,1.0,Approved
+TBM3214,2025-06-21,Port Harcourt,Male,Single,1,Graduate,Salaried,Renovation,233800,78300,300000.0,120.0,0.0,Approved
+TBM3113,16-May-2026,Lagos,Male,Married,3+,Graduate,Salaried,Land Acquisition,239300,68400,300000.0,36.0,1.0,Approved
+TBM3336,25-Sep-2024,Ibadan,Female,Single,1,Graduate,Salaried,Construction,116100,0,399000.0,180.0,1.0,Approved
+TBM3206,05-May-2026,Port Harcourt,Male,Single,2,Not Graduate,Salaried,Land Acquisition,209700,0,2609000.0,12.0,0.0,Rejected
+TBM3028,26-Sep-2025,Lagos,Male,Married,0,Not Graduate,Self-Employed,Working Capital,368300,81100,3868000.0,240.0,0.0,Rejected
+TBM3231,2025-05-14,Port Harcourt,Male,Married,0,Graduate,Salaried,Construction,170100,0,1744000.0,120.0,,Approved
+TBM3208,25/06/2026,Port Harcourt,Female,Single,2,Graduate,Salaried,Construction,201000,0,3347000.0,240.0,1.0,Approved
+TBM3111,2026-06-07,Lagos,Female,Married,2,Graduate,Salaried,Construction,209800,119800,3659000.0,300.0,1.0,Approved
+TBM3366,24-Jun-2026,Jos,Female,Married,1,Graduate,Salaried,Land Acquisition,189900,89800,2637000.0,36.0,1.0,Approved
+TBM3156,23-Apr-2025,Abuja,Male,Single,2,graduate,Salaried,Land Acquisition,367800,39700,3846000.0,360.0,,Approved
+TBM3327,28-Jun-2026,Ibadan,Male,Single,0,Not Graduate,Salaried,Construction,218600,77400,1688000.0,120.0,,Rejected
+TBM3057,09-Jan-2025,Lagos,Male,Married,1,Graduate,Salaried,Purchase,168300,0,1204000.0,300.0,1.0,Approved
+TBM3149,2025-11-26,Abuja,Female,Married,0,Not Graduate,Self-Employed,Working Capital,136400,0,2656000.0,120.0,1.0,Approved
+TBM3088,08/03/2026,Lagos,Female,Single,2,Graduate,Self-Employed,Purchase,263900,0,2254000.0,180.0,1.0,Approved
+TBM3091,19/12/2025,Lagos,Male,Married,0,Graduate,Salaried,Purchase,123700,26300,300000.0,36.0,0.0,Approved
+TBM3098,02/07/2026,Lagos,Male,Married,0,Graduate,Salaried,Construction,260500,49900,2690000.0,240.0,1.0,Approved
+TBM3059,26/04/2025,Lagos,Male,Single,1,Graduate,Salaried,Purchase,201200,27700,3775000.0,12.0,1.0,Approved
+TBM3117,26-May-2026,Lagos,Female,Married,0,Graduate,Salaried,Construction,152000,0,1910000.0,180.0,1.0,Approved
+TBM3070,2025-04-26,Lagos,Male,Married,1,Graduate,Self-Employed,Working Capital,324600,38900,1405000.0,360.0,1.0,Approved
+TBM3235,2025-11-26,Port Harcourt,Female,Single,0,Graduate,Salaried,Purchase,95200,0,2208000.0,60.0,,Rejected
+TBM3354,23/08/2024,Jos,Male,Married,2,Graduate,Salaried,Working Capital,183500,0,2602000.0,300.0,0.0,Approved
+TBM3383,2025-11-11,Jos,Male,Single,2,Not Graduate,,Purchase,378700,108700,2316000.0,240.0,1.0,Approved
+TBM3363,21/07/2026,Jos,Male,Single,2,Graduate,Salaried,Construction,85000,80300,2877000.0,300.0,0.0,Rejected
+TBM3287,2025-03-26,Kano,Male,Single,0,Graduate,Salaried,Purchase,249700,0,1561000.0,240.0,1.0,Approved
+TBM3167,03-Jun-2025,Abuja,Female,Married,0,Graduate,Salaried,Construction,254700,60400,4257000.0,240.0,1.0,Approved
+TBM3276,02/06/2026,Kano,Female,Married,0,Graduate,Salaried,Construction,228000,81500,4787000.0,240.0,1.0,Approved
+TBM3384,10-Jul-2026,Jos,Female,Married,2,Graduate,Self-Employed,Construction,162300,185300,5800000.0,360.0,0.0,Rejected
+TBM3041,2024-09-21,Lagos,Female,M,2,Not Graduate,Self-Employed,Purchase,385700,70100,4568000.0,180.0,1.0,Approved
+TBM3092,2026-06-06,Lagos,Male,Married,1,Not Graduate,Salaried,Construction,-241600,0,1435000.0,240.0,0.0,Rejected
+TBM3135,2026-06-19,Abuja,Female,Married,0,Graduate,Salaried,Purchase,179600,189700,2714000.0,300.0,1.0,Approved
+TBM3307,13/01/2025,Ibadan,Female,Single,2,Not Graduate,Salaried,Construction,137800,84400,2312000.0,300.0,0.0,Approved
+TBM3103,2025-08-12,Lagos,Female,Single,2,Graduate,Salaried,Renovation,200200,161500,1382000.0,240.0,1.0,Approved
+TBM3261,26-Mar-2026,Kano,Female,Married,0,Not Graduate,Self Employed,Construction,129200,0,1180000.0,120.0,1.0,Rejected
+TBM3236,2024-08-11,port harcourt,Male,Single,0,Not Graduate,Salaried,Purchase,248200,0,5250000.0,120.0,0.0,Rejected
+TBM3171,17-Apr-2026,Abuja,Male,Married,0,Graduate,Salaried,Land Acquisition,-168200,49700,901000.0,240.0,1.0,Approved
+TBM3352,2026-07-19,Jos,Female,Single,1,Graduate,Salaried,Construction,203800,0,1559000.0,240.0,1.0,Approved
+TBM3375,08/07/2025,Jos,Male,Single,0,Graduate,Salaried,Land Acquisition,224500,58100,1129000.0,240.0,1.0,Approved
+TBM3378,20-Oct-2024,Jos,Male,M,0,Graduate,Salaried,Renovation,223600,0,1711000.0,180.0,1.0,Approved
+TBM3360,2026-05-24,Jos,Male,Married,1,Graduate,Salaried,Purchase ,260000,101900,2977000.0,360.0,1.0,Approved
+TBM3346,2025-09-03,Jos,Male,Married,3+,Not Graduate,Self-Employed,Construction,240500,75400,2463000.0,120.0,1.0,Approved
+TBM3073,26/10/2024,Lagos,Female,Single,0,Graduate,Self-Employed,Renovation,440300,0,4310000.0,240.0,0.0,Rejected
+TBM3121,14/06/2025,Lagos,Male,Single,0,Graduate,Salaried,Land Acquisition,280600,137300,3928000.0,36.0,1.0,Approved
+TBM3077,16/08/2025,Lagos,Female,Married,1,Not Graduate,Salaried,Land Acquisition,212400,0,2995000.0,60.0,0.0,Rejected
+TBM3325,16-May-2026,Ibadan,Male,Married,1,Graduate,Salaried,Construction,156200,0,1769000.0,120.0,0.0,Rejected
+TBM3308,2026-01-26,Ibadan,Male,Single,0,Not Graduate,Self-Employed,Purchase ,155700,0,1291000.0,240.0,1.0,Approved
+TBM3043,2026-01-06,Lagos,Male,Single,1,Not Graduate,Self-Employed,Construction,342600,0,5178000.0,120.0,1.0,Approved
+TBM3090,19-May-2026,Lagos,Male,Single,1,Graduate,Self-Employed,Purchase,248400,137600,2936000.0,120.0,,Rejected
+TBM3034,11-Jun-2026,Lagos,Male,Married,3+,Graduate,Salaried,Land Acquisition,254400,0,3758000.0,360.0,1.0,Approved
+TBM3259,2025-06-18,Kano,Male,Married,0,Not Graduate,Self-Employed,Purchase,117300,0,2856000.0,120.0,0.0,Rejected
+TBM3157,06/04/2026,Abuja,Male,Married,0,Not Graduate,Salaried,Renovation,318700,0,2101000.0,180.0,1.0,Rejected
+TBM3175,2026-03-19,Abuja,Male,Married,0,Not Graduate,Salaried,Renovation,206200,0,1460000.0,180.0,1.0,Approved
+TBM3294,25/07/2026,Kano,Female,Married,2,Not Graduate,Salaried,Renovation,257900,139700,300000.0,120.0,1.0,Rejected
+TBM3359,05/09/2025,Jos,Male,Single,2,Graduate,Salaried,Renovation,252500,0,3959000.0,360.0,1.0,Approved
+TBM3201,22-Dec-2025,Port Harcourt,,Married,1,Graduate,Salaried,Purchase,126500,0,2430000.0,240.0,1.0,Approved
+TBM3273,07-May-2026,Kano,Male,Married,2,Not Graduate,Salaried,Purchase,123300,116100,1954000.0,240.0,1.0,Approved
+TBM3055,2026-04-10,Lagos,Female,Married,1,Graduate,Self-Employed,Renovation,108500,0,1895000.0,120.0,1.0,Approved
+TBM3317,2026-01-19,Ibadan,Female,Married,3+,Graduate,Self-Employed,Purchase,159700,0,3083000.0,360.0,1.0,Approved
+TBM3159,24-Feb-2026,Abuja,Male,Married,0,Graduate,Self-Employed,Purchase,87600,0,1695000.0,300.0,1.0,Approved
+TBM3067,04/04/2026,Lagos,Female,Married,3+,Graduate,Salaried,Construction,365300,0,3461000.0,180.0,0.0,Approved
+TBM3351,25-Mar-2026,Jos,Male,Single,1,Not Graduate,Salaried,Construction,264600,177000,2214000.0,36.0,1.0,Approved
+TBM3310,19/03/2025,Ibadan,Female,Married,1,Graduate,Salaried,Working Capital,174200,0,1236000.0,60.0,0.0,Approved
+TBM3104,2026-03-14,Lagos,Female,Married,2,Graduate,Salaried,Purchase,274900,62900,3701000.0,360.0,1.0,Approved
+TBM3347,18/10/2025,Jos,Male,Married,0,Graduate,,Working Capital,187900,0,2814000.0,300.0,1.0,Approved
+TBM3120,17-Sep-2025,Lagos,,Married,0,Not Graduate,Self Employed,Construction,177200,156100,4746000.0,120.0,,Approved
+TBM3361,13-Nov-2025,Jos,Male,Married,3+,Graduate,Salaried,Purchase,149100,0,759000.0,12.0,1.0,Rejected
+TBM3066,13-Jul-2026,Lagos,Female,Single,1,Not Graduate,Self-Employed,Renovation,818100,154400,8654000.0,360.0,1.0,Rejected
+TBM3010,16/06/2026,Lagos,Male,Single,0,Not Graduate,Salaried,Purchase,370600,0,4549000.0,120.0,1.0,Approved
+TBM3187,09-May-2025,Abuja,Female,Married,3+,Not Graduate,Salaried,Purchase,179700,0,1946000.0,300.0,1.0,Approved
+TBM3065,28-Jun-2026,Lagos,Male,N,1,Graduate,Self-Employed,Purchase,257400,59700,3341000.0,300.0,1.0,Approved
+TBM3369,2025-08-02,Jos,Male,Married,0,Not Graduate,Salaried,Renovation,165900,0,2088000.0,180.0,1.0,Approved
+TBM3153,03-Jul-2025,Abuja,Female,Married,2,Graduate,Salaried,Purchase,201200,0,1402000.0,12.0,1.0,Approved
+TBM3207,22-Nov-2024,Port Harcourt,Male,Married,1,Graduate,Salaried,Renovation,168700,78900,1683000.0,240.0,0.0,Approved
+TBM3154,20/04/2026,Abuja,Male,Single,3+,Graduate,Self-Employed,Construction,103100,0,965000.0,120.0,1.0,Approved
+TBM3323,2025-07-02,Ibadan,Female,Single,0,Not Graduate,Salaried,Construction,160000,115300,448000.0,12.0,1.0,Approved
+TBM3305,2025-02-05,Ibadan,Male,Married,2,Not Graduate,Salaried,Purchase,262500,0,1516000.0,180.0,1.0,Approved
+TBM3176,21-May-2026,Abuja,Male,Single,0,Graduate,Salaried,Construction,109800,0,2803000.0,180.0,0.0,Approved
+TBM3348,09-Jan-2025,Jos,Female,Single,0,Graduate,Self-Employed,Purchase,97400,0,702000.0,240.0,1.0,Approved
+TBM3072,2024-09-05,Lagos,Female,Married,0,Not Graduate,Salaried,Renovation,148700,0,1763000.0,360.0,,Approved
+TBM3339,11/03/2025,Ibadan,Male,Married,2,Not Graduate,Salaried,Renovation,269200,0,3063000.0,300.0,1.0,Approved
+TBM3015,2025-12-22,Lagos,Male,Married,0,Not Graduate,Salaried,Construction,109700,97900,1906000.0,240.0,1.0,Approved
+TBM3371,2025-11-26,Jos,Male,Single,1,Graduate,Self-Employed,Purchase,68500,0,300000.0,240.0,1.0,Approved
+TBM3049,07-May-2025,Lagos,Female,Married,2,Not Graduate,Self-Employed,Purchase,144500,70600,3165000.0,120.0,1.0,Approved
+TBM3017,2025-10-09,Lagos,Male,Married,0,Graduate,Salaried,Land Acquisition,226900,64900,2686000.0,360.0,1.0,Approved
+TBM3075,28-Jul-2026,Lagos,Male,Single,0,Graduate,Self Employed,Construction,237100,114200,3612000.0,240.0,1.0,Approved
+TBM3274,13/01/2026,Kano,Male,Married,3+,Graduate,Salaried,Renovation,222400,0,1731000.0,12.0,1.0,Approved
+TBM3134,23-Jun-2025,Abuja,Female,Single,0,Graduate,Salaried,Construction,276000,136300,1335000.0,300.0,1.0,Approved
+TBM3373,15/02/2026,Jos,,Married,1,Not Graduate,Self-Employed,Construction ,140800,0,3378000.0,360.0,1.0,Rejected
+TBM3015,2025-12-22,Lagos,Male,Married,0,Not Graduate,Salaried,Construction,109700,97900,1906000.0,240.0,1.0,Approved
+TBM3203,10-Feb-2026,Port Harcourt,Male,Married,1,Graduate,Salaried,Purchase,171400,118800,2419000.0,240.0,0.0,Rejected
+TBM3162,08-May-2026,Abuja,Female,Single,1,Not Graduate,,Renovation,119600,80800,711000.0,240.0,,Approved
+TBM3333,2024-11-20,Ibadan,,Single,1,Graduate,,Renovation,169400,57000,2382000.0,240.0,1.0,Approved
+TBM3031,18/12/2024,Lagos,Male,Single,1,Graduate,Salaried,Renovation,158100,71000,1382000.0,180.0,1.0,Rejected
+TBM3326,24-Nov-2025,Ibadan,Female,Married,0,Graduate,Salaried,Purchase,151700,0,1482000.0,120.0,1.0,Approved
+TBM3267,12-Jul-2026,Kano,Female,Single,0,Graduate,Salaried,Renovation,154800,73800,300000.0,240.0,1.0,Approved
+TBM3271,2025-02-20,Kano,Male,Single,1,Not Graduate,Salaried,Construction,127900,167200,708000.0,240.0,0.0,Approved
+TBM3086,11/11/2025,Lagos,Male,Married,2,Graduate,Salaried,Renovation,334500,0,3536000.0,240.0,1.0,Approved
+TBM3081,2026-02-06,Lagos,Female,Married,1,Graduate,Salaried,Construction,169400,0,1415000.0,300.0,0.0,Approved
+TBM3376,2026-05-10,Jos ,Male,Married,1,Graduate,Salaried,Renovation,212100,0,1710000.0,240.0,,Approved
+TBM3002,2026-06-02,Lagos,Male,Married,0,Graduate,Salaried,Construction,176600,0,625000.0,360.0,1.0,Rejected
+TBM3225,2026-05-17,Port  Harcourt,Male,Married,1,Graduate,Salaried,Land Acquisition,156600,0,2343000.0,240.0,1.0,Approved
+TBM3208,25/06/2026,Port Harcourt,Female,Single,2,Graduate,Salaried,Construction,201000,0,3347000.0,240.0,1.0,Approved
+TBM3174,04-Apr-2026,Abuja,Male,Single,2,Graduate,Salaried,Renovation,143800,0,300000.0,120.0,1.0,Rejected
+TBM3118,2026-07-25,Lagos,Female,Married,2,Graduate,Salaried,Renovation,215900,0,2580000.0,120.0,1.0,Approved
+TBM3335,18/05/2026,Ibadan,Female,Married,1,Not Graduate,Salaried,Renovation,184000,53900,1290000.0,240.0,1.0,Rejected
+TBM3133,2025-11-12,Abuja,Male,Single,3+,Not Graduate,Salaried,Construction,131500,53400,1941000.0,240.0,1.0,Rejected
+TBM3300,12/02/2026,Ibadan,Female,Single,2,Graduate,Self-Employed,Renovation,237900,0,2248000.0,12.0,1.0,Approved
+TBM3291,23/12/2024,Kano,Male,Married,0,Not Graduate,Salaried,Construction,166300,0,2217000.0,60.0,1.0,Rejected
+TBM3009,16-Oct-2025,Lagos,Male,Single,2,Graduate,Salaried,Purchase,244300,58300,2734000.0,360.0,0.0,Approved
+TBM3019,27-Jul-2025,Lagos,Male,Single,1,Graduate,Salaried,Construction,109900,231500,474000.0,180.0,0.0,Rejected
+TBM3338,11-Jun-2026,Ibadan,Female,Single,2,Not Graduate,Self-Employed,Land Acquisition,90800,75900,300000.0,240.0,1.0,Approved
+TBM3071,2025-09-04,Lagos,Female,Married,0,Not Graduate,Self-Employed,Construction,87300,0,867000.0,300.0,,Approved
+TBM3129,25-Aug-2025,Lagos,Male,Married,0,Graduate,Salaried,Land Acquisition,222300,40300,819000.0,12.0,1.0,Approved
+TBM3189,09-Sep-2025,Abuja,Female,Married,0,Graduate,Salaried,Working Capital,412600,0,3388000.0,240.0,1.0,Approved
+TBM3280,2026-05-05,Kano,Male,Married,0,Not Graduate,Salaried,Renovation,212200,152600,3626000.0,240.0,,Approved
+TBM3099,03/10/2025,Lagos,Female,Single,0,Graduate,Self-Employed,Renovation,247100,0,2017000.0,240.0,1.0,Approved
+TBM3295,2025-04-07,Kano,Female,Single,0,Graduate,Self-Employed,Construction,76700,0,2809000.0,300.0,1.0,Approved
+TBM3022,2026-01-12,Lagos,Male,Married,0,Graduate,Self-Employed,Renovation,134500,38400,2083000.0,240.0,1.0,Approved
+TBM3194,02/10/2025,Abuja,Male,Married,1,Not Graduate,Salaried,Working Capital,263900,0,545000.0,360.0,0.0,Rejected
+TBM3006,19-Jul-2025,Lagos,Male,Married,2,Graduate,Self-Employed,Construction,412000,0,2479000.0,60.0,1.0,Approved
+TBM3324,28-Sep-2025,Ibadan,Female,Single,3+,Graduate,Salaried,Construction,123800,0,3560000.0,12.0,1.0,Approved
+TBM3136,10-Jul-2025,Abuja,Male,Single,0,Graduate,Salaried,Renovation,294200,0,4354000.0,120.0,1.0,Approved
+TBM3303,16-May-2026,Ibadan,Female,Married,0,Graduate,Salaried,Land Acquisition,280600,0,1101000.0,300.0,1.0,Approved
+TBM3199,13/01/2025,Abuja,Female,Married,0,Graduate,Salaried,Purchase,258700,134600,3738000.0,240.0,,Approved
+TBM3328,16-May-2026,Ibadan,Male,Married,0,Graduate,Salaried,Purchase,305900,0,1111000.0,120.0,1.0,Rejected
+TBM3204,24-Mar-2025,Port Harcourt,Female,Married,0,Graduate,Salaried,Renovation,238800,0,1468000.0,180.0,1.0,Rejected
+TBM3068,12-Mar-2026,Lagos,Female,Single,2,Graduate,Salaried,Renovation,161400,0,300000.0,300.0,1.0,Rejected
+TBM3224,07/04/2026,Port Harcourt,Male,Married,2,Graduate,Salaried,Land Acquisition,133200,0,2945000.0,120.0,1.0,Approved
+TBM3128,2025-09-23,Lagos,Male,Single,0,Graduate,Self-Employed,Construction,478600,91100,313000.0,300.0,0.0,Approved
+TBM3144,21-Jun-2026,Abuja,,Married,1,Graduate,Salaried,Construction,158700,0,1196000.0,240.0,1.0,Approved
+TBM3140,2026-05-16,Abuja,Male,Married,3+,Not Graduate,Self-Employed,Purchase,371800,0,4254000.0,300.0,1.0,Approved
+TBM3219,17-Sep-2025,Port Harcourt,Female,Married,1,Not Graduate,Salaried,Renovation,324100,104000,2325000.0,300.0,1.0,Rejected
+TBM3304,16/01/2026,Ibadan,Female,Single,0,Graduate,Salaried,Purchase,200200,45800,2813000.0,360.0,1.0,Approved
+TBM3158,2026-06-02,Abuja,Female,Single,1,Graduate,Salaried,Construction,230100,0,2110000.0,120.0,1.0,Approved
+TBM3095,2026-06-03,Lagos,Male,Single,3+,Graduate,Salaried,Renovation,239100,0,2852000.0,120.0,1.0,Approved
+TBM3256,2024-11-21,Kano,Male,Single,0,graduate,Salaried,Renovation,280500,88200,1647000.0,180.0,,Approved
+TBM3377,2024-11-23,Jos ,Male,Married,0,Graduate,Salaried,Renovation,292500,0,4576000.0,360.0,1.0,Approved
+TBM3132,2026-01-07,Abuja,Male,Single,1,Graduate,Salaried,Land Acquisition ,282800,0,4313000.0,180.0,1.0,Rejected
+TBM3227,2026-07-13,Port Harcourt,Male,Married,0,Graduate,Self-Employed,Purchase,119500,117300,641000.0,300.0,1.0,Approved
+TBM3040,03-Dec-2025,Lagos,Female,Single,0,Graduate,Self-Employed,Land Acquisition,171800,0,2095000.0,300.0,1.0,Approved
+TBM3383,2025-11-11,Jos,Male,Single,2,Not Graduate,,Purchase,378700,108700,2316000.0,240.0,1.0,Approved
+TBM3377,2024-11-23,Jos ,Male,Married,0,Graduate,Salaried,Renovation,292500,0,4576000.0,360.0,1.0,Approved
+TBM3190,2025-06-24,Abuja,Male,Single,2,Graduate,Salaried,Construction,136400,0,300000.0,60.0,,Rejected
+TBM3355,14/08/2025,Jos,Male,Married,0,Not Graduate,Salaried,Construction,263300,0,2800000.0,120.0,,Approved
+TBM3343,03-Oct-2024,Jos,Male,Married,1,Graduate,Self-Employed,Renovation,133800,129900,2370000.0,240.0,,Approved
+TBM3249,10-Mar-2026,Kano,Female,Married,1,Not Graduate,Salaried,Purchase,213300,137300,2535000.0,240.0,1.0,Approved
+TBM3039,03-Feb-2026,Lagos,Male,Married,1,Not Graduate,Self-Employed,Land Acquisition,138100,68100,1372000.0,240.0,1.0,Approved
+TBM3243,2026-07-23,Kano,Male,Married,0,Graduate,Self-Employed,Construction,920100,52700,14052000.0,240.0,1.0,Rejected
+TBM3322,20-Jul-2026,Ibadan,Female,Single,3+,Graduate,Salaried,Purchase,322200,111700,851000.0,360.0,1.0,Approved
+TBM3139,28-Oct-2025,Abuja,Male,Single,2,Graduate,,Purchase,91000,0,300000.0,12.0,,Approved
+TBM3023,13-Mar-2025,Lagos,Female,Married,3+,Graduate,Salaried,Construction,114800,0,1363000.0,60.0,0.0,Rejected
+TBM3160,25/08/2024,Abuja,Female,Married,0,Graduate,Self-Employed,Construction,377800,81400,4640000.0,180.0,0.0,Rejected
+TBM3026,21-Feb-2025,Lagos,Female,Single,0,Not Graduate,Salaried,Purchase,119400,127100,2953000.0,120.0,1.0,Rejected
+TBM3184,2026-06-17,Abuja,Female,Single,0,Not Graduate,Self-Employed,Construction,414500,90200,3338000.0,180.0,1.0,Rejected
+TBM3241,23-Jan-2026,Kano,Male,Married,1,Not Graduate,Salaried,Purchase,186000,0,2918000.0,360.0,1.0,Approved
+TBM3014,2026-01-21,Lagos,Male,Married,1,Graduate,Self-Employed,Purchase,237200,127100,4955000.0,60.0,1.0,Approved
+TBM3146,04/06/2026,Abuja,Male,Married,1,Not Graduate,Self-Employed,Purchase,232700,0,1197000.0,240.0,1.0,Approved
+TBM3321,2026-02-04,Ibadan,Male,Married,0,Graduate,Salaried,Purchase,200100,226600,1685000.0,180.0,0.0,Approved
+TBM3079,18-Mar-2025,Lagos,,Married,0,Not Graduate,Self-Employed,Purchase,122600,0,300000.0,180.0,0.0,Rejected
+TBM3329,2026-07-10,Ibadan,Female,Married,1,Not Graduate,Salaried,Working Capital,334500,0,2089000.0,120.0,1.0,Approved
+TBM3115,25/02/2026,Lagos,Female,Married,0,Graduate,Self-Employed,Renovation,351000,55900,4893000.0,180.0,1.0,Approved
+TBM3309,17/08/2024,Ibadan,Female,Married,3+,Graduate,Self-Employed,Purchase,167600,82900,1121000.0,300.0,,Approved
+TBM3053,15/11/2024,Lagos,Female,Single,0,Graduate,Salaried,Land Acquisition,131100,0,2957000.0,300.0,1.0,Approved
+TBM3035,2025-12-04,Lagos,Male,Married,0,Not Graduate,Self Employed,Purchase,207700,0,3820000.0,240.0,0.0,Rejected
+TBM3105,04/12/2025,Lagos,Female,Single,0,Not Graduate,Self Employed,Construction,371600,48700,2031000.0,180.0,0.0,Rejected
+TBM3185,09-Aug-2025,Abuja,Male,Married,2,Graduate,Salaried,Land Acquisition,217900,129700,955000.0,60.0,1.0,Approved
+TBM3188,05-Jan-2026,Abuja,Female,Single,0,Not Graduate,Self-Employed,Renovation,441900,0,4205000.0,240.0,,Approved
+TBM3285,2024-09-27,Kano,Male,Married,1,Graduate,Salaried,Purchase,281700,49900,2548000.0,60.0,1.0,Approved
+TBM3365,07-Jul-2026,Jos,Female,Single,2,Graduate,Salaried,Purchase,234400,0,1064000.0,180.0,1.0,Approved
+TBM3166,2026-04-02,Abuja,Male,Married,1,Graduate,Self-Employed,Renovation,589000,0,9393000.0,360.0,1.0,Rejected
+TBM3299,16/08/2025,Ibadan,Female,Married,0,Graduate,Salaried,Purchase,104100,0,438000.0,240.0,1.0,Approved
+TBM3024,12-Mar-2025,Lagos,Female,Married,0,Graduate,Salaried,Renovation,233700,0,3507000.0,300.0,0.0,Approved
+TBM3372,16-Oct-2025,Jos,Male,Single,0,Graduate,Salaried,Purchase,156000,0,1776000.0,120.0,1.0,Approved
+TBM3183,23-Oct-2025,Abuja,Female,Married,0,Graduate,Self-Employed,Construction,356900,97800,4486000.0,120.0,1.0,Approved
+TBM3042,19-Sep-2024,Lagos,Female,Married,0,Graduate,Self-Employed,Construction,257900,101700,2557000.0,180.0,1.0,Approved
+TBM3237,24/07/2025,Port Harcourt,Male,Married,0,Not Graduate,,Purchase,671500,51800,7330000.0,120.0,0.0,Rejected
+TBM3340,2026-07-26,Ibadan,Female,Single,0,Graduate,Self-Employed,Renovation,420800,0,5025000.0,120.0,1.0,Rejected
+TBM3076,27/06/2026,Lagos,Male,Single,0,Graduate,Salaried,Construction,131200,0,2126000.0,360.0,,Approved
+TBM3032,2026-06-15,Lagos,Female,Married,3+,Graduate,Salaried,Land Acquisition,210500,63400,2109000.0,300.0,1.0,Approved
+TBM3046,2026-05-20,Lagos,Female,Married,3+,Graduate,Salaried,Purchase,245600,0,300000.0,240.0,1.0,Approved
+TBM3370,07/03/2025,Jos,Female,Married,1,Graduate,Self-Employed,Working Capital,179500,0,3971000.0,180.0,1.0,Rejected
+TBM3109,2025-08-15,Lagos,Female,Single,2,Graduate,Self-Employed,Renovation,208600,0,3096000.0,180.0,0.0,Approved
+TBM3106,17-Dec-2024,Lagos,Male,Married,0,Graduate,Salaried,Renovation,156300,0,2392000.0,36.0,1.0,Approved
+TBM3150,16/05/2026,Abuja,Male,Single,2,Not Graduate,Salaried,Purchase,132900,0,1601000.0,60.0,,Approved
+TBM3030,09/06/2026,Lagos,Male,Married,1,Graduate,Self-Employed,Construction,258900,52000,2599000.0,360.0,1.0,Approved
+TBM3182,2024-09-26,Abuja,Male,Single,2,Not Graduate,Salaried,Renovation,146500,0,2580000.0,120.0,1.0,Approved
+TBM3110,2024-08-17,Lagos,Male,Married,0,Graduate,,Purchase,415600,168100,3877000.0,60.0,1.0,Approved
+TBM3123,20/04/2026,Lagos,Male,Married,0,Graduate,Salaried,Purchase,242200,149300,1414000.0,120.0,1.0,Approved
+TBM3374,2026-05-19,Jos,Male,Married,2,Graduate,Self-Employed,Purchase,266100,0,1107000.0,60.0,1.0,Approved
+TBM3105,04/12/2025,Lagos,Female,Single,0,Not Graduate,Self Employed,Construction,371600,48700,2031000.0,180.0,0.0,Rejected
+TBM3061,05-May-2025,Lagos,Male,Married,3+,Graduate,Self Employed,Construction,207300,0,1412000.0,12.0,1.0,Approved
+TBM3147,19-Feb-2025,Abuja,Male,Married,1,Not Graduate,Self-Employed,Renovation,303600,0,3363000.0,12.0,1.0,Approved
+TBM3084,2026-02-13,Lagos,Male,Married,0,Graduate,Self-Employed,Purchase,324300,0,4013000.0,240.0,1.0,Approved
+TBM3316,21-Aug-2025,Ibadan,,Married,1,Not Graduate,Salaried,Renovation,127400,81400,375000.0,240.0,0.0,Approved
+TBM3341,2026-06-16,Jos,Female,Single,0,Not Graduate,Salaried,Purchase,129400,109600,2935000.0,300.0,0.0,Approved
+TBM3228,02/01/2026,Port Harcourt,Female,Married,1,Graduate,Salaried,Construction,143900,0,992000.0,300.0,0.0,Rejected
+TBM3349,2027-03-14,jos,Female,Single,3+,Graduate,Salaried,Renovation,409300,98500,2239000.0,240.0,0.0,Approved
+TBM3152,2025-06-25,Abuja,Female,Married,2,Graduate,Salaried,Renovation,215200,0,1687000.0,180.0,1.0,Approved
+TBM3001,2026-05-25,Lagos,Male,Married,1,Graduate,Salaried,Construction,197800,27500,1958000.0,120.0,1.0,Rejected
+TBM3268,2026-05-17,Kano,Male,Single,1,Graduate,Salaried,Purchase,286700,0,1294000.0,12.0,1.0,Approved
+TBM3350,22-May-2026,Jos,Female,Single,3+,Graduate,Self-Employed,Purchase,147200,0,300000.0,300.0,1.0,Rejected
+TBM3089,2025-03-03,Lagos,Male,Married,3+,Graduate,Salaried,Land Acquisition,169800,0,1780000.0,240.0,1.0,Approved
+TBM3078,21-Sep-2025,Lagos,Female,Married,2,Graduate,Salaried,Purchase,226000,0,3206000.0,12.0,1.0,Rejected
+TBM3269,05-Sep-2025,Kano,Male,Single,1,Graduate,Salaried,Renovation,277800,0,1983000.0,180.0,1.0,Approved
+TBM3124,23-Jan-2026,Lagos,Female,Single,0,Graduate,Self-Employed,Purchase,91300,0,695000.0,120.0,,Approved
+TBM3298,22/01/2025,Ibadan,Male,Married,1,Graduate,Salaried,Renovation,328300,58200,3394000.0,120.0,1.0,Approved
+TBM3096,05-Aug-2025,Lagos,Female,Single,1,Not Graduate,Salaried,Renovation,274500,178300,2687000.0,240.0,1.0,Approved
+TBM3211,2026-02-10,Port Harcourt,Female,Married,1,Not Graduate,,Construction,178600,0,2931000.0,12.0,1.0,Approved
+TBM3012,18/03/2026,Lagos,Male,Married,0,Graduate,Self-Employed,Renovation,196300,69900,4233000.0,180.0,1.0,Approved
+TBM3115,25/02/2026,Lagos,Female,Married,0,Graduate,Self-Employed,Renovation,351000,55900,4893000.0,180.0,1.0,Approved
+TBM3332,11-Jan-2025,Ibadan,Female,Single,2,Not Graduate,Self-Employed,Construction,107600,0,1776000.0,60.0,1.0,Approved
+TBM3258,02-Dec-2025,Kano,Male,Married,0,Not Graduate,Self-Employed,Purchase,296600,0,4131000.0,60.0,1.0,Approved
+TBM3220,2025-05-11,Port Harcourt,Male,Married,1,Graduate,Salaried,Purchase,228600,0,1530000.0,300.0,1.0,Approved
+TBM3253,21-Jul-2026,Kano,Male,Married,0,Not Graduate,Salaried,Renovation,260600,0,4314000.0,360.0,1.0,Approved
+TBM3353,2025-06-20,Jos,Female,Married,2,Graduate,Self-Employed,Working Capital,287900,0,5059000.0,360.0,1.0,Approved
+TBM3381,20-Nov-2024,Jos,Female,Single,0,Not Graduate,Salaried,Purchase,106100,0,300000.0,180.0,1.0,Approved
+TBM3262,2026-07-03,Kano,Female,Married,1,Not Graduate,Self Employed,Construction,148400,0,3603000.0,180.0,1.0,Approved
+TBM3179,2025-12-07,Abuja,Male,Married,0,Graduate,Salaried,Purchase,150700,59600,1180000.0,180.0,0.0,Approved
+TBM3279,17/12/2025,Kano,Male,Single,3+,Graduate,Salaried,Purchase,229300,52400,808000.0,60.0,1.0,Approved
+TBM3020,09-Jul-2026,Lagos,Female,Married,1,Graduate,Self-Employed,Construction,65900,80000,2761000.0,12.0,1.0,Approved
+TBM3356,2026-06-19,Jos,Male,Married,0,Not Graduate,Self Employed,Working Capital,168700,0,300000.0,12.0,1.0,Approved
+TBM3170,2024-12-03,Abuja,Male,N,0,Not Graduate,Salaried,Purchase,238000,58500,1337000.0,300.0,0.0,Rejected
+TBM3240,04/11/2025,Port Harcourt,Male,Single,2,Not Graduate,Salaried,Purchase,180300,0,387000.0,300.0,,Approved
+TBM3278,2025-09-25,Kano,Male,N,1,Graduate,Self-Employed,Construction,72600,123400,300000.0,120.0,1.0,Approved
+TBM3161,10-Sep-2025,Abuja,Female,Single,3+,Not Graduate,Self-Employed,Land Acquisition,110400,0,2290000.0,180.0,,Approved
+TBM3074,19/08/2024,Lagos,Female,Married,1,Graduate,Self-Employed,Renovation,197000,152900,2758000.0,120.0,1.0,Approved
+TBM3018,2025-10-23,Lagos,Female,Married,0,Graduate,Salaried,Purchase,203100,0,1586000.0,300.0,1.0,Approved
+TBM3063,19/08/2025,Lagos,Male,Married,0,Not Graduate,Salaried,Purchase,241000,0,2166000.0,180.0,1.0,Approved
+TBM3250,25/10/2025,Kano,Male,Single,1,Graduate,Self-Employed,Land Acquisition,150400,50100,1298000.0,300.0,1.0,Approved
+TBM3229,08-May-2026,Port Harcourt,Male,Married,2,Graduate,Salaried,Purchase,221500,0,1470000.0,240.0,1.0,Approved
+TBM3239,2025-08-14,port harcourt,Male,Married,0,graduate,Salaried,Working Capital ,191600,191300,3005000.0,240.0,,Rejected
+TBM3230,28-Dec-2024,Port Harcourt,Female,Single,1,Not Graduate,,Construction,279500,0,3632000.0,240.0,1.0,Approved
+TBM3319,12-Jun-2025,Ibadan,Male,Married,1,Not Graduate,Salaried,Renovation ,149700,0,300000.0,240.0,1.0,Approved
+TBM3284,2026-01-21,Kano,Male,Married,2,Graduate,Salaried,Land Acquisition,208000,0,1439000.0,300.0,1.0,Approved
+TBM3048,04-Dec-2024,Lagos,Male,Married,0,Graduate,Salaried,Construction,189300,0,2149000.0,240.0,1.0,Approved
+TBM3251,2024-10-24,Kano,Female,Single,3+,Graduate,Salaried,Renovation,112700,43500,3355000.0,360.0,1.0,Approved
+TBM3080,2024-09-13,Lagos,Male,Married,0,Graduate,Salaried,Purchase,187100,0,1305000.0,60.0,1.0,Approved
+TBM3296,07-Dec-2025,Ibadan,Female,Single,1,Graduate,Salaried,Purchase,212400,36200,3108000.0,300.0,1.0,Approved
+TBM3228,02/01/2026,Port Harcourt,Female,Married,1,Graduate,Salaried,Construction,143900,0,992000.0,300.0,0.0,Rejected
+TBM3021,21/09/2025,Lagos,Female,Married,0,Graduate,Salaried,Purchase,185700,0,1701000.0,240.0,1.0,Approved
+TBM3141,22/02/2025,Abuja,Female,Single,2,Not Graduate,Self-Employed,Construction,164100,0,1743000.0,120.0,0.0,Rejected
+TBM3193,03-Jan-2026,Abuja,Female,Single,2,Graduate,Salaried,Construction,227500,0,3248000.0,240.0,1.0,Approved
+TBM3131,2026-03-08,Abuja,Male,Single,3+,Graduate,Salaried,Construction,180100,95900,1477000.0,180.0,1.0,Rejected
+TBM3216,2026-04-23,Port Harcourt,Male,Married,0,Graduate,Self-Employed,Renovation,110900,0,1616000.0,300.0,1.0,Rejected
+TBM3245,2026-02-02,Kano,Male,Single,1,Graduate,Salaried,Construction,347800,0,2874000.0,300.0,1.0,Approved
+TBM3364,12/05/2026,Jos,Male,Married,0,Graduate,Self-Employed,Land Acquisition,381100,0,1989000.0,180.0,1.0,Approved
+TBM3060,22/10/2024,Lagos,Female,Single,1,Graduate,Self-Employed,Purchase,257600,0,2733000.0,180.0,1.0,Approved
+TBM3222,2024-08-24,Port Harcourt,Male,Married,1,Graduate,Salaried,Purchase,225100,0,1709000.0,180.0,1.0,Rejected
+TBM3177,04-Oct-2025,Abuja,Male,Married,3+,Not Graduate,Self-Employed,Land Acquisition,147300,0,1306000.0,60.0,1.0,Approved
+TBM3056,2025-01-23,Lagos,Male,Single,0,Graduate,Salaried,Purchase,268900,311500,3255000.0,60.0,1.0,Approved
+TBM3292,09-Jul-2026,Kano,Male,Married,0,graduate,Self-Employed,Renovation,440400,55600,4963000.0,240.0,1.0,Approved
+TBM3255,04/02/2026,Kano,Male,Single,0,Not Graduate,Self-Employed,Construction,106600,63700,2217000.0,180.0,1.0,Rejected
+TBM3255,04/02/2026,Kano,Male,Single,0,Not Graduate,Self-Employed,Construction,106600,63700,2217000.0,180.0,1.0,Rejected
+TBM3198,20-Dec-2024,Abuja,Male,Married,1,Graduate,Salaried,Renovation,278700,82300,2227000.0,360.0,1.0,Approved
+TBM3069,2025-09-12,Lagos,Male,Married,1,Graduate,Salaried,Construction,125900,0,320000.0,120.0,,Rejected
+TBM3211,2026-02-10,Port Harcourt,Female,Married,1,Not Graduate,,Construction,178600,0,2931000.0,12.0,1.0,Approved
+TBM3233,21/12/2025,Port Harcourt,Male,Single,1,Not Graduate,Salaried,Purchase,223700,99700,5127000.0,240.0,1.0,Rejected
+TBM3202,2025-12-22,Port Harcourt,Male,Married,1,Graduate,Self-Employed,Construction,808700,0,8560000.0,120.0,0.0,Rejected
+TBM3169,07/11/2024,Abuja,Male,Single,3+,Graduate,Salaried,Renovation,241600,0,2355000.0,180.0,1.0,Approved
+TBM3186,14/11/2024,Abuja,Male,Married,3+,Not Graduate,Salaried,Construction,150000,94600,2566000.0,240.0,,Approved
+TBM3036,21-Sep-2025,Lagos,Female,Married,0,Graduate,Self-Employed,Construction,111500,59200,300000.0,300.0,1.0,Approved
+TBM3130,2024-12-09,Lagos,Male,Married,0,Graduate,Self-Employed,Construction,128500,0,300000.0,180.0,0.0,Rejected
